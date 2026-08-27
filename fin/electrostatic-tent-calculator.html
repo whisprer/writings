@@ -1,0 +1,397 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Electrostatic Tent Field Calculator — Industrial Film Lines</title>
+<style>
+  :root {
+    --bg: #0d1117; --panel: #161b22; --border: #30363d; --fg: #e6edf3;
+    --muted: #8b949e; --accent: #58a6ff; --warn: #f0883e; --danger: #f85149;
+    --ok: #3fb950;
+  }
+  * { box-sizing: border-box; }
+  body { margin: 0; background: var(--bg); color: var(--fg);
+         font: 14px/1.5 -apple-system, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; }
+  header { padding: 18px 24px; border-bottom: 1px solid var(--border); }
+  header h1 { margin: 0 0 4px; font-size: 20px; }
+  header p { margin: 0; color: var(--muted); }
+  .layout { display: grid; grid-template-columns: 320px 1fr; gap: 16px; padding: 16px 24px; }
+  @media (max-width: 980px) { .layout { grid-template-columns: 1fr; } }
+  .panel { background: var(--panel); border: 1px solid var(--border); border-radius: 8px; padding: 14px 16px; }
+  .panel h2 { margin: 0 0 10px; font-size: 13px; text-transform: uppercase; letter-spacing: .06em; color: var(--muted); }
+  .ctl { margin-bottom: 12px; }
+  .ctl label { display: flex; justify-content: space-between; margin-bottom: 2px; }
+  .ctl label output { color: var(--accent); font-variant-numeric: tabular-nums; }
+  input[type=range] { width: 100%; accent-color: var(--accent); }
+  select, button { width: 100%; padding: 7px 9px; background: #0d1117; color: var(--fg);
+                   border: 1px solid var(--border); border-radius: 6px; font-size: 14px; }
+  button { cursor: pointer; background: #1f6feb; border-color: #1f6feb; font-weight: 600; }
+  button:hover { background: #388bfd; }
+  button.ghost { background: transparent; border-color: var(--border); color: var(--muted); font-weight: 400; }
+  .row { display: grid; grid-template-columns: 1fr 1fr; gap: 10px; }
+  .readouts { display: grid; grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); gap: 10px; margin-bottom: 14px; }
+  .stat { background: #0d1117; border: 1px solid var(--border); border-radius: 8px; padding: 10px 12px; }
+  .stat .k { color: var(--muted); font-size: 12px; }
+  .stat .v { font-size: 20px; font-weight: 650; font-variant-numeric: tabular-nums; }
+  .stat .u { font-size: 12px; color: var(--muted); font-weight: 400; }
+  .badge { display: inline-block; padding: 3px 10px; border-radius: 999px; font-size: 12px; font-weight: 600; margin: 2px 4px 2px 0; }
+  canvas { width: 100%; background: #0d1117; border: 1px solid var(--border); border-radius: 8px; display: block; }
+  .note { color: var(--muted); font-size: 12.5px; }
+  details { margin-top: 16px; }
+  summary { cursor: pointer; color: var(--accent); }
+  code, .eq { font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace; font-size: 12.5px; }
+  blockquote { margin: 8px 0; padding: 8px 12px; border-left: 3px solid var(--border); color: var(--muted); }
+</style>
+</head>
+<body>
+<header>
+  <h1>⚡ Electrostatic “Tent” Field Calculator — Industrial Film Processing Lines</h1>
+  <p>2-D strip-superposition model of a charged web tent. Baseline preset reproduces David Swenson’s documented 3M conditions (August 1980: PP web, 1000 ft/min, 20 ft × 20 ft tent, electrometer pegged past 200 kV/ft).</p>
+</header>
+
+<div class="layout">
+  <div>
+    <div class="panel">
+      <h2>Line parameters</h2>
+      <div class="ctl"><button id="preset">Load Swenson 1980 baseline</button></div>
+      <div class="ctl">
+        <label>Web speed <output id="oSpeed"></output></label>
+        <input type="range" id="speed" min="50" max="3000" step="10" value="1000">
+      </div>
+      <div class="ctl">
+        <label>Film width / tent width <output id="oWidth"></output></label>
+        <input type="range" id="width" min="3" max="30" step="0.5" value="20">
+      </div>
+      <div class="ctl">
+        <label>Tent height <output id="oHeight"></output></label>
+        <input type="range" id="height" min="6" max="30" step="0.5" value="20">
+      </div>
+      <div class="ctl">
+        <label>Material</label>
+        <select id="material"></select>
+      </div>
+      <div class="ctl">
+        <label>Roller friction coeff. μ <output id="oMu"></output></label>
+        <input type="range" id="mu" min="0.1" max="1.0" step="0.02" value="0.6">
+      </div>
+      <div class="ctl">
+        <label>Relative humidity <output id="oRH"></output></label>
+        <input type="range" id="rh" min="10" max="90" step="1" value="40">
+      </div>
+      <div class="ctl">
+        <label><span>σ override (0 = auto model)</span><output id="oSigma"></output></label>
+        <input type="range" id="sigmaOv" min="0" max="27" step="0.1" value="0">
+      </div>
+    </div>
+
+    <div class="panel" style="margin-top:16px">
+      <h2>Human in the tent</h2>
+      <div class="ctl">
+        <label>Distance from left wall <output id="oPos"></output></label>
+        <input type="range" id="pos" min="1" max="19" step="0.1" value="10">
+      </div>
+      <div class="ctl">
+        <label>Measurement height <output id="oZH"></output></label>
+        <input type="range" id="zh" min="1" max="7" step="0.1" value="5">
+      </div>
+      <div class="ctl">
+        <label>Exposed torso area <output id="oArea"></output></label>
+        <input type="range" id="area" min="0.2" max="1.0" step="0.05" value="0.5">
+      </div>
+      <p class="note">Drag on the tent diagram to move the person directly.</p>
+    </div>
+  </div>
+
+  <div>
+    <div class="readouts" id="readouts"></div>
+    <div class="panel" style="margin-bottom:14px"><div id="badges"></div></div>
+    <div class="panel"><h2>Tent cross-section — field vectors</h2><canvas id="tent" width="900" height="560"></canvas></div>
+    <div class="panel" style="margin-top:14px"><h2>Walk-through profile at person height</h2><canvas id="profile" width="900" height="240"></canvas></div>
+
+    <details class="panel" style="margin-top:14px">
+      <summary>Physics model &amp; assumptions</summary>
+      <p><b>Charge generation (empirical):</b> <span class="eq">σ = σ_mat · (v/600 fpm)^0.5 · (μ/0.4)^0.8 · e^(−(RH−30)/45)</span>, clamped at the air-breakdown ceiling <span class="eq">σ_max = ε₀·E_bd ≈ 26.6 µC/m²</span> (E_bd ≈ 3 MV/m). σ_mat is a per-material triboelectric coefficient — tunable in code, not a handbook constant.</p>
+      <p><b>Tent field (exact 2-D):</b> each web span (two walls + ceiling) is an infinite charged strip. Field of a strip spanning y₁..y₂ at perpendicular distance d:
+        <span class="eq">E⊥ = σ/(2πε₀)·[atan((y₂−y)/d) − atan((y₁−y)/d)]</span>,
+        <span class="eq">E∥ = σ/(4πε₀)·ln((d²+(y₁−y)²)/(d²+(y₂−y)²))</span>.
+        Contributions are summed as vectors. Film assumed negatively charged (PP sits negative in the triboelectric series); force magnitudes are sign-independent.</p>
+      <p><b>Force on a person — two models shown:</b></p>
+      <ul>
+        <li><b>Electrostatic pressure</b> (conductor in field): <span class="eq">F = ½·ε₀·E²·A</span></li>
+        <li><b>Induced-dipole / gradient</b>: <span class="eq">F = ½·ε₀·α·∇(E²)</span>, α ≈ 3·V_body ≈ 0.225 m³ for a standing adult. This is the model that produces an actual “wall” — a force opposing motion toward the charged web.</li>
+      </ul>
+      <p><b>Baseline cross-check:</b> at σ ≈ 20 µC/m² the model gives ≈ 770 kV/m (≈ 235 kV/ft) at chest height mid-tent — consistent with Swenson’s 200 kV/ft electrometer being slammed to full scale, and with hair standing on the production manager. Predicted pushback is of order 1–2 N: modest in absolute terms, but delivered as an invisible, hair-raising, uniformly distributed pressure — enough to make a person instinctively refuse to lean further. Treat absolute force values as order-of-magnitude; the geometry/field trends are the reliable part.</p>
+      <blockquote>“He could lean all his weight forward but was unable to pass… The ‘invisible wall’ effect had returned. He commented that he ‘didn’t know whether to fix it or sell tickets.’” — D. Swenson, 3M, EOS/ESD Symposium case study, 1995 (event: August 1980)</blockquote>
+    </details>
+  </div>
+</div>
+
+<script>
+const EPS0 = 8.854e-12, FT = 0.3048, E_BD = 3e6;
+const SIGMA_MAX = EPS0 * E_BD;            // 26.6 µC/m²
+const SWENSON_E = 200e3 / FT;             // 200 kV/ft -> 656 kV/m
+
+const MATERIALS = {
+  "Polypropylene (PP) — 1980 baseline": 14,
+  "Polyethylene (LDPE)": 11,
+  "Polyester (PET)": 9,
+  "PVC": 16,
+  "Nylon 66": 6,
+  "PTFE": 18,
+  "Cellophane": 5
+};
+const matSel = document.getElementById('material');
+Object.keys(MATERIALS).forEach(k => matSel.add(new Option(k, k)));
+
+const $ = id => document.getElementById(id);
+const inputs = ['speed','width','height','material','mu','rh','sigmaOv','pos','zh','area'];
+
+function stripField(d, yp, y1, y2, s) {
+  d = Math.max(d, 1e-4);
+  return [
+    s/(2*Math.PI*EPS0) * (Math.atan((y2-yp)/d) - Math.atan((y1-yp)/d)),
+    s/(4*Math.PI*EPS0) * Math.log((d*d+(y1-yp)**2)/(d*d+(y2-yp)**2))
+  ];
+}
+function tentField(x, z, W, H, s) {
+  let Ex = 0, Ez = 0, p;
+  p = stripField(x,   z, 0, H, s); Ex += p[0]; Ez += p[1];   // left wall
+  p = stripField(W-x, z, 0, H, s); Ex -= p[0]; Ez += p[1];   // right wall
+  p = stripField(H-z, x, 0, W, s); Ez -= p[0]; Ex += p[1];   // ceiling
+  return [Ex, Ez];
+}
+
+function chargeDensity(v_fpm, mu, rh, matKey, override) {
+  if (override > 0) return override * 1e-6;
+  const s = MATERIALS[matKey] * Math.pow(v_fpm/600, 0.5) * Math.pow(mu/0.4, 0.8)
+          * Math.exp(-(rh-30)/45);
+  return Math.min(s, SIGMA_MAX*1e6) * 1e-6;
+}
+
+function state() {
+  const W = +$('width').value * FT, H = +$('height').value * FT;
+  const x = Math.min(Math.max(+$('pos').value * FT, 0.15), W - 0.15);
+  const z = Math.min(+$('zh').value * FT, H - 0.15);
+  const sigma = chargeDensity(+$('speed').value, +$('mu').value, +$('rh').value,
+                              $('material').value, +$('sigmaOv').value);
+  return { W, H, x, z, sigma, A: +$('area').value };
+}
+
+function compute(st) {
+  const [Ex, Ez] = tentField(st.x, st.z, st.W, st.H, st.sigma);
+  const E = Math.hypot(Ex, Ez);
+  const Fp = 0.5 * EPS0 * E * E * st.A;
+  const h = 0.01, a = 0.225;
+  const e2 = (dx, dz) => { const f = tentField(st.x+dx, st.z+dz, st.W, st.H, st.sigma);
+                           return f[0]**2 + f[1]**2; };
+  const gx = (e2(h,0)-e2(-h,0))/(2*h), gz = (e2(0,h)-e2(0,-h))/(2*h);
+  const Fd = 0.5 * EPS0 * a * Math.hypot(gx, gz);
+  const Fdir = Math.atan2(gz, gx);
+  return { Ex, Ez, E, Fp, Fd, Fdir, P: 0.5*EPS0*E*E };
+}
+
+/* ---------- rendering ---------- */
+function fmt(v, d=1) { return v.toLocaleString(undefined, {maximumFractionDigits: d}); }
+
+function updateReadouts(st, r) {
+  const sig_uC = st.sigma * 1e6;
+  const pctSw = 100 * r.E / SWENSON_E;
+  const stats = [
+    ['Charge density σ', fmt(sig_uC), 'µC/m²' + (sig_uC >= 26.5 ? ' ⚠ breakdown clamp' : '')],
+    ['Field at person', fmt(r.E/1e3), 'kV/m  (' + fmt(r.E*FT/1e3) + ' kV/ft)'],
+    ['% of Swenson 200 kV/ft', fmt(pctSw, 0), '%'],
+    ['Electrostatic pressure', fmt(r.P, 2), 'Pa'],
+    ['Force (pressure model)', fmt(r.Fp, 2), 'N  (~' + fmt(r.Fp/9.81*1000, 0) + ' g-equiv)'],
+    ['Force (gradient model)', fmt(r.Fd, 2), 'N  toward web'],
+    ['Induced body potential*', fmt(r.E*1.7/1e3, 0), 'kV upper bound'],
+  ];
+  $('readouts').innerHTML = stats.map(s =>
+    `<div class="stat"><div class="k">${s[0]}</div><div class="v">${s[1]} <span class="u">${s[2]}</span></div></div>`).join('');
+
+  const E = r.E/1e3;
+  let lvl, col;
+  if (E < 20)       { lvl = 'Below perception';            col = 'var(--muted)'; }
+  else if (E < 50)  { lvl = 'Perceptible on skin/hair';    col = 'var(--ok)'; }
+  else if (E < 150) { lvl = 'Hair-raising territory';      col = 'var(--accent)'; }
+  else if (E < 656) { lvl = 'Strong field — Swenson range';col = 'var(--warn)'; }
+  else if (E < 3000){ lvl = '“Invisible wall” territory';  col = 'var(--danger)'; }
+  else              { lvl = 'Air breakdown / corona';      col = 'var(--danger)'; }
+  $('badges').innerHTML =
+    `<span class="badge" style="background:#21262d;color:${col};border:1px solid ${col}">${lvl}</span>` +
+    (sig_uC >= 26.5 ? `<span class="badge" style="background:#21262d;color:var(--danger);border:1px solid var(--danger)">σ at air-breakdown limit — corona would bleed charge</span>` : '') +
+    `<span class="note">* corona &amp; leakage make the real body potential far lower.</span>`;
+}
+
+const tentC = $('tent'), tctx = tentC.getContext('2d');
+function drawTent(st, r) {
+  const cw = tentC.width, ch = tentC.height, pad = 60;
+  const sc = Math.min((cw-2*pad)/st.W, (ch-2*pad)/st.H);
+  const ox = (cw - st.W*sc)/2, oy = ch - pad - 0;           // origin bottom-left of tent
+  const X = x => ox + x*sc, Z = z => oy - z*sc;
+  tctx.clearRect(0, 0, cw, ch);
+
+  // field vectors on grid
+  const nx = 22, nz = 13;
+  let Emax = 1e-9;
+  const grid = [];
+  for (let i = 0; i < nx; i++) for (let j = 0; j < nz; j++) {
+    const x = st.W*(i+0.5)/nx, z = st.H*(j+0.5)/nz;
+    const f = tentField(x, z, st.W, st.H, st.sigma);
+    const m = Math.hypot(f[0], f[1]);
+    grid.push([x, z, f[0], f[1], m]);
+    if (m > Emax) Emax = m;
+  }
+  for (const [x, z, fx, fz, m] of grid) {
+    const t = Math.min(m/Emax, 1);
+    const len = 6 + 14*Math.sqrt(t);
+    const ux = fx/m, uz = fz/m;
+    tctx.strokeStyle = `hsl(${210 - 190*t}, 90%, ${45 + 25*t}%)`;
+    tctx.lineWidth = 1.4;
+    tctx.beginPath();
+    tctx.moveTo(X(x)-ux*len/2, Z(z)+uz*len/2);
+    tctx.lineTo(X(x)+ux*len/2, Z(z)-uz*len/2);
+    // arrowhead
+    const ax = X(x)+ux*len/2, az = Z(z)-uz*len/2;
+    tctx.moveTo(ax, az);
+    tctx.lineTo(ax - ux*4 - (-uz)*3, az + uz*4 - ux*3*-1);
+    tctx.moveTo(ax, az);
+    tctx.lineTo(ax - ux*4 + (-uz)*3, az + uz*4 + ux*3*-1);
+    tctx.stroke();
+  }
+
+  // web (walls + ceiling)
+  tctx.strokeStyle = '#f0883e'; tctx.lineWidth = 4;
+  tctx.beginPath();
+  tctx.moveTo(X(0), Z(0)); tctx.lineTo(X(0), Z(st.H));
+  tctx.lineTo(X(st.W), Z(st.H)); tctx.lineTo(X(st.W), Z(0));
+  tctx.stroke();
+  tctx.fillStyle = '#f0883e'; tctx.font = '12px sans-serif';
+  tctx.fillText('charged web (σ = ' + fmt(st.sigma*1e6) + ' µC/m²)', X(0)+6, Z(st.H)-8);
+
+  // floor
+  tctx.strokeStyle = '#30363d'; tctx.lineWidth = 2;
+  tctx.beginPath(); tctx.moveTo(pad/2, Z(0)); tctx.lineTo(cw-pad/2, Z(0)); tctx.stroke();
+
+  // person
+  const px = X(st.x), pz = Z(st.z);
+  tctx.strokeStyle = '#e6edf3'; tctx.fillStyle = '#e6edf3'; tctx.lineWidth = 2.5;
+  tctx.beginPath(); tctx.arc(px, pz-26, 6, 0, 7); tctx.stroke();          // head
+  tctx.beginPath(); tctx.moveTo(px, pz-20); tctx.lineTo(px, pz+8); tctx.stroke(); // torso
+  tctx.beginPath(); tctx.moveTo(px, pz+8); tctx.lineTo(px-7, pz+26);
+  tctx.moveTo(px, pz+8); tctx.lineTo(px+7, pz+26); tctx.stroke();         // legs
+
+  // force arrow (gradient model direction, magnitude from pressure model for scale)
+  const F = r.Fp, fl = Math.min(20 + F*30, 90);
+  const fx = Math.cos(r.Fdir), fz = Math.sin(r.Fdir);
+  tctx.strokeStyle = '#f85149'; tctx.lineWidth = 3;
+  tctx.beginPath(); tctx.moveTo(px, pz); tctx.lineTo(px+fx*fl, pz-fz*fl); tctx.stroke();
+  tctx.fillStyle = '#f85149'; tctx.font = 'bold 12px sans-serif';
+  tctx.fillText(fmt(F,2)+' N', px+fx*fl+6, pz-fz*fl);
+
+  // scale note
+  tctx.fillStyle = '#8b949e'; tctx.font = '12px sans-serif';
+  tctx.fillText('tent ' + fmt(st.W/FT,1) + ' ft wide × ' + fmt(st.H/FT,1) + ' ft tall — arrows: E-field direction & relative magnitude', pad, ch-14);
+}
+
+const profC = $('profile'), pctx = profC.getContext('2d');
+function drawProfile(st) {
+  const cw = profC.width, ch = profC.height, pad = 46;
+  pctx.clearRect(0, 0, cw, ch);
+  const N = 200, Es = [], Fs = [];
+  let Emax = 1e-9, Fmax = 1e-9;
+  for (let i = 0; i <= N; i++) {
+    const x = st.W*(0.02 + 0.96*i/N);
+    const f = tentField(x, st.z, st.W, st.H, st.sigma);
+    const E = Math.hypot(f[0], f[1]);
+    const F = 0.5*EPS0*E*E*st.A;
+    Es.push([x, E]); Fs.push([x, F]);
+    Emax = Math.max(Emax, E); Fmax = Math.max(Fmax, F);
+  }
+  const X = x => pad + (cw-2*pad)*x/st.W, Yv = (v, m) => ch-pad - (ch-2*pad)*v/m;
+  // axes
+  pctx.strokeStyle = '#30363d'; pctx.lineWidth = 1;
+  pctx.strokeRect(pad, pad, cw-2*pad, ch-2*pad);
+  pctx.fillStyle = '#8b949e'; pctx.font = '11px sans-serif';
+  pctx.fillText('left wall', pad-10, ch-pad+16);
+  pctx.fillText('right wall', cw-pad-44, ch-pad+16);
+  pctx.fillText('E max ' + fmt(Emax/1e3) + ' kV/m', pad+6, pad+14);
+  pctx.fillStyle = '#f85149';
+  pctx.fillText('F max ' + fmt(Fmax,2) + ' N', pad+6, pad+28);
+  // Swenson reference line
+  const ys = Yv(SWENSON_E, Math.max(Emax, SWENSON_E));
+  pctx.strokeStyle = '#f0883e'; pctx.setLineDash([5,4]);
+  pctx.beginPath(); pctx.moveTo(pad, ys); pctx.lineTo(cw-pad, ys); pctx.stroke();
+  pctx.setLineDash([]);
+  pctx.fillStyle = '#f0883e';
+  pctx.fillText('Swenson meter full-scale 200 kV/ft', cw-pad-190, ys-5);
+  const plot = (arr, m, col) => {
+    pctx.strokeStyle = col; pctx.lineWidth = 2; pctx.beginPath();
+    arr.forEach(([x, v], i) => i ? pctx.lineTo(X(x), Yv(v, m)) : pctx.moveTo(X(x), Yv(v, m)));
+    pctx.stroke();
+  };
+  plot(Es, Math.max(Emax, SWENSON_E), '#58a6ff');
+  plot(Fs, Fmax, '#f85149');
+  // person marker
+  pctx.strokeStyle = '#e6edf3'; pctx.setLineDash([3,3]);
+  pctx.beginPath(); pctx.moveTo(X(st.x), pad); pctx.lineTo(X(st.x), ch-pad); pctx.stroke();
+  pctx.setLineDash([]);
+  pctx.fillStyle = '#8b949e';
+  pctx.fillText('— E (blue, left scale)   — F on torso (red, right scale)', pad+150, ch-pad+16);
+}
+
+function update() {
+  // keep person position slider inside tent when width changes
+  const wft = +$('width').value;
+  $('pos').max = (wft - 1).toFixed(1);
+  if (+$('pos').value > wft - 1) $('pos').value = (wft/2).toFixed(1);
+  $('zh').max = (+$('height').value - 0.5).toFixed(1);
+
+  $('oSpeed').textContent = $('speed').value + ' fpm (' + fmt(+$('speed').value*FT/60, 2) + ' m/s)';
+  $('oWidth').textContent = $('width').value + ' ft';
+  $('oHeight').textContent = $('height').value + ' ft';
+  $('oMu').textContent = $('mu').value;
+  $('oRH').textContent = $('rh').value + ' %';
+  $('oSigma').textContent = +$('sigmaOv').value === 0 ? 'auto' : $('sigmaOv').value + ' µC/m²';
+  $('oPos').textContent = $('pos').value + ' ft';
+  $('oZH').textContent = $('zh').value + ' ft';
+  $('oArea').textContent = $('area').value + ' m²';
+
+  const st = state(), r = compute(st);
+  updateReadouts(st, r);
+  drawTent(st, r);
+  drawProfile(st);
+}
+
+inputs.forEach(id => $(id).addEventListener('input', update));
+
+$('preset').addEventListener('click', () => {
+  $('speed').value = 1000; $('width').value = 20; $('height').value = 20;
+  $('material').value = "Polypropylene (PP) — 1980 baseline";
+  $('mu').value = 0.6; $('rh').value = 40; $('sigmaOv').value = 0;
+  $('pos').value = 10; $('zh').value = 5; $('area').value = 0.5;
+  update();
+});
+
+// drag person on tent canvas
+let dragging = false;
+tentC.addEventListener('pointerdown', e => dragging = true);
+window.addEventListener('pointerup', () => dragging = false);
+tentC.addEventListener('pointermove', e => {
+  if (!dragging) return;
+  const rect = tentC.getBoundingClientRect();
+  const cw = tentC.width, ch = tentC.height, pad = 60;
+  const W = +$('width').value*FT, H = +$('height').value*FT;
+  const sc = Math.min((cw-2*pad)/W, (ch-2*pad)/H);
+  const ox = (cw - W*sc)/2, oy = ch - pad;
+  const mx = (e.clientX-rect.left)*(cw/rect.width), my = (e.clientY-rect.top)*(ch/rect.height);
+  const xft = (mx-ox)/sc/FT, zft = (oy-my)/sc/FT;
+  if (xft > 0.5 && xft < +$('width').value-0.5) $('pos').value = xft.toFixed(1);
+  if (zft > 0.5 && zft < +$('height').value-0.5) $('zh').value = zft.toFixed(1);
+  update();
+});
+
+update();
+</script>
+</body>
+</html>
