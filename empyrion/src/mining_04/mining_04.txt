@@ -1,0 +1,64 @@
+Small Mining Platform 04
+(BA Class 1, Unlock Level 15)
+
+Primary Role: Autominer protection, Support Base, Defence, Alpha 10, Solar, Storage, 100,000 CPU, Survival Base
+
+main changes from platform 01 as of 11/22/22
+Now armoured concrete main enclosure and core surround.
+Turret emplacements now have solid concrete footing - harder to shoot off.
+Landing pad less accessible to enemy ground troops.
+Compatible with vanilla and RE as stock.
+
+A small footprint, low build-time base to support an autominer site with teleporting, defence and extended up-time capabilities, built for function, defence and expandability in survival mode.
+
+Designed to house one autominer in situ and allowing easy ore collection in utmost safety, the base is relatively cheap and a fast factory build (1-1.5hrs from raw materials depending on mod). It has very low CPU requirements, requiring only 1 extender even in RE and so the main exotic cost is the teleporter.
+Mostly constructed of concrete and steel, it's easy to spawn with almost no special parts or resources; Needing only 130 sathium and 20 pentaxid in vanilla, removal of the teleporter further makes for reduced cost and much lower unlock level - remove constructors and extender the thing's nearly free. It requires no platinum, no tungsten, no advanced upgrade kits, no schematics, and no fancy cores!
+Accessible from SV by landing pad, HV/foot by boarding ramp or remotely by teleporter.
+Easily upgradeable weapons and power [solar also converts to extra gen/fuel tanks easily].
+It comes stock with all commonly necessary features and has places to add more features above player level 15 or requiring rare resources. This is a raw, functional base design and runs even in alpha 10 environment, keeping costs low and requiring no rare resources.
+
+
+Survival Features
+
+It comes with 1x cargo box as stock (expandable to 2x 320K storage and 48K ammo storage for RE), 4x small constructors and full WiFi coverage. It also comes with 2x large solar panels designed to be aligned for a full arc of daytime sun and 2x capacitors. Finally, there are clearly painted "id blocks" to show you where additional storage/equipment can be placed below (alternates setups/further upgrades possible but not marked).
+[ist]
+Running stock (solar + 1x small generator online/2x fuel tanks), in continuous use the base will run with turrets ON at 0.2KW for over 4 days (6000 min) - fully fuelled on only 5400 units; A generator boost automatically kicks in for the teleporter - the base only runs a small generator continuously which consumes little fuel, so the rig is an exceedingly efficient base with generous fuel capacity options.
+Storage for spare fuel for both autominer and base with various other items including ores/refined products.
+Long distance, high visibiilty graphic projection for easy location by HV/SV/CV in day or night conditions.
+Single keypress elevator line from autominer to landing pad.
+Floodlit for 24hr operation.
+All areas easily accessible for repair/maintenance/upgrade.
+
+Expandability
+
+The base comes with preset areas to add extra storage (for those using container management/RE), additional generator(s), additional fuel tanks and is easily converted to airtight with O2 tanks should you wish to stay for extended periods. 4x small constructors can be exchanged for 4x1x4 space for alternatives - 16 blocks of additional custom space. Defensive upgrade options are detailed below.
+
+
+Defence
+
+This base is specifically built to be cheap whilst secure so is designed to avoid expensive shielding needs and instead uses ablative armour. There are multiple, redundant generators/fuel tanks/solar panels and most equipment is surrounded and separated by explosion buffer-walls. It is built with alpha 10 style AI attacks in mind, with close attention to keeping the base safe from core snatching techniques - as a result the core is separated from the autominer to keep it safer from attack, especially collateral explosion damage.
+Armoured full enclosure for the autominer.
+Access to the autominer from teleporter without exiting armoured enclosure.
+It comes with 1x minigun turret, 1x flak turret and 4x sentry guns, providing coverage in a 360 degree pattern where turrets can protect other turrets as well as every possible place ground troops could get in close to steal the core.
+The main walls and roof are made with armoured concrete and the remainder is made from girder blocks and basic concrete to avoid shields so keeping keep costs as low as possible.
+Uses shutter doors (greater hit points) with easy to navigate layout.
+Player accessible tower for viewing and sniping.
+
+Features Summary
+BA unlock level 15; size class 1
+Armoured Concrete Main Shell; 1080 degree armoured core defence designed to counter snatching attacks
+1x Cargo Box; expandable to 2x320K storage + 48K Ammo storage
+Space for 1 autominer on a resource with flexible placement; 4 small constructors for resource refining
+2x large solar panels, 2x capacitors, 1x large + 1x small generator (stock); 60+ hrs up-time on only 5400 fuel
+2x main anti-drone/anti-troopship turrets; 4x anti-personnel sentry guns with 360 degree coverage
+Can survive basic 3-4 drone /1-2 troopship attacks unsupported
+Flexible expandability for items above player level 15 or needing rare resources; This includes areas for:
+Up to 2x extra turret emplacements, 4x if rejecting solar
+Extra T1/T2 Generator (may be required with some turret additions)
+Extra fuel tanks (probably essential with extra generator)
+100,000CPU with stock 40k of constructors (has T1 extender necessary to run stock in RE, but easily removed for Vanilla)
+Labelled, easily deactivated non-essential floodlights.
+Good sized landing pad with automatically retracting turrets for clearance (easily disabled if required for defence); easy, well defended ground access.
+I hope you enjoy!
+
+--

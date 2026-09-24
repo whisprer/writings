@@ -1,0 +1,424 @@
+https://youtu.be/rc8Ka3AdUao
+
+[Empyrion_-_Galactic_Survival_-_HexReaper.txt]
+
+═════════════
+OG CREATED BY
+
+Ente
+Offline
+...
+
+THIS MODIFICATION BY
+
+wofl
+Offline
+...
+
+See my collection[s?] created by [B]wofl[B] and other people (some may be hidden)
+Subscribe to download
+
+
+note: Built for Reforged Eden 1.10!
+
+
+
+DESCRIPTION
+
+[h1]woflcorp [i](Mil. & Ind. division)[/i] ||_[b]Hex[/b]_[b]Reaper[/b]_||
+[b]R[/b]apid [b]H[/b]eavy [b]S[/b]tealth [b]T[/b]orpedo [b]B[/b]oat[/h1]
+[Modified Ares Class Battleship - Reforged Eden]
+
+
+Type: TORPEDO BOAT / Mid-to-Endgame CV
+(CV Class 7 [7.40], CPU: 1,698,659 [AdvCPU + 8x AuxCPU + 5x Tier4{locked@1} + 7 crew], Unlock Level 25)
+
+[b]Primary roles:[/b] Heavy Battle Support/Rapid Small Vessel Insert to HotZone, Rescue, Sniper Team, 
+
+RE 1.10!
+
+
+Update 04/12/23
+* Ship painted navy colours, upgrades like fuel etc. that weren't game start benefits.
+Update 08/12/23
+* uploaded to steam workshop.
+
+
+[b]Core:[/b] X [b]CPU[/b] 1,698,659.0 [b]Efficiency Level:[/b] 100% [b]Total:[/b] 3,100,000 [b]Avail:[/b]
+[b]Size Class:[/b] 7 (7.40) [b]Mass:[/b] 15.4kT
+[b]Unlock Level:[/b] 25
+
+[i]Built for CPU and block limits[/i]
+
+
+
+[b]The woflcorp-HexReaper is a Rapid Heavy Stealth Torpedo Boat designed to work with RE 1.10 requirements. The ship is at 1,698,659 CPU use and requires level 25 technologies to build.[/b]
+[i]note: 518 xenosteel blocks may be tricksy for some![/i]
+
+The HexReaper is a heavily mdoified Ares Class Battleship. Specifically it is the Ente Ares Class BAttleship Stolen in a a blatant act of industrial espiaonage and then upgraded in many ingeniuous ways to convert it from a traditional battleship to a "Fast Heavy Stealth Torpedo Boat". it is still a heavily armored mid-to-lategame Battlecruiser, and has every single possible turret point an Ares Class can have occupied. Shieldwise it has two large shield capacitors and two large shield chargers as well as four shield charge couplers and four sheild capacitor arrays. due to the extreme skill of woflcorp. design small vesels there are generally 4 small vessels in the medium sized Hangar - ofc an I/EAS model of the latest version - atm an I/EAS-Electron. It currently also houses an X-Wing Starfighter converted from warp capability to extra forward engines and appropriate generators and fuel tanks with a few RCSs thrown in and an upgraded shield (basically 4 lasers on an insanely fast and manouverable cockpit/engine/shield), a woflcorp. woflminer-warp and a woflcorp. forstry unit. very functional in otherwords, carrying out general purpose all round kinda duties in game. it has full  production upgrades as far as there is capability provided, i.e. 2 x advanced constructors and a deconstructor.
+Mobility is extreme to the poin of nea unbeatable for a CV - full engine upgrades as per the standard Ares Class Battleship options [i]plus[i] further medium reverse engine in the nose. These engines are fed by a massive extra bank of large fuel tanks amounting to a total of 37 tanks i.e. a capacity of 444,000. 
+
+
+
+═════════════
+[RP]
+
+...
+
+[Entertaingly Adapted From OG Ares Class RP by Ente]
+The Ares Class Battlecruisers quickly earned a fearsome reputation amongst enemies as well as amongst its crews. Firepower, mobility, automisation and defensive have proven to be a considerable step forward from older Designs within the fleet, tapping into experience from the Chimaera Destroyers while providing also much stronger shield and armor options. Battle records so far have been impressive and the Admirality quickly learned to depend on the capabilities of these battle powerhouses.
+
+This modification to a Stealth Fast Tirpedo Boat for Heavy situations results in very very cramped conditions and extreme demands on the ships cpu and generators - as per traditionfor a an Ares Class ofc this means not only highly optimised design but ofc the hefty cost in maintainabilty which often causes increased workload for its even more unusually small crew even if large for what would be normal for an Arres Class. tho still a small crew, the workloa is still high even with heavy reliance on automisation and ofc again it is only able to compensate in parts. woflcorp. crews are exceptionally strictly trained and well ordered so the infamous troubles with workspace safety have largely been fixed wherver possible in internal design so the frequent accidents and injuries are a thing of the past in the HexReaper. A massive increase in saftey grills, classing and protective features results in the normal Ares class medic facilities being uch less used outside of live battle conditions and there are even extra medic facilities in the hanger where accidents are common due to the large open space and free falling objects as well as moving small vessels. the medic facilties in the hangar happn not by chance to be right next to the teleporter and also in a direct clar path from the boarding ramp as well as close to the foot tramp so that any persons injured in ground actions or on off ship mmissions can access the facility as fast as possible withpout hindrance.
+What are described as non-sophisticated crew facilities by the Ares class crews are considered quite accepotable and surprisingly spcious and well appointed by the woflcorp. crew after the experiences with the previous ~Sulacos faciltities. (Naturally the booze-filled fridge has been replaced by a well stoclked shroom fridge.) although storage has been upgraded massively, limited Hangar space and the lack of Hydroponics stilo means the Torpedo Boat is limited in its ability to perform extended long range operations without the support of a Carrier and performs the duties of a short range general purpos fast CV or support ship.
+
+The woflcorp. crew are so overjoyed by the modernity of the HexReaper as compared to the previous Sulaco that  the small crew is a very happy and highly cohesive family.
+
+Nevertheless, due to the weirdnesses of the mushroom fridge and the cramped conditions as well as the relative harship normal to woflcorp. strict standards you still have to be a certified Badass to survive the work evenings in the cantina on this ship.
+
+~~Addendum: As per order of the high Admiral any shrines to 'the Machine' and comparable paraphernalia on Ares crews will no longer be tolerated and shall be disposed of immediately!~~
+
+Post Addendum: As per order of the captain, any traditional Navy orders re. shrines to the Machine and her blessed hextatics are vompletely countermanded in woflcorp. navy vessels and any spirtual belefs that help keep the ship running smoothly and morale high  are welcomed. May the Ghost in the Shell Guard us ALL!
+
+
+...
+
+[code]
+
+>>>intercepted comms from freelance intercept crew somewhere in Kirba system:
+═════════════
+..
+
+...
+...`transmission begins`
+
+...I/AES-Electron spec. ops. unit x3107A reporting back:
+
+...the custom mount held
+...EMP cruise missile successfully fired and hit target vessel
+
+...mission went perfect, no-one even noticed us - small vessel in middle of a full scale battle, the idiots
+
+...didn't have a clue! hahahahahhaha.... 
+
+...we took out their entire electronics, sheilds, computing, an all control systems - damn thing just
+...plummeted out the sky to the bottom of the damn ocean like a rock.
+
+...they didn't know what hit them and all crew evacuated before they even finished re-entry...
+
+...we better begin recovery immediately before they figure it out!
+
+...By the way, this new Electron model is insane - it's actually faster than the old LEVIT8-Aero - there's
+...about half the weight and yet it's actually better protected.
+
+...who woulda thought woflcorp. could outdo alien tech and make something even faster n' toguher!
+...this thing's insane.
+
+...it was fn like you wouldn't believe, no-one could even catch our dust let alone get a bead on us - we just
+...whipped straight through and we're gone without anyone even having a clue what we were.
+...wowee!
+
+...over.
+
+...`end transmission`
+
+..
+═════════════
+...
+
+>>>current where abouts of stolen technology unkown
+>>>/end report
+[/code]
+
+`"Chief, we just gotta send one of the new bots down to reboot the electronics and install a core - we'll have it up in a day they reckon!"`
+`"The stuff woflcorp.'s doin with positronic systems and cybernetics is insane these days - stealin' an entire battleship from under their goddamn noses and not a mark on it! that's just the craziest damn thing... damn we're slick eh?"`
+`"Welp, better get started on fabbin' the retractables, big engines and stuff - some things we already know how to build so we can get them ready i guess at least - whose crew's doin engines and whose doin weapons systems?"`
+`"what are we gonna do about these damned torpedos and shield systems? we don't know squat bout that tuff for CV's and bring back to life an Ares class with full capabilities is gonna be tough."`
+`"you'll figure it Chief - after all, Chief Systems Engineer for woflcorp. indusyries entire mil. & ind. shipping division isn't a title that comes lighjtly and we got a heckuvva team workin down there"`
+`"i hope you're right - we'll just have to work it all backwards from heir tech, reverse engineer all the way and hope those haxx0r computer guys can figure the systems side of things."`
+`"yeah, we're gonna be fine with the big mechanichals - it's just the damned hex's - and we damn well fried the whole thing to get hold of it too, so no help there. crap, they're go' havta code entire new OS setups from scratch just to even find how the thing's wired up."`
+`"Ahhhh..., they love it really - this is the most exciting thing thing that ever happened in woflcorp. for those guys - and rightly so, this is _big_..."`
+`"damn straight - you seen the size o' that thing? compared to our last CV, the bloody Sulaco - that thing was a repurposed freighter and you could damn well tell every second of every day. doomed heap of junk."`
+`"Don't knock it - the Sulaco taught us everything we develped so far for CVs as far as making the most of a small slayout, having long thin frames, fitting stealth into a ship to keep it looking innocent and also the whole concept of speed and manouverability over size and weight. it's our stock in trade now and exactly why we chose the Ares class - there's a shit-ton of way bigger, heavier and tougher ships, but a souped up Ares is gonna be faster, slicker and still subtler than any of those dreaadnoughts. that's woflcorp. all the way. as with the small vessels so also with the CVs. you'll see."`
+`"As always you know best Chief, i do have high hopes for this Ares class - this things a beast."`
+`"Get goin then - time we cracked on, i'llm see ya in the cantina tonght"`
+`"Laters`"
+
+...
+
+`"Ok Chief - somehow you're stuck with the fun job as usual - you gotta cram in two more main forward thrusters, another main thruster pointin back to counter, and a smaller one as backup. but along side that you gotta get in more torpedo tubes, shield chargers, shield capacitors, sheild arrays, sheild couplers, an extra generator to run all that - and it's gonna have to be big - we're gonna need two of the biggest most advanced models we got to run that lot."`
+`"hmmm... that's a helluvva an ask to fit into a ship that's already basically full to the brim in every crevice and then also you wan't me to make the thing stealth mode too? you're 'avin a laff."` 
+`"that's orders."` [a shrug]
+`"Well, we can definitely get the engines in, and the extra generator - and by switching the big generator in there now for two of our latest side by side we go the whole thing goin fast, but the sheild stuff? i dunno. the sheild systems are all sittin right where the torpedo tubes would extend down to if we push more in. i think were gonna have to tell the guys upstairs it's the current complement of torpedos and the new sheild stuff or full torpedos, not both."`
+`"they wont like that - you can tell em cos i certainly dont wanna piss 'em off"`
+`"OK, i'll do it. _again_. but next time it's your turn even if i am your boss. you gotta tal to the guys upstairs eventually."`
+`"but none of them even knows how to fit a retractale into the skin of a standard armour shell let alon complex shit like this. hw the hell do you communicate wth a buncha wishful thinkers who just come up with stupid ideas based on dreams?"`
+`"Diplomatically."`
+`"Ha."`
+`"..."`
+`"Ok, so what about all these other upgrades - the retractables aint too badand she had awesome detectors and scanners already - there's so much armor we can just sink the retractables into the skin for the most part - only the upper deck vulcans and gausses better stay perma cos that armors too crucial."`
+`"We'll have to make some changes to the mountings in the hangar but otherwise the rest is just cramming in as many sheild chagers and capacitors as the damned new gennies can run. screw big guns and modern fancy turrets - this is a fast torpedo boat, so we'll try to keep the weaponry relatively oldskool andrestrict it tor retractable alucnhers, gattlings, flaks and lasers - maybe a few plasmas at most if there's power."`
+`"The Cap'n of the Sulaco runnin this thing too?"`
+`"Yup, so we can take out most of the fixed lasets and other forward pointing fixeds - he hates the damned things because they can't all fire at once or be pointed any direction the ship aint facing - this ain't a dive full on head frst into the fray ship so there's no need for a shedload of forward pointing fixeds - lets ditch em for turrets n torpedos as much as pos."`
+`"righty ho - sounds like a plan - let's get fabbin ready for those haxx0rs in systems to bring it back to life"`
+
+...
+
+`"Admiral, is there any progress on the fusion generator? we must have it as soon as possible - engineering reports without more power it's a compromise between weaponry and sheilds - they have the engines and speed and manouerability guaranteed but they can't do full torpedo complement and full sheild capability without more power."`
+`"i'm afraid there's still difficulties bringing the fusion gen proto online - it's a systems thing not a hardware thing. we're going have to work with existing tech for a while yet."`
+`"Oh Fish."`
+`"Tell me about it."` [Roll eyes]
+`"..."`
+`"But the Ares Class _does_ have room and capability to handle fusion oof we can master it?"`
+`"Yup, she sure can - the size of those damned gens we're using now - we've got two in there - they may be long rather than tall, but this things a torpedo boat - it's all about tall - a fusion gen maybe a big round ball but we got the height in that gen room. and this thing's a damned quantum computing behemoth. it's just a block of spin apirs a mile wid ein the core so it can sure run everything we ask of it with our tech. jsut gotta get that frikken fusion gen working."`
+`"well do it. we always do. that's why we woflcorp. and that's why we _guarantee_ the killzone hahahhahahaha!"`
+`"Oh Fish to that damned advert - it's been stuck in my head for days. thanks alot."`
+`"guess i better run then - enjoy!"`  
+
+
+...
+
+
+[/RP]
+
+═════════════
+
+
+
+Upgrades undertaken:
+
+- All the Thrusters plus an extra reverse Advanced Thruster
+[i](i.e. total 8x Drive + 7x Advanced + 10x S see pics for thrust details.)[/i]
+- Only 6 Fixed Rapid Torpedo Launchers providing capability to launch 36 MX-4 Torpedos in one salvo?
+- 2x Advanced Generators
+[i](i.e. total 2x advanced generator + 9x generator - output 212.5kW)[/i]
+- 2x couplings, 2x cap bank, 4x large cap, 4x large coupling - [i]not[/i] the 6 XL upgrades
+- Teleporter
+- extra biomedical chamber in hangar
+- advanced repairbay in hangar
+- extra fuel tanks to bring total to 37
+[i](i.e. 444,000 capacity approx time before refuel approx 68hrs)[/i]
+- detector
+- 6 extra cargo boxes
+- offline protection
+
+
+
+[b]Survival features[/b]
+nothing special - fridge, cooker, storage, detectors, offline - ususal gubbins...
+
+[b]Offence and Defence[/b]
+- 44 turrets, majority retrctable for to look innocent :D
+- 4x advanced lasers fixed ahead
+- 6x MX-4 Rapid Launch Torpedo Launchers :O seeing as each fires a volley of 3 thats 6x 3 total for 18 per launch! oooooohhhh....
+- VERY heavy armor across entire front and top as well as decent armor around rest of hull
+- Very capable shield setup - adv gen, 2x large charge, 2x large cap, 4x coupler, 4x array!
+- gunnery bridge for good view of what you're shoosting at and ofc, if it get's shot off you're not screwed cos there's another bridge!
+- hangar that i find hold's 4x small ships nicely - even with 2 fucntionals like miners etc. that's still room for 2x fighters or whatever military units.
+- significant use of reduncancy to ensure that dmaage doesn't cause any sever eissues with O2/Fuel/etc. systems loss
+- not really an attack ship but in conjunction with near any other ship is a significant threat and can take on p much any poi in a group of 2 or 3.
+
+[b]Performance[/b]
+- EXTRMEMELY fast for a CV, and very manouverable
+- adv warp capability
+- large fuel storage capacity so can actually do significiant exploring and longer missions
+
+[b]Features Summary:[/b]
+[olist]
+[*] Player unlock level 25, somewhat expensive, lots of rare resources, CPU X level p much
+[*] High Mass Hull - Requires Xenosteel, 44 turrets, 4 adv lasers, 6 torpedo launchers,
+[*] significant shield capacity with fast recharge
+[*] low slung good view gunnery cockpit
+[*] o², 1481 volume storage + cargos, 640 volume ammo
+[*] WiFI, short range detector, long range detector
+[*] woflcorps crazy computing tech
+[*] Extreme speed and extra heavy thrust for quick dust offs
+[*] Cargo, all crew quaters and necessaries
+[*] full medical plus extra
+[*] pentaxid/fuel
+[*] Exterior spot lights
+[*] teleprter
+[*] Hangar holds 4 SV reasonably and has repair bay
+[/olist]
+I hope you enjoy!
+
+Please see my workshop and Mining rigs for my other creations. Link at top of this post. Thanks!
+
+═════════════
+
+Weapons:
+
+4x Adv. Laser Cannon
+6x MX-4 Rapid Torpedo Launcher
+
+Turrets:
+
+6 Minigun Turrets
+10 Pulse Laser Turrets
+8 Missile Turrets
+2 Flak Turrets
+6 Plasma Turrets
+6 Vulcan Turrets
+4 Gauss Turrets
+
+
+Shield:
+
+Advanced Shield Generator
+4x Large Shield Capacitor
+4x Large shield Charger
+2x Shield Capacitor Bank
+2x Shield Charger Coupling
+
+Capacity: 29,420
+Recharge: ???
+
+
+Storage:
+
+2x320k Ammo Controller [see pics for current ammo situ]
+2x640k Storage Controller
+1x201k Storage Controller
+7 cargo boxes + 6 extra added [i](i.e. total now 13)[/i]
+
+
+Equipment:
+
+1 Fridge
+1 Food Processors
+Long Range Radar
+Short Range Detector
+2 Adv. Constructor
+1 Deconstructor
+Full Med Tools plus extra biomedical chamber in hangar.
+Equip. repair station
+multiple armor lockers and O2 Stations
+Wifi
+Offline PRotection
+Advanced Repair Bay/Repair Console
+
+[unchanged v]
+[[Some LCDs are modifications from sulusdacors LCD Library, so a big thanks to him for his amazing work!]]
+
+═════════════
+[code]
+
+[Further RP]
+[transcript of video vocal for completeness:]
+
+
+`...
+...(backgraound chatter, opening and losing of briefcases/mouse clicks/laptop typing etc.)
+...
+
+...
+
+
+
+Settle down please, settle down...
+
+Ohhhh....kay.
+
+Gentlemen, may i have your undivided attention... [b]please[/b].
+
+
+
+This, you may recognise on the screen, as, the 'Ente' - an Ares class Battlecruiser.
+
+Specifically, [i]our[/i] Ares class battle cruiser, recently lost in battle in the Kirba system.
+
+
+
+This next mockup is our best guess at what is the new woflcorp. Military & Industrial "Fast Torpedo Heavy Stealth Class vessel, the 'Hexreaper'.
+
+[i]...Looks suspiciously familiar doesnt it?[/i]
+
+
+
+Our 'Ente' sank very deep in an ocean in the Kirba system when it was lost in battle recently.
+
+[i]It seems there may have been some sullduggery afoot![/i]
+
+
+Specifically, we suspect woflcorp. industries has [i]'salvaged'[/i] the Ente and restored it.
+Better than before.
+
+You will notice... on screen right now it looks  quite harmless.
+
+There is no great sign of big difference.
+
+No obvious weapon changes.
+
+No obvious extra armaments.
+
+No obvious extra armor.
+
+But, you will see quite soon there are serious differences.
+
+We have to worry.
+
+
+
+Our ship went right to the bottom of a very very deep ocean. somehow it seems, they salvaged it. We have to be very, very wary.
+
+
+
+(these things don't usually float this much... somebody's having a laugh, i ...think?)
+
+
+
+See the extra weapons mounts,  torpedo tubes, shield charger and capacitor exhausts, hangar access, upper armoring, [i]and[/i] you'll note it's now capable of very high speed in atmosphere and extreme planetary lift-off - i'll cover that more, shortly, and explain why.
+
+Either way this thing is even higher performance than our Ares class actually was, and more manuoverable too.
+
+They've even added reverse thrusters to cope with the extra forward thrust so it can stop as fast as it takes off.
+
+
+
+As you see here the upper armour and torpedo doors are now extremely heavily boosted - it is very thick armor on the upper and front end. the weapons are all retractable for stealth - when everything is shut down it appears like an innocent research vessel to a short ranghe ping on a scanner and a deep scan and to visual glances.
+
+
+
+This next is footage from a spec. ops. spy drone that used quantum intereferometry to steal data from woflcorp. computers - you can see how immensely uprated the engines are not just to maximum for the Ares class but way beyond. Unfortunately the footage is not the best quality but you can see just about the amount of extra...
+
+...yes, you can make it out - there's some very, very large extra ducting and so on going on there.
+
+quite clearly a lot has been added.
+
+There's certainly more generators going on too to power all this - and probably a large amount of extra fuel, possibly even a fusion generator although we think they have not got that technology yet?
+
+spec. ops. can't be certain...
+
+
+
+So, overall, what we haaaaaave here is not just a very Fast, very Heavily Armed, very Heavily Armoured, very Heavily Shielded aned Potentially Stealthy PROBLEM, but also, a Very Big Problem at that.
+
+And we think they stole it off us.
+
+OK, we _know_ they stole it off us.
+
+The question is, "What are we going to do about it?"
+
+
+(...other than get some real footage not these crappy mockups - honestly our spec ops intelligence is useless i swear...)
+
+
+
+woflcorp.
+Woflcorp!
+WOFLCORP!!!
+...
+Ding!`
+
+
+[/RP]
+
+[/code]
+═════════════
+
+|0#0#0#0#0|1#0#220#220#166|2#0#220#0#0|3#0#220#166#233|4#0#0#63#220|5#0#0#220#220|6#0#0#220#153|7#0#187#135#90|0#1#220#220#220|1#1#220#212#0|2#1#54#59#52|3#1#59#49#52|4#1#39#10#16|5#1#34#21#21|6#1#145#65#3|7#1#141#52#11|0#2#170#170#170|1#2#220#170#2|2#2#28#4#3|3#2#171#32#161|4#2#0#15#100|5#2#57#114#215|6#2#34#23#23|7#2#34#22#22|0#3#110#110#110|1#3#64#61#61|2#3#37#42#44|3#3#59#58#54|4#3#39#40#34|5#3#38#25#25|6#3#44#29#29|7#3#48#32#32
+
+=============
+
+[p.s. as with every other endeavour i undertake his entire thing has been produced with free software that comes included with either win10 or win11 - i.e. this txt was written in notepad and the very very silly splashpage image was made with photoviewer and mspaint] 
+
+═════════════

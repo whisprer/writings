@@ -1,0 +1,100 @@
+=================================================
+
+woflcorp. Military & Industrial: Mining and Forestry Division - Miner [Warp]
+
+=================================================
+
+Small Vessel:
+Size Class 1
+CPU Tier 3
+Unlock lvl 20
+
+Primary roles: Long Range Deep Space Mining Operations, Heavy Duty Rock Clearance, Asteroid Base Excavation, Mineral PRospecting, Alpha 12
+
+Update 21/01/23
+* original steam workshop version updated:
+* fresh paint job
+
+
+The woflcorp. Miner [Warp] is an ultra long-range mining/prospecting vessel designed to work with alpha 10 requirements. The ship is at ~15k CPU use and requires level 20 technologies to build.
+
+═════════════
+>terminal booting::
+>>>SYSTEMS ACTIVE::
+>>>logon accepted::
+..
+...
+>>>BOOTING::
+...
+...
+...--woflcorp. Military & Industrial: Mining and Forestry Division--
+...
+...Welcome!
+...You are reading about your purchase of the latest woflcorp. Miner.
+...This Miner is the ultra longrange warp capable mining vessel from woflcorp.
+...
+...before operation please fully familiarise yourself with the systems setup as detailed in the operating manual
+...
+...please note: for your safety when boarding the vessel in your hangar:
+...ONLY WALK ON THE PINK WALKWAY TO ENTER THE COCKPIT: VESSEL GETS HOT!
+...woflcorp. is not liable for injuries sustained in operation of this vessel.
+...
+...the vessel is clad in steel composite Tough-Grid™ high-impact ablative
+...armour and has hex T2 laser drill modules for the ultimate in power asteroid mining. 
+...
+...Congratuations on your newly acquired woflcorp. Miner [Warp] It is a single seat, ultra long-range
+...mining and prospecting SV for deep space mining, resource exploration and rock clearance.
+...The Miner [Warp] is fully warp capable giving full star system wide exploration and resource
+...retreival possibilities woith extended run-time capabilities; this device is purely 
+...built for distance, manouvreability and function in survival mode. we hope you have the
+...best of luck in your endeavours. If you ever need answers to any questions about
+...maintenance or general extreme performance vessel ownership we refer you to the
+...contents of this documentation and failing this, the woflcorp. service droids will be
+...happy to respond to your query. A new Miner [Warp] comes with the opportunity of excellent
+...success on every single operation, adding more thrilling experiences in SV life!../
+.//
+../END
+>offline
+
+═════════════
+
+
+Survival features
+
+Inside it has? dedicated harvest storage, in 2 redundant containers, 5 x o² tanks, optional wifi upgrade, short range detector and quad spotlights.
+
+
+Equipment
+
+- The vessel comes with 6 T2 Drill Module Mining Lasers.
+- ~To run these lasers there are 6 generators with a generous fuel supply.
+- There is a single armoured cockpit sunk deep into the front with all round armour making flying rock damage minimal in likelihood.
+- The vessel is designed to travel wide within a star system so is equipped with a short range warp drive, pentaxid tank and 7 prometheum fuel tanks.
+- It can be used for any space or even planet surface based rock blasting and resource recovery purpose including mining, excavation, tunneling and drilling.
+
+
+Performance
+
+- multiple 360deg engine design - high manuverability
+- special high tech steel composite Tough-Grid™ high-impact ablative armour for safe work near falling/moving rock.
+- much fuels
+
+
+Features Summary:
+Player unlock level 20, semi-inexpensive, few rare resources, CPU Tier 3
+6 T2 laser drill modules, low slung cockpit design
+5 o², ? volume harvest storage
+opt. WiFI, short range detector
+Tough-Grid™ covering ablative armour
+immense manouverability and extra heavy thrust
+harvest containers adaptable to spare fuel or gen purp. cargo
+Fairly inexpensive and requires few rare resources
+much pentaxid/7 x fuel storage
+4 x exterior spot lights
+
+═════════════
+
+I hope you enjoy!
+
+Please see my workshop and Mining rigs for my other creations. Link at top of this post. Thanks!
+═════════════

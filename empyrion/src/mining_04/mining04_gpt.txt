@@ -1,0 +1,68 @@
+woflcorp. (mil.& ind.: mining division.)
+Compact Mining Rig 04
+BA Class 1 | Unlock Level 15
+
+"Function. Defence. Expandability."
+
+══════════════
+
+A small-footprint, rapid-build mining support base for autominers, with teleport, defense, and extended up-time in survival conditions.
+
+This rugged defensive outpost is engineered to safeguard an autominer with minimal cost and high survivability. Designed for quick spawn-in (1-1.5hr factory build), it requires almost no exotic resources, making it ideal for remote mining operations in hostile or low-resource environments.
+
+🔹 Survival Mode Optimized – low CPU, minimal rare materials, high efficiency.
+🔹 Defensive Architecture – designed for ablative armor & turret protection instead of high-cost shielding.
+🔹 Teleport-Ready – instant access to the autominer site without exposing personnel.
+🔹 Modular Expandability – preset slots for extra storage, generators, and fuel tanks.
+
+Survival Features
+📦 Stock Storage – 1x cargo box, expandable to 2x 320K storage + 48K ammo for RE users.
+🔨 Refinement Setup – 4x small constructors for ore processing on-site.
+☀ Energy Efficient – 2x large solar panels aligned for max daylight exposure + 2x capacitors.
+💾 Ultra-Low CPU – requires only 1 extender (easily removed for vanilla play).
+🔗 Access Points –
+
+SV landing pad
+HV/foot access via ramp
+Remote teleportation
+🔆 Operational Visibility – high-visibility graphics projection for easy nighttime location.
+⚡ Auto-Power Management – Turrets ON for 6000 mins (4+ days) on 5400 fuel.
+
+Expandability
+🔄 Storage Expansions – Modular upgrade areas for additional storage.
+⚡ Energy & Power – Designed for extra generators and fuel tanks without major modification.
+🛠 Customization Space – Constructor bays allow for alternative setups.
+
+Defensive Capabilities
+💥 Ablative Armor Over Shields – High-strength concrete and steel for explosive resistance.
+🛡 Explosion Buffer-Walls – Protects vital components from chain-damage.
+🔫 Autominer Defense Enclosure – Fully secured against attacks.
+🚨 Turret Loadout:
+
+1x Minigun Turret – anti-drone/troopship suppression.
+1x Flak Turret – anti-air & close-range defense.
+4x Sentry Guns – full 360° ground defense against infantry.
+🏗 Structural Defense Features:
+
+Core separated from autominer for attack mitigation.
+AI attack resistance modeled on Alpha 10 mechanics.
+Reinforced shutter doors for high-durability entry points.
+Player Sniper Tower – elevated overwatch position.
+Summary
+🔹 Unlock Level: 15
+🔹 BA Size Class: 1
+🔹 Armored Core Protection: 1080° blast resistance.
+🔹 Storage: Expandable up to 2x 320K + 48K ammo.
+🔹 Autominer Support: Direct access + onboard refinement.
+🔹 Power: Solar + Generators, 60+ hrs uptime on minimal fuel.
+🔹 Defensive Setup: Anti-drone, anti-infantry, and anti-air turrets.
+🔹 Expandable: Space for additional turrets, fuel, CPU extenders, and O₂ tanks.
+🔹 Efficient Factory Spawn: 1-1.5hr build from raw materials.
+
+woflcorp. Delivers
+Whatever your mission—military op, industrial expansion, deep survival—woflcorp ensures you dominate the field.
+
+🔺 I/EAS – Speed. Power. No survivors.
+🔺 Compact Mining Rig 04 – Built to last. Cheap to deploy. Impossible to steal.
+
+"woflcorp. – The Future Belongs to the Prepared."

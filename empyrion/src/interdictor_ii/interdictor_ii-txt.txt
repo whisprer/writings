@@ -1,0 +1,73 @@
+=======================================================
+
+
+woflcorp. military & industrial presents: the interdictor ii
+
+Primary roles: Intercepting inbound enemy bombers/fighters/drones and troopships, Air support of ground troops, Bombing Runs on light targets, Alpha 10
+
+Small Vessel:
+CPU TIER 4
+UNLOCK LVL 20
+SIZE CLASS 1
+
+ideal for both intercepting incoming drones, fighters and bombers as well as fast attack runs on lightly armoured targets and even as a bomber itself. the thing has blinding speed and extreme manoeveurability combined with a unique carbon fibre outer hull for reduced weight and aerodynamic reduction in drag. as a result it's packed with a shield generator and has some serious armament in the way of 4 laser cannon and 2 137mm homing missile launchers. finally, it's stealthy as anything out there when running with engines off in coasting mode in space and very hard to spot planet surface anywhere dark.
+
+
+=======================================================
+
+
+Update 19/01/2023
+Ship checked and updated.
+
+
+The woflcorp. interdictor ii is a light 1 man interceptor and fighter craft designed to work with alpha 10 requirements. The ship is at 55k CPU use and requires unlock level of 20.
+
+========================================================
+
+
+Survival features
+
+- Inside it has no cargo storage but redundant ammo controller could be converted to a small amount of storage if needed.
+- ammo storage is both large [? volume] and split amongst two redundant containers so reducing the chance of damage disarming the vessel.
+- also present are o² and a detector.
+
+
+Offense and Defense
+
+- The ship comes with 2 137mm homing missile launchers and 4 pulse lasers.
+- There is an armoured cockpit sunk low into the front for maximum streamlining and also making it somewhat harder to hit.
+- Hull material is... engines - inspired by the infamous woflcorp. I/EAS, the ships main strength comes from it's components not a separate structure, encouraging both strength and lightweight results.
+- this on the other hand does have a pure carbon fibre monocoque hull existing only to channnel air for streamlining purposes, providing little defence in the form of armour against most ship mounted weapons.
+- the only exception to this is the exposed underbelly of the ship where a skin made of separate sathium/steel plating as ablative armour is present to protect the otherwise vulnerable core and RCS systems.
+- The ship is designed to take some hits and does part seperation/redundacy but mostly achieves this ability to soak up any damage via a shiled generator and associated components.
+
+
+Performance
+
+- all engine design - extreme lightweight carbon fibre highly streamlined hull design saves weight immensely - engines attach to engines with only heavy sathium steel protecting the core systems.
+- both the carbon fibre skin and ablative armour around core are extremely aerodynamic, shaping reduces drag.
+- greatly reduced fuel consumption results allowing gretaer ranage, airtime and also room for pentaxid and ammo.
+
+
+Features Summary:
+Player unlock level 20, semi inexpensive, few rare resources, CPU Tier 4
+reduced-hull/Engine-centred Frame, 4 laser cannon, 2 137mm homing missile launchers, low slung cockpit design
+O2, high capacity [?] redundant ammo setup, convertible to partial cargo storage
+short range detector
+Sathium Steel Ablative armour surrounding core systems
+Extreme speed/manoeuverability and extra heavy thrust for chasing down enemy craft
+Fairly inexpensive and requires few rare resources
+shield/chargers
+pentaxid/fuel
+Highly aerodynamic/low drag - combined with massive lift from atmospheric acting wings allows for long range/long air time
+
+I hope you enjoy!
+
+
+Please see my workshop, Mining rigs and other vessels amongst other creations. Link at top of this post. Thanks!
+
+═════════════
+
+
+
+========================================================

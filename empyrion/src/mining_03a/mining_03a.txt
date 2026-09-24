@@ -1,0 +1,44 @@
+========================================================
+
+woflcorp. Military & Induustrial: Mining and Forestry - Mining Platform 03a
+
+=========================================================
+
+Size Class 1
+Unlock lvl 15
+CPU Tier 1
+
+compact mining rig 03a is a small footprint, low build time base to support an autominer site with teleporter, defences and solar power.
+
+houses one autominer in situ allowing easy ore collection in safety
+- accessible from ship by landing pad or on foot by teleporter
+- easily upgradeable weapons and power
+
+cheap, fast factory build:
+- low cpu, only Tier 1 [1 extender in blastdoor protected housing] - low on exotics
+- mostly concrete and steel; main exotic cost is teleporter
+- low on sathium
+
+solar power extends operating up time to 200+ hrs fully fuelled:
+- [generator boost auto kicks in for teleporter - only runs a small generator continuously which consumes little fuel]
+- all generators and fuel tanks underground
+- extra storage for spare fuel for both autominer, base and various other items
+
+- armoured enclosure for autominer
+- access to autominer from teleporter without exiting armoured enclosure
+- core separate from autominer keeps mining safer - part separation
+- core and extender protected behind blast door block, embedded in concrete
+
+1 x sentry gun
+2 turret emplacements;
+[designed for: 1 x gattling turret, 1 x flak turret]
+all with full view of approaches to autominer and core locations
+- design results in only nitrocellulose, steel and magnesium required to manufacture ammo
+- can survive basic 3 - 4 drone /1 - 2 troopship attacks unsupported
+- large ammo box
+- retractable ramps to ground to make ground troop boarding harder, also keeps away predators
+
+- long distance high visibilty graphic projection for location from HV/SV/CV in day or night
+- floodlit for 24hr operation
+- player accessible tower for viewing and sniping
+- all areas accessible for easy repair/maintenance/upgrade
