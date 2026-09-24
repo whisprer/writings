@@ -1,0 +1,329 @@
+Chapter One: The First Descent
+
+The first thing Kira noticed was the silence.
+
+Not the kind that came with solitude, or even the heavy hush before a storm. This was deeper. Ancient. Like the tunnels were swallowing even the memory of sound. Her boots crunched lightly on ash-packed soil as she adjusted the flickering lantern strapped to her chest rig. The beam cut through the chalky dark like a scalpel, revealing walls etched with strange grooves. Not carved. Grown. Like the rock had once been alive.
+
+She paused, brushing her gloved fingers along the groove. It pulsed faintly, just for a moment. Or maybe that was her heartbeat playing tricks again.
+
+The air was cold, but not dead. It moved subtly, like lungs breathing just out of sync with her own. She’d been warned about this place. Maps refused to hold their shape here. Compasses spun. Signals bent. They called it the Lariat, a twisting spinal corridor of the deep-Down cities, where tunnels bred more tunnels like fungal veins.
+
+She descended slowly, counting each step, 3-2-1, then resetting. A rhythm she’d learned from the Old Diggers, the ones who remembered the collapse. Back when the surface still flickered with green and cities hummed instead of moaned.
+
+Ahead, the corridor forked—three ways. None marked.
+
+Kira flicked a coin—an old transit token punched through with someone’s initials. Heads for left, tails for right, edge for center. She flipped.
+
+The token landed in her palm.
+Edge.
+
+She sighed and walked forward.
+
+The center tunnel narrowed quickly. She had to duck, then crawl. The air tasted of rust and something floral underneath. Like wilted lavender.
+
+After forty feet, it widened into a spherical chamber. A dome, half-natural, half-melted. The walls shimmered slightly, like oil on black stone. At the far side stood a figure. Not a person. A shape.
+
+It was holding a lantern identical to hers.
+
+Kira froze. Her own beam flickered. The shape’s light mirrored hers exactly.
+
+Not a shape.
+
+A reflection.
+
+There was a mirror embedded into the far wall. But it was too perfect. Too clean. No dust. No cracks. Just her—standing alone in the dark, staring into herself.
+
+Only, in the reflection, her lantern wasn’t flickering.
+
+Kira stepped closer. The mirror’s surface rippled slightly, like water filmed over ice.
+
+"Are you lost already?" a voice asked.
+
+She spun.
+
+No one behind her.
+
+The mirror shimmered again.
+
+The reflection smiled.
+
+
+
+Chapter Two: Mirror Logic
+
+//FLASHBACK INTERLUDE: [Data Fragment Recovered — DJ SIMINA: Live @ DerinKura Vaults]
+
+"...rhythm is error, rhythm is error...
+The more you loop, the less you know. Blood in the firmware, mother in the delay line.
+This next track’s called ‘Echo-10's Regret.’ Get ready to bleed."
+
+Subbass. Reverb like falling through rusted rebar.
+The crowd’s scream collapses into machine noise.
+
+//End Fragment//
+
+—
+
+Kira blinked, hard. The reflection was gone.
+
+The mirror had dulled, its once-liquid surface now matte and pitted like volcanic glass. Only the tunnel behind her remained—narrow, unfriendly, real.
+
+“Echo hallucination,” she muttered, not fully believing it.
+
+She tapped her lantern, twice. The flicker steadied. She turned back, and made note of the chamber—marking it with an old synth keycap she’d kept on a necklace since she was twelve. A cherry MX red. A talisman.
+
+As she ducked through the far side of the dome, the passage sloped downward sharply. The air thickened with static. Her tongue tingled. Somewhere below, a low bass throb vibrated through the stone. Not natural.
+
+Another Vault.
+
+Kira’s hands moved by memory: tapping the transponder at her wrist, syncing its pulse to her own heartbeat. She whispered the old digger’s creed: “Three steps down, never turn, always breathe.”
+
+The tunnel opened.
+
+This Vault was larger than the first—its ceiling shaped like an inverted bowl, lit dimly from embedded phosphor veins. Stalactites dripped from above, each one capped with scavenged light fixtures: twisted desk lamps, broken neon tubes, a streetlamp whose ID tag still read Brooklyn Transit Authority. A strange glow painted the room in sickly greens and purples.
+
+In the center: a console.
+
+She knew this shape—half rackmount, half altar. Seven rotary dials. Analog. The kind of control surface you’d see on a vintage modular, only these were etched with symbols no one had translated. Kira approached carefully.
+
+Something whispered from beneath the surface.
+
+Not speech. Feedback.
+
+She reached toward the leftmost dial. Her fingertips tingled as they neared it, hairs on her arm lifting like static was brushing her soul. She turned it one notch clockwise.
+
+Silence fractured.
+
+*"...lostchildsignalnoise//filtercompromised...Sibilant beta-load active...echoes coming through..."
+
+The voice was mechanical, strained. A harmonic collapse folded in on itself.
+
+Kira froze. Her mouth tasted of lavender again.
+
+Behind her, another passage groaned open, like stone reluctantly parting for her arrival.
+
+She exhaled slowly and stepped into the dark.
+
+—
+
+//FLASHBACK INTERLUDE: [Private Msg Log, 4.29.70 AE — Doorsman Ash → Nya]
+
+“Still dreaming of her? You should stop. The tunnels don't forgive sentiment. They just turn it into architecture.”
+
+“Everything echoes eventually.”
+
+
+Recovered Audio-Myth Fragment // SIMINA_GRIGORIU_ECHO-10_SET.vaulthex
+
+Metadata (Partial):
+
+Date: [Unknown] (Pre-Collapse?)
+
+Location: Vault-Hex Node 7b // Love Valley Sub-Atrium
+
+Format: Layered A/V synthesis (GLYPH+MOD+AUD)
+
+Status: Partial Corruption Detected
+
+[Track Listing — Sequence Order Undetermined]
+
+1. “Feedback Queen in 7/8 Time”Patch includes: Dust synth + rustmod + low-gloss shimmerloop
+Lyrics (reconstructed):"She drinks from broken coils / Static woven into grace / Feedback was her dowry / Silence was her veil."
+
+2. “Sibilant (Beta Mix)”Sidechained to pulse of ancient ventilation shaft. No known tempo."Sibilant through the teeth of stone / Spits out gods / Eats their bones"
+
+3. “We Are the Doors (Closed Mix)”Rumored to contain embedded passphrases for Doorframe subnetwork.Includes reverse percussion layer sampled from subway derailment in Brooklyn, NY.
+
+4. “Tears in the Firmware”Glitchwave ballad — corrupted chorus repeats:
+"who wrote the mother / who wrote the mother / who wrote the—"
+
+5. “Vault-Hearts & Vent-Love”Remix of field recordings from Derinkuyu undercity. Time signature drifts every 32 bars.Features guest vox from “Seraphene.exe,” believed to be early AI-borne ghost.
+
+6. “Echo-10’s Regret”Final track. Starts with raw oscillator burst, ends with distant weeping.No confirmed origin. Possibly not human-made.
+
+Visual Track Notations:
+
+Glyphs 13 through 21 appear in rhythmic pattern resembling pre-collapse sheet music, but written using Doorframe clan cipher.
+
+Use of mirror-symmetry and recursive fractal tiling.
+
+Frame-locked image: A woman dancing in negative space, body composed of glitch-static and rotating symbols (some match known Doorsmen iconography).
+
+NOTES FROM ARKIVE TECH / AUDIO CURATOR ‘NYX’:
+
+Several tracks induce physiological response even without audio playback. Heart rate variations recorded.
+
+Playback above 33% gain may cause echo hallucinations.
+
+Recommend restricted circulation to avoid triggering dormant clan-embedded mnemonic infections.
+
+This is not just music.
+
+// END FILE //
+
+
+
+Chapter Three: Nya of the Mirrors
+
+Nya never slept fully. She dreamed sideways—glancing off the edge of consciousness like a record skipping in slow gravity.
+
+Tonight, the dreams were wet.
+
+Not rain. Not blood. Just wet. Something slipping past skin and reason. She lay motionless on a sheet of mossgrown synth-fiber, in a chamber shaped like a chalice carved upside down into the earth.
+
+Above her, the mirror was breathing.
+
+Its surface—half-metal, half-forgotten—undulated like it had lungs. It had watched her since she was a child. It had taught her her name. Not the one the clan used. The other one.
+
+Niyazhara.
+
+She Who Folds Echoes.
+
+They didn’t know that. Ash didn’t know. Not even Kira.
+
+Not yet.
+
+A low chime echoed through the vault. Three tones, each a minor second apart. The chime meant someone had accessed the old system again.
+
+Echo-10 was awake.
+
+She sat up, the sheet clinging to her like regret. Reaching into the alcove beside her, she retrieved the tuner—an ancient, jagged object the size of a fist, its surface etched with mod-wheel glyphs and switch-click runes. The tuner whispered when handled. It responded only to certain bloodlines. Hers was one.
+
+"Tell me who," she murmured to it.
+
+The tuner vibrated. A hiss of static resolved into a pulse.
+
+Kira.
+
+Of course. The girl with the cherry keycap. The girl who walked without echo. The girl the Doorsmen once called the Thresholdling.
+
+Nya exhaled sharply. The chamber shifted around her in response, its walls adjusting like a lung realigning ribcage. Her clan's vault was alive. Semi-conscious. A parasitic architecture grown from old vaultcode and warmblood dreams.
+
+The Sibilant had shown her how to feed it.
+
+From the far wall, vines of light slithered outward, forming a shimmerfield that revealed her war map: the clan network, the Doorsmen’s fading choke points, the broken corridors, the pulse of gossip, scent-trails of betrayal.
+
+Kira’s pulse flickered there—low, cautious, determined. Walking straight toward the vault-heart.
+
+“Why now?” Nya whispered.
+
+The mirror above her pulsed.
+
+"Because the music is almost over," it replied.
+
+Her chest ached. She hadn't heard that voice in years. It was her mother’s. Or what the vault believed her mother might've sounded like. Memory fed through corrupted stems and broken reverb. Beautiful lies.
+
+Nya stood, clothed herself in layers of soft sensorweave and clasped her cloak of fiberoptics. Her fingers paused on the clasp—an old subway token, drilled and polished. Kira’s twin.
+
+They’d once traded them in secret.
+
+They’d once shared more than names.
+
+Nya turned to the tuner and twisted its core dial. A deep harmonic filled the vault. A call. An invitation. A warning.
+
+“Meet me at the center, love. If you still know where that is.”
+
+
+**Chapter Four: Center Harmonics**
+
+The sound reached Kira before she knew it was sound.
+
+It came as a warmth behind her eyes. A pressure at the base of her neck. A note so low it felt like it was being played on the architecture itself. Her boots halted on reflex, skidding slightly against the moss-slick basalt. The walls of the corridor trembled in resonance.
+
+She closed her eyes.
+
+Not fear. Recognition.
+
+The harmonic.
+
+Nya’s harmonic.
+
+Kira had felt it once before—years ago, in the Hushed Atrium, the place their clans had once agreed was neutral ground. They'd sat back to back, wiring obsolete interface boards into living root-nodes. Every time Nya turned a dial, Kira would feel it. Not in the ears. In the lungs.
+
+Back then, it had been a game.
+
+Now it was a summons.
+
+Her breath hitched as memories breached:
+- The scent of burning lavender and metal.
+- The pulse of fingers ghosting along her collarbone.
+- Two tokens, warm from being pressed too long in palms that didn’t want to part.
+- The mirrored promise of “Later,” whispered into darkness.
+
+Later had finally arrived.
+
+Kira pressed her hand to the vault wall. It pulsed once, like a slowed heartbeat. The harmonic was bouncing off internal chamberwork—refined, aimed.
+
+She wasn’t the only one listening.
+
+The Doorsmen would’ve noticed. And others. Worse things.
+
+She turned back toward the console chamber and activated the node she’d left dormant. A spiderweb of filaments lit up around her, forming a directional bloom—the center was east-by-northeast, beyond the spine of the Lariat, past three dead sectors and a collapsed commuter tunnel known only in code as *SPOKE-Z9*.
+
+Kira flexed her gloved fingers. Her hands were trembling, but not from fear.
+
+From memory.
+
+She opened her pack and pulled out the second token—the one Nya had given her. Still polished. Still drilled through. She slipped it into the slot of her lantern. The light pulsed to match the harmonic.
+
+A synced path.
+
+She exhaled and began to run.
+
+Her footfalls kept rhythm with the call.
+
+> *Step-step-breathe. Step-step-call.*
+
+The center had once meant trust.
+
+It meant betrayal now.
+
+But she was still going.
+
+
+**Chapter Five: Ash Beneath the Sigil**
+
+**[Doorsmen Lore Fragment: The Pilgrimage of Five Veins]**
+
+> *Before the Citadel split, before Vaultsong turned to rust, a pilgrim was chosen by silence. The Five Veins pulsed only for those who could hear the Fold beneath all echoes.*  
+> *First was the Vein of Hunger—those who needed truth more than comfort. Second, the Vein of Sight—those who stared into mirrors and saw nothing false. Third, the Vein of Filth—those who crawled through the waste and brought back something holy.*
+> *Fourth came the Vein of Memory—those whose pain kept the tunnels alive.*
+> *And last, the Vein of Choice—those who stood still while all others ran.*  
+> *The Doorsman is forged at the junction of all five.*
+
+---
+
+Ash stood in the gloom, perfectly still.
+
+The ancient sigil on the wall before him—half-eaten by mold, half-carved by something not quite human—flickered under the dull throb of his chest-lamp. He didn’t need to read it. He had it memorized. It was branded behind his eyes.
+
+The Pilgrimage had not ended. It never really did.
+
+Ash had walked each of the Five Veins once. That was the cost of being chosen. But unlike the others, he had returned. Not whole. Not sane. But returned nonetheless. The Doorsmen didn’t believe in completeness. They believed in persistence.
+
+He checked the pulseboard affixed to his wrist—seven pulses spiking irregularly. Kira’s harmonic had rippled through all known junctions. Nya’s tuner-call had amplified it. And now the Vaults were awake in ways they hadn’t been since the Glitch Wars.
+
+He sighed through grit-stained teeth.
+
+“Of course they’re both heading to the center,” he muttered, voice low and gravel-thick.
+
+Ash had always known this day would come. He’d seen it in dreams not his own—visions laced into his thoughts by Echo-10 during the *Test of Filth*. You don’t survive that Trial without bleeding into something else. Something ancient.
+
+He touched the handle of his weapon—a relic blade made from a subway rail, etched with seven clan glyphs and coated in a biofilm that sang when close to betrayal. It hadn’t sung in a long time.
+
+It was humming now.
+
+Ash knelt before the sigil, drew his blade, and tapped the hilt against the stone three times.
+
+> *Thunk. Thunk. Thunk.*
+
+The wall groaned and retracted, revealing a pitch-black descent shaft. No lights. No ladder. Just soundless vertigo.
+
+Ash stepped into it without hesitation.
+
+Falling.
+
+Descending.
+
+Becoming.
+

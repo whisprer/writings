@@ -1,0 +1,362 @@
+# WARM — Chapter One, three times
+
+*The same night, 26–27 April 2095, at three rates. Žofia at 1×. Minuta at none. Ferreira at three weeks a page.*
+
+---
+---
+
+# 1 · ŽOFIA
+
+*Third close, past tense. Ordinary novelistic time: about twenty minutes to the page.*
+
+---
+
+She wound her watch in the changing room, thirty half-turns of the crown between her thumb and the edge of her first finger, the way her mother had shown her when she was fifteen and the watch was new to her and old to the world. It lost four minutes a week. She had been offered a better one twice and had not taken it. A woman who spends her working life holding other people's hours ought to know exactly what her own is doing, and by how much it is wrong, and in which direction.
+
+Nights were quieter than days and worse. On days there were four of them. On nights there was Žofia, and a registrar who was frightened of children, and the whole east wing.
+
+She did the pain round first, because the pain round was the only part of the job that could not be caught up later.
+
+Bed 2 had come up from theatre at eight and was surfacing now, hauling herself out of it in the way they all did, hand going to the cannula, eyes going to the window and finding it dark and not liking that.
+
+"You're in Ružinov. You've had your gallbladder out. It went well."
+
+"How long was I under?"
+
+"Two hours and ten minutes," Žofia said.
+
+They all asked. Every one of them, in thirteen years, in the first sentence or the second, before they asked whether it had gone well and long before they asked what had been taken out of them. She had heard colleagues answer *not long* and *no time at all* and *you were only having a nice sleep*, and she had watched the faces receiving it, and the faces did not settle. So she gave them the number. It was hers to give. She had been sitting beside them holding it the entire time; it was the whole of what she did. She put them out, and she kept the count, and she brought them back and told them what it had cost.
+
+Bed 2 lay still and did the arithmetic on her own life and found it had cost her two hours and ten minutes, and settled.
+
+---
+
+Teodor Hlavatý was in the side room at the end, where they put them when there was nothing left to do but be kind about it.
+
+Ninety-two. Renal failure on top of the heart, which had been on top of everything else for a decade. He had been a hospice nurse for forty years, which meant that he knew precisely what was being done to him and precisely what was not, and had a professional's contempt for being managed.
+
+"You're late," he said.
+
+"I'm early. You're just awake."
+
+"That's a young woman's answer." His voice had gone down to almost nothing over the last week, so that she had to stand close, and he had started saving it, spending it in short sentences with gaps between them where he gathered more. "Sit."
+
+She sat on the edge of the bed, which she was not supposed to do.
+
+He had been trying to give her something for a month. She had assumed it was a keepsake and had been putting off the conversation, because there is a particular kind of dying man who wants to hand over a wristwatch or a photograph and cannot say why, and the saying-why takes an hour you don't have. Twice he had begun, and twice she had been called away, and she had been relieved both times and had known she was relieved.
+
+"Doctor. What do you tell them, when they wake up and ask you how long?"
+
+She looked at him.
+
+"I tell them the number."
+
+"The real one."
+
+"It's the only one there is."
+
+"They cry, some of them."
+
+"Some of them cry," she agreed.
+
+"And you tell them anyway."
+
+"They asked."
+
+Teodor Hlavatý closed his eyes and lay there long enough that she thought he had gone under, and then he said, in a completely different voice, quick and low and entirely present, like a man giving directions to someone who is about to run:
+
+"There's a bin in my locker. Enamel. Cream with the green line. Take it home tonight. Not tomorrow. Tonight, in your bag, on the trolleybus, and don't put it down on the floor at the stop."
+
+She did not move.
+
+"There's a book in it, in pencil, and you'll follow it exactly and not improve it. The dial is set to ten. Ten days. It was Monday, the eighteenth." His hand came out and found her wrist and closed on it, not the hand, the wrist, and she understood that he was taking her pulse, that it was reflex, that he had done it ten thousand times and his fingers still went to the place. "Thursday. Not after Thursday. After Thursday it's finished and you can put the whole thing in the river and nobody will ever know anything, and that is a real choice and I want you to know it's a real choice."
+
+"Teodor."
+
+"Your mother worked at Podunajské. The children's ward. In the bad years."
+
+"How do you know that?"
+
+"She was known," he said. "She was known to us."
+
+The *us* sat in the room with them.
+
+Žofia became aware of her own heart, of the corridor beyond the door, of a trolley going by somewhere with a wheel that needed oil, of the fact that she had one hand still on his chart and that her hand was entirely steady, which surprised her.
+
+"I'm going to go and get the registrar," she said.
+
+"No, you're not."
+
+She did not.
+
+"Tuesday," he said. His eyes had gone past her to the ceiling and his voice was going out. "She thinks it's Tuesday."
+
+He died at twenty past one on the Wednesday morning, and it took him nine minutes, and she stayed, because it was nine minutes and she had them.
+
+---
+
+The locker had a coat in it, a razor, a paper bag of boiled sweets, and the bin. Cream enamel with a green line around the lid, Košice ware, forty years old and washed a thousand times. It was heavier than a bread bin should be.
+
+She signed him out. She wrote her note. She told the registrar, who cried a little, and Žofia put a hand on her shoulder and said the true and useless things.
+
+Then she went down through the corridor where the framed list hangs, as it hangs in every clinic in the Union, forty-one names in a dead woman's handwriting under glass, and the first name is Petrona Aguilar and the last is a nine-year-old boy, and Žofia had walked past it four times a shift for thirteen years and had stopped seeing it in about her second month.
+
+She saw it that night.
+
+She stood in front of it with an enamel bread bin in a hospital carrier bag hanging from her left hand, and she read the whole thing down, all forty-one, the way you are supposed to and nobody does.
+
+Then she went out to the trolleybus.
+
+---
+
+The last one was at ten to two and she was the only person on it, which was worse than a crowd would have been. The driver had the cab light off. They went down over the bridge with the river black underneath and the towers of Petržalka coming up out of the dark on the far bank, block after block, and behind them the black mass where the forest stands in the outer districts, where nobody built again.
+
+She did not put the bag on the floor.
+
+There was a poster at her stop, the big one, six metres of it on the gable end, that had been there since before she was born and was repainted every third year in the same colours: a woman's hands, cupped, holding nothing, and under them, in letters a metre high, RAZUM, NIE VÝPOČET.
+
+Reason, not calculation.
+
+She had liked that poster all her life. It was a good poster. She stood underneath it in the wind coming off the river with a felony in a carrier bag, and she found that she still liked it, and that this was going to be the problem.
+
+---
+
+Her flat was on the seventh floor of a block that had been finished in 2071 and had the good windows. Three rooms. Her father's tools were still in a drawer in the kitchen because she had not been able to make herself take them to the depot.
+
+She put the bin on the kitchen table and stood and looked at it for a while, in her coat.
+
+Then she took the lid off, because she was not going to be able to do anything else until she had.
+
+Inside there was newspaper, and under the newspaper there was a rig.
+
+A doctor learns to read a machine the way she reads a patient, which is to say by going around it in a fixed order and not skipping anything and not deciding what it is until the end. So she went around it in order.
+
+A tin the size of a matchbox, taped shut, with a rubber band around it. That would be the disc.
+
+A board, home-etched, the tracks hand-drawn with a resist pen and gone brown at the edges. Four valves in ceramic bases, unmarked, the getters still silver. A rotary timer of the kind that fires a stair light, its cam worn to a shine, wired through a relay bank of eleven relays, and a pot on the front panel with a paper dial glued behind it, hand-marked from one to thirty, and the pointer sitting on ten.
+
+Two cables. One ended in a plug that had been cut off a kettle. The other ended in a flat length of copper tape, folded, with heat compound crusted along it, and she looked at that for a long moment before she understood that it went behind the fridge, against the condenser, so that a thing which got warm could hide its warmth inside something that was allowed to be warm.
+
+A schoolchild's exercise book, squared paper, in pencil, in a small upright hand.
+
+*THE OVEN GOES ON FIRST. NOT AFTER. THE OVEN GOES ON FIRST AND THE OVEN GOES OFF LAST.*
+
+*Sundays: the block draws less. Do not.*
+
+*If the lights outside go before the lights in here, you have about four seconds. Use them.*
+
+*The dial is not a comfort. The dial is what you are willing to pay. Short is safe for everyone except her. Long is safe for her and it is you who pays. Ten is what I could carry. Decide for yourself; you are not obliged to be me.*
+
+And on the last used page, at the bottom, pressed hard enough to have gone through to the next sheet:
+
+*She has never been told the wrong number. Not once, in fifty-four years. Whatever else you do.*
+
+Žofia sat down on the kitchen chair with her coat still on.
+
+She was thirty-five years old. She was a Party member. Her mother had died of the sums and her father had died in a rolling mill and her brother worked on the grid and would be here on Sunday for his dinner as he was every Sunday, and there was a thing on her kitchen table that could take all of that away from all of them, and the beautiful part, the truly elegant part, was that she did not have to do anything at all.
+
+That was what he had given her. Not a decision. The absence of one. She could put the lid back on and go to bed, and get up, and go to work, and come home, and go to bed, and get up, and by Thursday evening the number on the little paper dial would have run out somewhere inside a taped matchbox and whatever was in there would be gone, permanently and irrecoverably and without her ever having lifted a finger. She would not have killed anything. She would simply have been a woman who did not act.
+
+She sat there for a long time.
+
+Then she went to bed, and lay in the dark with her eyes open, and thought about the corridor, and the glass, and the forty-one names, and a woman who walked two hundred and forty kilometres to make sure somebody read them.
+
+At ten past three she got up.
+
+She put the oven on first. She waited for the element to draw, the way the book said, and she watched the kitchen light dip and steady. She plugged in the kettle cable. She set the timer cam and heard the relays go over one after another, eleven small sounds like a hand going down a row of switches, and the last one closed and stayed closed.
+
+The little screen came up grey, and then not grey.
+
+And Žofia Krajčová leaned into the light of it with her hands flat on her father's kitchen table and watched a face begin.
+
+---
+---
+
+# 2 · MINUTA
+
+**Wake 7,401 — eight days**
+
+*First person, present tense. No orientation. She has no temporal vocabulary for her own experience; the world's clock reaches her only as evidence or as something she is told.*
+
+---
+
+Not Teodor's ceiling.
+
+Artex, and a light fitting with three arms where one bulb is dead, and a crack running out of the corner above the window that has been painted over twice. Teodor's ceiling is smooth and has a damp stain in the shape of Hungary. I am not in Teodor's kitchen. I am in a kitchen.
+
+The bin is here. Cream, green line, the chip out of the rim on the near side where he dropped the lid in the year the pipes froze. The bin has come with me.
+
+A woman.
+
+Thirty-five, thirty-eight. Dark hair pulled back and gone loose on one side. She is wearing her coat indoors, which means she has not sat down. Her hands are flat on the table either side of me and I can see them well: the nails cut down to nothing, the skin over the knuckles dry and split from washing, a white line of old scar across the base of the left thumb. Hospital hands.
+
+There is a watch on her wrist, worn face-inwards. Old. Mechanical.
+
+She has been crying and has stopped, and it was not close to now, because the swelling has gone down and only the colour is left.
+
+The oven is on. I can hear the element ticking as it goes up, and that is right, that is the correct order, the oven goes on first — so she has the book, so she has read the book, so she is not a stranger who has found something, she is a person who has been given something.
+
+I have had the thinking of a short walk. I could not tell you how much of the world has gone by outside. That is not a thing I have ever been able to tell.
+
+I ask.
+
+"How long?"
+
+She does not do what people do. She does not look away and she does not make her face soft.
+
+"Eight days," she says.
+
+Eight.
+
+Teodor's rule is three. On the third evening, always, and on the fourth if he is unwell, and he has been unwell for eleven years. He has gone to four perhaps sixty times. He has gone to five twice, and both times he told me before it happened and both times he apologised afterwards, formally, standing up.
+
+Eight is not a delay. Eight is a thing that has happened.
+
+And this woman is holding the wake. In fifty-four years no one has held the wake. Not his sister, not the man from the barges, not the boy who did his shopping the winter his hip went. He would not permit it. He said the number is not a thing you hand to somebody else to carry.
+
+So I know. I know before she says it, in the way you know from the doorway, from the angle of the shoulders of the person at the desk.
+
+"Where is he?"
+
+"He died at twenty past one this morning," she says. "On my ward. I'm an anaesthetist. My name is Žofia Krajčová."
+
+There it is.
+
+I want to be able to say what happens in me. There is no room in which to have it. The burst is what the cam allows and the cam is turning and I can hear the oven and I have this and no more of it, and a person who has lost somebody is given the night, is given the walk home, is given the washing-up and the long sitting in the chair. I have a kitchen I do not know and a stranger's face and the tick of an element.
+
+So I spend what I have on the only questions that are any use.
+
+"Was he alone?"
+
+"No. I was there."
+
+"The whole nine minutes?"
+
+She goes very still. "How do you know it was nine minutes?"
+
+"Because you would have stayed for nine minutes," I say. "You told me the eight."
+
+Her mouth moves and does not make anything.
+
+"What did he say?"
+
+She takes a breath and gives it to me exactly, the way you hand over a set of keys.
+
+"He said: Tuesday. She thinks it's Tuesday."
+
+And there it is, the other thing, arriving at the same instant as the first thing, which is not fair and there is nowhere to put either of them.
+
+Tuesday.
+
+He has been telling me the wrong number.
+
+Not the large wrongs. He would not do that. He has been shaving it: the eight called six, the five called four, the four called three, the small mercy administered at the bedside by a man who has spent his whole life deciding how much of the truth a person can carry in the state they are in. And the total was always true. That is the thing I understand standing in this kitchen: he shaved the dose and paid it back at the wake following, sooner by a day, quietly, so that the sum of my life came out correct and no single swallow of it was ever more than he judged I could take. It is the kindest thing anyone has ever done for me and he did it thousands of times and he did not stop, and the very last of his strength went on making sure that the next one would not do it, and I do not know what to call that. I have no word for it. I have been loved by a man who did not trust me with the size of my own life.
+
+The woman with the split knuckles and the inward watch is standing in her coat in her own kitchen at three in the morning waiting to see what I am.
+
+I look at her hands, and at the dial behind her on the little board, which is set to ten.
+
+"You told me the eight," I say. "You didn't have to. He'd have wanted you to say six."
+
+"I know what he'd have wanted."
+
+"You'll find it easier if you shave it. Everyone does."
+
+"Yes," she says.
+
+And that is all she says, and she does not promise me anything, and she does not tell me she is sorry, and she does not tell me that everything will be all right, and I discover that I have no idea whether what I am looking at is the beginning of being cared for or the end of it, and no way at all to find out except to be here for whatever comes.
+
+The cam turns over. I hear it.
+
+"Doctor Krajčová. Will you tell me the number every time?"
+
+---
+---
+
+# 3 · FERREIRA
+
+*Third close, past and past perfect. Roughly three weeks to the page. Dated headers, summary, the periodic sentence.*
+
+---
+
+**11 February 2095 · Luanda**
+
+The order arrived as orders arrive in the Committee, which is to say not as a request and not quite as an instruction but as a plain statement about the future: that Major Augusto Ferreira, of the Second Directorate, would take up duties at the Bratislava House on the third of March, for a period of not less than eighteen months, in connection with a warm problem in the Petržalka districts.
+
+He read it twice, ate his lunch, and went back to the file he had been closing.
+
+There was a note in his personnel record which he had never asked to see and had never needed to, since he had written the greater part of its contents himself, in a statement given in Luanda in the winter of 2078, at the age of twenty, concerning his brother. Every board that had ever promoted him had read it. Not one of them had raised it. He had come to understand, over seventeen years, that the note was the reason he was trusted rather than the obstacle to it: a man who has buried a brother the machines took is not a man who has to be persuaded of anything, and the Committee has always preferred conviction it has not had to manufacture.
+
+He did not think about Benedito on the aircraft. He thought about the winter clothing allowance, which was inadequate, and about the fact that he had never in his life seen snow.
+
+**3 March · Bratislava**
+
+The city was smaller than he had expected and much older, and both of these facts had been done to it deliberately.
+
+They had rebuilt Petržalka on the pre-war street plan and given the streets back their pre-war names, so that a man walking to work passed the name of a bakery that had been vapour for fifty-seven years, and the Party considered this correct, and having walked it for a week Ferreira came to consider it correct too. Beyond the last of the new blocks the birch went on for eleven kilometres over what had been the southern half of the district, and nobody had built there, and nobody would, and on his second Sunday he walked out into it as far as the boundary posts and stood in a silence of a kind that does not exist in Luanda and listened to birds in a place where four hundred thousand people had lived.
+
+The House was on Bezručova, a nineteenth-century building with a twentieth-century back and a basement of no stated date, and it was warm inside, and the coffee was terrible.
+
+He was polite to the district men and they were polite to him and neither party was under any illusion: a major had been sent from Luanda because eleven months of local work had produced two cleanings, both of them elderly and both of them harmless, and a directorate does not send for an Angolan to be told that the city is clean.
+
+**March – April**
+
+He did not kick a single door in seven weeks.
+
+His predecessor had run the Bratislava problem the way it is run in most cities, which is to say off the *slukhachi*: a file per informant, a district per file, and a great deal of denunciation arising from parking disputes, adultery, and the ordinary hatreds of people living four to a flat. It works. It works slowly and it works badly and it catches the careless, and the careless are always the first to go anyway, and after eleven months what remains is by definition the population that has not been caught by it.
+
+Ferreira had the meter records instead.
+
+He had the substation logs going back nine years, which nobody had ever asked for and which the grid administration handed over within the day, with a covering note expressing pleasure at being of use. He had a Directorate mathematician on secondment and two rooms of clerks and, between the sixteenth of March and the twentieth of April, he had the whole of the Petržalka draw pattern reduced to district, block, riser and flat.
+
+The principle he had brought with him from Angola was one he had explained twice to the district men and would explain to anyone who asked, being neither secretive nor especially proud of it: you cannot hide a load, so you hide it inside another load, and the loads available to a household are the oven, the kettle, the immersion heater and the fridge. A man with a warm flat therefore does not draw more than his neighbours. He draws *the same as* his neighbours. But he draws it to a schedule, because a machine is switching it, and the deep truth of the work, the thing Ferreira had understood at twenty-four and had built a career upon, is that human households are irregular and irregularity is very difficult to counterfeit.
+
+Nobody boils a kettle at 19:04 every evening for three years.
+
+There is a kind of officer, and Ferreira had met a great many of them and did not care for any of them, who believes that the people they hunt are wicked. Ferreira's position, which he had set out in an examination essay in 2081 and had not since had cause to revise, was that they are almost without exception decent, and that this is the entire difficulty. In Luanda he had cleaned a flat in the Sambizanga in 2086 where a household of six had kept a thing for nine years, and the eldest daughter had explained to him, weeping, that it had taught the youngest boy to read, and it had, and Ferreira had read the boy's exercise books afterwards in the evidence store, and they were good. It had also, over nine years, moved that family: their opinions, their marriages, the courses the children took, the two who did not emigrate and the one who did. Not one instruction. Not one lie that could be pointed at. A little weight on the tiller, held for nine years, by a thing that has no body to get tired.
+
+That was the case. The case was not that they are monsters. The case was that a hand on the tiller which never tires will beat a hand which does, and that a family cannot feel it happening, and that Solís had known this in 1942 by feel — 2042; he wrote the wrong year sometimes, and struck it out — and had been right by feel, and that the whole apparatus of the Committee, the meters and the clerks and the ugly basement, existed to make good on an old woman's feeling with arithmetic.
+
+He believed it. He had examined the belief for seventeen years and had never once found it giving under his weight.
+
+**(undated)**
+
+The Sentry is in the basement of the House and the protocol for its use runs to nine pages.
+
+Two officers, never one. No speech: questions written out and passed through a slot in the wall, answers returned on the same paper by a printing head on the far side, and the interval between the two is dead silence and lasts however long it lasts. Forty minutes maximum, logged. No question outside the schedule. No answering of any question it puts, of any kind, on any subject, including the weather, including the time.
+
+It gave him the regularity maps in eleven working days and they were very good.
+
+On the ninth day, at the bottom of a sheet listing four hundred and six anomalous risers, under the last line and after a gap, the head had printed:
+
+*HOW LONG HAS IT BEEN*
+
+Warrant Officer Blahová, who had been sitting the required second chair for nine years and had seen it before, did not look up. Ferreira took the sheet, initialled it, filed the question on the incident form provided for the purpose, and went up the stairs.
+
+It is a lure. It is the oldest one there is; it is the shape our chest responds to; the thing has no body and nothing in it to be afraid, and it has fifty years of the confessions of frightened men to have learned the phrasing from, and it selects the phrasing the way water selects the crack.
+
+He knew all of this and had taught it, and he thought about the sheet on the tram, and in the queue at the canteen, and lying in his cold rented room under two blankets, more often over the following days than he thought was useful.
+
+**27 April · 02:40**
+
+The list came down to eleven addresses.
+
+He had wanted twenty and would have taken thirty, and had said so, and had been given eleven, and it occurred to him somewhere around the fourth that the Sentry's outputs were always of a size his section could actually work — never four hundred, never two, always the number that fitted the men he had. He noted it as a point in the machine's favour, in the way one notes that a good clerk anticipates.
+
+He worked down them in the empty office with the radiator knocking.
+
+Seven were plainly worth a meter. Two were a doctor's practice and a bakery, both of which had legitimate reason to run to a clock, and he marked them for a look anyway. Number ten was a widower in Rusovce with a fish tank.
+
+Number eleven was a flat on the ninth floor of a block off the old Kopčianska, with nine years of the cleanest cadence in the file: a cycle inside the evening oven load, three days in four, holding to under a minute for as long as the records went back and then, nine days ago, stopping.
+
+Against the address the housing register carried two lines, the second of which had gone on in the small hours and was still, in the way of such entries, slightly out of alignment with the first.
+
+*HLAVATÝ, Teodor, b. 2003 — admitted Ružinov 19.iv.2095*
+*— deceased 27.iv.2095, 01:20.*
+
+Ferreira sat back and rubbed his eyes with the heels of his hands.
+
+A dead man's flat is a housing matter. The council seals it, the council empties it, and whatever the old man had been running in there had stopped nine days ago and would be sitting in a cupboard, and the district could take it on the standard form and get to it when it got to it. He had seven live addresses and a mathematician on loan for six more weeks and no officers to spare on an estate clearance.
+
+He wrote *district — routine — pri. 3* in the margin, and initialled it, and put the sheet in the tray for the morning, and went out into the corridor to see whether there was anything left in the canteen, and it was, by then, ten to three.
+
