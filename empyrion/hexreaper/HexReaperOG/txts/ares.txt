@@ -1,0 +1,185 @@
+Settle down please, settle down...
+
+Ohhhh....kay.
+
+Gentlemen, may i have your undivided attention... ...please.
+
+
+
+This, you may recognise on the screen, as, the 'Ente' - an Ares class Battlecruiser.
+
+Specifically, _our_ Ares class battle cruiser, recently lost in battle in the Kirba system.
+
+
+
+This next mockup is our best guess at what is the new woflcorp. Military & Industrial "Fast Torpedo Heavy Stealth Class vessel, the 'Hexreaper'.
+
+...Looks suspiciously familiar doesnt it?
+
+
+
+Our 'Ente' sank very deep in an ocean in the Kirba system when it was lost in battle recently.
+
+It seems there may have been some sullduggery afoot.
+
+Specifically, we suspect woflcorp. industries has 'salvaged' the Ente and restored it. Better than before.
+
+
+You will notice... on screen right now it looks  quite harmless. There is no 
+great sign of big difference.
+No obvious weapon changes.
+No obvious extra armaments.
+No obvious extra armor.
+But, you will see quite soon there are 
+serious differences. We have to worry.
+
+Our ship went right to the bottom of a very very deep ocean. somehow it seems, they salvaged it. We have to be very, very wary.
+
+
+(these things don't usually float this much... 
+somebody's having a laugh, i ...think?)
+
+
+
+See the extra weapons mounts,  torpedo tubes, shield charger and capacitor exhausts, hangar access, upper armouring, _and_ you'll note it's now capable of very high speed in atmosphere and extreme planetary lift-off - i'll cover that more shortly and explain why.
+
+Either way this thing is even higher performance than our Ares class actually 
+was, and more manuoverable too. They've even added reverse thrusters to cope with the extra forward thrust so it can stop as fast as it takes off.
+
+
+
+As you see here the upper armour and torpedo doors are now extremely heavily boosted - it is very thick armor on the upper and front end. the weapons are all retractable for stealth - when everything is shut down it appears like an innocent research vessel to a short ranghe ping on a scanner and a deep scan and to visual glances.
+
+
+
+This next is footage from a spec ops spy drone that used quantum intereferometry to steal data from woflcorp. computers - you can see how immensely uprated the engines are not just to maximum for the Ares class but way beyond. Unfortunately the footage is not the best quality but you can see just about the amount of extra...
+
+...yes, you can make it out - there's some very, very large extra ducting and so on going on there. quite clearly a lot has been added.
+
+There's certainly more generators going on too to power all this - and probably a large amount of extra fuel, possibly even a fusion generator although we think they have not got that technology yet? spec. ops. can't be certain...
+
+
+
+So, overall, what we haaaaaave here is not just a very Fast, very Heavily Armed, very Heavily Armoured, very Heavily Shielded aned Potentially Stealthy PROBLEM, but also, a Very Big Problem at that.
+
+And we think they stole it off us.
+
+OK, we _know_ they stole it off us.
+
+The question is, "What are we going to do about it?"
+
+
+(...other than get some real footage not these crappy mockups - honestly our spec ops intelligence is useless i swear...)
+
+
+woflcorp.
+Woflcorp!
+WOFLCORP!!!
+...
+Ding!
+
+
+...
+
+
+**lost in ocean in Kirba system**
+
+
+CREATED BY
+
+Ente
+Offline
+See all 8 collections created by Ente and other people (some may be hidden)
+3,744	Unique Visitors
+1,257	Current Subscribers
+41	Current Favorites
+Subscribe to download
+Ares - Reforged Eden
+Subscribed
+IN 1 COLLECTION BY ENTE
+Battlefleet13 items
+DESCRIPTION
+Built for Reforged Eden 1.10!
+
+Type: Battlecruiser / Mid- to Endgame CV
+Core 9, 2.099.139 CPU
+Size Class: 7 (7,35)
+Unlock Level: 25
+
+Built for CPU and block limits
+
+The Ares is a heavily armored mid- to lategame Battlecruiser, that can have a large amount of turrets and shield upgrades for its size. It does come with a medium sized Hangar, but does not have Grow Plots and only little space for production.
+Mobility is initially only mediocre, but can be heavily upgraded. The ship will be able to eat Toveras without any problem, when upgraded. Initial layout is set up towards drones and mid-tier regular enemies.
+
+[RP]
+The Ares Class Battlecruisers quickly earned a fearsome reputation amongst enemies as well as amongst its crews. Firepower, mobility, automisation and defensive have proven to be a considerable step forward from older Designs within the fleet, tapping into experience from the Chimaera Destroyers while providing also much stronger shield and armor options. Battle records so far have been impressive and the Admirality quickly learned to depend on the capabilities of these battle powerhouses.
+
+The highly optimised design however comes at hefty cost in maintainabilty which often causes increased workload for its small crews. A workload, the higher reliance on automisation is only able to compensate in parts. A blatant disregard for workspace safety in the design also causes frequent accidents and injuries. A wrong step in an Ares class battlecruiser can quickly lead to a new scar and a painful way back to the medic facilities, if not worse.
+The absence of any sophisticated crew facilities (besides a booze-filled fridge), small storage, limited Hangar space and the lack of Hydroponics also means the Battlecruiser is limited in its ability to perform extended long range operations without the support of a Carrier.
+
+Whilst some dread service on the Ares, those that face the challenge often end up as some of the most versatile and hardened crewmembers of the Fleet, with the hardships often forging the small crews into highly cohesive 'families'.
+
+You have to be a certified Badass to survive the work and the booze-evenings in the cantina on this ship.
+
+Addendum: As per order of the high Admiral any shrines to 'the Machine' and comparable paraphernalia on Ares crews will no longer be tolerated and shall be disposed of immediately!
+[/rp]
+
+Upgrade possibilities:
+
+All the Thrusters
+Up to 2 additional fixed cannon weapons
+Up to 12 additional fixed Rapid Torpedo Launchers
+Up to 25 additional turrets
+2x fusion generators
+all small and medium shield upgrades, 6 XL upgrades
+1x Adv. Constructors
+1x Deconstructor
+Teleporter
+
+Upgrade Markers can be activated via the P-Menu
+
+Upgrade Showcase:
+https://steamcommunity.com/sharedfiles/filedetails/?id=3095433351
+
+Weapons:
+
+2x Artillery Cannon
+6x Adv. Laser Cannon
+
+
+Turrets:
+
+4 Minigun Turrets
+8 Laser Turrets
+4 Missile Turrets
+1 Positron Beam Turrets
+
+
+Equipment:
+
+1 Fridge
+1 Food Processors
+Long Range Radar
+1 Adv. Constructor
+Full Med Tools
+Equip. repair station
+multiple armor lockers and O2 Stations
+Advanced Shield + Advanced Warp Core
+Wifi
+
+
+Storage:
+
+2x320k Ammo Controller
+2x640k Storage Controller
+1x201k Storage Controller
+various cargo boxes
+
+
+Shield:
+
+Capacity: 17450
+Recharge: 300
+
+
+Some LCDs are modifications from sulusdacors LCD Library, so a big thanks to him for his amazing work!

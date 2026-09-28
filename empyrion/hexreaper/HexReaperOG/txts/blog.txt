@@ -1,0 +1,309 @@
+========================================================
+
+[h1]Making A Steam Workshop Submission; 'Empyrion: Glactic Survival' Blueprints.[/h1]
+[b]How to Publish and Update a Blueprint (In-Game)[/b]
+
+If you created a blueprint in-game, you may also want to publish it to the steam workshop.
+whether just to share your creations with friends or the public, to save your creations for posterity or to try and achieve the glory of becoming a star designer of vessels and bases.
+
+How to publish a blueprint to the steam workshop:
+
+-Open your blueprint library (F2) and select a blueprint
+-Click the PUBLISH button, check the visibility setting and hit PUBLISH.
+Your published blueprint will get a small raised "wrench" next to its SRC icon in the blueprint library list.
+
+If you made in-game changes to your already published blueprint and you would like to have these changes reflected in your blueprint available in the Steam Workshop, follow these steps:
+
+-Open your library and select the blueprint you want to update for the Steam Workshop
+-Hit "UPDATE" and set the visibility settings accordingly
+Either way: The game will display a notification on the top right when the upload (publish or update) is done.
+
+---Technical note: Publishing a new blueprint and updating will take a short amount of time to get recognized and processed by steam and the game vice-versa. The UPDATE button for this blueprint and the PUBLISH button for any other blueprint will be greyed out until this process has finished.
+Adding Infos and Pictures (Steam Workshop)
+Publishing a blueprint from within the game will only add basic details, like a thumbnail and the name of the blueprint. It's strongly recommended you take manual action on your entry in the Steam Workshop to spice it up.---
+
+but wait: there is so much more you can do!
+
+consider making your published submission more professional - heres how:
+
+========================================================
+
+you'll need to start by taking some fancy screenshots;
+
+-Make a nice screenshots of your vessel or base (F12)
+take lots of pics - you can then select the best of them after the fact:
+
+i. set fov
+ii. try using some of these console settings to get weather such as e.g. firerain via weatherinfo  
+or playing with other debug options like global time:
+
+- use ` for console controls
+
+di		Show/hide additional debug information				DI
+destroy		Destroys an entity of a structure [Moderator]			Destroy
+godmode or gm	Enables/disables 'god mode' [GameMaster]			GodMode
+playfield or pf	Reload the current playfield [Admin]
+prefabactivate	prefabinfo <blueprint name> - switches all powered blocks on	PrefabActivate
+prefabinfo	prefabinfo <user blueprint name> - shows infos about 		PrefabInfo
+		a user Blueprint (specify a name as listed in your Blueprint Library)
+setposition	Sets the position of an entity [GameMaster]	V		SetPosition
+or sbp		switches spawning of any blueprint to on/off.			SpawnAnyBlueprint	
+teleport or tt	Teleports you (and the ship you currently control - if any)	Teleport
+		to a given location or enables teleportation on map [GameMaster]
+undock		Undocks a specified SV or HV. Can be used if problems happen 	UnDock
+		with the undock
+weather		Activates a custom weather setting				Weather
+
+- also consider angles, lighting, engine flares, sun glare, water reflection, colourmatching/contrasting 
+- what to shoot - things like outside locations, inside locations, you'll need the stats pages via pressing [p] when looking at the vessel/base, then screenshot the general info, cpu usage and stats. 
+it's a nice touch to include separate shots of anything that varies with sep reforged/eden etc.
+
+previews on the steam workshop are real small so dont use screenshots where the item is too small/dark/hard to makeout/etc.
+
+========================================================
+
+next you need to choose which to use and do any editing:
+
+- goto screenshots path as detailed below;
+
+you will need path of the screenshot pics/thumbnails
+
+The simplest way to find your screenshots is directly through Steam. Launch Steam, click “View” in the top left, and then click “Screenshots.” Click the drop-down menu at the top to select a game's screenshots, then click “Show on Disk.” The screenshot folder will open automatically in a new window.
+
+For PC users the path is
+C:\Program Files (x86)\Steam\userdata\105430622\760\remote\[game id: 383120]\screenshots(\thumbnails)
+
+For Mac users, the default location is ‘Users’ > [apple id] > Library > Application Support > Steam. Note that the apple id here is your Mac username and not your Steam username.
+
+- choose the best screenshots and then:
+
+- you'll need to edit the stats and info screenshots slightly by zooming in and cropping the image to make thm as easy to read as possible. 
+
+- finally you'll want a nice slick 'promoted thubnail' - the fancy splash page that is seen on the workshop display;
+
+=======================================================
+
+how to construct the fancy pic:
+
+[b]Change Promoted Thumbnail/Preview (Steam Workshop)[/b]
+
+If you want to change the Promoted Thumbnail of your blueprint in the steam workshop (or if your entry is missing a thumbnail at all), please follow these steps:
+
+This can be done with mspaint, mspaint3d and notepad in windows -although the skies your limit if you have photoshop/illustrator/whatever skills...
+likewise on a mac there's text edit, free softwares like  gimp or and fancy photoshop etc. options
+
+- Generally you'll want the best overall showoff pic of your vessel or base that leaves room for some text around it but makes it clear what the thing looks like and also is aesthetically cool as it can be.
+
+- add text stating the unlock level, class, cpu tier and ship type in nice lettering with perhaps a border around the pic or cartouches around the wording etc.
+
+-Crop this particular pic to:
+1280px x 720px .jpg (wide*height) [according to me]
+800px*450px (wide*height) [according to empyrion wiki]
+720px*576px (wide*height) [others suggest may work better]
+
+- Save your file as [yourblueprint].jpg (exchange [yourblueprint] with the exact(!) name of your blueprint)
+
+- Open the blueprint folder: 
+C:\Program Files (x86)\Steam\steamapps\common\Empyrion - Galactic Survival\Saves\Blueprints\*steam_user_id*\*blueprint_name*\*blueprint_name*.jpg
+or
+‘Users’ > [apple id] > Library > Application Support > Steam. ...
+
+- Overwrite the existing yourblueprint.jpg with your newly created yourblueprint.jpg (both names need to match exactly!)
+
+- Start the game and resume a savegame or join a server
+
+- Hit F2, find *yourBlueprint" in the blueprint library list and hit UPDATE (If Update is not clickable, wait 10-15 seconds. Steam/Game communication takes some time!)
+
+- Go to your workshop and the thumbnail should be visible!
+
+[This is also the recommended way of changing the default-thumbnails that are taken automatically when you create an in-game blueprint the first time.]
+
+- i.e. do all this whilst game running
+
+=======================================================
+
+- double clicking the vessel/base on the list of blueprints will give options to set tags and terrain affecting options when spawning.
+
+[this save info - tags etc. seems currently to be unimplemented, but when setting:
+- tag advice
+- categories
+- naming
+this is where it can be done.]
+
+note. when uploading screenshots there's a glitch: you cant reorder the first set uploade until you exit and re-enter; also, when doing uploads from steam you can only upload one at a time, whereas via the browser yo can do up to 10.
+
+=======================================================
+
+if you really want to get fancy, try loading up a creative mode an spawning your blueprint then doing a block-removed cutaway type view by destroying andd painting your item in places to show buried equipment or interesting views of stuff that can normally be seen.
+
+you might also want to consider making a very unusual video such as fancy wireframe vids and easy visibility reveals of interior via this blueprint to 3dmodel printing softare tool:
+
+https://steamcommunity.com/app/383120/discussions/1/3200365942101419560/
+
+i just converted my blueprint sae to a 3dmodel, saved it and used windows 3d viewer to view it as a wirefram, set it animated as a rotating view and added non-copyright music to a recording from nvidea videocapture using the openshot free video editing software.
+
+to add this to the workshop it has to be a youtube so you can go to youtube for video format, size, upload TOS and instructions, then paste the youtubee url into the relevant place on the same workshop screen as the picture gallery.
+
+=======================================================
+
+It can be very appealing to some builders to have points markedwhere weapons option/equip choices/upgrade options etc. for things like expandability, reforged or eden variations etc. and hence to also include mention of such things in the description such as listing capacities of storage for cargo and ammo under these setuips etc. anything from fancy paint work to showing screenshots of varying setups can be desirable.
+
+A huge question then arising is with respect to the descriptive text for the workshop submission:
+
+What Text To Use?
+
+- although certain thins are nera essenetial such as size class, unlocklevel, cpu tier etc., you may want to consider a few basic needs such as a summary in one sentence at the start of the intended purpose of the item and a bullet pointed summary of the features at the end. other than this, have some fun with your submissions - why not add some flavour, a bit of lore or roleplay the thing a touch and get truly into it!
+
+note: the preview show's the first line of the text you put so you should consider this to a great degree as this is what opeople will see, judge by and be impacted by when viewing your vessel/base.
+
+
+this page may be of help to you hwen creating your description page:
+https://steamcommunity.com/comment/Guide/formattinghelp
+
+to preview your text you'll need to ensure your submission is still set to priivate then save the text you've been working on and go out of the editor baack into the main view so you can see how it looks. not trusting browsers to hold data without craashing and losing it or accidentally hitting the back button, i tend to write as a .txt file in notepad or something first then copypasta in when i think i'm done.
+
+========================================================
+
+to change various settings, add descriptions and more pictures or change the visiblity (Public, Friends, Private):
+-Open your Steam Workshop folder: http://steamcommunity.com/id/*yourSteamLoginName*/myworkshopfiles/
+-Click on your submission to open the detail page
+
+do all uploading/ediiting as private or fren only!
+then check.
+then make public.
+then check again.
+
+__
+it's useful for you as muchc as anyone else to keep your change notes keep uptodate - and amongst other things is just courteous to other users to keep uptodate chqange notes so people know if submissions are under active development, being looked after for updates of the game, being made into new verions, are works in progress or baandonware etc.
+__
+
+[b]Deleting a published blueprint (Steam Workshop)[/b]
+If you want to remove one of your blueprints from the Steam workshops, open the detail page of your entry in the workshop and use the "DELETE" button.
+
+It is not possible to delete a the Steam Workshop entry from withing the game! If you hit "delete" in your in-game blueprint library, this only removes the blueprint from your PC, but not the Steam Workshop entry.
+
+---Technical note: When you deleted the blueprint from the steam workshop, this will take a few minutes to get recognized and processed by steam and the game vice-versa. Unless this is completed, the in-game blueprint library will still show the small raised "wrench" next to the blueprints SRC-icon and the "Update" button will still be available. If steam & the game updated the status of this entry, the small raised wrench-symbol will vanish and the UPDATE button will revert back to PUBLISH.---
+
+========================================================
+
+below is an example of the descriptive text for a steam workshop submission tjhat has had some creative side put into it for fun and interest in a different way for the readers and other creators to be inspired by:
+
+
+=======================================================
+
+woflcorp-I/EAS Aardvark Variant
+
+
+(SV Class 1, CPU Tier 4, Unlock Level 20)
+
+Primary roles: Fast Insert/Extract, Rescue, Engineering Team, Service, Alpha 10
+
+Update 18/01/2023
+Ship checked and updated.
+The woflcorp-I/EAS Aardvark is a heavy 3 man insert/extract shuttle designed to work with alpha 10 requirements. The ship is at 80k CPU use and designed for alpha 10 specs.
+
+
+intercepted comms from woflcorp freelance intercept crew somewhere in memumoth system:
+
+========================================================
+
+..
+...frigate destroyed
+
+...target acquired
+...cargo siezed
+
+...intercepted ship transport container being opened
+
+...this is looks like a human built vessel but..
+...well - tech origin unknown
+
+...whoa!
+...no-one could possibly survive the acceleration generated by this hybrid technology stuff
+
+...this thing must MOVE
+
+...would be good for even very hostile i/e, teleport error rescue n all that
+...might make good carrier launch
+...heavy end fighter support too 
+...must be awesome in heavy gravity harsh environemnt conditions
+...we need these for those 'probable sudden dust off' missions
+
+...cockpit is open
+
+>terminal booting
+>system online
+
+>>>
+>>>fancy something different in your hangar?
+>>>Looking for something that'll have all eyes turn skyward as you scorch the heavens?
+>>>
+>>>woflcorp has you covered. Meet the I/EAS.
+>>>
+>>>
+>>>With unique Hybrid-Aero™ hull components, the I/EAS is sure to amaze - backed up by
+>>>fast charging shields, sathium-reinforced steel composite Hybrid-Aero™ 'aardvark' ultra-aerodynamic ablative >>>armour and quad jhoming missile launchers/twin pulse lasers/twin turrets.
+>>>
+>>>Congratuations on your newly acquired woflcorp I/EAS. It is a twin cockpit, extreme
+>>>performance SV for emergency extract duties and other situations where someone needs
+>>>rescuing or to bug out fast after deployment - sniper/spotter drops, big game hunting
+>>>support in the wilds etc., with attack, defence and extended run-time capabilities;
+>>>built for speed, manouvreability and function, in survival mode. we hope you have the
+>>>best of luck in your endeavours. If you ever need answers to any questions about 
+>>>maintenance or general extreme performance vessel ownership we refer you to the
+>>>contents of this documentation and failing this, the woflcorp service droids will be
+>>>happy to respond to your query. A new I/EAS comes with the opportunity of excellent
+>>>success on every single operation, adding more thrilling experiences in SV life!
+
+>../
+>offline
+...captain...?
+...we're rich!
+
+═════════════
+current where abouts of stolen technology unkown
+/end report
+
+
+Survival features
+
+Inside it has ???? volume storage, ???? volume ammo storage, o², wifi, detector and long range detector.
+
+
+Offense and Defense
+
+- The ship comes with 4 homing rocket launchers, 2 pulse lasers and 2 turrets.
+- There are twin armoured cockpits sunk into the front armour making them a bit harder to hit.
+- Hull material is... engines - there is no monocoque hull, instead the components form the framework and the ship is only made of separate steel plating where ablative armour is present.
+- The ship is designed to take some hits and does part seperation/redundacy as well as an additional front layer of protection.
+- It can be used to take on light POI's but expect some damage from hits.
+
+
+Performance
+
+- all engine design - no hull design saves weight immensely - engines attach to engines around a central armoured core
+- special semi-alien tech Hybrid-Aero™ 'aardvark' Ablative armour with aerodynamic shaping reduces drag.
+- much fuels
+
+
+Features Summary:
+Player unlock level 20, semi inexpensive, few rare resources, CPU Tier 4
+Hull-less Engine Frame, 4 railguns, 2 turrets, low slung cockpit design
+O2, ? volume storage, ? volume ammo
+WiFI, short range detector, long?
+Hybrid-Aero™ 'aardvark' Ablative armour
+Extreme speed and extra heavy thrust for dust offs
+cargo, Quick access inside to consumables
+Fairly inexpensive and requires few rare resources
+shield/chargers
+pentaxid/fuel
+Exterior spot lights
+
+I hope you enjoy!
+
+Please see my workshop and Mining rigs for my other creations. Link at top of this post. Thanks!
+
+═════════════
+
+
+========================================================

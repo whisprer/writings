@@ -1,0 +1,69 @@
+=======================================================
+
+
+woflcorp. Military & Industrial: Mining/Forestry Division presents: Forestry Unit 1a
+
+Primary roles: Forestry, Ground Clearance, Freeing trapped/stuck vessels, light military access [non-combat], Alpha 10
+
+Hover Vessel:
+CPU TIER 3
+UNLOCK LVL 12
+SIZE CLASS 1
+
+A very powerful and efficient forestry unit, this is the solution to budget tree felling - will churn through the biggest of trunks in seconds and whole swathes of forest in mere minutes. whether you need to gather resources, clear land or free an entangled vessel, this is the unit for you. it is an extremely low build cost at base level [this version has optional CPU upgrade to give scope for near any additional equipment imaginable.
+
+
+=======================================================
+
+
+Update 20/01/2023
+Unit checked and updated.
+
+
+The woflcorp. Forestry Unit 1a is an ultra-low cost forestry harvester/clearance machine for gen purpose tree felling designed to work with alpha 10 requirements. The vessel is at 4k CPU use and requires unlock level of 12.
+
+========================================================
+
+
+Survival features
+
+- Inside it has ? harvest container for wood storage but therefore could be used for any small amount of storage if needed.
+- also present are is a detector and great utility spotlighting.
+- very cheap to build [if built as tier 1 CPU for no upgrade version is extreme budget version indeed]
+
+
+Offence and Defence
+
+- Although the vessel comes with no active offensive armament or armour/shielding, it is very capable of achieving high speeds if evacuation of an area becomes necessary.
+- There is an armoured cockpit sunk low into the front for maximum streamlining and also making it somewhat harder to hit.
+- Hull material is a pure carbon fibre monocoque hull existing to channel air for cooling and channelling resources into the machinery with minimum snags, [providing little defence in the form of armour against most weapons].
+- The vessel is not designed to take hits and although there is a degree of part separation/redundancy, it mostly achieves any defensive capability by speed.
+
+
+Performance
+
+- extreme lightweight carbon fibre low profile hull design saves weight immensely - engines are present in number sufficient to provide high speed and acceleration when combined with low weight/drag.
+- the carbon fibre skin is extremely low profile hence provides some degree of aerodynamic shaping, hence reducing drag.
+- greatly reduced fuel consumption results allowing greater range, runtime and also room for resource storage.
+
+
+Features Summary:
+Player unlock level 12, very inexpensive, few [no] rare resources, CPU Tier 3 [easily reduced to tier 1 if not being upgraded]
+low slung armoured cockpit design
+high capacity [?] storage setup, convertible to partial cargo storage
+short range detector
+highly upgradeable and adaptable
+Extreme speed/manoeuverability and extra heavy thrust for escape and long range coverage
+very inexpensive and requires few [no] rare resources
+very fuel efficient
+very low drag - combined with lightweight carbon fibre design, allows for long range/long runtime
+
+I hope you enjoy!
+
+
+Please see my workshop, Mining rigs and other vessels amongst other creations. Link at top of this post. Thanks!
+
+═════════════
+
+
+========================================================
