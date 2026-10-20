@@ -1,0 +1,336 @@
+Mother Earth Alcohol Fuel: How To Adapt Your Automobile Engine For Ethyl Alcohol Use - Journey to Forever
+
+button\_magic Source guide
+
+This technical guide provides a comprehensive framework for **modifying internal combustion engines** to run on ethyl alcohol instead of traditional gasoline. The text primarily focuses on **carburetor recalibration**, instructing users to enlarge fuel jets and adjust the accelerator pump to accommodate the richer fuel-to-air ratio that ethanol demands. Beyond fuel delivery, the author outlines critical secondary adjustments such as **advancing ignition timing** and managing engine temperature to leverage alcohol's high octane rating and distinct vaporisation properties. Ultimately, the manual serves as a practical blueprint for **achieving energy self-sufficiency**, detailing how to safeguard engine longevity by replacing alcohol-sensitive plastic components with more durable materials.
+
+Mother Earth Alcohol Fuel: How To Adapt Your Automobile Engine For Ethyl Alcohol Use
+
+*New!* Build a 3-inch ethanol still – Click [HERE](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fjourneytoforever.org%2Fethanol%5Fstill.html)
+
+Making Alcohol Fuel
+
+\*\*Mother's Alcohol Fuel Seminar
+
+© The Mother Earth News, 1980\*\*
+
+## How To Adapt Your Automobile Engine For Ethyl Alcohol Use
+
+Now that we've explained the fundamental differences between alcohol and gasoline fuels, we can get on with the actual conversion of a conventional gasoline-burning engine to alcohol use. We'll cover the three major changes (main jet, idle jet, and timing), and we'll also go on to cover some other areas that may be of interest to those who want to go further to increase the efficiency of their alcohol-burning engines.
+
+#### MAINJET CHANGES
+
+The first thing you'll have to alter is the main metering jet in your carburetor. In most carburetors, this is a threaded brass plug with a specific-sized hole drilled through the center of it. This hole is called the main jet orifice, and its diameter dictates how rich or lean the air/fuel mixture will be when the car is traveling at cruising speeds. Naturally, the smaller the hole is, the less fuel will blend with the air and the leaner the mixture will be. As the orifice is enlarged, the mixture gets richer.
+
+Since alcohol requires a richer air/fuel ratio, it's necessary to bore out the main jet orifice when using ethanol fuel. The standard jet size in MOTHER's alcohol-powered truck was .056" ... in other words, this was the diameter of the jet orifice. In order to operate the engine successfully on alcohol fuel, it's necessary to enlarge this opening by anywhere from 20 to 40%.
+
+Start your conversion by gathering all the tools and hardware you'll need to complete the job. A screwdriver, an assortment of end wrenches, visegrip pliers, a putty knife, a pair of needle-nose pliers, and a power drill - with bits ranging in size from a No. 51 (.067") to a No. 46 (.081") are usually all you'll need. To make your job easier, though, you might want to refer to a Motor, Chilton, or Glenn auto repair manual for exploded illustrations to guide you through the necessary carburetor disassembly and reassembly. (A second alternative would be to purchase a carburetor rebuilding kit for your make and model car ... which will not only supply you with a working diagram, but provide gaskets, seals, and other parts that may get damaged during the stripdown process.)
+
+You may also need to purchase several main jet assemblies from your auto dealer (if the carburetor you're converting has a removable main jet), since you'll probably want to experiment with different air/fuel ratios.
+
+In order to take the carburetor apart, you'll first have to remove its air filter housing and all its hoses, tubes, and paraphernalia from the engine. Then disconnect the throttle linkage from the engine and any choke linkage rods that aren't self-contained on the carburetor body. (If you've got a manual choke, remove its cable and tie it out of the way.)
+
+You'll also have to unscrew the fuel line from the carburetor inlet fitting and remove any other hoses that fasten to the unit, including vacuum and other air control lines.
+
+When the carburetor is free from all external attachments, remove it from the manifold by loosening the hold-down bolts at its base, and turn the unit upside down to drain out any gasoline that may be in the float bowl. Remove the carb's air horn (you may have to unfasten the choke stepdown linkage rod) and locate the main jet. (Some carburetors have the jet installed in a main well support, while others mount the brass fixture right in the float bowl body.)
+
+Once you've removed the main jet, you can prepare to enlarge it. First measure the diameter of its opening by slipping a drill bit of known size into the hole (this bit should fit snugly, of course). In some cases, the size of the jet is stamped in thousandths of an inch right on its face, so you don't have to go to this trouble. When you know what the standard jet size is, you can calculate the additional enlargement necessary to operate the engine on alcohol.
+
+For example, MOTHER's truck originally had a .056" main metering jet. In order to increase that opening's diameter by 40%, we first had to multiply .056" by .40 (which yielded .022"), then we had to add that additional .022" to the original .056" ... this figured out to a total diameter of .078". The nearest size drill bit to this is a No. 47, which is .0785" in diameter ... this was the bit necessary to bring the jet to 40% over its original size.
+
+Hold the jet with your vise-grips and carefully bore out its central hole (if possible, use the jetholding body of the carburetor itself as a mount while you drill). Be sure to do your drilling as nearly straight as possible, and clean any brass residue out of the carburetor and its components after the operation is over.
+
+There are some carburetors that do not use fixed-size jets alone, but also utilize what is known as a "metering rod". This is usually a thin tapered or stepped brass rod that's suspended within a brass jet orifice, which may or may not be removable. The fuel is, in this case, drawn through the space between the rod and its brass "housing". Depending on how far the throttle is opened, the metering rod is lifted out of the hole ... and - since the rod is thick at its "base" (near the top), and progressively thinner at its tip (toward the bottom) - the farther it's drawn out of the hole, the more fuel is allowed to flow between the central rod and the opening.
+
+The conversion on this type of metering system is basically the same as the fixed-jet conversion. To enlarge this orifice, you can either remove the metering rod and very carefully drill out the brass jet (take it out of the carburetor if it's removable), or take the tapered brass rod to a machine shop and have it turned down slightly (the same effect can be accomplished less accurately by sanding the rod down with emery cloth). If you choose to drill the jet to a larger dimension, the diameter should be increased anywhere from 10 to 32%.
+
+With the fixed-jet type of carburetor, the diameter of the jet orifice can vary from about 20% over standard to 40% larger - or even more - depending on the engine's size, its compression ratio, and the vehicle's weight. Probably the best way to determine what is right for your needs is to experiment, since many instruments used to measure the proper air/fuel ratio don't register correctly when the engine is burning alcohol.
+
+By planning on a diameter enlargement of anywhere from 35 to 40% at first, you'll be perfectly safe, since the engine will tolerate this size easily. If you go too much larger than this, you'll probably just be wasting fuel. On the other hand, by going too small, you may find that you'll lose power ... or even worse, that you may burn valves because of an overly lean mixture.
+
+On the other hand, it is true that a lean mixture - to a point - will result in improved economy with hardly a noticeable loss in performance. With MOTHER's vehicle, the absolute limit was a 19% enlargement in jet size ... although the truck does run slightly better with a 25% larger-than-standard main jet. You may find, as we did, that your vehicle performs well with a smaller jet opening than the suggested 35-40% increase but to be on the safe side, periodically check your spark plugs, especially after an extended drive. If they are white in color, or otherwise appear to be subject to excessive heat (look for hairline cracks on the center electrode's insulative jacket), this is an indication that your engine is burning too lean ... and the jet must be enlarged.
+
+#### IDLE ORIFICE CHANGES
+
+Most carburetors will require additional idle circuit enlargement in order for the engine to run at slowest, or idle, speeds. This is because the circuit that's fed by the main jet operates fully only when the throttle plate within the throat of the carburetor is opened past the idle position. When the plate is in the idle position, the air/fuel mixture is allowed to enter the manifold only through the idle orifice itself ... which, if it isn't large enough, will not provide the needed amount of air/fuel blend to keep the engine running.
+
+On some engines, it may only be necessary to loosen the idle mixture screw at the base of the carburetor in order to provide the correct amount of fuel, since this threaded shaft has a tapered tip which allows more mixture to pass as the tip is backed off. On other engines, it's possible that the seat itself, into which the tapered screw extends, must be enlarged in order to accomplish the same thing.
+
+In most cases, if the seat has to be bored out, it can be enlarged by 50%, using the same method of measurement as was detailed in the main jet section. This will allow a full range of adjustment with the idle mixture screw, even if you should want to go back to gasoline fuel. (When drilling, be careful not to damage the threads in the carburetor body.)
+
+As a precaution against the idle screw's vibrating loose from its threaded opening, you can shim the idle mixture screw spring with a couple of small lock washers ... this will prevent the screw from turning even if it's drawn out farther from the seat than it normally would be.
+
+#### POWER VALVE CHANGES
+
+Most modern auto carburetors have what is known as a power valve that allows extra fuel to blend with the air/fuel mixture when the accelerator is depressed, in order to enrich the mixture under load conditions. This vacuum-controlled valve is spring loaded, and shuts off when it isn't needed in order to conserve fuel.
+
+The power valve used in the carburetor illustrated is somewhat difficult to alter and, besides, is sufficient for alcohol use in its normal configuration if it's working properly. However, there are other carburetors - specifically the Holley and Ford (Autolite or Motorcraft) brands - that have easily replaceable power valves which are available from auto parts stores in various sizes. If you use a power valve with a 25% or so greater flow capacity than the one that originally came with the carburetor, your air/alcohol mixture will be sufficiently enriched when your engine needs more power.
+
+#### ACCELERATOR PUMP CHANGES
+
+In addition to a power valve, almost all automotive carburetors utilize an accelerator pump. This is a mechanically activated plunger or diaphragm that injects a stream of raw fuel directly down the throat of the carburetor when the accelerator is suddenly depressed. The fuel is injected through a small orifice located in the throat wall at some point above the carburetor venturi (the point at which the throat narrows).
+
+The reason the accelerator pump is incorporated into modern carburetors is that as the accelerator is pressed and more air/fuel mixture is drawn into the cylinders, some of the liquid particles in the blend tend to stick to the walls of the intake manifold, effectively leaning out the mixture by the time it reaches the combustion chambers. The extra squirt of fuel that's added by the accelerator pump makes up for this initial lean condition.
+
+In order to adapt your accelerator pump to use alcohol effectively, you'll probably have to enlarge the size of the injection orifice slightly (anywhere from 10 to 25% is fine ... if you go larger than that, you'll risk the possibility of altering the pump pressure enough either to turn the fuel stream into a dribble or to empty the pump reservoir before the pump has made a full stroke).
+
+As an alternative to enlarging the hole, you may be able to simply adjust the stroke length of the pump arm in order to feed more fuel. Most carburetors installed on Ford products already have a provision for seasonal adjustment, so it's just a matter of putting the pump on its richest setting. Other carburetors, too, have threaded rods that can be adjusted to accomplish the same thing.
+
+#### CHOKE ALTERATION
+
+Although it's not absolutely necessary to adapt your car's choke system to burn alcohol fuel, it has been our experience that a manually operated choke is more desirable on an alcohol-powered car. If your vehicle's engine is already so equipped, fine. If not, you can purchase - for about $7.00 from any auto parts store - a manual choke conversion kit that will allow virtually any automatic choke to be adapted for manual control.
+
+#### IGNITION TIMING
+
+In order to take advantage of the great antiknock qualities that alcohol fuel provides, you'll have to advance the engine's ignition timing by turning the distributor housing opposite to the direction in which the rotor spins (the housing is held in place by a bolted clamp).
+
+Normally, an engine using gasoline has its timing set so the spark occurs at anywhere from 8 deg BTDC (Before Top Dead Center) to TDC (Top Dead Center). Since alcohol has a higher "octane" rating, you can advance the timing considerably more than this. (In the case of MOTHER's truck, we adjusted it to operate at approximately 22 deg BTDC without any sign of pre-ignition, even under load.) Of course, care should be taken when you adjust the timing on your vehicle, since a 22 deg advance might be excessive for your car. Remember, it's not safe to be just short of detonation, since inaudible knocking can also damage the engine ... the best procedure is to set the distributor timing at least two degrees retarded from the point of detonation.
+
+#### COMPRESSION RATIO CHANGES
+
+Increasing the compression ratio of the engine will be impractical for most people, because of the expense and work involved ... however, this modification will do a great deal to improve engine performance and economy. Just like a timing advance, a compression ratio hike will take advantage of the potential that alcohol has to offer as a fuel. Optimally, the ratio can be increased to 14- or 15-to-1 ... but even a nominal increase - to perhaps 12-to-1, a figure that some manufacturers have already offered in the past for premium gasoline use - will result in a vast improvement over the standard 8- or 8.5-to-1 that most manufacturers incorporate into their engines today.
+
+If you intend to convert an automobile that already has a compression ratio of 10-to-1 or better, it probably won't pay to make any internal changes. However, if the engine you're considering needs an overhaul, it would be wise to modify it regardless of its compression ratio.
+
+The most inexpensive way to increase your compression ratio is to install a set of high compression pistons. The forged units are designed to pack the air/fuel charge tightly into the combustion chamber for increased power, and have special relief notches built into their heads for valve clearance. Be cautioned, however, that some engines may not tolerate a 15-to-1 compression ratio with standard connecting rods and bearings ... these components, too, may have to be replaced with high-strength competition grade parts.
+
+Another way of increasing compression ratio slightly is by "milling'' (planing) the surfaces of the cylinder head and/or block. With some engines, this may result in only a 1/2-point ratio increase ... with others, slightly more. It would be best to check with your local engine rebuilder or automotive machine shop to determine exactly what you'll gain with your particular model engine before you go to the trouble of dismantling it.
+
+A third - and perhaps the most versatile - way of effectively increasing the compression ratio is by installing a supercharger or turbocharger. These units, although ranging in price from $800 to over $1,200, provide a pressure boost in the combustion chamber proportional to the engine's RPM. Hence, compression would not be excessive during engine start-up as it would be with the other methods.
+
+You should encounter no problem with a severe compression ratio increase, unless you decide to switch back to gasoline fuel ... and in this case, you could install a water injection system that would allow you to operate the car even on regular fuel without fear of detonation.
+
+#### FUEL PREHEATING
+
+In extremely cold climates, it may be necessary to preheat your alcohol fuel before it enters the carburetor float bowl. This can be accomplished easily by splicing into the fuel feed line - near the point where it passes the upper radiator hose - and installing a fuel heater at this location.
+
+You can fabricate a fuel heater in a matter of minutes by first locating a 5" section of copper or other metal pipe with an outside diameter equal to that of the inner diameter of your upper radiator hose. Then find several feet of soft copper tubing that will slip snugly inside your fuel feed line. (If your fuel line is steel, you'll have to cut it and splice in two short sections of the appropriately sized neoprene hose.) Wrap the soft tubing several times around the middle of the large pipe section (the number of coils depends on how warm you want the fuel to become, but anything from three to eight wraps will suffice), and solder it in position if possible.
+
+To install the unit, just clamp it in place between the existing radiator hose and another short section of hose connected to the radiator neck, and attach the fuel line to the inlet and outlet of the copper coil. As the engine reaches operating temperature, the hot water flowing through the engine's cooling system will heat the coils and the fuel passing through them.
+
+#### AIR PREHEATING
+
+Most trucks and autos have air filter housings which are designed to allow heated air from around the exhaust manifold to channel through a duct and enter the carburetor when the engine first starts from a cold state. As the engine warms up, a flap within the air cleaner "snorkel" shuts off this supply of warm air and allows ambient air from the engine compartment to enter in its stead.
+
+This flap is usually either thermostatically or vacuum controlled ... but either way, you may find it helpful during the winter months to leave this valve closed to the cold outside air. This can be done either by disconnecting the bimetallic thermostat spring that controls the flap and installing a small spring of your own that will hold the valve in the required position, or - if the flap is vacuum activated - by connecting an existing permanent vacuum line to its control fitting. (You can, of course, remove the control line entirely, plug it up, and hold the flap closed with a spring if you wish.)
+
+#### THERMOSTAT CHANGE
+
+In order to get maximum efficiency from your engine, you may need to change the thermostat within the engine block. Thermostats are available in various heat ranges from 140 to 200 deg F, and these temperatures indicate how hot the engine coolant will be allowed to get before the thermostat opens to initiate the cooling process. (A thermostat is designed to hold the coolant within the cylinder head till it achieves the desired temperature ... at which point the heated liquid is allowed to escape into the radiator to be cooled, and is replaced by a fresh supply of cool fluid. Depending on the engine's operating conditions, the thermostat may cycle open and shut regularly over the span of a few minutes.)
+
+If the water in your vehicle isn't getting warm enough to provide hot air through the heating system, you should replace the thermostat with a higher-rated unit. By the same token, the intake manifold of your engine should be warm to the touch when burning alcohol. If it's cold - or iced over - the alcohol most likely isn't being given a chance to vaporize sufficiently, and therefore is not being used efficiently. By using a hotter thermostat, you'll be able to warm up the entire engine, including the intake manifold.
+
+#### COLD WEATHER STARTING
+
+Since alcohol doesn't vaporize as easily as does gasoline, cold weather starting can be a problem ... especially if the engine itself is cold. To alleviate this undesirable situation, MOTHER's research staff has designed a combination coldstart/dual-fuel system that'll work with any car.
+
+All it requires is a five-gallon fuel storage tank with a fuel filler neck brazed into its top (we used an old propane bottle), an auxiliary electric fuel pump, some steel brake or fuel line, neoprene hose, an elbow, a length of copper pipe, a small metering jet, and several needle valves, tees, and hose barbs. (Details and illustrations of the installation are shown in the article reprints from MOTHER NOS. 59 and 60, which are included in this workbook.)
+
+The five-gallon tank is mounted in some safe place on the truck or automobile and used to store gasoline. This cache of petroleum fuel serves a dual role: When it's needed for cold starting purposes, the electric pump is activated momentarily from inside the car and a fine stream of gasoline is injected down the throat of the carburetor. And, in the event that your alcohol supply is unexpectedly depleted on the highway, the gasoline stored in the small tank can be routed into the carburetor normally for emergency use.
+
+#### INITIAL USE OF ALCOHOL FUEL
+
+An engine altered as outlined in this chapter will run well on alcohol. Nonetheless, there are certain things to be aware of as you begin to make use of the new fuel. First, remember that the alcohol will act as a cleansing agent ... and - as such - will not only clean out your tank, fuel lines, and filters, but will also purge your engine's internal parts of built-up carbon, gum, and varnish deposits.
+
+In effect, what this means is that suddenly a lot of filth will be floating around in your fuel ... and it may be enough to clog your fuel filter to the point of not allowing any fuel to pass. By the same token, loosened internal engine deposits can foul the spark plugs badly ... so if your vehicle begins to function poorly soon after your conversion, check these two areas first.
+
+In addition to the fact that alcohol is a cleaning agent, it is also a solvent ... and this means that certain types of plastics used in the fuel system of your vehicle may be attacked by it. Actually, most of the plastics deterioration problems associated with ethanol fuel are caused by the substances used to denature it - such as acetone or methyl ethyl ketone - rather than the alcohol itself. If you manufacture your own alcohol and denature it with gasoline, as federal regulations now permit, deterioration problems will be reduced to a minimum.
+
+Most vehicles manufactured prior to 1970 used stainless steel or brass components in their fuel systems ... hence there is little chance of parts failure. In cars that use plastic components, however, there are several areas of potential deterioration: [1] Within the fuel tank, both the float and the strainer on the fuel intake tube may be plastic ... replace them if necessary. [2] The fuel lines themselves - if they are the clear, flexible type - may also soften ... you can install neoprene hose in their place. [3] The fuel pump diaphragm may also be subject to failure ... either replace it with a piece of spring steel, or replace the entire pump with an electric gear-type model available from your auto parts store. (Jaguars and Alfa-Romeos also use all-metallic pumps if you're willing to pay the price.) [4] Plastic in-line fuel filters should be replaced with metal ones. [5] Many modern carburetors use plastic float needles, seals, and floats ... you can usually purchase the equivalent carburetors - but ten years older - from an auto wrecking yard for about $5.00\. These should contain metal components, and can be salvaged for parts.
+
+Of course, not all plastics are subject to corrosion, and neither are all types of rubber. Generally, butyl rubber (like the type used in inner tubes) should be avoided. Neoprene, however, holds up well even at higher temperatures, and might only present a problem (because of swelling) if it's used as a tip on carburetor float needles. Automotive plastics vary greatly in their composition ... the [table below](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fjourneytoforever.org%2Fbiofuel%5Flibrary%2Fethanol%5Fmotherearth%2Fme2.html%23table) indicates the performance of various types of plastic substances.
+
+One final thing to be aware of when burning alcohol in your vehicle is that the new fuel does not contain the additives which the engine has become used to over the years ... specifically the leads which help to lubricate the valve seats. Of course, any car built in 1975 or later is already equipped with hardened valves and seats, so there should be no problem with them ... but even vehicles of other years (with the possible exception of large-block 1972-1974 Ford products) can tolerate alcohol fuel safely.
+
+One reason for this is that water in the alcohol acts as a "cushion" and lubricant for the valves ... but if you are still wary of using alcohol fuel in its pure form, you can add up to 1% kerosene or diesel fuel to your alcohol supply. This will provide the lubrication of petroleum fuels with a minimum of pollution.
+
+#### FUEL INJECTION SYSTEMS
+
+Since some vehicles are equipped with fuel injection rather than carburetors, we will briefly touch on the use of alcohol with that system. There are two important factors in a fuel injection setup: injection timing and control jet diameter. Fortunately - since many systems now use an electronically controlled timing sequence - injection timing is not critical in a fuel injected engine. Neither performance nor economy improve substantially by either advancing or retarding the injection timing process.
+
+Control jet diameter, on the other hand, is an important factor. If you increase the size of the control jets (which are the equivalent of the metering jets in a carburetor), the engine will operate well on alcohol fuel. An increase of 15-20% is all that's necessary to accomplish the conversion. (Ignition timing should, of course, be advanced as explained previously.)
+
+An interesting feature of the fuel injection system is that it doesn't require any gasoline during the cold weather starting process to fire the engine up. Since the fuel is injected at a pressure of about 250 PSI, the alcohol fuel is sufficiently vaporized to ignite easily within the combustion chamber.
+
+#### DIESEL ENGINES
+
+Because of the fact that diesel engines do not use conventional spark ignition systems, it's difficult for pure alcohol to ignite within the combustion chamber. This, coupled with the fact that diesel injector pumps won't tolerate water, could be a problem ... especially if the alcohol used was not nearly pure.
+
+Fortunately, there are several other ways to utilize homemade ethanol in a diesel engine by introducing vaporized alcohol to the engine along with diesel fuel. Probably the simplest way is to mount an automobile carburetor right on the diesel's air intake manifold and supplement the diesel fuel with alcohol metered through that piece of equipment. Of course - just as in a conventional gasoline engine - as incoming air rushes down the air inlet tube, it will pick up alcohol vapor metered through the carburetor ... which should have a controllable throttle to match tractor load.
+
+Another way to use ethanol in a diesel engine is to install fuel injectors into the intake manifold to accomplish the same result. This system would require a separate pump that would have to be timed in order to inject alcohol at the proper moment.
+
+A vaporizer - like those found on propane fuel systems - can also be used to add alcohol to the diesel fuel system. This, again, provides the diesel intake manifold with ethanol vapors that help combustion.
+
+Since a diesel engine has closer tolerances and is more costly to repair than a conventional gasoline engine, you should take extreme care when altering and running diesel equipment on other than pure diesel fuel. If you don't consider yourself competent to work on diesels, find someone who is ... since the diesel fuel injector pump must be adjusted to provide less flow when alcohol fuel is used, plus the fact that a lean mixture condition - and even increased horsepower outputs - can damage a diesel engine in short order.
+
+Turbocharged diesels can be equipped with what is known as an "aquahol" injection system, to be marketed by the M &amp; W Gear Company of Gibson City, Illinois early in 1980\. This setup injects a fine mist of alcohol and water in a 50/50 ratio directly into the engine's air intake, which results in a lowering of fuel consumption and a tolerable increase in horsepower.
+
+DURABILITY OF VARIOUS PLASTICS: ALCOHOLS VS. GASOLINE
+
+|                           | **Ethanol** | **Methanol** | **Gasoline** |
+| ------------------------- | ----------- | ------------ | ------------ |
+| Conventional Polyethylene | good        | excellent    | poor         |
+| High-density Polyethylene | excellent   | excellent    | good         |
+| Teflon                    | excellent   | excellent    | excellent    |
+| Tefzel                    | excellent   | excellent    | excellent    |
+| Polypropylene             | good        | excellent    | fair         |
+| Polymethylpentene         | good        | excellent    | fair         |
+| Polycarbonate             | good        | fair         | fair         |
+| Polyvinyl Chloride        | good        | fair         | poor         |
+
+Excellent: Will tolerate years of exposure.
+
+Fair: Some signs of deterioration after one week of exposure.
+
+Good: No damage after 30 days of exposure, should tolerate several years of exposure.
+
+Poor: Deteriorates readily.
+
+NOTE: All tests were made with liquids at 122 deg F.
+
+## Mother Earth Alcohol Fuel
+
+[Chapter 1](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fjourneytoforever.org%2Fbiofuel%5Flibrary%2Fethanol%5Fmotherearth%2FmeCh1.html)
+
+[Introduction to a Farmer's Fuel ... Alcohol](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fjourneytoforever.org%2Fbiofuel%5Flibrary%2Fethanol%5Fmotherearth%2FmeCh1.html%231%5F1)
+
+[Introductory Overview of the Alcohol Production Flow Chart](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fjourneytoforever.org%2Fbiofuel%5Flibrary%2Fethanol%5Fmotherearth%2FmeCh1.html%231%5F2)
+
+[A Short But Complex Story About Enzymes and Their Functions](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fjourneytoforever.org%2Fbiofuel%5Flibrary%2Fethanol%5Fmotherearth%2FmeCh1.html%231%5F3)
+
+[Chapter 2](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fjourneytoforever.org%2Fbiofuel%5Flibrary%2Fethanol%5Fmotherearth%2FmeCh2.html)
+
+[Farm Crops for Alcohol Fuel](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fjourneytoforever.org%2Fbiofuel%5Flibrary%2Fethanol%5Fmotherearth%2FmeCh2.html%232%5F1)
+
+[Raw Materials](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fjourneytoforever.org%2Fbiofuel%5Flibrary%2Fethanol%5Fmotherearth%2FmeCh2.html%232%5F2)
+
+[More on Raw Materials](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fjourneytoforever.org%2Fbiofuel%5Flibrary%2Fethanol%5Fmotherearth%2FmeCh2.html%232%5F3)
+
+[Feedstock Handling and Storage](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fjourneytoforever.org%2Fbiofuel%5Flibrary%2Fethanol%5Fmotherearth%2FmeCh2.html%232%5F4)
+
+[Chapter 3](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fjourneytoforever.org%2Fbiofuel%5Flibrary%2Fethanol%5Fmotherearth%2FmeCh3.html)
+
+[Basic Steps in the Production of Ethyl Alcohol](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fjourneytoforever.org%2Fbiofuel%5Flibrary%2Fethanol%5Fmotherearth%2FmeCh3.html%233%5F1)
+
+[More On Conversion and Fermentation](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fjourneytoforever.org%2Fbiofuel%5Flibrary%2Fethanol%5Fmotherearth%2FmeCh3.html%233%5F2)
+
+[Fermentation Addendum](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fjourneytoforever.org%2Fbiofuel%5Flibrary%2Fethanol%5Fmotherearth%2FmeCh3.html%233%5F3)
+
+[Alcohol Yield](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fjourneytoforever.org%2Fbiofuel%5Flibrary%2Fethanol%5Fmotherearth%2FmeCh3.html%23alcoholyield)
+
+[Chapter 4 Control of Infection by Planned Sanitation in the Production of Fuel or Gasohol Alcohol](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fjourneytoforever.org%2Fbiofuel%5Flibrary%2Fethanol%5Fmotherearth%2FmeCh4.html)
+
+[Chapter 5](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fjourneytoforever.org%2Fbiofuel%5Flibrary%2Fethanol%5Fmotherearth%2FmeCh5.html)
+
+[MOTHER's Mash Recipes for Alcohol Production](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fjourneytoforever.org%2Fbiofuel%5Flibrary%2Fethanol%5Fmotherearth%2FmeCh5.html%235%5F1)
+
+[Important! Read Before Making Mash](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fjourneytoforever.org%2Fbiofuel%5Flibrary%2Fethanol%5Fmotherearth%2FmeCh5.html%235%5F2)
+
+[Preparing a Mash From Saccharide-rich Materials](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fjourneytoforever.org%2Fbiofuel%5Flibrary%2Fethanol%5Fmotherearth%2FmeCh5.html%235%5F3)
+
+[A Handy Hydrometer Jacket](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fjourneytoforever.org%2Fbiofuel%5Flibrary%2Fethanol%5Fmotherearth%2FmeCh5.html%235%5F4)
+
+[Chapter 6](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fjourneytoforever.org%2Fbiofuel%5Flibrary%2Fethanol%5Fmotherearth%2FmeCh6.html)
+
+[Distiller's Feeds](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fjourneytoforever.org%2Fbiofuel%5Flibrary%2Fethanol%5Fmotherearth%2FmeCh6.html%236%5F1)
+
+[By-product Utilization](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fjourneytoforever.org%2Fbiofuel%5Flibrary%2Fethanol%5Fmotherearth%2FmeCh6.html%236%5F2)
+
+[Animal Feed By-product](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fjourneytoforever.org%2Fbiofuel%5Flibrary%2Fethanol%5Fmotherearth%2FmeCh6.html%236%5F3)
+
+[More Information On By-product Utilization](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fjourneytoforever.org%2Fbiofuel%5Flibrary%2Fethanol%5Fmotherearth%2FmeCh6.html%236%5F4)
+
+[Chapter 7](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fjourneytoforever.org%2Fbiofuel%5Flibrary%2Fethanol%5Fmotherearth%2FmeCh7.html)
+
+[How the Distillation Process Works](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fjourneytoforever.org%2Fbiofuel%5Flibrary%2Fethanol%5Fmotherearth%2FmeCh7.html%237-1)
+
+[Packed Column](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fjourneytoforever.org%2Fbiofuel%5Flibrary%2Fethanol%5Fmotherearth%2FmeCh7.html%237-2)
+
+[Perforated Plate](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fjourneytoforever.org%2Fbiofuel%5Flibrary%2Fethanol%5Fmotherearth%2FmeCh7.html%237-3)
+
+[Bubble Cap Plate](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fjourneytoforever.org%2Fbiofuel%5Flibrary%2Fethanol%5Fmotherearth%2FmeCh7.html%237-4)
+
+[Solar Stills](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fjourneytoforever.org%2Fbiofuel%5Flibrary%2Fethanol%5Fmotherearth%2FmeCh7.html%237-5)
+
+[The Reasoning Behind MOTHER's Still Design](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fjourneytoforever.org%2Fbiofuel%5Flibrary%2Fethanol%5Fmotherearth%2FmeCh7.html%237-6)
+
+[Still Operation](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fjourneytoforever.org%2Fbiofuel%5Flibrary%2Fethanol%5Fmotherearth%2FmeCh7.html%237-7)
+
+[Making Your First "Run"](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fjourneytoforever.org%2Fbiofuel%5Flibrary%2Fethanol%5Fmotherearth%2FmeCh7.html%237-8)
+
+["Economizing" Your Alcohol Production](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fjourneytoforever.org%2Fbiofuel%5Flibrary%2Fethanol%5Fmotherearth%2FmeCh7.html%237-9)
+
+[Chapter 8](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fjourneytoforever.org%2Fbiofuel%5Flibrary%2Fethanol%5Fmotherearth%2FmeCh8.html)
+
+[Six-Inch Column Still Plans](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fjourneytoforever.org%2Fbiofuel%5Flibrary%2Fethanol%5Fmotherearth%2FmeCh8.html%238-1)
+
+[Three-Inch Column Still Plans](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fjourneytoforever.org%2Fbiofuel%5Flibrary%2Fethanol%5Fmotherearth%2FmeCh8.html%238-2)
+
+[Bill of Materials](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fjourneytoforever.org%2Fbiofuel%5Flibrary%2Fethanol%5Fmotherearth%2FmeCh8.html%238-3)
+
+[Chapter 9 Two Low-cost Backyard Stills](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fjourneytoforever.org%2Fbiofuel%5Flibrary%2Fethanol%5Fmotherearth%2FmeCh9.html)
+
+[Alcohol as an Engine Fuel](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fjourneytoforever.org%2Fbiofuel%5Flibrary%2Fethanol%5Fmotherearth%2Fme1.html)
+
+**How To Adapt Your Automobile Engine For Ethyl Alcohol Use**
+
+[Ron Novak's Do-It-Yourself Water Injection System](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fjourneytoforever.org%2Fbiofuel%5Flibrary%2Fethanol%5Fmotherearth%2Fme3.html)
+
+[MOTHER's Waste Oil Heater](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fjourneytoforever.org%2Fbiofuel%5Flibrary%2Fethanol%5Fmotherearth%2Fme4.html)
+
+[Biofuels](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fjourneytoforever.org%2Fbiofuel.html)
+
+[Biofuels Library](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fjourneytoforever.org%2Fbiofuel%5Flibrary.html)
+
+[Biofuels supplies and suppliers](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fjourneytoforever.org%2Fbiofuel%5Fsupply.html)
+
+[Biodiesel](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fjourneytoforever.org%2Fbiodiesel.html)
+
+[Make your own biodiesel](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fjourneytoforever.org%2Fbiodiesel%5Fmake.html)
+
+[Mike Pelly's recipe](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fjourneytoforever.org%2Fbiodiesel%5Fmike.html)
+
+[Two-stage biodiesel process](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fjourneytoforever.org%2Fbiodiesel%5Faleks.html)
+
+[FOOLPROOF biodiesel process](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fjourneytoforever.org%2Fbiodiesel%5Faleksnew.html)
+
+[Biodiesel processors](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fjourneytoforever.org%2Fbiodiesel%5Fprocessor.html)
+
+[Biodiesel in Hong Kong](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fjourneytoforever.org%2Fbiodiesel%5Fhk.html)
+
+[Nitrogen Oxide emissions](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fjourneytoforever.org%2Fbiodiesel%5Fnox.html)
+
+[Glycerine](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fjourneytoforever.org%2Fbiodiesel%5Fglycerin.html)
+
+[Biodiesel resources on the Web](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fjourneytoforever.org%2Fbiodiesel%5Flink.html)
+
+[Do diesels have a future?](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fjourneytoforever.org%2Fbiodiesel%5Ffuture.html)
+
+[Vegetable oil yields and characteristics](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fjourneytoforever.org%2Fbiodiesel%5Fyield.html)
+
+[Washing](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fjourneytoforever.org%2Fbiodiesel%5Fbubblewash.html)
+
+[Biodiesel and your vehicle](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fjourneytoforever.org%2Fbiodiesel%5Fvehicle.html)
+
+[Food or fuel?](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fjourneytoforever.org%2Fbiofuel%5Ffood.html)
+
+[Straight vegetable oil as diesel fuel](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fjourneytoforever.org%2Fbiodiesel%5Fsvo.html)
+
+[Ethanol](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fjourneytoforever.org%2Fethanol.html)
+
+[Ethanol resources on the Web](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fjourneytoforever.org%2Fethanol%5Flink.html)
+
+[Is ethanol energy-efficient?](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fjourneytoforever.org%2Fethanol%5Fenergy.html) 
+
+[Community development](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fjourneytoforever.org%2Fcommunity.html) | [Rural development](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fjourneytoforever.org%2Frural.html)
+
+[City farms](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fjourneytoforever.org%2Fcityfarm.html) | [Organic gardening](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fjourneytoforever.org%2Fgarden.html) | [Composting](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fjourneytoforever.org%2Fcompost.html) | [Small farms](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fjourneytoforever.org%2Ffarm.html) | [Biofuel](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fjourneytoforever.org%2Fbiofuel.html) | [Solar box cookers](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fjourneytoforever.org%2Fsc.html)
+
+[Trees, soil and water](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fjourneytoforever.org%2Ftree.html) | [Seeds of the world](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fjourneytoforever.org%2Fseeds.html) | [Appropriate technology](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fjourneytoforever.org%2Fat.html) | [Project vehicles](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fjourneytoforever.org%2Flandrover.html)
+
+[Home](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fjourneytoforever.org%2Findex.html) | [What people are saying about us](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fjourneytoforever.org%2Fmedia.html) | [About Handmade Projects](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fjourneytoforever.org%2Fabout.html)
+
+[Projects](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fjourneytoforever.org%2Fcommunity.html) | [Internet](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fjourneytoforever.org%2Finternet.html) | [Schools projects](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fjourneytoforever.org%2Fedu.html) | [Sitemap](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fjourneytoforever.org%2Fsitemap.html) | [Site Search](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fjourneytoforever.org%2Fsearch2.html) | [Donations](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fjourneytoforever.org%2Ffund%2Fdonate.html) | [Contact us](https://www.google.com/url?sa=E&amp;q=mailto%3Ainfo%40journeytoforever.org)
+
+Save your time and get on time success in [ged](https://www.google.com/url?sa=E&amp;q=http%3A%2F%2Fwww.pass4sure.com%2FGED-index.html) and [ccna pdf](https://www.google.com/url?sa=E&amp;q=http%3A%2F%2Fwww.pass4sure.com%2Fcertification%2Fccna-pdf.html) exams by using our latest [lsat practice](https://www.google.com/url?sa=E&amp;q=http%3A%2F%2Fwww.pass4sure.com%2Ftest%2Flsat-practice.html) and other superb exam pass resources of [NS0-155](https://www.google.com/url?sa=E&amp;q=http%3A%2F%2Fwww.braindumps.com%2FNS0-155.htm) and [JN0-332](https://www.google.com/url?sa=E&amp;q=http%3A%2F%2Fwww.braindumps.com%2FJN0-332.htm).

@@ -1,0 +1,1044 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<title>Zombieproof Computers</title>
+<style>
+
+@font-face{font-family:Fraunces;src:url("../../../node_modules/@fontsource/fraunces/files/fraunces-latin-600-normal.woff") format("woff");font-weight:600;font-style:normal;font-display:swap;}
+@font-face{font-family:Fraunces;src:url("../../../node_modules/@fontsource/fraunces/files/fraunces-latin-700-normal.woff") format("woff");font-weight:700;font-style:normal;font-display:swap;}
+@font-face{font-family:Fraunces;src:url("../../../node_modules/@fontsource/fraunces/files/fraunces-latin-500-italic.woff") format("woff");font-weight:500;font-style:italic;font-display:swap;}
+@font-face{font-family:Literata;src:url("../../../node_modules/@fontsource/literata/files/literata-latin-400-normal.woff") format("woff");font-weight:400;font-style:normal;font-display:swap;}
+@font-face{font-family:Literata;src:url("../../../node_modules/@fontsource/literata/files/literata-latin-400-italic.woff") format("woff");font-weight:400;font-style:italic;font-display:swap;}
+@font-face{font-family:Literata;src:url("../../../node_modules/@fontsource/literata/files/literata-latin-700-normal.woff") format("woff");font-weight:700;font-style:normal;font-display:swap;}
+@font-face{font-family:Literata;src:url("../../../node_modules/@fontsource/literata/files/literata-latin-700-italic.woff") format("woff");font-weight:700;font-style:italic;font-display:swap;}
+* { box-sizing: border-box; }
+html, body { margin: 0; padding: 0; }
+body { font-family: Literata, Palatino, serif; font-size: 10.5pt; line-height: 1.45; color: #1c1712; }
+@page { size: 6in 9in; margin: 0.68in 0.66in 0.7in 0.66in;
+  @top-center { content: "ZOMBIEPROOF COMPUTERS"; font-family: Fraunces, serif; font-size: 8pt; letter-spacing: 0.16em; color: #8a7d6b; }
+  @bottom-center { content: counter(page); font-family: Literata, serif; font-size: 9pt; color: #4e463c; }
+}
+@page :first { margin: 0; @top-center { content: none; } @bottom-center { content: none; } }
+@page silent { margin: 0.75in 0.7in; @top-center { content: none; } @bottom-center { content: none; } }
+.coverpage { width: 6in; height: 9in; display: flex; flex-direction: column; background: #f3ead8; break-after: page; }
+.cover-art { flex: 1; background: url("art/cover.jpg") center 28% / cover no-repeat; }
+.cover-band { height: 1.72in; padding: 0.22in 0.42in 0.28in; background: #f3ead8; color: #1c1712; }
+.cover-band .kicker, .kicker { font-family: Fraunces, serif; letter-spacing: 0.18em; text-transform: uppercase; font-size: 8.5pt; color: #8c3014; margin: 0 0 0.15in; }
+.cover-band h1 { font-family: Fraunces, serif; font-weight: 600; font-size: 32pt; line-height: 0.9; margin: 0; }
+.cover-band .sub { font-family: Fraunces, serif; font-style: italic; font-weight: 500; font-size: 12pt; margin: 0.12in 0 0; color: #3e4a32; }
+h1 { font-family: Fraunces, serif; font-weight: 600; font-size: 22pt; line-height: 1.12; margin: 0 0 0.35em; }
+h2 { font-family: Fraunces, serif; font-weight: 600; font-size: 13.5pt; line-height: 1.25; margin: 1.15em 0 0.3em; break-after: avoid; }
+h3 { font-family: Fraunces, serif; font-weight: 500; font-size: 12pt; margin: 1em 0 0.25em; break-after: avoid; }
+p { margin: 0.45em 0; orphans: 3; widows: 3; hyphens: auto; }
+.label { font-family: Fraunces, serif; letter-spacing: 0.16em; text-transform: uppercase; font-size: 9pt; color: #8c3014; margin: 0 0 0.2em; }
+.blank-verso { height: 1in; break-after: page; page: silent; }
+.half, .frontis, .title { page: silent; break-after: page; }
+.half { padding-top: 2.4in; }
+.half h1 { font-size: 36pt; line-height: 0.92; }
+.ornament { text-align: center; letter-spacing: 0.4em; color: #8c3014; margin-top: 0.6in; }
+.frontis img { width: 3.5in; display: block; margin: 0.3in auto 0.35in; }
+.frontis blockquote, blockquote { margin: 0.6em 0 0.8em; padding: 0; border: 0; }
+blockquote p { font-family: Fraunces, serif; font-style: italic; font-weight: 500; font-size: 13pt; line-height: 1.35; }
+cite { display: block; margin-top: 0.35em; font-style: normal; font-size: 9.5pt; color: #4e463c; }
+.title { padding-top: 1.5in; }
+.title h1 { font-size: 28pt; }
+.title .sub { font-family: Fraunces, serif; font-style: italic; font-size: 14pt; color: #3e4a32; }
+.title-gap { height: 0.8in; }
+.blank { border-bottom: 1px solid #1c1712; margin: 0.85em 0 0.15em; min-height: 1.15em; position: relative; break-inside: avoid; }
+.blank span { position: absolute; top: -0.15em; font-family: Fraunces, serif; font-size: 8pt; letter-spacing: 0.14em; text-transform: uppercase; color: #8a7d6b; }
+.quiet, .note, .small { color: #4e463c; }
+.note { font-style: italic; }
+.copy h1, .dedi h1 { font-size: 18pt; }
+.page-front { break-before: page; }
+.page-flow { break-before: page; }
+.page-recto { break-before: right; }
+.dedi { break-before: right; padding-top: 1.4in; }
+.toc-part { font-family: Fraunces, serif; font-weight: 600; margin: 0.85em 0 0.2em; font-size: 11pt; }
+.toc-row { display: flex; align-items: baseline; gap: 0.35em; text-decoration: none; color: inherit; margin: 0.12em 0; break-inside: avoid; }
+.toc-n { width: 1.5em; font-variant-numeric: tabular-nums; color: #8c3014; }
+.toc-dots { flex: 1; border-bottom: 1px dotted #b7aa94; transform: translateY(-0.18em); min-width: 0.8em; }
+.pg { min-width: 1.5em; text-align: right; font-variant-numeric: tabular-nums; }
+.plate-list { padding-left: 1.2em; }
+.plate-list li { margin: 0.2em 0; }
+.part { page: silent; break-before: right; break-after: page; height: 7.4in; position: relative; }
+.part-inner { position: absolute; left: 0; right: 0; bottom: 0.4in; }
+.part h1 { font-size: 28pt; }
+.part .blurb { font-family: Fraunces, serif; font-style: italic; font-weight: 500; font-size: 13pt; }
+.chapter { break-before: page; }
+.plate { margin: 0.2em 0 0.8em; break-inside: avoid; }
+.plate img { width: 100%; height: auto; display: block; }
+figcaption { font-family: Fraunces, serif; font-style: italic; font-weight: 500; font-size: 9.5pt; color: #4e463c; margin-top: 0.28em; }
+.prose ul, .prose ol { padding-left: 1.15em; margin: 0.4em 0; }
+.prose li { margin: 0.18em 0; }
+.prose strong { font-weight: 700; }
+.prose em { font-style: italic; }
+.lede::first-letter { font-family: Fraunces, serif; font-weight: 600; float: left; font-size: 2.7em; line-height: 0.8; padding-right: 0.06em; color: #8c3014; }
+.table-wrap { break-inside: avoid; margin: 0.6em 0 0.8em; }
+table { width: 100%; border-collapse: collapse; font-size: 9pt; line-height: 1.35; }
+th { font-family: Fraunces, serif; font-weight: 600; text-align: left; border-bottom: 1px solid #1c1712; padding: 0.25em 0.45em 0.25em 0; }
+td { border-bottom: 1px solid #d2c4aa; padding: 0.28em 0.45em 0.28em 0; vertical-align: top; }
+.math { font-family: Fraunces, serif; white-space: nowrap; }
+.math.display { display: block; text-align: center; margin: 0.7em 0; white-space: normal; }
+.frac { display: inline-flex; flex-direction: column; vertical-align: middle; text-align: center; font-size: 0.92em; line-height: 1.05; margin: 0 0.15em; }
+.frac .num { border-bottom: 1px solid currentColor; padding: 0 0.2em 0.04em; }
+.frac .den { padding: 0.04em 0.2em 0; }
+.sup, .sub { font-size: 0.7em; line-height: 0; }
+.sup { vertical-align: super; }
+.sub { vertical-align: sub; }
+.sqrt .rad { border-top: 1px solid currentColor; padding: 0 0.12em; }
+.tex-text { font-family: Literata, serif; font-style: normal; font-size: 0.92em; }
+pre { font-family: ui-monospace, monospace; font-size: 8.5pt; line-height: 1.35; background: #e7dcc6; padding: 0.45em 0.55em; white-space: pre-wrap; break-inside: avoid; }
+code { font-family: ui-monospace, monospace; font-size: 0.92em; }
+
+</style>
+</head>
+<body>
+<section class="coverpage">
+  <div class="cover-art"></div>
+  <div class="cover-band">
+    <p class="kicker">A field manual</p>
+    <h1>Zombieproof<br/>Computers</h1>
+    <p class="sub">How to Keep a Mind When the Grid Is Gone</p>
+  </div>
+</section>
+<section class="blank-verso"></section>
+<section class="half silent-page" id="halftitle">
+  <p class="kicker">A field manual</p>
+  <h1>Zombieproof<br/>Computers</h1>
+  <p class="ornament">— · —</p>
+</section>
+<section class="frontis silent-page" id="frontis">
+  <img src="art/frontis.jpg" alt="A homemade computer with a daisy in the drive, and a builder asleep on the keyboard"/>
+  <blockquote><p>If it still remembers you in the morning, you built the memory right.</p><cite>— Margin note, not attributed</cite></blockquote>
+</section>
+<section class="title silent-page" id="title">
+  <p class="kicker">A field manual in seventeen chapters</p>
+  <h1>Zombieproof Computers</h1>
+  <p class="sub">How to Keep a Mind When the Grid Is Gone</p>
+  <div class="title-gap"></div>
+  <p class="blank"><span>Author</span></p>
+<p class="blank"><span>Publisher</span></p>
+<p class="blank"><span>City</span></p>
+</section>
+<section class="copy page-front" id="copyright">
+  <h1>Copyright</h1>
+  <p class="small">Copyright ©</p>
+  <p class="blank"><span>Year</span></p>
+<p class="blank"><span>Author</span></p>
+  <p>All rights reserved. No part of this book may be reproduced, stored, or transmitted in any form — print, electronic, photocopy, recording, semaphore, or a README you would not be ashamed to have diffs of — without the prior written permission of the publisher, except for brief passages in a review, a lab notebook, or a comment in code you are willing to sign.</p>
+  <p class="blank"><span>Publisher</span></p>
+<p class="blank"><span>Place of publication</span></p>
+  <p class="small">First edition</p>
+  <p class="blank"><span>Year of publication</span></p>
+<p class="blank"><span>ISBN</span></p>
+<p class="blank"><span>Cataloguing-in-publication data</span></p>
+  <p>This is a work of humor and amateur curiosity. It is not engineering certification, legal advice, medical advice, or a license to enter, copy, or disable a computer you do not have the right to touch. Laws outlive grids. Do not take apart a mains-powered device, a power supply, or a picture tube if you like your fingers. A homemade regulator can still start a fire. The undead are a metaphor. The responsibility is not.</p>
+  <p class="small">Illustrations made for this edition. Author, dedication, and publisher left blank to be filled in ink.</p>
+  <p class="blank"><span>Printed in</span></p>
+</section>
+<section class="dedi page-front" id="dedication">
+  <h1>Dedication</h1>
+  <p class="quiet">For</p>
+  <p class="blank"><span>Name</span></p>
+<p class="blank"><span>And, if you like, a line</span></p>
+<p class="blank"><span>And one more</span></p>
+</section>
+<section class="praise page-flow" id="praise">
+  <h1>Early word from the bench</h1>
+  <p class="note">Stand-in notices, so the page has a shape. Cross them out. Put real readers here.</p>
+  <blockquote><p>I read the flip-flop chapter to a breadboard. A light came on that I had not asked for. I am choosing to take this as agreement.</p><cite>— Night bench, pinout unconfirmed</cite></blockquote>
+<blockquote><p>Finally, a manual that admits the hard part is not the horde. The hard part is the pin you were sure was ground.</p><cite>— A person who would like their bench withheld</cite></blockquote>
+<blockquote><p>I fell asleep somewhere near the address decoder and woke up believing I could build a computer out of a lemon and a grudge. The lemon is doing its part.</p><cite>— The Committee for Slightly Steadier Rails</cite></blockquote>
+<blockquote><p>The pictures understand the assignment. The undead are trying. So are the registers. I kept it between the spare fuse and the good screwdriver.</p><cite>— Go-bag inspection, drawer blank</cite></blockquote>
+<blockquote><p>Heard a bit of the first chapter read aloud in a workshop. Somebody laughed once, which is the correct number of times, and then went back to labeling wires.</p><cite>— Workshop, identity unconfirmed, manners excellent</cite></blockquote>
+</section>
+<section class="contents page-flow" id="contents">
+  <h1>Contents</h1>
+  <a class="toc-row" href="#foreword"><span class="toc-n"></span><span class="toc-t">Foreword</span><span class="toc-dots"></span><span class="pg">12</span></a>
+<a class="toc-row" href="#preface"><span class="toc-n"></span><span class="toc-t">A note on the drafts</span><span class="toc-dots"></span><span class="pg">14</span></a>
+<p class="toc-part">Part I · The Grain of the Thing</p>
+<a class="toc-row" href="#ch01"><span class="toc-n">1</span><span class="toc-t">What Even Is a Computer</span><span class="toc-dots"></span><span class="pg">17</span></a>
+<a class="toc-row" href="#ch02"><span class="toc-n">2</span><span class="toc-t">From Scavenged Bits to Building Blocks</span><span class="toc-dots"></span><span class="pg">20</span></a>
+<a class="toc-row" href="#ch03"><span class="toc-n">3</span><span class="toc-t">Digital Logic from the Ground Up</span><span class="toc-dots"></span><span class="pg">23</span></a>
+<p class="toc-part">Part II · A Bit That Stays</p>
+<a class="toc-row" href="#ch04"><span class="toc-n">4</span><span class="toc-t">The Building Blocks Beneath the Brain</span><span class="toc-dots"></span><span class="pg">28</span></a>
+<a class="toc-row" href="#ch05"><span class="toc-n">5</span><span class="toc-t">Building the CPU Core</span><span class="toc-dots"></span><span class="pg">33</span></a>
+<p class="toc-part">Part III · Something You Can Use</p>
+<a class="toc-row" href="#ch06"><span class="toc-n">6</span><span class="toc-t">Memory Integration</span><span class="toc-dots"></span><span class="pg">38</span></a>
+<a class="toc-row" href="#ch07"><span class="toc-n">7</span><span class="toc-t">Peripherals and Serial Communication</span><span class="toc-dots"></span><span class="pg">42</span></a>
+<a class="toc-row" href="#ch08"><span class="toc-n">8</span><span class="toc-t">Simple Operating Systems</span><span class="toc-dots"></span><span class="pg">47</span></a>
+<p class="toc-part">Part IV · The Next Machine</p>
+<a class="toc-row" href="#ch09"><span class="toc-n">9</span><span class="toc-t">Networking Your Zombieproof Computer</span><span class="toc-dots"></span><span class="pg">52</span></a>
+<a class="toc-row" href="#ch10"><span class="toc-n">10</span><span class="toc-t">A Hands-On Blueprint</span><span class="toc-dots"></span><span class="pg">56</span></a>
+<p class="toc-part">Part V · Heat, Hunger, and Mistakes</p>
+<a class="toc-row" href="#ch11"><span class="toc-n">11</span><span class="toc-t">Debugging and Optimizing</span><span class="toc-dots"></span><span class="pg">60</span></a>
+<a class="toc-row" href="#ch12"><span class="toc-n">12</span><span class="toc-t">Powering Your Zombieproof Computer</span><span class="toc-dots"></span><span class="pg">63</span></a>
+<a class="toc-row" href="#ch13"><span class="toc-n">13</span><span class="toc-t">Cooling and Enclosure</span><span class="toc-dots"></span><span class="pg">66</span></a>
+<p class="toc-part">Part VI · Words the Machine Keeps</p>
+<a class="toc-row" href="#ch14"><span class="toc-n">14</span><span class="toc-t">Expanding and Securing the Network</span><span class="toc-dots"></span><span class="pg">70</span></a>
+<a class="toc-row" href="#ch15"><span class="toc-n">15</span><span class="toc-t">Writing Resilient Survival Code</span><span class="toc-dots"></span><span class="pg">73</span></a>
+<a class="toc-row" href="#ch16"><span class="toc-n">16</span><span class="toc-t">A Bootloader and a Shell</span><span class="toc-dots"></span><span class="pg">76</span></a>
+<a class="toc-row" href="#ch17"><span class="toc-n">17</span><span class="toc-t">Memory Management and Direct Memory Access</span><span class="toc-dots"></span><span class="pg">78</span></a>
+<a class="toc-row" href="#afterword"><span class="toc-n"></span><span class="toc-t">Afterword</span><span class="toc-dots"></span><span class="pg">81</span></a>
+<a class="toc-row" href="#ack"><span class="toc-n"></span><span class="toc-t">Acknowledgments</span><span class="toc-dots"></span><span class="pg">82</span></a>
+<a class="toc-row" href="#author"><span class="toc-n"></span><span class="toc-t">About the author</span><span class="toc-dots"></span><span class="pg">83</span></a>
+<a class="toc-row" href="#soon"><span class="toc-n"></span><span class="toc-t">Also forthcoming</span><span class="toc-dots"></span><span class="pg">84</span></a>
+<a class="toc-row" href="#colophon"><span class="toc-n"></span><span class="toc-t">Colophon</span><span class="toc-dots"></span><span class="pg">85</span></a>
+</section>
+<section class="plates page-flow" id="plates">
+  <h1>List of plates</h1>
+  <ol class="plate-list">
+    <li><span>Plate 1. A briefing. The zombie is taking notes on the wrong side.</span></li>
+<li><span>Plate 2. Pencil lead, foil, and a lemon that has been promoted.</span></li>
+<li><span>Plate 3. The gate is logic. The zombie is not.</span></li>
+<li><span>Plate 4. One bit, held gently, like a secret.</span></li>
+<li><span>Plate 5. The little brain, mid-thought. The baton is not helping.</span></li>
+<li><span>Plate 6. Drawers for thoughts. Most of them empty, which is honest.</span></li>
+<li><span>Plate 7. The mouse has seen things. It still clicks.</span></li>
+<li><span>Plate 8. Someone has to tell the hardware what day it is.</span></li>
+<li><span>Plate 9. Two machines, and one polite wire between them.</span></li>
+<li><span>Plate 10. Lay the kit out before the night does it for you.</span></li>
+<li><span>Plate 11. The probe is mightier than the speech.</span></li>
+<li><span>Plate 12. Power, which is a polite word for not going dark.</span></li>
+<li><span>Plate 13. A box that lets the heat out and the weather stay outside.</span></li>
+<li><span>Plate 14. Trust, but checksum.</span></li>
+<li><span>Plate 15. Code small enough to carry in your head.</span></li>
+<li><span>Plate 16. It boots. It asks what you want. That is a civilization.</span></li>
+<li><span>Plate 17. The long way around the processor, on purpose.</span></li>
+  </ol>
+</section>
+<section class="matter page-recto" id="foreword">
+  <h1>Foreword</h1>
+  <div class="prose"><p>Someone always asks, at the bad moment, whether the machine is still on. They mean: does it remember. They mean: is the list still there.</p>
+<p>This manual is an answer with solder on it. It begins where a computer actually begins, which is not with a logo on a lid but with a switch that is either open or shut. Bits. Then the scavenged parts that bully electrons into behaving. Then the little decisions — gates — and the trick of remembering a decision after the moment has gone. Then a processor, which is only those tricks arranged in a circle and given a clock.</p>
+<p>You will find projects. Some of them can be done with foil, pencil lead, and a patience you may have to borrow. Some of them want a breadboard, a handful of gates, and the humility to test all four input states before you declare victory. Later chapters wander into memory, mice, a small operating system, a wire between two machines, and the unglamorous business of power, heat, and a bug you can see with an LED.</p>
+<p>The zombies are a convenience. They stand in for every reason a machine fails. A loose wire, a brownout, a program that will not stop talking, a person who wants the computer to be a personality instead of a tool. If you are reading this while the world is, against the odds, still answering its phone, the zombies will not mind. The logic is the same on a Tuesday.</p>
+<p>A word about the pages that mention networks, ciphers, and getting into a machine. Curiosity is not a license. Do not break into a system you do not have the right to touch. Do not open a tube that still holds a charge. The jokes are jokes. A grid can fail and the rules about other people’s machines can still be standing. Mains voltage does not care that you are improvising.</p>
+<p>What I hope you keep is not a single circuit. It is the habit of a machine you understand: a place the instructions live, a way to see that they ran, and a way to turn the thing off without losing the work. Computers are poor company and excellent notebooks. They do not replace the person who wrote the list. They only make it possible for that list to still be there in the morning.</p>
+<p>Leave your name off the title page until you want it there. The machine does not require a byline. It requires a clock, a little discipline, and somebody who labeled the wires.</p></div>
+  <p class="quiet sign-label">The foreword writer signs here.</p>
+  <p class="blank"><span>Name</span></p>
+<p class="blank"><span>Place and date</span></p>
+</section>
+<section class="matter page-flow" id="preface">
+  <h1>A note on the drafts</h1>
+  <div class="prose"><p>This manual was assembled from a stack of chapter drafts. They did not all arrive once. Several subjects came through two or three times, in different handwriting, and a few files were the same page copied over. Where that happened, the fullest pass was kept and the others were left in the drawer. A chapter that told the gates again, after the gates had already been told, was set aside so the flip-flops could have the next number. The chapters themselves are the ones you brought.</p>
+<p>The formulas in the early drafts had been shaken apart, one glyph to a line, and then written again underneath in a hurry. They have been put back into a single line. Nothing was added to the arithmetic.</p>
+<p>Near the end of the pile was a page of titles only: power management beyond the power chapter, firmware locks, diagnostics, and a chapter about sharing the designs. Those chapters were not written. They are named at the back, not invented here. A loose page of bootloader scraps was kept, because it was the only code the folder actually contained.</p>
+<p>You can read it straight through, or raid the contents the way you would raid a parts bin. The first part is what a computer is, and the electrons under it. The middle is memory, a way in, and a small operating system. The last part is the wire to the next machine, and the business of keeping the one you have from cooking itself.</p>
+<p>There is a dull warning, and it is dull on purpose. Do not connect a scavenged supply to your skin to see if it is live. Do not open a cathode-ray tube. Do not put a homemade computer on a network you do not administer, and do not treat a cipher sketch in a humor book as a lock. The undead are a metaphor. A short circuit is not.</p>
+<p>The dedication, the author’s name, and the publisher are blank on purpose. Write them in when you know them. Ink, not pencil. Pencil is for pinouts.</p></div>
+</section>
+<section class="part" id="part1"><div class="part-inner"><p class="label">Part I</p><h1>The Grain of the Thing</h1><p class="blurb">What a computer is, before you trust it with a list.</p></div></section>
+<article class="chapter" id="ch01">
+  <p class="label">Chapter 1</p>
+  <h1>What Even Is a Computer</h1>
+  <figure class="plate"><img src="art/ch01.jpg" alt="Plate 1. A briefing. The zombie is taking notes on the wrong side."/><figcaption>Plate 1. A briefing. The zombie is taking notes on the wrong side.</figcaption></figure>
+  <div class="prose"><p class="lede">Imagine the world has gone sideways. The power&#39;s out, zombies roam your neighborhood, and your trusty laptop shortcut to the digital universe has turned into an expensive paperweight. But deep down, you know: if you can rebuild the heart of technology—the computer—you can help rebuild civilization itself.</p>
+<p>This chapter is a no-nonsense, full-throttle expedition into what a computer is, really. Not just what it does—but how it does it, why each tiny part exists, and how to start thinking like a digital survivalist who can make one from scratch someday.</p>
+<p>What is a Computer? At its core, a computer is a machine that:</p>
+<ul>
+<li>Takes instructions (input)</li>
+<li>Processes data and makes decisions (computation)</li>
+<li>Sends results out (output)</li>
+</ul>
+<p>This sounds obvious, but like any mythic creature, it’s the how that fascinates—and intimidates.</p>
+<h2>The Language of the Machine — Binary Bits</h2>
+<p>Computers speak in binary, the language of ones and zeros. Each &quot;bit&quot; corresponds to a small pulse of electricity: on (1) or off (0). Chains of bits spell out everything—from words on your screen to music in your headphones.</p>
+<p>Think of the bit as a flickering campfire signal—a simple yes or no that your computer uses to build incredibly complex ideas.</p>
+<h2>The Physical Parts — Boxes, Bits, and Buttons</h2>
+<p>Your computer’s hardware looks like a black box of mystery, but inside it&#39;s just:</p>
+<ul>
+<li>Tiny switches (transistors) flipping on/off</li>
+<li>Wires organizing pathways for electrical pulses</li>
+<li>Storage to hold information temporarily or forever (memory)</li>
+<li>The brain (CPU) that tells it what to do, faster than you can blink</li>
+</ul>
+<p>Buttons and screens are the human interface—the way you shout commands into the machine or listen when it talks back.</p>
+<p>What Actually Happens Inside? Electric impulses race along metal roads—called buses—inside the box. The CPU acts as the commander-in-chief, directing traffic, calculating sums, and making decisions in mere nanoseconds.</p>
+<p>Programming languages, down to binary machine code, tell the CPU which switch to flip and when, in a precise dance that makes your apps run like magic.</p>
+<h2>Operating Systems: The Unsung Heroes</h2>
+<p>Operating systems (like Windows, Linux, or the tiny OS you’ll build) know how to handle multitasking, memory management, file systems, and talking to your hardware. They’re the critical middleman making sure your computer doesn’t crash or burn every time you open a YouTube tab.</p>
+<h2>Why Zombieproofing the Computer Matters</h2>
+<p>When modern supply chains collapse and tech factories go silent, the know-how to build computers from the ground up could be the survival skill. It’s not just academic—it&#39;s life, liberty, and the pursuit of caffeinated joy.</p>
+<ul>
+<li>This book will teach you how to:</li>
+<li>Scavenge parts and build fundamental components</li>
+<li>Assemble brains and memory for your machine</li>
+<li>Program your creation to run real software</li>
+<li>Connect to peripherals and networks for expansion</li>
+</ul>
+<p>By the end, you’ll not only understand computers, you’ll have the tools to build a zombieproof digital world.</p></div>
+</article>
+
+<article class="chapter" id="ch02">
+  <p class="label">Chapter 2</p>
+  <h1>From Scavenged Bits to Building Blocks</h1>
+  <figure class="plate"><img src="art/ch02.jpg" alt="Plate 2. Pencil lead, foil, and a lemon that has been promoted."/><figcaption>Plate 2. Pencil lead, foil, and a lemon that has been promoted.</figcaption></figure>
+  <div class="prose"><p class="lede">So, you’re a survivor in a world where mass-produced electronics are relics, and factories are just spooky ruins attracting wanderers or worse. You want to build a computer from scratch — but to do that, you need to start with the basics: resistors, capacitors, diodes, transistors, and the humble wires connecting them.</p>
+<p>This chapter isn’t some sterile electronics textbook—it’s your survival guide to crafting circuits in a world gone sideways. You&#39;ll learn exactly what these components do, how you can make or scavenge them, and how to bring together electricity’s secrets into something that works.</p>
+<p>What Even Is Electricity, Seriously? Electricity is a wild beast, the flow of electrons, tiny particles with a negative charge that zip through wires and materials. When you turn on a light or power a radio, you&#39;re commanding billions of these particles to dance in sync.</p>
+<p>Electrons flow because of a difference in electrical potential—a voltage—that pulls and pushes them, much like water flowing downhill. But unlike water, electrons obey rules set by resistance, capacitance, and other electrical properties that govern how fast, how much, and how clean the flow is.</p>
+<h2>The Components Every Circuit Needs</h2>
+<p>To harness electricity, we first need components that control and shape it:</p>
+<p><strong>Resistors.</strong> These are your flow controllers. Think of them as traffic cops slowing down the electron rush so your delicate devices don’t get fried. You’ll learn how to make your own resistors from scrap graphite or wire in a pinch.</p>
+<p><strong>Capacitors.</strong> The electron stashes. These little energy banks store electrical charge and release it when needed—a bit like a survival rucksack that temporarily holds vital supplies.</p>
+<p><strong>Diodes.</strong> One-way streets for electricity. They ensure current only flows where you want it, protecting components and crafting waves for radios and logic circuits.</p>
+<p><strong>Transistors.</strong> The tiny switches and amplifiers, the building blocks of modern computing magic. Made from semiconductor materials, they can open and close circuits billions of times per second, controlling flow to make decisions—the sine qua non of logic and memory.</p>
+<h2>Making Your Own Parts from Scavenged Materials</h2>
+<p>When the zombie apocalypse rolls in, microchips won’t be at your local corner store (if the corner store even still exists). Crafting simple parts or scavenging from broken radios, old computers, and even kitchen appliances will be your lifeline.</p>
+<p><strong>DIY resistor tip.</strong> Use pencil lead (graphite) scraped onto cardboard or thin wires stretched in series to create specific resistance levels.</p>
+<p><strong>Capacitor crafting.</strong> Layers of aluminum foil separated by wax paper, plastic, or dry leaves make rudimentary capacitors.</p>
+<p><strong>Diode discovery.</strong> Find tiny glass cylinders with bands (old diodes) in junk electronics or make crude crystal diodes with razor blades and graphite points.</p>
+<h2>Wiring It Together: The Juice Line</h2>
+<p>All these parts connect together with copper wires, solder, or even improvised conductors—twisted metal, saliva-soaked cotton threads, or strips of aluminum can serve. The key is secure connections and paths for current to flow uninterrupted.</p>
+<h2>Practical Survival Project: Build a Frail but Functional LED Circuit</h2>
+<p>Materials:</p>
+<ul>
+<li>A scavenged or homemade resistor</li>
+<li>An LED from any broken device or a salvaged flashlight</li>
+<li>Power source (batteries or improvised lemon battery)</li>
+<li>Wire or aluminum strips</li>
+<li>Steps:</li>
+</ul>
+<p>Connect resistor in series with LED to limit current.</p>
+<p>Connect to power source and ground.</p>
+<p>Observe the LED glow faintly—the first spark of hope in a dark world.</p></div>
+</article>
+
+<article class="chapter" id="ch03">
+  <p class="label">Chapter 3</p>
+  <h1>Digital Logic from the Ground Up</h1>
+  <figure class="plate"><img src="art/ch03.jpg" alt="Plate 3. The gate is logic. The zombie is not."/><figcaption>Plate 3. The gate is logic. The zombie is not.</figcaption></figure>
+  <div class="prose"><p class="lede">Welcome back, survivor. Now that you’ve learned to carve circuits from scrap and bend electrons to your will, it’s time to learn the language those circuits speak: digital logic. Think of digital logic as the grammar and syntax of computing. If your computer brain is the zombieproof fortress, digital logic lays down the fundamental bricks and mortar of its walls.</p>
+<h2>Binary: The Computer’s Native Tongue</h2>
+<p>Everything a computer knows collapses into two states: on or off. We call these states 1 and 0, the binary digits or “bits.” This is like Morse code but electrified, where every pulse or absence of pulse carries meaning.</p>
+<p>A bit is the foundation of all information. Group bits together and you can represent numbers, letters, images, sounds, and even ideas.</p>
+<h2>Logic Gates: The Basic Building Blocks</h2>
+<p>Logic gates are tiny, electrical decision-makers. Each takes one or more binary inputs and computes a binary output according to a rule.</p>
+<h2>The Big Six</h2>
+<p>AND: Outputs 1 if both inputs are 1. Think “both conditions must be true.”</p>
+<p><strong>OR.</strong> Outputs 1 if either input is 1. “At least one true.”</p>
+<h2>NOT: Outputs the opposite of input—flip the bit!</h2>
+<p><strong>NAND.</strong> NOT + AND combined; outputs 0 only if both inputs are 1.</p>
+<p><strong>NOR.</strong> NOT + OR; outputs 1 only if both inputs are 0.</p>
+<p><strong>XOR.</strong> Outputs 1 if inputs differ; 0 if same. Useful for addition.</p>
+<p>Every complex chip, every processor, and even your smartphone’s brain is composed of billions of these simple gates.</p>
+<h2>Building a Half Adder — Your First Logical Circuit</h2>
+<p>Remember counting with fingers as a kid? Adding 1 + 1 equals 2, right? But computers calculate bit by bit, so adding 1 + 1 requires carrying over.</p>
+<p>A half adder adds two single bits, <span class="math">A</span> and <span class="math">B</span>, and outputs a sum and a carry.</p>
+<p><strong>The sum is the XOR.</strong> <span class="math">S = A oplus B</span>.</p>
+<p><strong>The carry is the AND.</strong> <span class="math">C = A · B</span>.</p>
+<p>Build it from one XOR gate and one AND gate.</p>
+<p>You can wire this with salvaged transistors or gate ICs. Testing all four input states (00, 01, 10, 11) proves it adds correctly.</p>
+<h2>The Full Adder: Accounting for Carry-In</h2>
+<p>Life’s rarely simple. Sometimes you add with a carry from previous additions.</p>
+<p>A full adder takes in <span class="math">A</span>, <span class="math">B</span>, and a carry-in <span class="math">C<span class="sub">in</span></span>.</p>
+<p>It outputs a sum <span class="math">S</span> and a carry-out <span class="math">C<span class="sub">out</span></span>.</p>
+<p>The formulas are <span class="math">S = A oplus B oplus C<span class="sub">in</span></span> and <span class="math">C<span class="sub">out</span> = (A · B) + (C<span class="sub">in</span> · (A oplus B))</span>.</p>
+<p>Build with two half adders and one OR gate.</p>
+<p>Link multiple full adders to add multi-bit numbers—a vital function for all your zombieproof computing needs.</p>
+<h2>Oscillators and Clocks: The Heartbeat of Your Digital World</h2>
+<p>A clock isn’t a hairy skull ticking—but it’s just as vital. It’s an electronic signal oscillating regularly between high and low voltage, marking beats that synchronize every operation.</p>
+<p>How Do You Build a Clock? Oscillators are circuits that generate repetitive signals: sine waves, triangle waves, but for digital logic, square waves are king because they swing sharply between 0 and 1.</p>
+<p>You can build a ring oscillator with an odd number of NOT gates connected in a loop. Each gate’s output flips the input of the next, causing a continuous oscillation.</p>
+<p>The frequency depends on gate delays—how long a signal takes to switch.</p>
+<p>Why Square Waves? Square waves switch cleanly between high and low states, allowing digital circuits to latch onto clear logic levels without ambiguity. This sharp transition reduces errors and improves timing precision—a must for your survival-grade gear.</p>
+<h2>Clock Division</h2>
+<p>Sometimes you need a slower heartbeat. Flip-flops chained together can divide the frequency of your oscillator by powers of two, giving you adjustable timing.</p>
+<h2>Survival Project: Build a Half Adder and Clock Circuit</h2>
+<p>Parts List</p>
+<p>Salvaged XOR, AND, NOT gates or transistors with resistors.</p>
+<p>Breadboard or simple prototyping surface.</p>
+<p>Power source (batteries or power supply).</p>
+<p>LED indicators.</p>
+<h2>Steps</h2>
+<p>Wire a half adder circuit on your breadboard.</p>
+<p>Test sum and carry outputs with all input combinations; watch the LEDs reflect the outputs.</p>
+<p>Build a ring oscillator from NOT gates; connect an LED to observe the blinking clock signal.</p>
+<p>Add flip-flops to divide clock frequency and observe slower blinking.</p></div>
+</article>
+<section class="part" id="part2"><div class="part-inner"><p class="label">Part II</p><h1>A Bit That Stays</h1><p class="blurb">Memory of a single moment, then a clock that makes moments into work.</p></div></section>
+<article class="chapter" id="ch04">
+  <p class="label">Chapter 4</p>
+  <h1>The Building Blocks Beneath the Brain</h1>
+  <figure class="plate"><img src="art/ch04.jpg" alt="Plate 4. One bit, held gently, like a secret."/><figcaption>Plate 4. One bit, held gently, like a secret.</figcaption></figure>
+  <div class="prose"><p class="lede">If you thought flip-flops were just dance moves, or multiplexers only a fancy tech jargon, welcome to the place where these concepts stop being mysterious names and start being tools of survival.</p>
+<p>This chapter demystifies the crucial components that make your CPU&#39;s memory and decision paths possible, and how to build them using the logic fundamentals you already know.</p>
+<h2>Flip-Flops — The Memory Cells of Your Digital Brain</h2>
+<p>While individual logic gates make decisions right now, computers need to remember what happened a moment ago—for example, holding a bit steadily until told to change.</p>
+<p>What Is a Flip-Flop? A flip-flop is a digital circuit that stores one bit of information—either 0 or 1—until it receives a signal to change.</p>
+<p>How Does It Work? Flip-flops are formed by wiring logic gates (especially NAND or NOR gates) to create feedback loops:</p>
+<p>Input signals affect the state.</p>
+<p>At every clock pulse, the flip-flop &quot;latches&quot; or &quot;captures&quot; its input and holds that value steadily.</p>
+<p>This ability to hold state makes flip-flops the foundation for memory and timing.</p>
+<h2>Building a Basic SR Flip-Flop</h2>
+<p>Made from two cross-coupled NOR or NAND gates.</p>
+<p>Has Set and Reset inputs that switch the memory bit.</p>
+<p>Simple to design but prone to forbidden states; not usually used alone in real CPUs.</p>
+<h2>The D (Data) Flip-Flop: The Workhorse</h2>
+<p>Captures the input only on clock edges, avoiding unstable states.</p>
+<p>Easier to synchronize with the CPU clock.</p>
+<p>Buildable from gates and SR flip-flops, forming a reliable bit-storage device.</p>
+<h2>Registers — Holding Many Bits, Holding The Line</h2>
+<p>What Is a Register? A register is a collection of flip-flops—usually 8, 16, or 32—to store multi-bit binary numbers or instructions.</p>
+<h2>How to Build a Register from Flip-Flops</h2>
+<p>Place flip-flops side by side, each storing one bit.</p>
+<p><strong>Add load control.</strong> when active, the register captures the input data on the clock tick. Otherwise, it holds its previous state.</p>
+<p>Add outputs that reliably represent each bit’s current value for further operations.</p>
+<h2>Why Registers Matter in Your CPU</h2>
+<p>Immediate access storage for calculations and data movements.</p>
+<p>Fast, local compared to slower main memory.</p>
+<p>Help form the building blocks of the CPU’s scratchpad and working memory.</p>
+<h2>Shift Registers — Moving Data Bit By Bit</h2>
+<p>What Is a Shift Register? A shift register is a special kind of register that moves its bits left or right on every clock pulse, like a zipper pulling or pushing data along.</p>
+<h2>Making One from Flip-Flops</h2>
+<p>Connect flip-flops in a chain where the output of one feeds the input of the next.</p>
+<p>On each clock tick, all bits move over by one position.</p>
+<p><strong>Types.</strong> serial-in serial-out, parallel-in parallel-out, etc.</p>
+<h2>Why Shift Registers Matter</h2>
+<p>Used in serial communication to convert parallel data into sequential form and vice versa.</p>
+<p>Essential for multiplication, division, and buffering data streams.</p>
+<h2>Multiplexers — The Traffic Directors of Data</h2>
+<p>What Is a Multiplexer? Think of a multiplexer (mux) as an electronic switchboard—multiple inputs but only one output line, controlled by select signals to choose which input is routed to the output.</p>
+<p>How Does It Work? Uses logic gates to combine inputs under select signals&#39; control.</p>
+<p>When select line(s) change, different input paths activate.</p>
+<p>Enables efficient data routing without physically rewiring circuits.</p>
+<h2>Building a Multiplexer from Gates</h2>
+<p>Use AND gates to gate each input by the select lines.</p>
+<p>Finally, OR these gated signals together into a single output.</p>
+<p>Even an n-to-1 mux can be built from simple 2-to-1 mux blocks.</p>
+<h2>Role in the CPU</h2>
+<p>Select which register or memory data to feed into the ALU.</p>
+<p>Control data flow during instruction execution stages.</p>
+<p>Essential in complex decision making inside your processor.</p>
+<h2>Putting It Together — How These Parts Work in Harmony</h2>
+<p>Flip-flops hold bits steady between clock ticks.</p>
+<p>Registers collect these bits into usable words.</p>
+<p>Multiplexers route data dynamically based on control signals.</p>
+<p>Shift registers move data sequentially, bit by bit, as needed.</p>
+<p>Imagine the processor like a fortress guarded by walls (registers), doors (multiplexers), and watchtowers (flip-flops holding state). Without clear control of these, your zombieproof fortress crumbles.</p>
+<h2>Survival Project — Build a 4-bit Register and 2-to-1 Multiplexer</h2>
+<p>Materials:</p>
+<ul>
+<li>NAND or NOR gate ICs</li>
+<li>D flip-flop ICs or transistor versions</li>
+<li>Wires, breadboard, power source</li>
+<li>LEDs for output visualization</li>
+<li>Steps:</li>
+</ul>
+<p>Build four D flip-flops linked into a register.</p>
+<p>Add a load control line to enable clocked data capture.</p>
+<p>Construct a 2-to-1 multiplexer from AND, OR, and NOT gates.</p>
+<p>Use select input to switch between two 4-bit registers’ outputs.</p>
+<p>Test shifting, loading, and mux select changes with LEDs.</p></div>
+</article>
+
+<article class="chapter" id="ch05">
+  <p class="label">Chapter 5</p>
+  <h1>Building the CPU Core</h1>
+  <figure class="plate"><img src="art/ch05.jpg" alt="Plate 5. The little brain, mid-thought. The baton is not helping."/><figcaption>Plate 5. The little brain, mid-thought. The baton is not helping.</figcaption></figure>
+  <div class="prose"><p class="lede">Welcome back, brave builder. Now that you’ve mastered the nuts and bolts of memory cells, multiplexers, and data flow control in Chapter 4a, it’s time to step up to the big leagues: assembling these parts into a working CPU core, the nerve center orchestrating every move.</p>
+<p>This chapter will guide you step-by-step through designing and wiring your own basic CPU’s brain, grounding every instruction in logic gates, flip-flops, registers, and controlled data routing facilitated by multiplexers—none of the magic happens without these friends.</p>
+<h2>Understanding the CPU’s Role</h2>
+<p>Your CPU is the conductor in an orchestra of circuits, maintaining rhythm with a clock and signaling which instruments—registers, memory, ALUs—play at any moment.</p>
+<p>It performs a recurring cycle:</p>
+<p><strong>Fetch.</strong> Grab the instruction from memory, guided by the Program Counter (PC).</p>
+<p><strong>Decode.</strong> Translate that instruction into control signals that determine what the CPU does next.</p>
+<p><strong>Execute.</strong> Perform operation in the ALU or data transfer in registers/memory.</p>
+<p><strong>Writeback.</strong> Save results back to registers or memory.</p>
+<p><strong>Update PC.</strong> Move to the next instruction.</p>
+<h2>Bringing Circuits to Life — Step-by-Step</h2>
+<p>Step 1: Registers — Your CPU’s Quick-Access Memory Registers capture and hold bits synchronized by the CPU clock:</p>
+<p>Build each register from D flip-flops, connected to latch data loaded on clock rising edge.</p>
+<p>Add enable (load) signals that control when the register updates, allowing precise data staging.</p>
+<p>Use multiplexers to select which data source drives the register inputs.</p>
+<h2>Step 2: Data Movement — Controlled by Multiplexers</h2>
+<p>Imagine registers lining the CPU pathway; multiplexers are your circuit&#39;s traffic signals directing which register’s data routes where.</p>
+<p>A multiplexer logically ANDs input lines with select signals and ORs results to a single output.</p>
+<p>Control signals from the control unit decide which register the ALU sees or what the program counter should update to.</p>
+<p>Multiplexers let your CPU flexibly route operands and results without physically rewiring circuits.</p>
+<h2>Step 3: The ALU — The Calculating Muscle</h2>
+<p>Use the full adders and logic gates you built:</p>
+<p>Connect registers’ outputs to ALU inputs to feed numbers for arithmetic and logic operations.</p>
+<p>Control lines select operation mode (add, subtract, and, or, xor).</p>
+<h2>Step 4: The Program Counter — Address Pioneer</h2>
+<p>The PC is a register with special logic:</p>
+<p><strong>Increment logic.</strong> Adder increases PC by 1 each cycle.</p>
+<p><strong>Load logic.</strong> When jump instructions occur, the PC loads a new address.</p>
+<p>Controlled by multiplexers to select incremented or jumped address as next PC value.</p>
+<h2>Step 5: The Control Unit — Mastermind of Signals</h2>
+<p>This finite state machine interprets instruction bits, generating timed signals to:</p>
+<p>Enable or disable register loading.</p>
+<p>Select ALU operations.</p>
+<p>Control PC increment or jump.</p>
+<p>Manage memory read/write cycles.</p>
+<h2>Timing Is Everything: The Clock and Control Lines</h2>
+<p>Each register, ALU operation, and data movement happens on precise clock edges. Your clock pulse invades circuits, triggering flip-flops to update, multiplexers to switch paths.</p>
+<p>Control signals gate these operations, ensuring only the correct data moves and timing stays synchronized—so no zombie shuffle or electrical chaos.</p>
+<h2>Practical Build Project: Assemble a 4-Bit CPU Core</h2>
+<p>Parts needed:</p>
+<ul>
+<li>D flip-flop ICs for registers (or transistor equivalents)</li>
+<li>Gate ICs/Transistors for multiplexers, logic gates, ALU adders</li>
+<li>Breadboard, wires, switch inputs, LEDs for outputs</li>
+<li>Oscillator circuit for clock source</li>
+<li>Procedure:</li>
+</ul>
+<p>Build four 4-bit registers with controlled load signals.</p>
+<p>Wire multiplexers to select register outputs for ALU inputs.</p>
+<p>Construct the ALU with adders and logic gates — connect to multiplexers&#39; outputs.</p>
+<p>Build the program counter with increment and load logic, controlled by multiplexers.</p>
+<p>Create a minimalist control unit hardwired for a few basic instructions: load, add, jump, store.</p>
+<p>Connect clock to synchronize all components.</p>
+<p>Test with step-by-step clock pulses, watching LEDs for register outputs and program counter progress.</p>
+<p>This grounding completes your CPU’s brain, built from first principles, ready to be expanded with memory, input/output, and complex instructions. By controlling every gate, flip-flop, multiplexer, and wiring path, you hold the power to resurrect civilization’s digital pulse.</p></div>
+</article>
+<section class="part" id="part3"><div class="part-inner"><p class="label">Part III</p><h1>Something You Can Use</h1><p class="blurb">A place for the program, a way to touch the machine, and a small system between you and the metal.</p></div></section>
+<article class="chapter" id="ch06">
+  <p class="label">Chapter 6</p>
+  <h1>Memory Integration</h1>
+  <figure class="plate"><img src="art/ch06.jpg" alt="Plate 6. Drawers for thoughts. Most of them empty, which is honest."/><figcaption>Plate 6. Drawers for thoughts. Most of them empty, which is honest.</figcaption></figure>
+  <div class="prose"><p class="lede">Welcome to the most crucial layer of your homemade zombieproof machine: memory. Without memory, your processor is a headless survivor, unable to remember instructions, data, or even which step it’s on. Memory is both the filing cabinet and scratchpad for your digital brain.</p>
+<p>This chapter is a deep dive into memory architecture, address decoding, control signals, data buses, and how to hook up your CPU to real memory chips or banks. You’ll learn all the seemingly mystifying details of making memory work seamlessly so your CPU can focus on surviving, computing, and… well, not getting eaten.</p>
+<h2>Why Memory Integration Matters</h2>
+<p>Your CPU needs memory for several critical tasks:</p>
+<p>Store programs (instructions).</p>
+<p>Hold variables and data during operations.</p>
+<p>Provide workspace for intermediate calculations.</p>
+<p>Without memory, all the logic in the world serves no purpose. The CPU would just stare into empty electrical void.</p>
+<h2>Memory Types—Basics You Need to Know</h2>
+<p>RAM (Random Access Memory): Temporary and fast storage, erased when power is off—your prime workspace. Built as arrays of flip-flops or capacitors arranged in grids.</p>
+<p><strong>ROM (Read-Only Memory).</strong> Permanent storage holding essential firmware or bootstrapping code. Non-volatile, but harder to modify.</p>
+<p><strong>Memory-Mapped I/O.</strong> Peripherals appear as memory addresses — simplifying CPU access to devices.</p>
+<h2>Address Spaces and Address Lines</h2>
+<p>Memory chips are organized in locations accessible by unique addresses. The number of address lines dictates how much memory you can access:</p>
+<p><span class="math">N</span> address lines give <span class="math">2<span class="sup">N</span></span> unique addresses.</p>
+<p>For example, 8 address lines = 256 addresses; 16 = 65,536.</p>
+<p>Your CPU sends address info down the address bus— a set of wires dedicated to carrying address bits.</p>
+<h2>Decoding Addresses: The Key to Organized Access</h2>
+<p>With many memory chips and devices, your CPU must ensure only one device answers per address. This calls for decoders or address decoders.</p>
+<p>These are logic circuits (made from NAND, NOR gates, or multiplexers) that listen to specific address bits.</p>
+<p>When the CPU address matches a chip’s range, the chip decoder outputs an enable signal to activate the chip.</p>
+<p>This prevents multiple chips trying to drive the bus at once, which would cause data corruption or electrical damage.</p>
+<h2>Data Bus and Control Signals — The Communication Layer</h2>
+<p>The data bus is a multi-wire path carrying actual data to/from memory and CPU.</p>
+<p>Control signals include:</p>
+<p><strong>Read/Write (R/W).</strong> Whether data is being read from or written to memory.</p>
+<p><strong>Chip Enable (CE).</strong> Permits a specific chip to engage and place data onto the bus.</p>
+<p><strong>Output Enable (OE).</strong> Makes sure only selected devices drive the bus.</p>
+<h2>Tristate Buffers — Keeping the Peace on the Bus</h2>
+<p>When multiple memory chips share a data bus, tristate buffers ensure only one device drives the lines at a time, while others stay ‘off’ electrically.</p>
+<h2>Practical Integration Walkthrough</h2>
+<p>CPU puts the target memory address on the address bus.</p>
+<p>Address decoder activates the matching chip’s enable signal.</p>
+<p>CPU asserts Read or Write.</p>
+<p>During Read, the selected chip drives the data bus with requested data.</p>
+<p>During Write, the CPU places data on the bus, and the chip saves it.</p>
+<p>Timing is critical. Control signals and data must stabilize before reads/writes are acknowledged.</p>
+<h2>Survival Project: Building a Basic Memory Interface</h2>
+<p>Materials RAM IC or homemade flip-flop arrays for memory banks.</p>
+<p>NAND gates or decoders for chip select circuitry.</p>
+<p>Tristate buffers or logic gates for bus management.</p>
+<p>Wires, breadboards, connection tools.</p>
+<h2>Procedure</h2>
+<p>Design address decoding for your available RAM banks or modules.</p>
+<p>Wire control lines for read and write operational modes.</p>
+<p>Connect tristate buffers to ensure clean data bus sharing.</p>
+<p>Demonstrate reading and writing sequences with LEDs or logic analyzers.</p>
+<p>Program a small loop or test code inside your CPU to read from and write to memory.</p>
+<h2>Timing, Delays, and Real World Imperfections</h2>
+<p>Propagation delays mean data doesn’t move instantly; clock synchronization and wait states make sure signals settle.</p>
+<p>Power stability and noise immunity are practical concerns—buffer your signals.</p>
+<p>Consider handshaking protocols for perfect data transfer with external memory devices.</p>
+<p>Memory integration is a mighty challenge and opportunity — the difference between a theoretical CPU and a fully functioning computer that might just reboot civilization.</p></div>
+</article>
+
+<article class="chapter" id="ch07">
+  <p class="label">Chapter 7</p>
+  <h1>Peripherals and Serial Communication</h1>
+  <figure class="plate"><img src="art/ch07.jpg" alt="Plate 7. The mouse has seen things. It still clicks."/><figcaption>Plate 7. The mouse has seen things. It still clicks.</figcaption></figure>
+  <div class="prose"><p class="lede">The brains inside your zombieproof computer crack problems and spit out solutions, but it doesn’t know a thing about the zombies, your hands, or the world outside unless you give it senses and limbs. Those come via peripherals: keyboards, mice, monitors, speakers—all the gadgets that let you feed data in and get results back out.</p>
+<p>This chapter equips you with a down-and-dirty, no-nonsense look at peripherals, their communication protocols, and practical projects like building a working mouse interface from scratch.</p>
+<h2>The Basics of Peripherals: Input and Output Explained</h2>
+<p>Input Devices At their core, input devices convert physical user actions into electrical signals your computer can understand.</p>
+<p><strong>Keyboards.</strong> Pressing a key sends a scan code to the CPU, often over serial or parallel interfaces.</p>
+<p><strong>Mice.</strong> Capture motion and button presses, encoding them as digital pulses.</p>
+<p><strong>Switches and sensors.</strong> Simple inputs that toggle bits ‘on’ or ‘off’.</p>
+<h2>Output Devices</h2>
+<p>Output devices translate your computer&#39;s digital signals into the physical or graphical world.</p>
+<p><strong>LEDs.</strong> Simple binary indicators, on and off controlled by bits.</p>
+<p><strong>Displays.</strong> From simple 7-segment LEDs to complex pixel arrays, they transform data into visuals.</p>
+<p><strong>Speakers.</strong> Convert digital audio data into sound waves.</p>
+<h2>Serial Communication: The Lifeline Protocol for Peripherals</h2>
+<p>Serial data transfer sends information one bit at a time over a wire or pair of wires—a bit like sending Morse code. It is the backbone for many peripherals because it simplifies wiring and is bandwidth-efficient for user input devices.</p>
+<h2>Key Serial Protocols</h2>
+<p>UART (Universal Asynchronous Receiver/Transmitter): Asynchronous serial communication used by many simple devices.</p>
+<p><strong>SPI (Serial Peripheral Interface).</strong> A synchronous protocol for short-distance, fast communication, e.g., sensors.</p>
+<p><strong>I2C (Inter-Integrated Circuit).</strong> Multiple devices sharing two wires, each with a unique address.</p>
+<h2>How Serial Communication Works Practically</h2>
+<p>Data bits are clocked out one by one.</p>
+<p>Start and stop bits frame each byte.</p>
+<p>Parity bits can check data integrity.</p>
+<p>Both devices must agree on baud rate (bits per second).</p>
+<h2>Building a Zombieproof Mouse — From Parts to Protocol</h2>
+<p>Here is a practical breakdown:</p>
+<h2>How a Mouse Works Mechanically</h2>
+<p>Motion detection: Optical sensors track surface movement, turning it into x/y data increments. Mechanical mice use roller balls with encoders.</p>
+<p><strong>Button switches.</strong> Simple contacts that close circuits when clicked.</p>
+<h2>How a Mouse Communicates</h2>
+<p>Mouse data packets are serially sent to the computer.</p>
+<p>Standard protocols like PS/2 or USB structure these packets with defined bytes for movement and button states.</p>
+<p>Serial nature allows simple two-wire connections and relatively low hardware complexity.</p>
+<h2>Building Your Own Mouse</h2>
+<p>Use optical or mechanical sensors scavenged from old devices.</p>
+<p>Implement a simple microcontroller or logic circuit to buffer movement data and button presses.</p>
+<p>Encode data packets according to a serial protocol.</p>
+<p>Transmit via UART or similar serial line to your homemade CPU.</p>
+<h2>Practical Survival Project: Serial Mouse Interface</h2>
+<p>Parts</p>
+<ul>
+<li>Optical sensor assembly or rotary encoders</li>
+<li>Push-button switches</li>
+<li>Logic gates or simple microcontroller for encoding</li>
+<li>UART compatible output stage</li>
+<li>Breadboard, wiring, power</li>
+<li>Steps</li>
+</ul>
+<p>Assemble sensors to detect motion increments, convert analog signals to pulses.</p>
+<p>Attach buttons as digital switches with debouncing circuits.</p>
+<p>Create simple state machine or logic circuit to format and serialize data packets.</p>
+<p>Connect to CPU serial input port, verifying data integrity and timing.</p>
+<p>Develop CPU-side code or hardware interpreters to translate mouse packets into cursor movements or commands.</p>
+<h2>Other Important Peripherals: Keyboards and Displays</h2>
+<p>Keyboards scan key matrices, sending codes serially to the computer; usually use protocols similar to mice.</p>
+<p>Displays need framebuffer storage and protocol to update pixels or segments; simple LED arrays can be driven directly by CPU via multiplexers.</p>
+<p>Consider how interrupt-driven input can optimize responsiveness.</p>
+<p>Bringing peripherals online with serial communication protocols is the key to making your homemade computer a practical, interactive survivor ready for the end times.</p></div>
+</article>
+
+<article class="chapter" id="ch08">
+  <p class="label">Chapter 8</p>
+  <h1>Simple Operating Systems</h1>
+  <figure class="plate"><img src="art/ch08.jpg" alt="Plate 8. Someone has to tell the hardware what day it is."/><figcaption>Plate 8. Someone has to tell the hardware what day it is.</figcaption></figure>
+  <div class="prose"><p class="lede">So you’ve built a CPU, hooked up memory, and connected peripherals. Congratulations, you now have the rudiments of a functional computer—just like the mythical devices whispered of in pre-apocalypse times! But raw hardware is like a wild dog: it needs training and organization to become your loyal companion.</p>
+<p>Enter the operating system (OS)—the indispensable software layer that manages the hardware, runs programs, and provides a user-friendly way to interact with the machine. This chapter explores what operating systems are, why they’re essential, and guides you in creating a simple OS to bridge your hardware and your survival needs.</p>
+<p>What Is an Operating System? An OS is a collection of software routines that:</p>
+<ul>
+<li>Manage hardware resources like CPU, memory, and I/O devices</li>
+<li>Provide a way to load, run, and manage programs</li>
+<li>Facilitate communication with input/output devices</li>
+<li>Handle file storage, execution control, and error management</li>
+</ul>
+<p>Without an OS, users must command the machine directly at the binary level—a headache of cosmic proportions.</p>
+<h2>OS Components in a Nutshell</h2>
+<p>Bootloader: Tiny initial program that prepares the CPU and memory to load the OS itself.</p>
+<p><strong>Kernel.</strong> The core that talks directly to hardware and manages resources.</p>
+<p><strong>File System.</strong> Organizes storage so you can save and retrieve data easily.</p>
+<p><strong>Device Drivers.</strong> Specialized code to communicate with peripherals.</p>
+<p><strong>Shell/User Interface.</strong> Allows users to run commands, start programs, and run scripts.</p>
+<h2>Building a Minimal OS for Your Zombieproof Computer</h2>
+<p>Step 1: The Bootloader Stored in ROM or initial memory region.</p>
+<p>Initializes system state, sets up stack, and loads kernel from memory or storage into RAM.</p>
+<h2>Step 2: Kernel Design</h2>
+<p>Handles interrupts — special signals from hardware peripherals or timers.</p>
+<p>Implements simple scheduler to switch between program tasks.</p>
+<p>Provides basic memory management and input/output control.</p>
+<h2>Step 3: Simple Shell</h2>
+<p>Command line interface to execute programs, list files, and control peripherals.</p>
+<p>Support basic commands like run, load, save, and exit.</p>
+<h2>How to Write OS Code</h2>
+<p>Your OS will be written in low-level languages such as assembly or C-like code, carefully tailored to your CPU’s instruction set.</p>
+<p>Start small, with routines to initialize hardware and respond to keyboard input.</p>
+<p>Use interrupts to handle asynchronous events like ticking clocks and peripheral signals.</p>
+<p>Implement basic file handling if your system has storage.</p>
+<h2>Survival Project: Writing and Loading a Tiny OS</h2>
+<p>Write bootloader to initialize hardware and load kernel.</p>
+<p>Develop kernel to respond to keyboard and timer interrupts.</p>
+<p>Create shell for basic file handling and program execution.</p>
+<p>Test system by running simple user programs (print text, echo input).</p>
+<h2>Why Your Zombieproof Computer Needs an OS</h2>
+<p>Automates routine tasks, so you can focus on survival strategies, not flipping bits manually.</p>
+<p>Abstracts hardware complexities for better modular programming and expansion.</p>
+<p>Enables multitasking and efficient resource management—critical when zombies are knocking.</p>
+<p>Operating systems are the glue and brain interface between raw hardware and practical use. By building one tailored to your design, you gain full command over your zombieproof computer’s capabilities.</p></div>
+</article>
+<section class="part" id="part4"><div class="part-inner"><p class="label">Part IV</p><h1>The Next Machine</h1><p class="blurb">A wire to an ally, and the whole build laid out in one order.</p></div></section>
+<article class="chapter" id="ch09">
+  <p class="label">Chapter 9</p>
+  <h1>Networking Your Zombieproof Computer</h1>
+  <figure class="plate"><img src="art/ch09.jpg" alt="Plate 9. Two machines, and one polite wire between them."/><figcaption>Plate 9. Two machines, and one polite wire between them.</figcaption></figure>
+  <div class="prose"><p class="lede">You’ve built a rugged digital fortress—CPU, memory, and peripherals all working in harmony. But in the zombie apocalypse, even the strongest lone survivor benefits from allies, intel networks, and coordinated defense. Networking connects your machines into a resilient tribe, sharing the battle-worn load.</p>
+<p>This chapter gives you the science-backed, deep dive into adding networking capabilities. It covers fundamental concepts, practical wiring, protocols, and a survival-ready example of linking multiple zombieproof machines.</p>
+<p>Why Network? Networking lets multiple computers:</p>
+<ul>
+<li>Share data and resources, increasing efficiency</li>
+<li>Collaborate on tough tasks beyond one CPU’s strength</li>
+<li>Exchange real-time info, warnings, and coordinated commands</li>
+<li>Form the backbone of rebuilding post-apocalyptic infrastructure</li>
+</ul>
+<h2>The Physical Layer — Networking Hardware</h2>
+<p>Wired Connections Simple serial cables between machines</p>
+<ul>
+<li>Ethernet-style twisted pairs (complex but powerful)</li>
+<li>USB or similarly structured digital buses</li>
+</ul>
+<h2>Wireless Options</h2>
+<p>Radio signals like Wi-Fi or Bluetooth (power-heavy, intricate protocols)</p>
+<h2>Network Interfaces — Your Machine&#39;s Network ID Card</h2>
+<p>Each device needs a network interface:</p>
+<ul>
+<li>Converts internal data to signals for the physical medium</li>
+<li>Receives signals, converts back to data</li>
+<li>Manages collisions, timing, and error detection</li>
+</ul>
+<p>In DIY setups, UART or SPI modules often act as simple interfaces.</p>
+<h2>Data and Packets: The Language of Networked Machines</h2>
+<p>Networks communicate by breaking data into packets—discrete units framed with:</p>
+<h2>Headers: Destination and source addresses, control info</h2>
+<h2>Payload: Actual data content</h2>
+<h2>Error Detection: Checksums or CRCs for detecting corruption</h2>
+<h2>Protocols — Communication Rules</h2>
+<p>Just like survivors agree on signals (lights, sounds), machines agree on protocols for talking:</p>
+<h2>Simple serial protocols: RS-232, UART—easy for small-scale connections</h2>
+<h2>TCP/IP: Complex internet backbone protocol</h2>
+<h2>Custom lightweight protocols: Designed for specific machine-to-machine communication</h2>
+<p>Your zombieproof rigs will likely start with simple serial links expanding to more complex protocols as needed.</p>
+<h2>Example: Point-to-Point Serial Network</h2>
+<p>Wiring two zombieproof machines with serial TX/RX lines:</p>
+<ul>
+<li>Use UART communication, with matching baud rates and framing</li>
+<li>Simple flow control to avoid data loss (wait for ACKs or use buffers)</li>
+<li>Software on both ends handles packet formation and interpretation</li>
+</ul>
+<h2>Survival Project: Building Your Network Interface</h2>
+<p>Materials:</p>
+<ul>
+<li>UART modules or build UART logic from gates</li>
+<li>RS-232 level shifters or transistor circuits for signal integrity</li>
+<li>Cables and connectors</li>
+<li>Basic logic analyzer or LED indicators for debugging</li>
+<li>Steps:</li>
+</ul>
+<p>Wire serial TX of one CPU to RX of another; cross-connect lines.</p>
+<p>Implement baud rate generators for timing the bits.</p>
+<p>Develop software to encode messages, add checksums.</p>
+<p>Write software to decode and respond to messages.</p>
+<p>Debug with LEDs and logic probes; ensure proper data flow.</p>
+<p>Networking your zombieproof computer turns isolated survivor devices into a strong, coordinated network. Together, you can outsmart zombies and reboot civilization with real, networked machines communicating reliably over homemade links.</p></div>
+</article>
+
+<article class="chapter" id="ch10">
+  <p class="label">Chapter 10</p>
+  <h1>A Hands-On Blueprint</h1>
+  <figure class="plate"><img src="art/ch10.jpg" alt="Plate 10. Lay the kit out before the night does it for you."/><figcaption>Plate 10. Lay the kit out before the night does it for you.</figcaption></figure>
+  <div class="prose"><p class="lede">At this stage At this stage, you’ve gained a deep understanding of how computers think and work, memory integration, peripherals, operating systems, and networking for survival scenarios. Now it’s time to bring all that knowledge together into a cohesive, step-by-step project guide. This chapter lays out a complete blueprint for building a functional, zombieproof computer from the ground up.</p>
+<h2>Step 1: Designing Your CPU and Basic Logic</h2>
+<p>Circuit choices: Use discrete logic gates (NAND, NOR, XOR) or programmable logic devices depending on your resources.</p>
+<p><strong>Clock generation.</strong> Build a stable oscillator circuit, possibly using inverter loops or crystal oscillators.</p>
+<p><strong>Registers and flip-flops.</strong> Assemble data storage bit cells from D flip-flops built from NAND gates.</p>
+<p><strong>ALU.</strong> Construct arithmetic and logic units with adders, multiplexers, and basic logic circuits.</p>
+<h2>Step 2: Memory Setup</h2>
+<p>RAM modules: Make or source RAM chips; design address decoders for mapping.</p>
+<p><strong>ROM modules.</strong> Store bootloader and firmware for system startup.</p>
+<p><strong>Bus design.</strong> Wire address, data, and control buses with tri-state buffers to prevent conflicts.</p>
+<h2>Step 3: Input/Output and Peripheral Interface</h2>
+<p>Peripherals: Build simple input devices (switches, keyboard matrix) and output devices (LEDs, 7-segment displays).</p>
+<p><strong>Serial communication.</strong> Implement UART-based serial ports to handle communication with mice, keyboards, or additional zombieproof rigs.</p>
+<p><strong>Device drivers.</strong> Develop minimal code routines to operate peripherals.</p>
+<h2>Step 4: Operating System Basics</h2>
+<p>Develop bootloader and kernel to initialize hardware, manage interrupts, and schedule programs.</p>
+<p>Create a basic shell for command execution.</p>
+<p>Implement simple file storage and program loading processes.</p>
+<h2>Step 5: Networking Your System</h2>
+<p>Wire UART serial links between two or more zombieproof computers.</p>
+<p>Establish communication protocols with framing, error checking, and handshake mechanisms.</p>
+<p>Develop software layers to send and receive data packets.</p>
+<h2>Step 6: Testing, Debugging, and Expansion</h2>
+<p>Use LEDs, logic analyzers, and oscilloscopes to monitor signals.</p>
+<p>Debug hardware and software modules incrementally.</p>
+<p><strong>Add expansion capabilities.</strong> more memory, complex peripherals, advanced OS features.</p>
+<h2>Survival Project Wrap-Up and Motivation</h2>
+<p>Building a fully functional computer from scratch in a resource-constrained, zombie apocalypse environment is challenging but achievable with patience, discipline, and the strategies laid out in this guide. By understanding every component’s why and how, you not only build a machine—you forge resilience for the new world.</p></div>
+</article>
+<section class="part" id="part5"><div class="part-inner"><p class="label">Part V</p><h1>Heat, Hunger, and Mistakes</h1><p class="blurb">The bugs, the volts, and the box that has to live in weather.</p></div></section>
+<article class="chapter" id="ch11">
+  <p class="label">Chapter 11</p>
+  <h1>Debugging and Optimizing</h1>
+  <figure class="plate"><img src="art/ch11.jpg" alt="Plate 11. The probe is mightier than the speech."/><figcaption>Plate 11. The probe is mightier than the speech.</figcaption></figure>
+  <div class="prose"><p class="lede">Building your own zombieproof computer is like crafting a fortress out of scavenged parts while zombies surround you—every connection, circuit, and line of code needs meticulous care. This chapter is your survival manual for debugging hardware and software, optimizing designs, and preventing apocalypse-level failures.</p>
+<h2>Understanding Common Bugs and Their Origins</h2>
+<p>Hardware glitches: Loose connections, noise, timing violations, power supply fluctuations.</p>
+<p><strong>Logic errors.</strong> Incorrect gate wiring, signal contention on buses, race conditions in flip-flops.</p>
+<p><strong>Software bugs.</strong> Infinite loops, incorrect interrupt handling, memory corruption.</p>
+<h2>Hardware Debugging Tools and Techniques</h2>
+<p>Multimeter: Check continuity, voltage levels, and verify power rails.</p>
+<p><strong>Oscilloscope.</strong> Observe signal waveforms, timing, clock stability, and investigate glitches.</p>
+<p><strong>Logic analyzer or LED indicators.</strong> Monitor digital signals and data buses.</p>
+<p><strong>Test benches.</strong> Isolate components and test subsystems independently.</p>
+<h2>Debugging Strategies</h2>
+<p>Modular testing: Verify each component individually before system integration.</p>
+<p><strong>Incremental integration.</strong> Assemble and test small subsystems progressively.</p>
+<p><strong>Signal tracing.</strong> Follow signals through your circuit with an oscilloscope or probes to find breakdowns.</p>
+<p><strong>Code walkthroughs.</strong> Step through your OS and firmware with careful review and debug prints/outputs.</p>
+<h2>Optimizing for Real-World Survival</h2>
+<p>Minimize power consumption: Use low-power logic families, clock gating, and efficient code.</p>
+<p><strong>Noise immunity.</strong> Shield cables, use clean power supplies, and proper grounding.</p>
+<p><strong>Heat management.</strong> Adequate ventilation and low-current components.</p>
+<p><strong>Scalability.</strong> Design modular circuits allowing easy upgrades or repairs in the field.</p>
+<h2>Survival Exercises</h2>
+<p>Build test circuits for critical components (ALU, registers) and verify function using LEDs or logic analyzers.</p>
+<p>Create a simple firmware watchdog timer to recover from software hangs.</p>
+<p>Analyze and fix timing issues by adjusting clock speed and signal routing.</p>
+<p>Mastering debugging and optimization assures your zombieproof machine isn’t just functional but tough and reliable, ready to survive long-term apocalypse challenges.</p></div>
+</article>
+
+<article class="chapter" id="ch12">
+  <p class="label">Chapter 12</p>
+  <h1>Powering Your Zombieproof Computer</h1>
+  <figure class="plate"><img src="art/ch12.jpg" alt="Plate 12. Power, which is a polite word for not going dark."/><figcaption>Plate 12. Power, which is a polite word for not going dark.</figcaption></figure>
+  <div class="prose"><p class="lede">In the apocalypse, your machine’s lifeblood is electricity—without it, no CPU, memory, or peripherals come to life. This chapter covers how to design a robust power supply for your zombieproof computer, handling voltage regulation, power stability, and energy sources that keep your digital fortress running no matter the external chaos.</p>
+<h2>Power Sources — Picking Your Fuel</h2>
+<p>Batteries: Portable but limited runtime; choose types with good energy density like Li-ion or NiMH.</p>
+<p><strong>Solar panels.</strong> Sustainable if you can catch the light; requires batteries or capacitors for buffering.</p>
+<p><strong>Generators.</strong> Mechanical but noisy and fuel-dependent; good for basecamp setups.</p>
+<p><strong>Hand-crank or pedal power.</strong> Emergency use for short bursts.</p>
+<h2>Voltage Regulation</h2>
+<p>CPUs and logic chips require clean, steady voltages (usually 5V, 3.3V, or 1.8V).</p>
+<p>Use linear regulators or switch-mode power supplies (buck converters) for efficient steady outputs.</p>
+<p>Add capacitors for smoothing to filter out voltage spikes and noise.</p>
+<h2>Power Distribution and Protection</h2>
+<p>Design power buses to distribute voltage and ground properly.</p>
+<p>Use fuses or resettable polyfuses to prevent damage from shorts.</p>
+<p>Implement decoupling capacitors near ICs for local stability.</p>
+<h2>Managing Power Efficiency</h2>
+<p>Minimize consumption by using low-power components.</p>
+<p>Use sleep/standby modes in firmware to shut down unused parts.</p>
+<p>Turn off clock feeds where possible (clock gating).</p>
+<h2>Survival Project: Building a Reliable Power Supply Unit</h2>
+<p>Gather batteries, voltage regulators, capacitors, and wiring.</p>
+<p>Assemble a circuit converting battery voltage to stable 5V or 3.3V rails.</p>
+<p>Add indicator LEDs to show power status.</p>
+<p>Test under load with your assembled boards.</p>
+<p>Powering your computer with confidence is the foundation for all other zombieproof designs.</p></div>
+</article>
+
+<article class="chapter" id="ch13">
+  <p class="label">Chapter 13</p>
+  <h1>Cooling and Enclosure</h1>
+  <figure class="plate"><img src="art/ch13.jpg" alt="Plate 13. A box that lets the heat out and the weather stay outside."/><figcaption>Plate 13. A box that lets the heat out and the weather stay outside.</figcaption></figure>
+  <div class="prose"><p class="lede">Now that you’ve mastered brainpower, memory, and power supply, it’s time to keep your zombieproof computer physically safe from the elements and overheating—both of which can kill even the toughest hardware quicker than a zombie bite.</p>
+<p>This chapter covers practical cooling techniques, enclosure design principles, and durability hacks tailored for survival scenarios, so your machine keeps firing on all cylinders when the undead horde comes knocking.</p>
+<h2>Why Cooling Matters</h2>
+<p>Digital circuits generate heat due to current flow through millions of transistors and logic gates.</p>
+<p>Excess heat can cause timing errors, degrade components, and shorten electronics lifespan.</p>
+<p>Efficient heat dissipation is vital for reliable operation, especially in confined spaces or hot environments.</p>
+<h2>Basic Cooling Techniques</h2>
+<p>Natural convection: Design enclosures with ventilation holes allowing airflow.</p>
+<p><strong>Passive cooling.</strong> Use heatsinks—metal fins that draw heat away from chips.</p>
+<p><strong>Active cooling.</strong> Small fans powered by your system, moving air to remove heat.</p>
+<p><strong>Thermal interface materials.</strong> Use thermal paste or pads to improve contact between chips and heatsinks.</p>
+<h2>Enclosure Design Principles</h2>
+<p>Use durable, non-conductive materials (plastic, wood treated for flame resistance).</p>
+<p>Make it modular for easy access to boards and components for repair.</p>
+<p>Protect from dust, water, and shock with sealed or padded compartments.</p>
+<p>Include mounting points for cables, sensors, and peripherals securely.</p>
+<h2>Survival Enhancements</h2>
+<p>Use surge protectors and power conditioners against erratic power sources.</p>
+<p>Implement humidity and temperature sensors to alert for dangerous conditions.</p>
+<p>Consider camouflage enclosures for stealth in hostile territories.</p>
+<h2>Survival Project: Assembling a Durable Enclosure</h2>
+<p>Survey available materials — repurposed casings, wood boxes, rugged plastics.</p>
+<p>Design airflow paths balancing protection and cooling.</p>
+<p>Integrate power and interface pass-throughs with sealed connectors.</p>
+<p>Test enclosure with temperature sensors under extended operation.</p>
+<p>A well-cooled, well-protected zombieproof computer will outlast threats both natural and undead, empowering you with dependable tech for survival.</p></div>
+</article>
+<section class="part" id="part6"><div class="part-inner"><p class="label">Part VI</p><h1>Words the Machine Keeps</h1><p class="blurb">A net you can trust a little, code that fails politely, and a path around the processor when the data will not wait.</p></div></section>
+<article class="chapter" id="ch14">
+  <p class="label">Chapter 14</p>
+  <h1>Expanding and Securing the Network</h1>
+  <figure class="plate"><img src="art/ch14.jpg" alt="Plate 14. Trust, but checksum."/><figcaption>Plate 14. Trust, but checksum.</figcaption></figure>
+  <div class="prose"><p class="lede">You’ve got a functioning zombieproof computer, powered, cooled, and even talking with its peers. Now it’s time to think big—expanding your network and securing it against threats from both undead hackers and environmental damage.</p>
+<p>This chapter explores scalable network topologies, advanced protocols for robust communication, plus encryption and access control for safe and survivor-approved digital exchanges.</p>
+<h2>Network Scalability</h2>
+<p>Mesh networks: Each node relays data, creating robust, redundant paths.</p>
+<p><strong>Star networks.</strong> Central node controls communication; easier but riskier.</p>
+<p><strong>Hybrid models.</strong> Combine mesh and star for balance of efficiency and resilience.</p>
+<h2>Advanced Protocols</h2>
+<p>Error correction codes (ECC) for reliable data in noisy environments.</p>
+<p>Retransmission strategies and acknowledgments to guarantee delivery.</p>
+<p>Routing protocols to handle multiple hops and network partitions.</p>
+<h2>Security Fundamentals</h2>
+<p>Encryption: Use simple symmetric ciphers or custom schemes for confidentiality.</p>
+<p><strong>Authentication.</strong> Devices verify each other with shared keys or challenge-response.</p>
+<p><strong>Access control.</strong> Restrict network resource use to trusted nodes only.</p>
+<h2>Survival Project: Securing Your Network</h2>
+<p>Implement handshake protocols ensuring only authorized devices join.</p>
+<p>Encrypt messages with lightweight algorithms suitable for limited resources.</p>
+<p>Log network events and monitor for suspicious activity with simple counters.</p>
+<h2>Environmental Hardening</h2>
+<p>Protect network cables and nodes against moisture, temperature, and shock.</p>
+<p>Use ruggedized connectors and sealed enclosures.</p>
+<p>Plan for redundant power supplies and backup communication lines.</p>
+<p>With a secure, scalable network, your zombieproof computer community becomes a lifeline in the apocalypse—sharing knowledge, resources, and digital firepower.</p></div>
+</article>
+
+<article class="chapter" id="ch15">
+  <p class="label">Chapter 15</p>
+  <h1>Writing Resilient Survival Code</h1>
+  <figure class="plate"><img src="art/ch15.jpg" alt="Plate 15. Code small enough to carry in your head."/><figcaption>Plate 15. Code small enough to carry in your head.</figcaption></figure>
+  <div class="prose"><p class="lede">With your hardware built, powered, networked, and cooled, it’s time to wake your zombieproof computer with software designed to thrive in apocalypse conditions. Writing resilient, resource-efficient code is essential to keep your machine reliable and useful when survival depends on it.</p>
+<p>This chapter dives into low-level programming, handling hardware interrupts, writing bootloaders, simple operating systems, and network communication code—all infused with survival-minded best practices.</p>
+<h2>Getting Started with Low-Level Programming</h2>
+<p>Use Assembly or systems languages like C or Rust for fine-grained control.</p>
+<p>Understand your CPU’s instruction set, registers, and memory map thoroughly.</p>
+<p>Write small, modular routines to control CPU, memory, and I/O devices.</p>
+<h2>Interrupt Handling</h2>
+<p>Interrupts allow your machine to respond immediately to events (timers, keyboard, network).</p>
+<p>Write interrupt service routines (ISRs) to handle signals quickly and safely.</p>
+<p>Manage interrupt priorities and masking to avoid conflicts.</p>
+<h2>Writing Bootloaders</h2>
+<p>Your bootloader is the first code to run, setting up the CPU and loading the OS or main program.</p>
+<p>Keep it small, simple, and reliable—test thoroughly.</p>
+<p>Handle hardware initialization, stack setup, and jumping to OS entry points.</p>
+<h2>Operating System Basics</h2>
+<p>Design minimal kernels to manage tasks, memory, and device drivers.</p>
+<p>Implement simple shells or command interpreters for user interaction.</p>
+<p>Add file storage and loading features if hardware permits.</p>
+<h2>Network Communication Code</h2>
+<p>Write routines for sending and receiving serial packets with framing and error checks.</p>
+<p>Implement handshake and retransmission for reliability.</p>
+<p>Consider lightweight encryption for message security.</p>
+<h2>Survival Coding Practices</h2>
+<p>Code defensively: check inputs, handle errors gracefully, avoid infinite loops.</p>
+<p><strong>Conserve resources.</strong> use minimal data structures and avoid busy waiting.</p>
+<p>Test with simulated hardware faults and noisy inputs.</p>
+<h2>Survival Project: Bootloader and Shell</h2>
+<p>Write a simple bootloader that initializes your zombieproof CPU and memory.</p>
+<p>Develop a shell capable of basic commands—display text, list files, run programs.</p>
+<p>Extend with network commands to send messages or control remote rigs.</p>
+<p>Programming your zombieproof computer with survival-aware software unlocks the full power and reliability of your custom build—not just a machine, but a resilient digital companion in the apocalypse.</p></div>
+</article>
+
+<article class="chapter" id="ch16">
+  <p class="label">Chapter 16</p>
+  <h1>A Bootloader and a Shell</h1>
+  <figure class="plate"><img src="art/ch16.jpg" alt="Plate 16. It boots. It asks what you want. That is a civilization."/><figcaption>Plate 16. It boots. It asks what you want. That is a civilization.</figcaption></figure>
+  <div class="prose"><p class="lede">Here are some practical programming examples and survival tips for your zombieproof computer&#39;s bootloader and shell:</p>
+<h2>Bootloader Example (Assembly Pseudocode)</h2>
+<pre><code class="language-text">; Initialize stack and memory
+start:
+  ldi sp, STACK_TOP    ; Load stack pointer
+  call init_memory     ; Setup memory mapping
+  call init_devices    ; Setup peripherals
+
+  ; Load main program from ROM to RAM
+  call load_program
+
+  ; Jump to main program entry point
+  jmp main_entry
+</code></pre>
+<h2>Simple Shell Command Example (C)</h2>
+<pre><code class="language-c">void shell_loop() {
+  while (1) {
+    print_prompt();
+    char cmd[64];
+    read_input(cmd, sizeof(cmd));
+
+    if (strcmp(cmd, &quot;help&quot;) == 0) {
+      print_help();
+    } else if (strcmp(cmd, &quot;run&quot;) == 0) {
+      run_program();
+    } else if (strcmp(cmd, &quot;exit&quot;) == 0) {
+      break;
+    } else {
+      print(&quot;Unknown command\n&quot;);
+    }
+  }
+}
+</code></pre>
+<h2>Survival Tips for Programming</h2>
+<p>Keep code minimal and modular for easy updates and debugging.</p>
+<p>Avoid blocking calls; use interrupts or event-driven design.</p>
+<p>Work in small increments; test frequently on your hardware.</p>
+<p>Use checksums and validation on data transfers to avoid corruption.</p>
+<p>Log errors or status with LEDs or serial output for offline diagnosis.</p></div>
+</article>
+
+<article class="chapter" id="ch17">
+  <p class="label">Chapter 17</p>
+  <h1>Memory Management and Direct Memory Access</h1>
+  <figure class="plate"><img src="art/ch17.jpg" alt="Plate 17. The long way around the processor, on purpose."/><figcaption>Plate 17. The long way around the processor, on purpose.</figcaption></figure>
+  <div class="prose"><p class="lede">To truly survive and help build civilization anew, your zombieproof computer needs to handle memory efficiently and move data rapidly without choking the CPU. This chapter delves into the design of memory management units, direct memory access (DMA), and techniques that optimize throughput.</p>
+<h2>Memory Management Principles</h2>
+<p>Memory mapping: Assign fixed or dynamic addresses to memory regions, peripherals, and I/O devices.</p>
+<p><strong>Paging and segmentation (simplified).</strong> Organize memory to separate code, data, stack, and peripherals for safety and ease.</p>
+<p><strong>Address decoding circuits.</strong> Hardware logic to select correct memory blocks based on CPU address lines.</p>
+<h2>Direct Memory Access (DMA)</h2>
+<p>DMA controllers enable peripherals to read/write main memory independently, reducing CPU load.</p>
+<p>Ideal for high-speed data transfers (disk I/O, network packets, video buffers).</p>
+<p>Requires careful management of bus arbitration to avoid conflicts.</p>
+<h2>Designing DMA in Zombieproof Machines</h2>
+<p>Build simple DMA logic with finite state machines that handle memory access cycles.</p>
+<p>Use interrupts or status registers to signal completion of transfers.</p>
+<p>Ensure synchronization mechanisms between CPU and DMA to prevent data corruption.</p>
+<h2>Survival Optimization</h2>
+<p>Add memory protection to prevent buggy code from overwriting critical regions.</p>
+<p>Design for minimal power consumption in memory cycling and DMA operations.</p>
+<p>Use buffers to smooth out bursty data loads.</p>
+<h2>Survival Project: Implementing Basic DMA</h2>
+<p>Design state-machine logic for DMA read/write cycles.</p>
+<p>Program CPU to initiate DMA transfers and handle completion interrupts.</p>
+<p>Test with block data transfers between I/O and RAM, verifying integrity.</p>
+<p>Mastering memory management and DMA equips your zombieproof computer with smart data flows, freeing up CPU cycles and making complex tasks survivable under apocalypse constraints.</p></div>
+</article>
+<section class="matter page-recto" id="afterword">
+  <h1>Afterword</h1>
+  <div class="prose"><p>The last chapter of a computer book is a temptation to get solemn about the future. Resist it a little. The bench is not a chapel. It is a table you share with whoever needs the machine to remember a thing, and the courtesy that keeps it usable is older than any of us: label the wire, check the rail before you blame the code, and leave a way to boot again after you have been foolish.</p>
+<p>If you have read this far you already know the unglamorous truth. A processor without memory is a mood. A memory without a clock is a rumor. The question here is not how far a signal goes. It is whether the next person can turn the machine on and find the work still in it. The person who brings a spare regulator will be remembered more kindly than the person who brings a speech.</p>
+<p>The zombies, if you still need them, are only the name we gave the interruption. A brownout is one. A data bus with two drivers is one. Panic that rewrites the bootloader is one. You do not beat them by adding features. You beat them by being able to explain, on paper, what the box is supposed to do when the light comes back.</p>
+<p>Leave a note on the lid. Tell someone else how it boots. When you are done for the night, say so, and power it down on purpose, so nobody sits up watching a cursor out of loyalty.</p>
+<p>The signature under an afterword belongs to the person who stands by the book. That line is blank until you want it.</p>
+<p>Save your work. Then quiet.</p></div>
+  <p class="blank"><span>Author</span></p>
+<p class="blank"><span>Place and date</span></p>
+</section>
+<section class="matter page-flow" id="ack">
+  <h1>Acknowledgments</h1>
+  <p>The author wishes to thank</p>
+  <p class="blank"><span>Name</span></p>
+<p class="blank"><span>Name</span></p>
+<p class="blank"><span>Name</span></p>
+  <p class="quiet">and the person who said, once more, with the probe on the right pin.</p>
+</section>
+<section class="matter page-flow" id="author">
+  <h1>About the author</h1>
+  <p class="blank"><span>Name</span></p>
+  <p class="quiet">was born in</p>
+  <p class="blank"><span>Place</span></p>
+  <p class="quiet">Two or three sentences of biography. Leave this until you are ready to sign the book.</p>
+  <p class="blank"><span>A line</span></p>
+<p class="blank"><span>Another</span></p>
+<p class="blank"><span>They live in</span></p>
+</section>
+<section class="matter page-recto" id="soon">
+  <h1>Also forthcoming</h1>
+  <p class="quiet">from</p>
+  <p class="blank"><span>Publisher</span></p>
+  <p class="note">Placeholder titles, so the page has the right furniture. Replace them with the real list.</p>
+  <h2>Zombieproof Radio</h2><p>The other manual. The air, if the bench ever lets you stand up. Thirty-eight chapters, and a flower in the antenna. It is already on the shelf.</p>
+<h2>The Four Unwritten Leaves</h2><p>Power beyond the power chapter, a lock on the firmware, a way to ask the machine what hurts, and a plan for handing the drawings on. The titles were in the folder. The chapters were not.</p>
+<h2>Night School for NAND</h2><p>A thin book of nothing but gates, for the evening you do not trust your memory of the truth table. Bring a pencil. The pencil is the point.</p>
+</section>
+<section class="matter page-flow" id="colophon">
+  <h1>Colophon</h1>
+  <p><em>Zombieproof Computers: How to Keep a Mind When the Grid Is Gone</em> was set in Fraunces and Literata. The plates were drawn for this edition. The text was prepared from the chapter drafts. Duplicate passes were set aside, the shaken-apart formulas were put back on one line, and the file-crumbs were swept off the bench.</p>
+  <p>Trim: six by nine inches. The author, the dedication, and the publisher are intentionally blank.</p>
+  <p class="blank"><span>Publisher</span></p>
+<p class="blank"><span>City</span></p>
+  <p class="quiet">If you are holding a file and not a book, print it on paper that can stand a workbench. Leave the last page near the machine, not in a drawer.</p>
+</section>
+</body>
+</html>

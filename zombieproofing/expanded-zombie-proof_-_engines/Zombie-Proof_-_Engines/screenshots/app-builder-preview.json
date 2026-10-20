@@ -1,0 +1,36 @@
+{
+  "url": "http://127.0.0.1:8080/",
+  "viewports": {
+    "desktop": {
+      "width": 1280,
+      "height": 800,
+      "status": 200,
+      "title": "Zombieproof",
+      "hasCanvas": false,
+      "bodyTextLen": 177,
+      "bodyTextHash": "5bb584748605c6a5a2bad81c9ea52c3527980cf0654e4da392aa1d7cc8e38338",
+      "bodyTextPrefix": "A FIELD MANUAL Zombieproof Engines How to Keep the Wheels Turnin",
+      "horizontalOverflow": false,
+      "consoleErrors": [],
+      "pageErrors": [],
+      "screenshot": "/workspace/screenshots/app-builder-preview.png"
+    },
+    "mobile": {
+      "width": 390,
+      "height": 844,
+      "status": 200,
+      "title": "Zombieproof",
+      "hasCanvas": false,
+      "bodyTextLen": 177,
+      "bodyTextHash": "5bb584748605c6a5a2bad81c9ea52c3527980cf0654e4da392aa1d7cc8e38338",
+      "bodyTextPrefix": "A FIELD MANUAL Zombieproof Engines How to Keep the Wheels Turnin",
+      "horizontalOverflow": false,
+      "consoleErrors": [],
+      "pageErrors": [],
+      "screenshot": "/workspace/screenshots/app-builder-preview-mobile.png"
+    }
+  },
+  "brandWarnings": [],
+  "authWarnings": [],
+  "verdictFile": "/workspace/screenshots/app-builder-preview.json"
+}

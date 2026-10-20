@@ -1,0 +1,25 @@
+body{font-family:Literata,Palatino,serif;line-height:1.5;color:#1c1712;background:#f3ead8;margin:0;padding:1.2rem;}
+h1{font-family:Fraunces,Palatino,serif;font-weight:600;line-height:1.15;}
+h2,h3{font-family:Fraunces,Palatino,serif;line-height:1.25;}
+.label,.kicker{font-family:Fraunces,serif;letter-spacing:.16em;text-transform:uppercase;color:#8c3014;font-size:.8rem;}
+img{max-width:100%;height:auto;}
+figcaption,cite{font-family:Fraunces,serif;font-style:italic;color:#4e463c;}
+blockquote p{font-family:Fraunces,serif;font-style:italic;font-size:1.15rem;}
+.blank{border-bottom:1px solid #1c1712;min-height:1.4rem;margin:1rem 0 .2rem;position:relative;}
+.blank span{position:absolute;top:-.4rem;font-size:.68rem;letter-spacing:.14em;text-transform:uppercase;color:#8a7d6b;font-family:Fraunces,serif;}
+table{width:100%;border-collapse:collapse;font-size:.92em;}
+th,td{text-align:left;vertical-align:top;padding:.3em .4em .3em 0;border-bottom:1px solid #d2c4aa;}
+.lede::first-letter{font-family:Fraunces,serif;font-weight:600;float:left;font-size:3em;line-height:.8;padding-right:.06em;color:#8c3014;}
+.math.display{display:block;text-align:center;margin:.8em 0;}
+.frac{display:inline-flex;flex-direction:column;vertical-align:middle;text-align:center;font-size:.9em;line-height:1.05;margin:0 .12em;}
+.frac .num{border-bottom:1px solid currentColor;padding:0 .2em .04em;}
+.frac .den{padding:.04em .2em 0;}
+.sup,.sub{font-size:.72em;line-height:0;}
+.sup{vertical-align:super;}.sub{vertical-align:sub;}
+@font-face{font-family:Fraunces;src:url("fonts/fraunces-latin-600-normal.woff") format("woff");font-weight:600;}
+@font-face{font-family:Fraunces;src:url("fonts/fraunces-latin-500-italic.woff") format("woff");font-weight:500;font-style:italic;}
+@font-face{font-family:Literata;src:url("fonts/literata-latin-400-normal.woff") format("woff");font-weight:400;}
+@font-face{font-family:Literata;src:url("fonts/literata-latin-400-italic.woff") format("woff");font-weight:400;font-style:italic;}
+@font-face{font-family:Literata;src:url("fonts/literata-latin-700-normal.woff") format("woff");font-weight:700;}
+pre{font-family:ui-monospace,monospace;font-size:.85em;line-height:1.4;background:#e7dcc6;padding:.6em .7em;white-space:pre-wrap;}
+code{font-family:ui-monospace,monospace;}

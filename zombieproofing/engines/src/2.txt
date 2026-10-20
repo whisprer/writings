@@ -1,0 +1,825 @@
+Four-stroke engine - Wikipedia
+
+button\_magic Source guide
+
+This Wikipedia entry provides a comprehensive overview of the **four-stroke engine**, detailing its mechanical operation, historical development, and engineering nuances. The text first outlines the **fundamental cycle**—intake, compression, combustion, and exhaust—which allows the piston to convert chemical energy into **rotational work**. It explores the lineage of the technology from **Nicolaus Otto’s** early designs to the high-efficiency **Diesel and Atkinson cycles** used in modern transport. Furthermore, the source examines **design constraints** such as heat loss and power limitations, while discussing advanced performance enhancements like **turbocharging** and direct fuel injection. Ultimately, the article serves as a technical primer on the dominant **internal combustion** technology used in the majority of global land vehicles.
+
+Four-stroke engine - Wikipedia
+
+[Jump to content](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FFour-stroke%5Fengine%23bodyContent) [-]
+
+Main menu
+
+Main menu
+
+move to sidebar hide
+
+Navigation
+
+* [Main page](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FMain%5FPage)
+* [Contents](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FWikipedia%3AContents)
+* [Current events](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FPortal%3ACurrent%5Fevents)
+* [Random article](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FSpecial%3ARandom)
+* [About Wikipedia](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FWikipedia%3AAbout)
+* [Contact us](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FWikipedia%3AContact%5Fus)
+
+Contribute
+
+* [Help](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FHelp%3AContents)
+* [Learn to edit](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FHelp%3AIntroduction)
+* [Community portal](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FWikipedia%3ACommunity%5Fportal)
+* [Recent changes](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FSpecial%3ARecentChanges)
+* [Upload file](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FWikipedia%3AFile%5Fupload%5Fwizard)
+* [Special pages](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FSpecial%3ASpecialPages)
+
+[WikipediaThe Free Encyclopedia](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FMain%5FPage)
+
+[Search](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FSpecial%3ASearch)
+
+Search [-]
+
+Appearance
+
+* [Donate](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fdonate.wikimedia.org%2F%3Fwmf%5Fsource%3Ddonate%26wmf%5Fmedium%3Dsidebar%26wmf%5Fcampaign%3Den.wikipedia.org%26uselang%3Den)
+* [Create account](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fen.wikipedia.org%2Fw%2Findex.php%3Ftitle%3DSpecial%3ACreateAccount%26returnto%3DFour-stroke%2Bengine)
+* [Log in](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fen.wikipedia.org%2Fw%2Findex.php%3Ftitle%3DSpecial%3AUserLogin%26returnto%3DFour-stroke%2Bengine) [-]
+
+Personal tools
+
+* [Donate](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fdonate.wikimedia.org%2F%3Fwmf%5Fsource%3Ddonate%26wmf%5Fmedium%3Dsidebar%26wmf%5Fcampaign%3Den.wikipedia.org%26uselang%3Den)
+* [Create account](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fen.wikipedia.org%2Fw%2Findex.php%3Ftitle%3DSpecial%3ACreateAccount%26returnto%3DFour-stroke%2Bengine)
+* [Log in](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fen.wikipedia.org%2Fw%2Findex.php%3Ftitle%3DSpecial%3AUserLogin%26returnto%3DFour-stroke%2Bengine)
+
+## Contents
+
+move to sidebar hide
+
+* [(Top)](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FFour-stroke%5Fengine)
+* [1 History](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FFour-stroke%5Fengine%23History) Toggle History subsection
+  * [1.1 Otto cycle](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FFour-stroke%5Fengine%23Otto%5Fcycle)
+  * [1.2 Atkinson cycle](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FFour-stroke%5Fengine%23Atkinson%5Fcycle)
+  * [1.3 Diesel cycle](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FFour-stroke%5Fengine%23Diesel%5Fcycle)
+* [2 Thermodynamic analysis](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FFour-stroke%5Fengine%23Thermodynamic%5Fanalysis)
+* [3 Fuel considerations](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FFour-stroke%5Fengine%23Fuel%5Fconsiderations)
+* [4 Design and engineering principles](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FFour-stroke%5Fengine%23Design%5Fand%5Fengineering%5Fprinciples) Toggle Design and engineering principles subsection
+  * [4.1 Power output limitations](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FFour-stroke%5Fengine%23Power%5Foutput%5Flimitations)
+    * [4.1.1 Intake/exhaust port flow](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FFour-stroke%5Fengine%23Intake%2Fexhaust%5Fport%5Fflow)
+  * [4.2 Waste heat recovery of an internal combustion engine](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FFour-stroke%5Fengine%23Waste%5Fheat%5Frecovery%5Fof%5Fan%5Finternal%5Fcombustion%5Fengine)
+    * [4.2.1 Supercharging](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FFour-stroke%5Fengine%23Supercharging)
+    * [4.2.2 Turbocharging](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FFour-stroke%5Fengine%23Turbocharging)
+  * [4.3 Rod and piston-to-stroke ratio](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FFour-stroke%5Fengine%23Rod%5Fand%5Fpiston-to-stroke%5Fratio)
+  * [4.4 Valve train](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FFour-stroke%5Fengine%23Valve%5Ftrain)
+    * [4.4.1 Valve clearance](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FFour-stroke%5Fengine%23Valve%5Fclearance)
+  * [4.5 Energy balance](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FFour-stroke%5Fengine%23Energy%5Fbalance)
+* [5 See also](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FFour-stroke%5Fengine%23See%5Falso)
+* [6 References](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FFour-stroke%5Fengine%23References)
+* [7 General sources](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FFour-stroke%5Fengine%23General%5Fsources)
+* [8 External links](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FFour-stroke%5Fengine%23External%5Flinks) [-]
+
+Toggle the table of contents
+
+# Four-stroke engine
+
+[-]
+
+51 languages
+
+* [العربية](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Far.wikipedia.org%2Fwiki%2F%25D9%2585%25D8%25AD%25D8%25B1%25D9%2583%5F%25D8%25B1%25D8%25A8%25D8%25A7%25D8%25B9%25D9%258A%5F%25D8%25A7%25D9%2584%25D8%25A3%25D8%25B4%25D9%2588%25D8%25A7%25D8%25B7)
+* [Български](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fbg.wikipedia.org%2Fwiki%2F%25D0%25A7%25D0%25B5%25D1%2582%25D0%25B8%25D1%2580%25D0%25B8%25D1%2582%25D0%25B0%25D0%25BA%25D1%2582%25D0%25BE%25D0%25B2%5F%25D0%25B4%25D0%25B2%25D0%25B8%25D0%25B3%25D0%25B0%25D1%2582%25D0%25B5%25D0%25BB)
+* [Català](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fca.wikipedia.org%2Fwiki%2FMotor%5Fde%5Fquatre%5Ftemps)
+* [کوردی](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fckb.wikipedia.org%2Fwiki%2F%25D8%25A8%25D8%25B2%25D9%2588%25DB%258E%25D9%2586%25DB%2595%25D8%25B1%25DB%258C%5F%25DA%2586%25D9%2588%25D8%25A7%25D8%25B1%5F%25DA%25BE%25DB%2595%25D9%2586%25DA%25AF%25D8%25A7%25D9%2588%25DB%258C)
+* [Čeština](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fcs.wikipedia.org%2Fwiki%2F%25C4%258Cty%25C5%2599dob%25C3%25BD%5Fspalovac%25C3%25AD%5Fmotor)
+* [Dansk](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fda.wikipedia.org%2Fwiki%2FFiretaktsmotor)
+* [Deutsch](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fde.wikipedia.org%2Fwiki%2FViertaktmotor)
+* [Esperanto](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Feo.wikipedia.org%2Fwiki%2FKvartakta%5Fmotoro)
+* [Español](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fes.wikipedia.org%2Fwiki%2FCiclo%5Fde%5Fcuatro%5Ftiempos)
+* [Eesti](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fet.wikipedia.org%2Fwiki%2FNeljataktiline%5Fsisep%25C3%25B5lemismootor)
+* [Euskara](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Feu.wikipedia.org%2Fwiki%2FLau%5Fdenborako%5Fmotor)
+* [فارسی](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Ffa.wikipedia.org%2Fwiki%2F%25D9%2585%25D9%2588%25D8%25AA%25D9%2588%25D8%25B1%5F%25DA%2586%25D9%2587%25D8%25A7%25D8%25B1%25D8%25B2%25D9%2585%25D8%25A7%25D9%2586%25D9%2587)
+* [Suomi](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Ffi.wikipedia.org%2Fwiki%2FNelitahtimoottori)
+* [Français](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Ffr.wikipedia.org%2Fwiki%2FMoteur%5F%25C3%25A0%5Fquatre%5Ftemps)
+* [Frysk](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Ffy.wikipedia.org%2Fwiki%2FFjouwertaktmotor)
+* [Gaeilge](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fga.wikipedia.org%2Fwiki%2FInneall%5Fceithre%5Fbhuille)
+* [Galego](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fgl.wikipedia.org%2Fwiki%2FMotor%5Fa%5Fcatro%5Ftempos)
+* [עברית](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fhe.wikipedia.org%2Fwiki%2F%25D7%259E%25D7%2597%25D7%2596%25D7%2595%25D7%25A8%5F%25D7%2590%25D7%25A8%25D7%2591%25D7%25A2%5F%25D7%25A4%25D7%25A2%25D7%2599%25D7%259E%25D7%2595%25D7%25AA)
+* [हिन्दी](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fhi.wikipedia.org%2Fwiki%2F%25E0%25A4%25AB%25E0%25A5%258B%25E0%25A4%25B0%5F%25E0%25A4%25B8%25E0%25A5%258D%25E0%25A4%259F%25E0%25A5%258D%25E0%25A4%25B0%25E0%25A5%258B%25E0%25A4%2595%5F%25E0%25A4%2587%25E0%25A4%2582%25E0%25A4%259C%25E0%25A4%25A8)
+* [Hrvatski](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fhr.wikipedia.org%2Fwiki%2F%25C4%258Cetverotaktni%5Fmotor)
+* [Bahasa Indonesia](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fid.wikipedia.org%2Fwiki%2FPutaran%5Fempat-tak)
+* [Íslenska](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fis.wikipedia.org%2Fwiki%2FFj%25C3%25B3rgengisv%25C3%25A9l)
+* [Italiano](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fit.wikipedia.org%2Fwiki%2FMotore%5Fa%5Fquattro%5Ftempi)
+* [日本語](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fja.wikipedia.org%2Fwiki%2F4%25E3%2582%25B9%25E3%2583%2588%25E3%2583%25AD%25E3%2583%25BC%25E3%2582%25AF%25E6%25A9%259F%25E9%2596%25A2)
+* [한국어](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fko.wikipedia.org%2Fwiki%2F4%25ED%2596%2589%25EC%25A0%2595%5F%25EA%25B8%25B0%25EA%25B4%2580)
+* [Монгол](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fmn.wikipedia.org%2Fwiki%2F%25D0%2594%25D3%25A9%25D1%2580%25D0%25B2%25D3%25A9%25D0%25BD%5F%25D1%2582%25D0%25B0%25D0%25BA%25D1%2582%25D1%258B%25D0%25BD%5F%25D1%2585%25D3%25A9%25D0%25B4%25D3%25A9%25D0%25BB%25D0%25B3%25D2%25AF%25D2%25AF%25D1%2580)
+* [मराठी](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fmr.wikipedia.org%2Fwiki%2F%25E0%25A4%25AB%25E0%25A5%258B%25E0%25A4%25B0%5F%25E0%25A4%25B8%25E0%25A5%258D%25E0%25A4%259F%25E0%25A5%258D%25E0%25A4%25B0%25E0%25A5%258B%25E0%25A4%2595%5F%25E0%25A4%2587%25E0%25A4%2582%25E0%25A4%259C%25E0%25A4%25BF%25E0%25A4%25A8)
+* [Bahasa Melayu](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fms.wikipedia.org%2Fwiki%2FEnjin%5Fempat%5Flejang)
+* [မြန်မာဘာသာ](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fmy.wikipedia.org%2Fwiki%2F%25E1%2581%2584%25E1%2580%2581%25E1%2580%25BB%25E1%2580%2580%25E1%2580%25BA%25E1%2580%2581%25E1%2580%25AF%25E1%2580%2590%25E1%2580%25BA%5F%25E1%2580%25A1%25E1%2580%2584%25E1%2580%25BA%25E1%2580%2582%25E1%2580%25BB%25E1%2580%2584%25E1%2580%25BA)
+* [नेपाली](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fne.wikipedia.org%2Fwiki%2F%25E0%25A4%25AB%25E0%25A5%258B%25E0%25A4%25B0%5F%25E0%25A4%25B8%25E0%25A5%258D%25E0%25A4%259F%25E0%25A5%258D%25E0%25A4%25B0%25E0%25A5%258B%25E0%25A4%2595%5F%25E0%25A4%2587%25E0%25A4%25A8%25E0%25A5%258D%25E0%25A4%259C%25E0%25A4%25BF%25E0%25A4%25A8)
+* [Nederlands](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fnl.wikipedia.org%2Fwiki%2FViertaktmotor)
+* [Norsk nynorsk](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fnn.wikipedia.org%2Fwiki%2FFiretaktsmotor)
+* [Norsk bokmål](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fno.wikipedia.org%2Fwiki%2FFiretaktsmotor)
+* [Polski](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fpl.wikipedia.org%2Fwiki%2FSilnik%5Fczterosuwowy)
+* [پنجابی](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fpnb.wikipedia.org%2Fwiki%2F%25DA%2586%25D8%25A7%25D8%25B1%5F%25D8%25B3%25D9%25B9%25D8%25B1%25D9%2588%25DA%25A9%5F%25D8%25A7%25D9%2586%25D8%25AC%25D9%2586)
+* [Română](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fro.wikipedia.org%2Fwiki%2FMotor%5F%25C3%25AEn%5Fpatru%5Ftimpi)
+* [Русский](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fru.wikipedia.org%2Fwiki%2F%25D0%25A7%25D0%25B5%25D1%2582%25D1%258B%25D1%2580%25D1%2591%25D1%2585%25D1%2582%25D0%25B0%25D0%25BA%25D1%2582%25D0%25BD%25D1%258B%25D0%25B9%5F%25D0%25B4%25D0%25B2%25D0%25B8%25D0%25B3%25D0%25B0%25D1%2582%25D0%25B5%25D0%25BB%25D1%258C)
+* [සිංහල](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fsi.wikipedia.org%2Fwiki%2F%25E0%25B7%2583%25E0%25B7%2592%25E0%25B7%2580%25E0%25B7%258A%25E0%25B6%25B4%25E0%25B7%2584%25E0%25B6%25BB%5F%25E0%25B6%2591%25E0%25B6%25B1%25E0%25B7%258A%25E0%25B6%25A2%25E0%25B7%2592%25E0%25B6%25B1%25E0%25B7%258A)
+* [Simple English](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fsimple.wikipedia.org%2Fwiki%2FFour-stroke%5Fengine)
+* [Slovenčina](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fsk.wikipedia.org%2Fwiki%2F%25C5%25A0tvordob%25C3%25BD%5Fmotor)
+* [Slovenščina](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fsl.wikipedia.org%2Fwiki%2F%25C5%25A0tiritaktni%5Fmotor)
+* [Српски / srpski](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fsr.wikipedia.org%2Fwiki%2F%25D0%25A7%25D0%25B5%25D1%2582%25D0%25B2%25D0%25BE%25D1%2580%25D0%25BE%25D1%2582%25D0%25B0%25D0%25BA%25D1%2582%25D0%25BD%25D0%25B8%5F%25D0%25BC%25D0%25BE%25D1%2582%25D0%25BE%25D1%2580)
+* [Seeltersk](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fstq.wikipedia.org%2Fwiki%2FFjauertaktmotor)
+* [Svenska](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fsv.wikipedia.org%2Fwiki%2FFyrtaktsmotor)
+* [Ślůnski](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fszl.wikipedia.org%2Fwiki%2FSztyrosuwowy%5Fmotor)
+* [ไทย](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fth.wikipedia.org%2Fwiki%2F%25E0%25B9%2580%25E0%25B8%2584%25E0%25B8%25A3%25E0%25B8%25B7%25E0%25B9%2588%25E0%25B8%25AD%25E0%25B8%2587%25E0%25B8%25A2%25E0%25B8%2599%25E0%25B8%2595%25E0%25B9%258C%25E0%25B8%25AA%25E0%25B8%25B5%25E0%25B9%2588%25E0%25B8%2588%25E0%25B8%25B1%25E0%25B8%2587%25E0%25B8%25AB%25E0%25B8%25A7%25E0%25B8%25B0)
+* [Türkçe](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Ftr.wikipedia.org%2Fwiki%2FD%25C3%25B6rt%5Fzamanl%25C4%25B1%5Fmotor)
+* [Українська](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fuk.wikipedia.org%2Fwiki%2F%25D0%25A7%25D0%25BE%25D1%2582%25D0%25B8%25D1%2580%25D0%25B8%25D1%2582%25D0%25B0%25D0%25BA%25D1%2582%25D0%25BD%25D0%25B8%25D0%25B9%5F%25D0%25B4%25D0%25B2%25D0%25B8%25D0%25B3%25D1%2583%25D0%25BD)
+* [اردو](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fur.wikipedia.org%2Fwiki%2F%25D9%2581%25D9%2588%25D8%25B1%5F%25D8%25B3%25D9%25B9%25D8%25B1%25D9%2588%25DA%25A9%5F%25D8%25A7%25D9%2586%25D8%25AC%25D9%2586)
+* [Tiếng Việt](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fvi.wikipedia.org%2Fwiki%2F%25C4%2590%25E1%25BB%2599ng%5Fc%25C6%25A1%5Fb%25E1%25BB%2591n%5Fk%25E1%25BB%25B3)
+* [中文](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fzh.wikipedia.org%2Fwiki%2F%25E5%259B%259B%25E5%2586%25B2%25E7%25A8%258B%25E5%25BE%25AA%25E7%258E%25AF)
+
+[Edit links](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fwww.wikidata.org%2Fwiki%2FSpecial%3AEntityPage%2FQ191801%23sitelinks-wikipedia)
+
+* [Article](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FFour-stroke%5Fengine)
+* [Talk](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FTalk%3AFour-stroke%5Fengine) [-]
+
+English
+
+* [Read](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FFour-stroke%5Fengine)
+* [Edit](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fen.wikipedia.org%2Fw%2Findex.php%3Ftitle%3DFour-stroke%5Fengine%26action%3Dedit)
+* [View history](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fen.wikipedia.org%2Fw%2Findex.php%3Ftitle%3DFour-stroke%5Fengine%26action%3Dhistory) [-]
+
+Tools
+
+Tools
+
+move to sidebar hide
+
+Actions
+
+* [Read](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FFour-stroke%5Fengine)
+* [Edit](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fen.wikipedia.org%2Fw%2Findex.php%3Ftitle%3DFour-stroke%5Fengine%26action%3Dedit)
+* [View history](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fen.wikipedia.org%2Fw%2Findex.php%3Ftitle%3DFour-stroke%5Fengine%26action%3Dhistory)
+
+General
+
+* [What links here](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FSpecial%3AWhatLinksHere%2FFour-stroke%5Fengine)
+* [Related changes](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FSpecial%3ARecentChangesLinked%2FFour-stroke%5Fengine)
+* [Upload file](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FWikipedia%3AFile%5FUpload%5FWizard)
+* [Permanent link](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fen.wikipedia.org%2Fw%2Findex.php%3Ftitle%3DFour-stroke%5Fengine%26oldid%3D1370745869)
+* [Page information](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fen.wikipedia.org%2Fw%2Findex.php%3Ftitle%3DFour-stroke%5Fengine%26action%3Dinfo)
+* [Cite this page](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fen.wikipedia.org%2Fw%2Findex.php%3Ftitle%3DSpecial%3ACiteThisPage%26page%3DFour-stroke%5Fengine%26id%3D1370745869%26wpFormIdentifier%3Dtitleform)
+* [Get shortened URL](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fen.wikipedia.org%2Fw%2Findex.php%3Ftitle%3DSpecial%3AUrlShortener%26url%3Dhttps%253A%252F%252Fen.wikipedia.org%252Fwiki%252FFour-stroke%5Fengine)
+* [Switch to legacy parser](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fen.wikipedia.org%2Fw%2Findex.php%3Ftitle%3DFour-stroke%5Fengine%26useparsoid%3D0)
+* [Expand all](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FFour-stroke%5Fengine)
+* [Edit interlanguage links](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fwww.wikidata.org%2Fwiki%2FSpecial%3AEntityPage%2FQ191801%23sitelinks-wikipedia)
+
+Print/export
+
+* [Download as PDF](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fen.wikipedia.org%2Fw%2Findex.php%3Ftitle%3DSpecial%3ADownloadAsPdf%26page%3DFour-stroke%5Fengine%26action%3Dshow-download-screen)
+* [Printable version](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fen.wikipedia.org%2Fw%2Findex.php%3Ftitle%3DFour-stroke%5Fengine%26printable%3Dyes)
+
+In other projects
+
+* [Wikimedia Commons](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fcommons.wikimedia.org%2Fwiki%2FCategory%3AFour-stroke%5Fengines)
+* [Wikidata item](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fwww.wikidata.org%2Fwiki%2FSpecial%3AEntityPage%2FQ191801)
+
+Appearance
+
+move to sidebar hide
+
+Text
+
+[-] 0 Small [x] 1 Standard [-] 2 Large
+
+This page always uses small font size
+
+Width
+
+[x] 1 Standard [-] 0 Wide
+
+The content is as wide as possible for your browser window.
+
+Color
+
+[-] os Automatic [x] day Light [-] night Dark
+
+This page is always in light mode.
+
+From Wikipedia, the free encyclopedia
+
+Internal combustion engine type 
+
+Four-stroke cycle used in gasoline/petrol engines: intake (1), compression (2), power (3), and exhaust (4). The right blue side is the intake port and the left brown side is the exhaust port. The cylinder wall is a thin sleeve surrounding the piston head which creates a space for the combustion of fuel and the genesis of mechanical energy.
+
+A **four-stroke** (also **four-cycle**) **engine** is an [internal combustion](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FInternal%5Fcombustion) (IC) engine in which the [piston](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FPiston) completes four separate strokes while turning the crankshaft. A stroke refers to the full travel of the piston along the cylinder, in either direction. The four separate strokes are termed:
+
+* **Intake**: Also known as induction or suction. This stroke of the piston begins at top dead center (T.D.C.) and ends at bottom dead center (B.D.C.). In this stroke the intake valve must be in the open position while the piston pulls an air-fuel mixture into the cylinder by producing a partial vacuum (negative pressure) in the cylinder through its downward motion.
+* **Compression**: This stroke begins at B.D.C, or just at the end of the suction stroke, and ends at T.D.C. In this stroke the piston compresses the air-fuel mixture in preparation for ignition during the power stroke (below). Both the intake and exhaust valves are closed during this stage.
+* **Combustion**: Also known as power or ignition. This is the start of the second revolution of the four stroke cycle. At this point the crankshaft has completed a full 360 degree revolution. While the piston is at T.D.C. (the end of the compression stroke) the compressed air-fuel mixture is ignited by a [spark plug](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FSpark%5Fplug) (in a gasoline engine) or by heat generated by high compression (diesel engines), forcefully returning the piston to B.D.C. This stroke produces mechanical work from the engine to turn the crankshaft.
+* **Exhaust**: Also known as outlet. During the *exhaust* stroke, the piston, once again, returns from B.D.C. to T.D.C. while the exhaust valve is open. This action expels the spent air-fuel mixture through the exhaust port.
+
+Four-stroke engines are the most common internal combustion engine design for motorized land transport, [[1]](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FFour-stroke%5Fengine%23cite%5Fnote-most-1) being used in [automobiles](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FAutomobile), [trucks](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FTruck), diesel [trains](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FTrain), light [aircraft](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FAircraft) and [motorcycles](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FMotorcycle). The major alternative design is the [two-stroke cycle](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FTwo-stroke%5Fcycle). [[1]](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FFour-stroke%5Fengine%23cite%5Fnote-most-1) . [Six-stroke engines](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FSix-stroke%5Fengine) have been analysed and some have been manufactured.
+
+## History
+
+[ [edit](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fen.wikipedia.org%2Fw%2Findex.php%3Ftitle%3DFour-stroke%5Fengine%26action%3Dedit%26section%3D1)]
+
+### Otto cycle
+
+[ [edit](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fen.wikipedia.org%2Fw%2Findex.php%3Ftitle%3DFour-stroke%5Fengine%26action%3Dedit%26section%3D2)]
+
+Main article: [Otto cycle](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FOtto%5Fcycle)
+
+See also: [Otto engine](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FOtto%5Fengine) 
+
+An Otto Engine from 1880s US Manufacture
+
+[Nicolaus Otto](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FNicolaus%5FOtto) was a traveling salesman for a grocery concern. In his travels, he encountered the internal combustion engine built in Paris by Belgian expatriate [Jean Joseph Etienne Lenoir](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2F%C3%89tienne%5FLenoir). In 1860, Lenoir successfully created a double-acting engine that ran on illuminating gas at 4% efficiency. The 18 litre [Lenoir Engine](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2F%C3%89tienne%5FLenoir%23Lenoir%5Fengine) produced only 2 horsepower. The Lenoir engine ran on illuminating gas made from coal, which had been developed in Paris by [Philip Lebon](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FPhilippe%5Fle%5FBon). [[2]](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FFour-stroke%5Fengine%23cite%5Fnote-NAMuseum-2)
+
+In testing a replica of the Lenoir engine in 1861, Otto became aware of the effects of compression on the fuel charge. In 1862, Otto attempted to produce an engine to improve on the poor efficiency and reliability of the Lenoir engine. He tried to create an engine that would compress the fuel mixture prior to ignition, but failed as that engine would run no more than a few minutes prior to its destruction. Many other engineers were trying to solve the problem, with no success. [[2]](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FFour-stroke%5Fengine%23cite%5Fnote-NAMuseum-2)
+
+In 1864, Otto and [Eugen Langen](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FEugen%5FLangen) founded the first internal combustion engine production company, NA Otto and Cie (NA Otto and Company). Otto and Cie succeeded in creating a successful atmospheric engine that same year. [[2]](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FFour-stroke%5Fengine%23cite%5Fnote-NAMuseum-2) The factory ran out of space and was moved to the town of [Deutz](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FDeutz%2C%5FCologne), Germany in 1869, where the company was renamed to [Deutz Gasmotorenfabrik AG](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FDeutz%5FAG) (The Deutz Gas Engine Manufacturing Company). [[2]](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FFour-stroke%5Fengine%23cite%5Fnote-NAMuseum-2) In 1872, [Gottlieb Daimler](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FGottlieb%5FDaimler) was technical director and [Wilhelm Maybach](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FWilhelm%5FMaybach) was the head of engine design. Daimler was a gunsmith who had worked on the Lenoir engine. By 1876, Otto and Langen succeeded in creating the first internal combustion engine that compressed the fuel mixture prior to combustion for far higher efficiency than any engine created to this time.
+
+Daimler and Maybach left their employ at Otto and Cie and developed the first high-speed Otto engine in 1883\. In 1885, they produced the first automobile to be equipped with an Otto engine. The [Daimler Reitwagen](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FDaimler%5FReitwagen) used a hot-tube ignition system and the fuel known as Ligroin to become the world's first vehicle powered by an internal combustion engine. It used a four-stroke engine based on Otto's design. The following year, [Karl Benz](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FKarl%5FBenz) produced a four-stroke engined automobile that is regarded as the first car. [[3]](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FFour-stroke%5Fengine%23cite%5Fnote-3)
+
+In 1884, Otto's company, then known as Gasmotorenfabrik Deutz (GFD), developed electric ignition and the carburetor. In 1890, Daimler and Maybach formed a company known as [Daimler Motoren Gesellschaft](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FDaimler-Motoren-Gesellschaft). Today, that company is [Daimler-Benz](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FDaimler-Benz).
+
+### Atkinson cycle
+
+[ [edit](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fen.wikipedia.org%2Fw%2Findex.php%3Ftitle%3DFour-stroke%5Fengine%26action%3Dedit%26section%3D3)] 
+
+This 2004 [Toyota Prius](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FToyota%5FPrius) hybrid has an Atkinson-cycle engine as the petrol-electric hybrid engine  The Atkinson Gas Cycle
+
+Main article: [Atkinson cycle](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FAtkinson%5Fcycle)
+
+The Atkinson-cycle engine is a type of single stroke internal combustion engine invented by [James Atkinson](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FJames%5FAtkinson%5F%28inventor%29) in 1882\. The Atkinson cycle is designed to provide efficiency at the expense of [power density](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FPower%5Fdensity), and is used in some modern hybrid electric applications.
+
+The original Atkinson-cycle piston engine allowed the intake, compression, power, and exhaust strokes of the four-stroke cycle to occur in a single turn of the crankshaft and was designed to avoid infringing certain patents covering Otto-cycle engines. [[4]](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FFour-stroke%5Fengine%23cite%5Fnote-pat367496-4)
+
+Due to the unique [crankshaft](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FCrankshaft) design of the Atkinson, its expansion ratio can differ from its compression ratio and, with a power stroke longer than its compression stroke, the engine can achieve greater [thermal efficiency](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FThermal%5Fefficiency) than a traditional piston engine. While Atkinson's original design is no more than a historical curiosity, many modern engines use unconventional valve timing to produce the effect of a shorter compression stroke/longer power stroke, thus realizing the [fuel economy](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FFuel%5Feconomy%5Fin%5Fautomobiles) improvements the Atkinson cycle can provide. [[5]](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FFour-stroke%5Fengine%23cite%5Fnote-5)
+
+### Diesel cycle
+
+[ [edit](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fen.wikipedia.org%2Fw%2Findex.php%3Ftitle%3DFour-stroke%5Fengine%26action%3Dedit%26section%3D4)]
+
+Main article: [Diesel cycle](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FDiesel%5Fcycle) 
+
+Audi Diesel R15 at Le Mans
+
+The [diesel engine](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FDiesel%5Fengine) is a technical refinement of the 1876 Otto-cycle engine. Where Otto had realized in 1861 that the efficiency of the engine could be increased by first compressing the fuel mixture prior to its ignition, [Rudolf Diesel](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FRudolf%5FDiesel) wanted to develop a more efficient type of engine that could run on much heavier fuel. The [Lenoir](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FEtienne%5FLenoir), Otto Atmospheric, and Otto Compression engines (both 1861 and 1876) were designed to run on [Illuminating Gas (coal gas)](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FCoal%5Fgas). With the same motivation as Otto, Diesel wanted to create an engine that would give small industrial companies their own power source to enable them to compete against larger companies, and like Otto, to get away from the requirement to be tied to a municipal fuel supply. [*citationneeded*] Like Otto, it took more than a decade to produce the high-compression engine that could self-ignite fuel sprayed into the cylinder. Diesel used an air spray combined with fuel in his first engine.
+
+During initial development, one of the engines burst, nearly killing Diesel. He persisted, and finally created a successful engine in 1893\. The high-compression engine, which ignites its fuel by the heat of compression, is now called the diesel engine, whether a four-stroke or two-stroke design.
+
+The four-stroke diesel engine has been used in the majority of heavy-duty applications for many decades. It uses a heavy fuel containing more energy and requiring less refinement to produce. The most efficient Otto-cycle engines run near 30% thermal efficiency. [*clarificationneeded*]
+
+## Thermodynamic analysis
+
+[ [edit](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fen.wikipedia.org%2Fw%2Findex.php%3Ftitle%3DFour-stroke%5Fengine%26action%3Dedit%26section%3D5)] 
+
+The idealized four-stroke Otto cycle [p-V diagram](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FPressure%5Fvolume%5Fdiagram): the intake (A) stroke is performed by an [isobaric](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FIsobaric%5Fprocess) expansion, followed by the compression (B) stroke, performed as an [adiabatic](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FAdiabatic%5Fprocess) compression. Through the combustion of fuel an [isochoric process](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FIsochoric%5Fprocess) is produced, followed by an adiabatic expansion, characterizing the power (C) stroke. The cycle is closed by an isochoric process and an isobaric compression, characterizing the exhaust (D) stroke.
+
+The [thermodynamic](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FThermodynamic) analysis of the actual four-stroke and two-stroke cycles is not a simple task. However, the analysis can be simplified significantly if air standard assumptions [[6]](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FFour-stroke%5Fengine%23cite%5Fnote-airstandard-6) are utilized. The resulting cycle, which closely resembles the actual operating conditions, is the Otto cycle.
+
+During normal operation of the engine, as the air/fuel mixture is being compressed, an electric spark is created to ignite the mixture. At low rpm this occurs close to TDC (Top Dead Centre). As engine rpm rises, the speed of the flame front does not change so the spark point is advanced earlier in the cycle to allow a greater proportion of the cycle for the charge to combust before the power stroke commences. This advantage is reflected in the various Otto engine designs; the atmospheric (non-compression) engine operates at 12% efficiency whereas the compressed-charge engine has an operating efficiency around 30%.
+
+## Fuel considerations
+
+[ [edit](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fen.wikipedia.org%2Fw%2Findex.php%3Ftitle%3DFour-stroke%5Fengine%26action%3Dedit%26section%3D6)]
+
+A problem with compressed charge engines is that the temperature rise of the compressed charge can cause pre-ignition. If this occurs at the wrong time and is too energetic, it can damage the engine. Different fractions of petroleum have widely varying flash points (the temperatures at which the fuel may self-ignite). This must be taken into account in engine and fuel design.
+
+The tendency for the compressed fuel mixture to ignite early is limited by the chemical composition of the fuel. There are several grades of fuel to accommodate differing performance levels of engines. The fuel is altered to change its self-ignition temperature. There are several ways to do this. As engines are designed with higher [compression ratios](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FCompression%5Fratio) the result is that pre-ignition is much more likely to occur since the fuel mixture is compressed to a higher temperature prior to deliberate ignition. The higher temperature more effectively evaporates fuels such as gasoline, which increases the efficiency of the compression engine. Higher compression ratios also mean that the distance that the piston can push to produce power is greater (which is called the [expansion ratio](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FExpansion%5Fratio)).
+
+The octane rating of a given fuel is a measure of the fuel's resistance to self-ignition. A fuel with a higher numerical octane rating allows for a higher compression ratio, which extracts more energy from the fuel and more effectively converts that energy into useful work while at the same time preventing engine damage from pre-ignition. High octane fuel is also more expensive.
+
+Many modern four-stroke engines employ [gasoline direct injection](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FGasoline%5Fdirect%5Finjection) or GDI. In a gasoline direct-injected engine, the injector nozzle protrudes into the combustion chamber. The direct fuel injector injects gasoline under a very high pressure into the cylinder during the compression stroke, when the piston is closer to the top. [[7]](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FFour-stroke%5Fengine%23cite%5Fnote-7)
+
+Diesel engines by their nature do not have concerns with pre-ignition. They have a concern with whether or not combustion can be started. The description of how likely diesel fuel is to ignite is called the Cetane rating. Because diesel fuels are of low volatility, they can be very hard to start when cold. Various techniques are used to start a cold diesel engine, the most common being the use of a [glow plug](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FGlow%5Fplug%5F%28diesel%5Fengine%29).
+
+## Design and engineering principles
+
+[ [edit](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fen.wikipedia.org%2Fw%2Findex.php%3Ftitle%3DFour-stroke%5Fengine%26action%3Dedit%26section%3D7)]
+
+### Power output limitations
+
+[ [edit](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fen.wikipedia.org%2Fw%2Findex.php%3Ftitle%3DFour-stroke%5Fengine%26action%3Dedit%26section%3D8)] 
+
+The four-stroke cycle
+
+1=TDC
+
+2=BDC
+
+**A: Intake**
+
+**B: Compression**
+
+**C: Power**
+
+**D: Exhaust**
+
+The maximum amount of power generated by an engine is determined by the maximum amount of air ingested. The amount of power generated by a piston engine is related to its size (cylinder volume), whether it is a [two-stroke engine](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FTwo-stroke%5Fengine) or four-stroke design, [volumetric efficiency](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FVolumetric%5Fefficiency), losses, air-to-fuel ratio, the [calorific value](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FCalorific%5Fvalue) of the fuel, oxygen content of the air and speed ( [RPM](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FRevolutions%5Fper%5Fminute)). The speed is ultimately limited by material strength and [lubrication](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FLubrication). Valves, pistons and [connecting rods](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FConnecting%5Frod) suffer severe acceleration forces. At high engine speed, physical breakage and [piston ring](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FPiston%5Fring) flutter can occur, resulting in power loss or even engine destruction. [Piston ring](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FPiston%5Fring) flutter occurs when the rings oscillate vertically within the piston grooves they reside in. Ring flutter compromises the seal between the ring and the cylinder wall, which causes a loss of cylinder pressure and power. If an engine spins too quickly, valve springs cannot act quickly enough to close the valves. This is commonly referred to as ' [valve float](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FValve%5Ffloat)', and it can result in piston to valve contact, severely damaging the engine. At high speeds the lubrication of piston cylinder wall interface tends to break down. This limits the piston speed for industrial engines to about 10 m/s.
+
+#### Intake/exhaust port flow
+
+[ [edit](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fen.wikipedia.org%2Fw%2Findex.php%3Ftitle%3DFour-stroke%5Fengine%26action%3Dedit%26section%3D9)]
+
+The output power of an engine is dependent on the ability of intake (air–fuel mixture) and exhaust matter to move quickly through valve ports, typically located in the [cylinder head](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FCylinder%5Fhead). To increase an engine's output power, irregularities in the intake and exhaust paths, such as casting flaws, can be removed, and, with the aid of an [air flow bench](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FAir%5Fflow%5Fbench), the radii of valve port turns and [valve seat](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FValve%5Fseat) configuration can be modified to reduce resistance. This process is called [porting](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FCylinder%5Fhead%5Fporting), and it can be done by hand or with a [CNC](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FCNC) machine.
+
+### Waste heat recovery of an internal combustion engine
+
+[ [edit](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fen.wikipedia.org%2Fw%2Findex.php%3Ftitle%3DFour-stroke%5Fengine%26action%3Dedit%26section%3D10)]
+
+An internal combustion engine is on average capable of converting only 40-45% of supplied energy into mechanical work. A large part of the waste energy is in the form of heat that is released to the environment through coolant, fins, etc. If somehow waste heat could be captured and turned to mechanical energy, the engine's performance and/or fuel efficiency could be improved by improving the overall efficiency of the cycle. It has been found that even if 6% of the entirely wasted heat is recovered it can increase the engine efficiency greatly. [[8]](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FFour-stroke%5Fengine%23cite%5Fnote-8)
+
+Many methods have been devised in order to extract waste heat out of an engine exhaust and use it further to extract some useful work, decreasing the exhaust pollutants at the same time. Use of the [Rankine Cycle](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FRankine%5Fcycle), [turbocharging](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FTurbocharging) and [thermoelectric generation](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FThermoelectric%5Fgenerator) can be very useful as a [waste heat recovery](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FWaste%5Fheat%5Frecovery%5Funit) system.
+
+#### Supercharging
+
+[ [edit](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fen.wikipedia.org%2Fw%2Findex.php%3Ftitle%3DFour-stroke%5Fengine%26action%3Dedit%26section%3D11)]
+
+One way to increase engine power is to force more air into the cylinder so that more power can be produced from each power stroke. This can be done using some type of air compression device known as a [supercharger](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FSupercharger), which can be powered by the engine crankshaft.
+
+Supercharging increases the power output limits of an internal combustion engine relative to its displacement. Most commonly, the supercharger is always running, but there have been designs that allow it to be cut out or run at varying speeds (relative to engine speed). Mechanically driven supercharging has the disadvantage that some of the output power is used to drive the supercharger, while power is wasted in the high pressure exhaust, as the air has been compressed twice and then gains more potential volume in the combustion but it is only expanded in one stage.
+
+#### Turbocharging
+
+[ [edit](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fen.wikipedia.org%2Fw%2Findex.php%3Ftitle%3DFour-stroke%5Fengine%26action%3Dedit%26section%3D12)]
+
+A [turbocharger](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FTurbocharger) is a supercharger that is driven by the engine's exhaust gases, by means of a [turbine](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FTurbine). A turbocharger is incorporated into the exhaust system of a vehicle to make use of the expelled exhaust. It consists of a two-piece, high-speed turbine assembly with one side that compresses the intake air, and the other side that is powered by the exhaust gas outflow.
+
+When idling, and at low-to-moderate speeds, the turbine produces little power from the small exhaust volume, the turbocharger has little effect and the engine operates nearly in a naturally aspirated manner. When much more power output is required, the engine speed and throttle opening are increased until the exhaust gases are sufficient to 'spool up' the turbocharger's turbine to start compressing much more air than normal into the intake manifold. Thus, additional power (and speed) is expelled through the function of this turbine.
+
+Turbocharging allows for more efficient engine operation because it is driven by exhaust pressure that would otherwise be (mostly) wasted, but there is a design limitation known as [turbo lag](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FTurbo%5Flag). The increased engine power is not immediately available due to the need to sharply increase engine RPM, to build up pressure and to spin up the turbo, before the turbo starts to do any useful air compression. This can be overcome with [antilag systems](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FAntilag%5Fsystem) which use a number of methods to keep the turbo spooled at all times in race applications, in production cars this is usually done only by driver demand to reduce wear. The increased intake volume causes increased exhaust and spins the turbo faster, and so forth until steady high power operation is reached. Another difficulty is that the higher exhaust pressure causes the exhaust gas to transfer more of its heat to the mechanical parts of the engine.
+
+### Rod and piston-to-stroke ratio
+
+[ [edit](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fen.wikipedia.org%2Fw%2Findex.php%3Ftitle%3DFour-stroke%5Fengine%26action%3Dedit%26section%3D13)]
+
+The rod-to-stroke ratio is the ratio of the length of the [connecting rod](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FConnecting%5Frod) to the length of the piston stroke. A longer rod reduces sidewise pressure of the piston on the cylinder wall and the stress forces, increasing engine life. It also increases the cost and engine height and weight.
+
+A "square engine" is an engine with a bore diameter equal to its stroke length. An engine where the bore diameter is larger than its stroke length is an [oversquare](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FOversquare) engine, conversely, an engine with a bore diameter that is smaller than its stroke length is an undersquare engine.
+
+### Valve train
+
+[ [edit](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fen.wikipedia.org%2Fw%2Findex.php%3Ftitle%3DFour-stroke%5Fengine%26action%3Dedit%26section%3D14)]
+
+The valves are typically operated by a [camshaft](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FCamshaft) rotating at half the speed of the [crankshaft](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FCrankshaft). It has one or more camshafts along its length, each designed to open one or more valves during the appropriate part of an intake or exhaust stroke. A [tappet](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FTappet) or [rocker arm](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FRocker%5Farm) between the valve and the cam is the surface on which the cam pushes on to open the valve. Many engines use one or more camshafts "above" a row (or each row) of cylinders, as in the illustration, in which each cam directly actuates a valve through a flat tappet. In other engine designs the camshaft is in the [crankcase](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FCrankcase), in which case each cam usually contacts a [push rod](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FPush%5Frod), which contacts a [rocker arm](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FRocker%5Farm) that opens a valve, or in case of a [flathead engine](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FFlathead%5Fengine) a push rod is not necessary. The [overhead cam](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FOverhead%5Fcam) design typically allows higher engine speeds because it provides the most direct path between cam and valve.
+
+#### Valve clearance
+
+[ [edit](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fen.wikipedia.org%2Fw%2Findex.php%3Ftitle%3DFour-stroke%5Fengine%26action%3Dedit%26section%3D15)]
+
+Valve clearance refers to the small gap between a valve lifter and a valve stem that ensures that the valve completely closes. On engines with mechanical valve adjustment, excessive clearance causes noise from the valve train. A too-small valve clearance can result in the valves not closing properly. This results in a loss of performance and possibly overheating of exhaust valves. Typically, the clearance must be readjusted each 20,000 miles (32,000 km) with a feeler gauge.
+
+Most modern production engines use [hydraulic lifters](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FHydraulic%5Flifters) to automatically compensate for valve train component wear. Dirty engine oil may cause lifter failure.
+
+### Energy balance
+
+[ [edit](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fen.wikipedia.org%2Fw%2Findex.php%3Ftitle%3DFour-stroke%5Fengine%26action%3Dedit%26section%3D16)]
+
+Otto engines are about 30% efficient; in other words, 30% of the energy generated by combustion is converted into useful rotational energy at the output shaft of the engine, while the remainder being lost due to waste heat, friction and engine accessories. [[9]](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FFour-stroke%5Fengine%23cite%5Fnote-OtoE-9) There are a number of ways to recover some of the energy lost to waste heat. The use of a turbocharger in diesel engines is very effective by boosting incoming air pressure and in effect, provides the same increase in performance as having more displacement. The Mack Truck company, decades ago, developed a turbine system that converted waste heat into kinetic energy that it fed back into the engine's transmission. In 2005, BMW announced the development of the [turbosteamer](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FTurbosteamer), a two-stage heat-recovery system similar to the Mack system that recovers 80% of the energy in the exhaust gas and raises the efficiency of an Otto engine by 15%. [[10]](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FFour-stroke%5Fengine%23cite%5Fnote-BMWTS-10) By contrast, a [six-stroke engine](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FSix-stroke%5Fengine) may reduce fuel consumption by as much as 40%.
+
+Modern engines are often intentionally built to be slightly less efficient than they could otherwise be. This is necessary for [emission controls](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FVehicle%5Femissions%5Fcontrol) such as [exhaust gas recirculation](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FExhaust%5Fgas%5Frecirculation) and [catalytic converters](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FCatalytic%5Fconverter) that reduce [smog](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FSmog) and other atmospheric pollutants. Reductions in efficiency may be counteracted with an [engine control unit](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FEngine%5Fcontrol%5Funit) using [lean burn techniques](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FLean-burn). [[11]](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FFour-stroke%5Fengine%23cite%5Fnote-11)
+
+In the United States, the [Corporate Average Fuel Economy](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FCorporate%5FAverage%5FFuel%5FEconomy) mandates that vehicles must achieve an average of 34.9 mpg ‑US (6.7 L/100 km; 41.9 mpg ‑imp) compared to the current standard of 25 mpg ‑US (9.4 L/100 km; 30.0 mpg ‑imp). [[12]](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FFour-stroke%5Fengine%23cite%5Fnote-12) As automakers look to meet these standards by 2016, new ways of engineering the traditional [internal combustion engine](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FInternal%5Fcombustion%5Fengine) (ICE) have to be considered. Some potential solutions to increase [fuel efficiency](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FFuel%5Fefficiency) to meet new mandates include firing after the piston is farthest from the crankshaft, known as top [dead centre](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FDead%5Fcentre%5F%28engineering%29), and applying the [Miller cycle](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FMiller%5Fcycle). Together, this redesign could significantly reduce fuel consumption and [NO x](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FNOx) emissions.
+
+Starting position, intake stroke, and compression stroke.
+
+Ignition of fuel, power stroke, and exhaust stroke.
+
+## See also
+
+[ [edit](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fen.wikipedia.org%2Fw%2Findex.php%3Ftitle%3DFour-stroke%5Fengine%26action%3Dedit%26section%3D17)]
+
+* [Atkinson cycle](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FAtkinson%5Fcycle)
+* [Miller cycle](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FMiller%5Fcycle)
+* [Humphrey pump](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FHumphrey%5Fpump)
+* [Desmodromic valve](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FDesmodromic%5Fvalve)
+* [History of the internal combustion engine](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FHistory%5Fof%5Fthe%5Finternal%5Fcombustion%5Fengine)
+* [Napier Deltic](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FNapier%5FDeltic)
+* [Poppet valve](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FPoppet%5Fvalve)
+* [Radial engine](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FRadial%5Fengine)
+* [Rotary engine](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FPistonless%5Frotary%5Fengine)
+* [Six-stroke engine](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FSix-stroke%5Fengine)
+* [Stirling engine](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FStirling%5Fengine)
+* [Stroke (engine)](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FStroke%5F%28engine%29)
+  * [Two- and four-stroke engines](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FTwo-%5Fand%5Ffour-stroke%5Fengines)
+  * [Two-stroke engine](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FTwo-stroke%5Fengine)
+  * [Five-stroke engine](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FFive-stroke%5Fengine) (uncommon)
+  * [Six-stroke engine](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FSix-stroke%5Fengine)
+
+## References
+
+[ [edit](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fen.wikipedia.org%2Fw%2Findex.php%3Ftitle%3DFour-stroke%5Fengine%26action%3Dedit%26section%3D18)]
+
+* [Jump up to: 1](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FFour-stroke%5Fengine%23cite%5Fref-most%5F1-0) [2](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FFour-stroke%5Fengine%23cite%5Fref-most%5F1-1) ["4-STROKE ENGINES: WHAT ARE THEY AND HOW DO THEY WORK?"](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fwww.uti.edu%2Fblog%2Fmotorcycle%2Fhow-4-stroke-engines-work). UTI. 5 May 2020\. Retrieved 19 November 2021.
+* [Jump up to: 1](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FFour-stroke%5Fengine%23cite%5Fref-NAMuseum%5F2-0) [2](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FFour-stroke%5Fengine%23cite%5Fref-NAMuseum%5F2-1) [3](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FFour-stroke%5Fengine%23cite%5Fref-NAMuseum%5F2-2) [4](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FFour-stroke%5Fengine%23cite%5Fref-NAMuseum%5F2-3) ["125 Jahre Viertaktmotor"](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fweb.archive.org%2Fweb%2F20110507083259%2Fhttp%3A%2F%2Fwww.nicolaus-august-otto.de%2Fnode%2F15) [ 125 Years of the Four Stroke Engine]. *Oldtimer Club Nicolaus August Otto e.V.* (in German). Germany. 2009\. Archived from [the original](https://www.google.com/url?sa=E&amp;q=http%3A%2F%2Fwww.nicolaus-august-otto.de%2Fnode%2F15) on 7 May 2011.
+* [↑](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FFour-stroke%5Fengine%23cite%5Fref-3) Ralph Stein (1967). The Automobile Book. Paul Hamlyn Ltd
+* [↑](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FFour-stroke%5Fengine%23cite%5Fref-pat367496%5F4-0) [US 367496](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fworldwide.espacenet.com%2Ftextdoc%3FDB%3DEPODOC%26IDX%3DUS367496), J. Atkinson, "Gas Engine", issued 2 August 1887
+* [↑](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FFour-stroke%5Fengine%23cite%5Fref-5) ["Auto Tech: Atkinson Cycle engines and Hybrids"](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fweb.archive.org%2Fweb%2F20140826120515%2Fhttp%3A%2F%2Fwww.autos.ca%2Fauto-tech%2Fauto-tech-atkinson-cycle-engines-and-hybrids%2F). *Autos.ca*. 14 July 2010\. Archived from [the original](https://www.google.com/url?sa=E&amp;q=http%3A%2F%2Fwww.autos.ca%2Fauto-tech%2Fauto-tech-atkinson-cycle-engines-and-hybrids%2F) on 26 August 2014\. Retrieved 23 February 2013.
+* [↑](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FFour-stroke%5Fengine%23cite%5Fref-airstandard%5F6-0) ["Best Place for Engineering and Technology, Air Standard Assumptions"](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fweb.archive.org%2Fweb%2F20110421085012%2Fhttp%3A%2F%2Fwww.betp.net%2F2011%2F04%2Fair-standard-assumptions%2F). Archived from [the original](https://www.google.com/url?sa=E&amp;q=http%3A%2F%2Fwww.betp.net%2F2011%2F04%2Fair-standard-assumptions%2F) on 21 April 2011.
+* [↑](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FFour-stroke%5Fengine%23cite%5Fref-7) ["Four-stroke engine: how it works, animation"](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fwww.testingautos.com%2Fcar%5Fcare%2Ffour-stroke-engine.html). *testingautos.com*. Retrieved 25 January 2020.
+* [↑](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FFour-stroke%5Fengine%23cite%5Fref-8) Sprouse III, Charles; Depcik, Christopher (1 March 2013). "Review of organic Rankine cycles for internal combustion engine exhaust waste heat recovery". *Applied Thermal Engineering*. **51** ( 1– 2): 711– 722\. [doi](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FDoi%5F%28identifier%29): [10.1016/j.applthermaleng.2012.10.017](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fdoi.org%2F10.1016%252Fj.applthermaleng.2012.10.017).
+* [↑](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FFour-stroke%5Fengine%23cite%5Fref-OtoE%5F9-0) Ferreira, Omar Campos (March 1998). ["Efficiencies of Internal Combustion Engines"](https://www.google.com/url?sa=E&amp;q=http%3A%2F%2Fwww.ecen.com%2Fcontent%2Feee7%2Fmotoref.htm). *Economia &amp; Energia* (in Portuguese). Brasil. Retrieved 11 April 2016.
+* [↑](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FFour-stroke%5Fengine%23cite%5Fref-BMWTS%5F10-0) Neff, John (9 December 2005). ["BMW Turbo Steamer Gets Hot and Goes"](https://www.google.com/url?sa=E&amp;q=http%3A%2F%2Fwww.autoblog.com%2F2005%2F12%2F09%2Fbmw-turbosteamer-gets-hot-and-goes%2F). *Autoblog*. Retrieved 11 April 2016.
+* [↑](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FFour-stroke%5Fengine%23cite%5Fref-11) Faiz, Asif; Weaver, Christopher S.; Walsh, Michael P. (1996). *Air pollution from motor vehicles: Standards and Technologies for Controlling Emissions*. World Bank Publications. [ISBN](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FISBN%5F%28identifier%29) [9780821334447](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FSpecial%3ABookSources%2F9780821334447) .
+* [↑](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FFour-stroke%5Fengine%23cite%5Fref-12) ["Fuel Economy"](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fwww.nhtsa.gov%2Ffuel-economy). US: National Highway Traffic Safety Administration (NHTSA). Retrieved 11 April 2016.
+
+## General sources
+
+[ [edit](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fen.wikipedia.org%2Fw%2Findex.php%3Ftitle%3DFour-stroke%5Fengine%26action%3Dedit%26section%3D19)]
+
+* Hardenberg, Horst O. (1999). *The Middle Ages of the Internal combustion Engine*. Society of Automotive Engineers (SAE). [ISBN](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FISBN%5F%28identifier%29) [978-0-7680-0391-8](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FSpecial%3ABookSources%2F978-0-7680-0391-8) .
+* scienceworld.wolfram.com/physics/OttoCycle.html
+* Cengel, Yunus A; Michael A Boles; Yaling He (2009). *Thermodynamics An Engineering Approach. N.p*. The McGraw Hill Companies. [ISBN](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FISBN%5F%28identifier%29) [978-7-121-08478-2](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FSpecial%3ABookSources%2F978-7-121-08478-2) .
+* Benson, Tom (11 July 2008). ["4 Stroke Internal Combustion Engine"](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fwww.grc.nasa.gov%2FWWW%2FK-12%2Fairplane%2Fengopt.html). p. National Aeronautics and Space Administration. Retrieved 5 May 2011.
+
+## External links
+
+[ [edit](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fen.wikipedia.org%2Fw%2Findex.php%3Ftitle%3DFour-stroke%5Fengine%26action%3Dedit%26section%3D20)]
+
+* [U.S. patent 194,047](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fpatents.google.com%2Fpatent%2FUS194047)
+* [Four stroke engine animation](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3DGaTj15g6L9c)
+* [Detailed Engine Animations](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fweb.archive.org%2Fweb%2F20170625160053%2Fhttp%3A%2F%2Fwww.animatedpiston.com%2F)
+* [How Car Engines Work](https://www.google.com/url?sa=E&amp;q=http%3A%2F%2Fauto.howstuffworks.com%2Fengine.htm)
+* [Animated Engines, four stroke](https://www.google.com/url?sa=E&amp;q=http%3A%2F%2Fwww.animatedengines.com%2Fotto.html), another explanation of the four-stroke engine.
+* [CDX eTextbook](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fweb.archive.org%2Fweb%2F20060929013854%2Fhttp%3A%2F%2Fwww.cdxetextbook.com%2Fvideo%2Fvideo.html), some videos of car components in action.
+* [New 4 stroke](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fcommons.wikimedia.org%2Fwiki%2FFile%3ANew4stroke.gif)
+* [Engine Four Stroke Internal Combustion Engine](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fwww.grc.nasa.gov%2Fwww%2Fk-12%2Fairplane%2Fengopt.html)
+
+show
+
+* [v](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FTemplate%3APiston%5Fengine%5Fconfigurations)
+* [t](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FTemplate%5Ftalk%3APiston%5Fengine%5Fconfigurations)
+* [e](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FSpecial%3AEditPage%2FTemplate%3APiston%5Fengine%5Fconfigurations)
+
+[Engine configurations](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FEngine%5Fconfiguration) for [piston engines](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FReciprocating%5Fengine)
+
+Type
+
+* [Atmospheric](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FNewcomen%5Fatmospheric%5Fengine)
+* [Axial](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FAxial%5Fengine)
+* [Beam](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FBeam%5Fengine)
+  * [Cornish](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FCornish%5Fengine)
+  * [Rotative](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FRotative%5Fbeam%5Fengine)
+* [Bourke](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FBourke%5Fengine)
+* [Cam engine](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FCam%5Fengine)
+* [Camless](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FCamless%5Fpiston%5Fengine)
+* [Compound](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FCompound%5Fsteam%5Fengine)
+* [Double-acting cylinder](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FDouble-acting%5Fcylinder)
+* [Flathead](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FFlathead%5Fengine)
+* [Free-piston](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FFree-piston%5Fengine)
+  * [Stelzer](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FStelzer%5Fengine)
+* [Hemi](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FHemispherical%5Fcombustion%5Fchamber)
+* [Heron head](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FHeron%5Fcylinder%5Fhead)
+* [Intake over exhaust](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FIOE%5Fengine)
+* [Oscillating cylinder](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FOscillating%5Fcylinder%5Fsteam%5Fengine)
+* [Opposed-piston](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FOpposed-piston%5Fengine)
+* [Overhead camshaft](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FOverhead%5Fcamshaft%5Fengine)
+* [Overhead valve](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FOverhead%5Fvalve%5Fengine)
+* [Pentroof](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FPent-roof%5Fcombustion%5Fchamber)
+* [Rotary](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FRotary%5Fengine)
+* [Single-acting cylinder](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FSingle-acting%5Fcylinder)
+* [Split cycle](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FSplit-cycle%5Fengine)
+* [Swing-piston](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FSwing-piston%5Fengine)
+* [Uniflow](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FUniflow%5Fsteam%5Fengine)
+* [Watt](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FWatt%5Fsteam%5Fengine)
+* [Wedge](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FChrysler%5FB%5Fengine)
+
+[Stroke cycle](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FStroke%5F%28engine%29)
+
+* [Two-stroke](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FTwo-stroke%5Fengine)
+* [Four-stroke](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FFour-stroke%5Fengine)
+* [Five-stroke](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FFive-stroke%5Fengine)
+* [Six-stroke](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FSix-stroke%5Fengine)
+* [Two-and four-stroke](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FTwo-%5Fand%5Ffour-stroke%5Fengines)
+
+[Cylinder layout](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FEngine%5Fconfiguration)
+
+| [Inline – straight ](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FStraight%5Fengine) | \- [I1](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FSingle-cylinder%5Fengine) \- [I2](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FStraight-twin%5Fengine) \- [I3](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FStraight-three%5Fengine) \- [I4](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FStraight-four%5Fengine) \- [I5](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FStraight-five%5Fengine) \- [I6](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FStraight-six%5Fengine) \- [I7](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FStraight-seven%5Fengine) \- [I8](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FStraight-eight%5Fengine) \- [I9](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FStraight-nine%5Fengine) \- [I12](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FStraight-twelve%5Fengine) \- [I14 ](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FStraight-fourteen%5Fengine)                                                                                                                                                                                                                                                                              |
+| ----------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| [Flat – boxer ](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FFlat%5Fengine)          | \- [F2](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FFlat-twin%5Fengine) \- [F4](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FFlat-four%5Fengine) \- [F6](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FFlat-six%5Fengine) \- [F8](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FFlat-eight%5Fengine) \- [F10](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FFlat-ten%5Fengine) \- [F12](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FFlat-twelve%5Fengine) \- [F16 ](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FFlat-sixteen%5Fengine)                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       |
+| [V – vee ](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FV%5Fengine)                  | \- [V2](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FV-twin%5Fengine) \- [V3](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FV3%5Fengine) \- [V4](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FV4%5Fengine) \- [V5](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FV5%5Fengine) \- [VR5](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FVR5%5Fengine) \- [V6](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FV6%5Fengine) \- [VR6](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FVR6%5Fengine) \- [V8](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FV8%5Fengine) \- [V10](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FV10%5Fengine) \- [V12](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FV12%5Fengine) \- [V14](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FV14%5Fengine) \- [V16](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FV16%5Fengine) \- [V18](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FV18%5Fengine) \- [V20](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FV20%5Fengine) \- [V24 ](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FV24%5Fengine) |
+| [W ](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FW%5Fengine)                        | \- [W3](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FW%5Fengine%23W3%5Fengines) \- [W6](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FW%5Fengine%23W6%5Fengines) \- [W8](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FW8%5Fengine) \- [W12](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FW12%5Fengine) \- [W16](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FW16%5Fengine) \- [W18](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FW18%5Fengine) \- [W24](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FW%5Fengine%23W24%5Fengine) \- [W30 ](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FW%5Fengine%23W30%5Fengine)                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                |
+
+* [Deltic](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FNapier%5FDeltic) \- [H](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FH%5Fengine) \- [Radial](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FRadial%5Fengine) \- [Split-single](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FSplit-single%5Fengine) \- [U](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FU%5Fengine) \- [X](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FX%5Fengine)
+
+show
+
+* [v](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FTemplate%3AAutomobile%5Fconfiguration)
+* [t](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FTemplate%5Ftalk%3AAutomobile%5Fconfiguration)
+* [e](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FSpecial%3AEditPage%2FTemplate%3AAutomobile%5Fconfiguration)
+
+[Car](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FCar) design
+
+[Classification](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FCar%5Fclassification)
+
+| By size                                                                                               | \- [Micro](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FMicrocar) \- [Kei](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FKei%5Fcar) \- [Subcompact](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FSubcompact%5Fcar)/ [Supermini](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FB-segment) \- [Family](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FFamily%5Fcar) \- [Compact](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FCompact%5Fcar) \- [Mid-size](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FMid-size%5Fcar) \- [Full-size ](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FFull-size%5Fcar)                                                                                              |
+| ----------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| [Custom ](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FCustom%5Fcar)     | \- [Baja Bug](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FBaja%5FBug) \- [Hot rod](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FHot%5Frod) \- [Lead sled](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FLead%5Fsled) \- [Lowrider](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FLowrider) \- [Sandrail](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FSandrail) \- [T-bucket ](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FT-bucket)                                                                                                                                                                                                                                                                                                                   |
+| [Luxury ](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FLuxury%5Fcar)     | \- [Compact executive](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FCompact%5Fexecutive%5Fcar) \- [Executive](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FExecutive%5Fcar) \- [Personal ](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FPersonal%5Fluxury%5Fcar)                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              |
+| [Minivan / MPV ](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FMinivan)   | \- [Compact](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FCompact%5FMPV) \- [Leisure](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FLeisure%5Factivity%5Fvehicle) \- [Mini ](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FMini%5FMPV)                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          |
+| [SUV ](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FSUV)                 | \- [Compact](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FCompact%5Fsport%5Futility%5Fvehicle) \- [Crossover (CUV)](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FCrossover%5F%28automobile%29) \- [Mini](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FMini%5FSUV) \- [Coupe SUV ](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FCoupe%5FSUV)                                                                                                                                                                                                                                                                                                                                                                                                                                                                      |
+| [Sports ](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FSports%5Fcar)     | \- [Grand tourer](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FGrand%5Ftourer) \- [Hot hatch](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FHot%5Fhatch) \- [Muscle](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FMuscle%5Fcar) \- [Pony](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FPony%5Fcar) \- [Sport compact](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FSport%5Fcompact) \- [Sports sedan](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FSports%5Fsedan) \- [Super](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FSupercar) \- [Go-kart ](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FGo-kart)                                                                                      |
+| Other                                                                                                 | \- [Antique](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FAntique%5Fcar) \- [Classic](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FClassic%5Fcar) \- [Economy](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FEconomy%5Fcar) \- [Ute](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FUte%5F%28vehicle%29) \- [Van](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FVan) \- [Vintage car ](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FVintage%5Fcar)                                                                                                                                                                                                                                                                                                         |
+| [EU ](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FEuro%5FCar%5FSegment) | \- [A-segment](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FA-segment) \- [B-segment](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FB-segment) \- [C-segment](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FC-segment) \- [D-segment](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FD-segment) \- [E-segment](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FE-segment) \- [F-segment](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FF-segment) \- [J-segment](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FJ-segment) \- [M-segment](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FM-segment) \- [S-segment ](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FS-segment) |
+
+[Body styles](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FCar%5Fbody%5Fstyle)
+
+* [2+2](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2F2%2B2%5F%28car%5Fbody%5Fstyle%29)
+* [Baquet](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FBaquet%5F%28car%5Fbody%5Fstyle%29)
+* [Barchetta](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FBarchetta)
+* [Beach car](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FBeach%5Fcar)
+* [Berlinetta](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FBerlinetta)
+* [Brougham](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FBrougham%5F%28car%5Fbody%29)
+* [Buggy](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FBuggy%5F%28automobile%29)
+* [Cabrio coach](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FCabrio%5Fcoach)
+* [Cab over](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FCab%5Fover)
+* [Cabriolet / Convertible / Drophead coupe](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FConvertible)
+* [Coupe](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FCoupe)
+* [Coupé utility](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FCoup%C3%A9%5Futility)
+* [Fastback](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FFastback)
+* [Hardtop](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FHardtop)
+* [Hatchback](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FHatchback)
+* [Kammback](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FKammback)
+* [Landaulet](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FLandaulet%5F%28car%29)
+* [Liftback](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FLiftback)
+* [Limousine](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FLimousine)
+* [Microvan](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FMicrovan)
+* [Minibus](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FMinibus)
+* [Multi-stop truck](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FMulti-stop%5Ftruck)
+* [Notchback](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FNotchback)
+* [Panel van](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FPanel%5Fvan)
+* [Panel truck](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FPanel%5Ftruck)
+* [Phaeton](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FPhaeton%5Fbody)
+* [Pickup truck](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FPickup%5Ftruck)
+* [Quad coupé](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FQuad%5Fcoup%C3%A9)
+* [Retractable hardtop](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FConvertible)
+* [Roadster / Spider / Spyder](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FRoadster%5F%28automobile%29)
+* [Roadster utility](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FRoadster%5Futility)
+* [Runabout](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FRunabout%5F%28car%29)
+* [Saloon / Sedan](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FSedan%5F%28automobile%29)
+* [Sedan delivery/Panel van](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FPanel%5Fvan)
+* [Shooting brake](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FShooting%5Fbrake)
+* [Station wagon](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FStation%5Fwagon)
+* [Targa top](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FTarga%5Ftop)
+* [Torpedo](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FTorpedo%5F%28car%29)
+* [Touring](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FTouring%5Fcar)
+* [Town (Coupé de Ville)](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FCoupe%5Fde%5FVille)
+* [T-top](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FT-top)
+* [Vis-à-vis](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FVis-%C3%A0-vis%5F%28carriage%29)
+
+Specialized
+
+vehicles
+
+* [All-terrain vehicle](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FAll-terrain%5Fvehicle)
+* [Amphibious](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FAmphibious%5Fvehicle)
+* [Connected](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FConnected%5Fcar)
+* [Driverless (autonomous)](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FSelf-driving%5Fcar)
+* [Dune buggy](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FDune%5Fbuggy)
+* [Flower car](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FFlower%5Fcar)
+* [Go-kart](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FGo-kart)
+* [Gyrocar](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FGyrocar)
+* [Pedal car](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FQuadracycle)
+* [Personal rapid transit](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FPersonal%5Frapid%5Ftransit)
+* [Police car](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FPolice%5Fcar)
+* [Flying car](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FFlying%5Fcar)
+* [Taxicab](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FTaxicab)
+* [Tow truck](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FTow%5Ftruck)
+* [Voiturette](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FVoiturette)
+
+[Propulsion](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FPropulsion%23Ground)
+
+* [Internal combustion](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FInternal%5Fcombustion%5Fengine): [Diesel](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FDiesel%5Fengine)
+* [Gasoline / petrol](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FPetrol%5Fengine)
+  * [direct injection](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FGasoline%5Fdirect%5Finjection)
+* [Homogeneous charge compression ignition](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FHomogeneous%5Fcharge%5Fcompression%5Fignition)
+* [Fuel gas](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FFuel%5Fgas)
+  * [Autogas](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FAutogas) ( [Liquified petroleum gas](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FLiquified%5Fpetroleum%5Fgas))
+  * [Natural gas](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FNatural%5Fgas)
+    * [Compressed natural gas](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FCompressed%5Fnatural%5Fgas)
+* [Biofuel](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FBiofuel)
+  * [Biodiesel](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FBiodiesel)
+  * [Biogas](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FBiogas)
+  * [Biogasoline](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FBiogasoline)
+  * [Ethanol](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FCommon%5Fethanol%5Ffuel%5Fmixtures) ( [E85](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FE85))
+* [Alternative fuel](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FAlternative%5Ffuel%5Fvehicle): [Electric](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FElectric%5Fvehicle)
+  * [Battery](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FBattery%5Felectric%5Fvehicle)
+  * [NEV](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FNeighborhood%5FElectric%5FVehicle)
+  * [Hybrid electric](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FHybrid%5Felectric%5Fvehicle)
+  * [Plug-in hybrid history](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FPlug-in%5Fhybrid%5Fhistory)
+* [Hydrogen](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FHydrogen%5Fvehicle)
+  * [Fuel cell](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FFuel%5Fcell)
+  * [HICEV](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FHydrogen%5Finternal%5Fcombustion%5Fengine%5Fvehicle)
+* [Liquid nitrogen](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FLiquid%5Fnitrogen%5Fengine)
+* [Steam](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FSteam%5Fcar)
+
+[Drive wheels](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FDrive%5Fwheel)
+
+* [Front-wheel](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FFront-wheel%5Fdrive)
+* [Rear-wheel](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FPowertrain%5Flayout%23Rear%5Fwheel%5Fdrive%5Flayouts)
+* [Two-wheel](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FTwo-wheel%5Fdrive)
+* [Four-wheel](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FFour-wheel%5Fdrive)
+* [Six-wheel](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FSix-wheel%5Fdrive)
+* [Eight-wheel](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FEight-wheel%5Fdrive)
+* [Ten-wheel](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FTen-wheel%5Fdrive)
+* [Twelve-wheel](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FTwelve-wheel%5Fdrive)
+
+[Engine position](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FPowertrain%5Flayout)
+
+* [Front](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FFront-engine%5Fdesign)
+* [Mid](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FMid-engine%5Fdesign)
+* [Rear](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FRear-engine%5Fdesign)
+
+[Layout](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FPowertrain%5Flayout)
+
+(engine / drive)
+
+* [Front-front](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FFront-engine%2C%5Ffront-wheel-drive%5Flayout)
+* [Front mid-front](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FFront-mid-engine%2C%5Ffront-wheel-drive%5Flayout)
+* [Rear-front](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FRear-engine%2C%5Ffront-wheel-drive%5Flayout)
+* [Front-rear](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FFront-engine%2C%5Frear-wheel-drive%5Flayout)
+* [Rear mid-rear](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FRear%5Fmid-engine%2C%5Frear-wheel-drive%5Flayout)
+* [Rear-rear](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FRear-engine%2C%5Frear-wheel-drive%5Flayout)
+* [Front-four-wheel](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FFront-engine%2C%5Ffour-wheel-drive%5Flayout)
+* [Mid-four-wheel](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FMid-engine%2C%5Ffour-wheel-drive%5Flayout)
+* [Rear-four-wheel](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FRear-engine%2C%5Ffour-wheel-drive%5Flayout)
+* [Dual motor-four-wheel](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FDual-motor%2C%5Ffour-wheel-drive%5Flayout)
+* [Individual wheel drive](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FIndividual%5Fwheel%5Fdrive)
+
+[Engine configuration](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FEngine%5Fconfiguration)
+
+( [internal combustion](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FInternal%5Fcombustion%5Fengine))
+
+* [Boxer](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FFlat%5Fengine)
+* [Flat](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FFlat%5Fengine)
+* [Four-stroke](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FFour-stroke%5Fengine)
+* [H-block](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FH%5Fengine)
+* [Reciprocating](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FReciprocating%5Fengine)
+* [Single-cylinder](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FSingle-cylinder%5Fengine)
+* [Straight](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FStraight%5Fengine)
+* [Two-stroke](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FTwo-stroke%5Fengine)
+* [V (Vee)](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FV%5Fengine)
+* [W engine](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FW%5Fengine)
+* [Wankel](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FWankel%5Fengine)
+* [Portal](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FPortal%3ACars)
+* [Category](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FCategory%3ACars)
+* [Template:EC car classification](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FTemplate%3AEC%5Fcar%5Fclassification)
+
+show
+
+* [v](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FTemplate%3AAircraft%5Fpiston%5Fengine%5Fcomponents)
+* [t](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FTemplate%5Ftalk%3AAircraft%5Fpiston%5Fengine%5Fcomponents)
+* [e](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FSpecial%3AEditPage%2FTemplate%3AAircraft%5Fpiston%5Fengine%5Fcomponents)
+
+[Aircraft](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FAircraft%5Fengine) [piston engine](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FReciprocating%5Fengine) components, systems and terminology
+
+[Piston engines](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FReciprocating%5Fengine)
+
+Mechanical
+
+components
+
+* [Camshaft](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FCamshaft)
+* [Connecting rod](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FConnecting%5Frod)
+* [Crankpin](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FCrankpin)
+* [Crankshaft](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FCrankshaft)
+* [Cylinder](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FCylinder%5F%28engine%29)
+* [Cylinder head](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FCylinder%5Fhead)
+* [Gudgeon pin](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FGudgeon%5Fpin)
+* [Hydraulic tappet](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FHydraulic%5Ftappet)
+* [Main bearing](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FMain%5Fbearing)
+* [Obturator ring](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FObturator%5Fring)
+* [Oil pump](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FOil%5Fpump%5F%28internal%5Fcombustion%5Fengine%29)
+* [Piston](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FPiston)
+* [Piston ring](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FPiston%5Fring)
+* [Poppet valve](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FPoppet%5Fvalve)
+* [Pushrod](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FOverhead%5Fvalve%5Fengine)
+* [Rocker arm](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FRocker%5Farm)
+* [Sleeve valve](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FSleeve%5Fvalve)
+* [Tappet](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FTappet)
+
+Electrical
+
+components
+
+* [Alternator](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FAlternator%5F%28automotive%29)
+* [Capacitor discharge ignition](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FCapacitor%5Fdischarge%5Fignition)
+* [Dual ignition](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FDual%5Fignition)
+* [Electronic fuel injection](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FFuel%5Finjection)
+* [Generator](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FElectric%5Fgenerator)
+* [Ignition system](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FIgnition%5Fsystem)
+* [Magneto](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FIgnition%5Fmagneto)
+* [Spark plug](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FSpark%5Fplug)
+* [Starter](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FStarter%5F%28engine%29)
+
+Terminology
+
+* [Air-cooled](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FAir-cooled%5Fengine)
+* [Aircraft engine starting](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FAircraft%5Fengine%5Fstarting)
+* [Bore](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FBore%5F%28engine%29)
+* [Compression ratio](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FCompression%5Fratio)
+* [Dead centre](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FDead%5Fcentre%5F%28engineering%29)
+* [Engine displacement](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FEngine%5Fdisplacement)
+* [Four-stroke engine](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FFour-stroke%5Fengine)
+* [Horsepower](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FHorsepower)
+* [Ignition timing](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FIgnition%5Ftiming)
+* [Manifold pressure](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FManifold%5Fvacuum)
+* [Mean effective pressure](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FMean%5Feffective%5Fpressure)
+* [Naturally aspirated](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FNaturally%5Faspirated%5Fengine)
+* [Monosoupape](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FGnome%5FMonosoupape)
+* [Overhead camshaft](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FOverhead%5Fcamshaft)
+* [Overhead valve engine](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FOverhead%5Fvalve%5Fengine)
+* [Rotary engine](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FRotary%5Fengine)
+* [Shock cooling](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FShock%5Fcooling)
+* [Stroke](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FStroke%5F%28engine%29)
+* [Time between overhauls](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FTime%5Fbetween%5Foverhauls)
+* [Two-stroke engine](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FTwo-stroke%5Fengine)
+* [Valve timing](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FValve%5Ftiming)
+* [Volumetric efficiency](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FVolumetric%5Fefficiency)
+
+[Propellers](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FPropeller%5F%28aeronautics%29)
+
+| Components  | \- [Propeller governor](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FPropeller%5Fgovernor) \- [Propeller speed reduction unit](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FPropeller%5Fspeed%5Freduction%5Funit) \- [Spinner ](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FSpinner%5F%28aeronautics%29)                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           |
+| ----------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| Terminology | \- [Autofeather](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FAutofeather) \- [Blade pitch](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FBlade%5Fpitch) \- [Constant-speed](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FConstant-speed%5Fpropeller) \- [Contra-rotating](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FContra-rotating%5Fpropellers) \- [Counter-rotating](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FCounter-rotating%5Fpropellers) \- [Scimitar](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FScimitar%5Fpropeller) \- [Single-blade](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FSingle-blade%5Fpropeller) \- [Variable-pitch ](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FVariable-pitch%5Fpropeller%5F%28aeronautics%29) |
+
+Engine instruments
+
+* [Annunciator panel](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FAnnunciator%5Fpanel)
+* [EFIS](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FElectronic%5Fflight%5Finstrument%5Fsystem)
+* [EICAS](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FEngine-indicating%5Fand%5Fcrew-alerting%5Fsystem)
+* [Flight data recorder](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FFlight%5Fdata%5Frecorder)
+* [Glass cockpit](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FGlass%5Fcockpit)
+* [Hobbs meter](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FHobbs%5Fmeter)
+* [Tachometer](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FTachometer)
+
+[Engine controls](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FAircraft%5Fengine%5Fcontrols)
+
+* [Carburetor heat](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FCarburetor%5Fheat)
+* [Throttle](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FThrottle)
+
+[Fuel](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FAircraft%5Ffuel%5Fsystem) and induction
+
+system
+
+* [Avgas](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FAvgas)
+* [Carburetor](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FCarburetor)
+* [Fuel injection](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FFuel%5Finjection)
+* [Gascolator](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FGascolator)
+* [Inlet manifold](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FInlet%5Fmanifold)
+* [Intercooler](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FIntercooler)
+* [Pressure carburetor](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FPressure%5Fcarburetor)
+* [Supercharger](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FSupercharger)
+* [Turbocharger](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FTurbocharger)
+* [Updraft carburetor](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FUpdraft%5Fcarburetor)
+
+Other systems
+
+* [Auxiliary power unit](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FAuxiliary%5Fpower%5Funit)
+* [Coffman starter](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FCoffman%5Fengine%5Fstarter)
+* [Hydraulic system](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FHydraulic%5Ffluid%23Aircraft%5Fhydraulic%5Fsystems)
+* [Ice protection system](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FIce%5Fprotection%5Fsystem)
+* [Recoil start](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FRecoil%5Fstart)
+
+Retrieved from " [https://en.wikipedia.org/w/index.php?title=Four-stroke\_engine&amp;oldid=1370745869](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fen.wikipedia.org%2Fw%2Findex.php%3Ftitle%3DFour-stroke%5Fengine%26oldid%3D1370745869)"
+
+[Categories](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FHelp%3ACategory):
+
+* [Internal combustion piston engines](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FCategory%3AInternal%5Fcombustion%5Fpiston%5Fengines)
+* [1864 introductions](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FCategory%3A1864%5Fintroductions)
+
+Hidden categories:
+
+* [Articles with short description](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FCategory%3AArticles%5Fwith%5Fshort%5Fdescription)
+* [Short description matches Wikidata](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FCategory%3AShort%5Fdescription%5Fmatches%5FWikidata)
+* [Use dmy dates from January 2020](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FCategory%3AUse%5Fdmy%5Fdates%5Ffrom%5FJanuary%5F2020)
+* [CS1 German-language sources (de)](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FCategory%3ACS1%5FGerman-language%5Fsources%5F%28de%29)
+* [All articles with unsourced statements](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FCategory%3AAll%5Farticles%5Fwith%5Funsourced%5Fstatements)
+* [Articles with unsourced statements from June 2023](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FCategory%3AArticles%5Fwith%5Funsourced%5Fstatements%5Ffrom%5FJune%5F2023)
+* [Wikipedia articles needing clarification from October 2021](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FCategory%3AWikipedia%5Farticles%5Fneeding%5Fclarification%5Ffrom%5FOctober%5F2021)
+* [CS1 Portuguese-language sources (pt)](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FCategory%3ACS1%5FPortuguese-language%5Fsources%5F%28pt%29)
+* This page was last edited on 22 August 2026, at 21:45 (UTC).
+* Page was rendered with [Parsoid](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fwww.mediawiki.org%2Fwiki%2FSpecial%3AMyLanguage%2FParsoid).
+* Text is available under the [Creative Commons Attribution-ShareAlike 4.0 License](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FWikipedia%3AText%5Fof%5Fthe%5FCreative%5FCommons%5FAttribution-ShareAlike%5F4.0%5FInternational%5FLicense); additional terms may apply. By using this site, you agree to the [Terms of Use](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Ffoundation.wikimedia.org%2Fwiki%2FSpecial%3AMyLanguage%2FPolicy%3ATerms%5Fof%5FUse) and [Privacy Policy](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Ffoundation.wikimedia.org%2Fwiki%2FSpecial%3AMyLanguage%2FPolicy%3APrivacy%5Fpolicy). Wikipedia® is a registered trademark of the [Wikimedia Foundation, Inc.](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fwikimediafoundation.org%2F), a non-profit organization.
+* [Privacy policy](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Ffoundation.wikimedia.org%2Fwiki%2FSpecial%3AMyLanguage%2FPolicy%3APrivacy%5Fpolicy)
+* [About Wikipedia](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FWikipedia%3AAbout)
+* [Disclaimers](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FWikipedia%3AGeneral%5Fdisclaimer)
+* [Contact Wikipedia](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FWikipedia%3AContact%5Fus)
+* [Legal &amp; safety contacts](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Ffoundation.wikimedia.org%2Fwiki%2FSpecial%3AMyLanguage%2FLegal%3AWikimedia%5FFoundation%5FLegal%5Fand%5FSafety%5FContact%5FInformation)
+* [Code of Conduct](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Ffoundation.wikimedia.org%2Fwiki%2FSpecial%3AMyLanguage%2FPolicy%3AUniversal%5FCode%5Fof%5FConduct)
+* [Developers](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fdeveloper.wikimedia.org%2F)
+* [Statistics](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fstats.wikimedia.org%2F%23%2Fen.wikipedia.org)
+* [Cookie statement](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Ffoundation.wikimedia.org%2Fwiki%2FSpecial%3AMyLanguage%2FPolicy%3ACookie%5Fstatement)
+* [Mobile view](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fen.wikipedia.org%2Fw%2Findex.php%3Ftitle%3DFour-stroke%5Fengine%26mobileaction%3Dtoggle%5Fview%5Fmobile)
+
+Search
+
+Search [-]
+
+Toggle the table of contents
+
+Four-stroke engine
+
+51 languages [Add topic](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FFour-stroke%5Fengine)

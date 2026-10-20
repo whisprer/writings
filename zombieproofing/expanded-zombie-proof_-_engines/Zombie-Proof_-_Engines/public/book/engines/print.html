@@ -1,0 +1,1018 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<title>Zombieproof Engines</title>
+<style>
+
+@font-face{font-family:Fraunces;src:url("../../../node_modules/@fontsource/fraunces/files/fraunces-latin-600-normal.woff") format("woff");font-weight:600;font-style:normal;font-display:swap;}
+@font-face{font-family:Fraunces;src:url("../../../node_modules/@fontsource/fraunces/files/fraunces-latin-700-normal.woff") format("woff");font-weight:700;font-style:normal;font-display:swap;}
+@font-face{font-family:Fraunces;src:url("../../../node_modules/@fontsource/fraunces/files/fraunces-latin-500-italic.woff") format("woff");font-weight:500;font-style:italic;font-display:swap;}
+@font-face{font-family:Literata;src:url("../../../node_modules/@fontsource/literata/files/literata-latin-400-normal.woff") format("woff");font-weight:400;font-style:normal;font-display:swap;}
+@font-face{font-family:Literata;src:url("../../../node_modules/@fontsource/literata/files/literata-latin-400-italic.woff") format("woff");font-weight:400;font-style:italic;font-display:swap;}
+@font-face{font-family:Literata;src:url("../../../node_modules/@fontsource/literata/files/literata-latin-700-normal.woff") format("woff");font-weight:700;font-style:normal;font-display:swap;}
+@font-face{font-family:Literata;src:url("../../../node_modules/@fontsource/literata/files/literata-latin-700-italic.woff") format("woff");font-weight:700;font-style:italic;font-display:swap;}
+* { box-sizing: border-box; }
+html, body { margin: 0; padding: 0; }
+body { font-family: Literata, Palatino, serif; font-size: 10.5pt; line-height: 1.45; color: #1c1712; }
+@page { size: 6in 9in; margin: 0.68in 0.66in 0.7in 0.66in;
+  @top-center { content: "ZOMBIEPROOF ENGINES"; font-family: Fraunces, serif; font-size: 8pt; letter-spacing: 0.16em; color: #8a7d6b; }
+  @bottom-center { content: counter(page); font-family: Literata, serif; font-size: 9pt; color: #4e463c; }
+}
+@page :first { margin: 0; @top-center { content: none; } @bottom-center { content: none; } }
+@page silent { margin: 0.75in 0.7in; @top-center { content: none; } @bottom-center { content: none; } }
+.coverpage { width: 6in; height: 9in; display: flex; flex-direction: column; background: #f3ead8; break-after: page; }
+.cover-art { flex: 1; background: url("art/cover.jpg") center 28% / cover no-repeat; }
+.cover-band { height: 1.72in; padding: 0.22in 0.42in 0.28in; background: #f3ead8; color: #1c1712; }
+.cover-band .kicker, .kicker { font-family: Fraunces, serif; letter-spacing: 0.18em; text-transform: uppercase; font-size: 8.5pt; color: #8c3014; margin: 0 0 0.15in; }
+.cover-band h1 { font-family: Fraunces, serif; font-weight: 600; font-size: 32pt; line-height: 0.9; margin: 0; }
+.cover-band .sub { font-family: Fraunces, serif; font-style: italic; font-weight: 500; font-size: 12pt; margin: 0.12in 0 0; color: #3e4a32; }
+h1 { font-family: Fraunces, serif; font-weight: 600; font-size: 22pt; line-height: 1.12; margin: 0 0 0.35em; }
+h2 { font-family: Fraunces, serif; font-weight: 600; font-size: 13.5pt; line-height: 1.25; margin: 1.15em 0 0.3em; break-after: avoid; }
+h3 { font-family: Fraunces, serif; font-weight: 500; font-size: 12pt; margin: 1em 0 0.25em; break-after: avoid; }
+p { margin: 0.45em 0; orphans: 3; widows: 3; hyphens: auto; }
+.label { font-family: Fraunces, serif; letter-spacing: 0.16em; text-transform: uppercase; font-size: 9pt; color: #8c3014; margin: 0 0 0.2em; }
+.blank-verso { height: 1in; break-after: page; page: silent; }
+.half, .frontis, .title { page: silent; break-after: page; }
+.half { padding-top: 2.4in; }
+.half h1 { font-size: 36pt; line-height: 0.92; }
+.ornament { text-align: center; letter-spacing: 0.4em; color: #8c3014; margin-top: 0.6in; }
+.frontis img { width: 3.5in; display: block; margin: 0.3in auto 0.35in; }
+.frontis blockquote, blockquote { margin: 0.6em 0 0.8em; padding: 0; border: 0; }
+blockquote p { font-family: Fraunces, serif; font-style: italic; font-weight: 500; font-size: 13pt; line-height: 1.35; }
+cite { display: block; margin-top: 0.35em; font-style: normal; font-size: 9.5pt; color: #4e463c; }
+.title { padding-top: 1.5in; }
+.title h1 { font-size: 28pt; }
+.title .sub { font-family: Fraunces, serif; font-style: italic; font-size: 14pt; color: #3e4a32; }
+.title-gap { height: 0.8in; }
+.blank { border-bottom: 1px solid #1c1712; margin: 0.85em 0 0.15em; min-height: 1.15em; position: relative; break-inside: avoid; }
+.blank span { position: absolute; top: -0.15em; font-family: Fraunces, serif; font-size: 8pt; letter-spacing: 0.14em; text-transform: uppercase; color: #8a7d6b; }
+.quiet, .note, .small { color: #4e463c; }
+.note { font-style: italic; }
+.copy h1, .dedi h1 { font-size: 18pt; }
+.page-front { break-before: page; }
+.page-flow { break-before: page; }
+.page-recto { break-before: right; }
+.dedi { break-before: right; padding-top: 1.4in; }
+.toc-part { font-family: Fraunces, serif; font-weight: 600; margin: 0.85em 0 0.2em; font-size: 11pt; }
+.toc-row { display: flex; align-items: baseline; gap: 0.35em; text-decoration: none; color: inherit; margin: 0.12em 0; break-inside: avoid; }
+.toc-n { width: 1.5em; font-variant-numeric: tabular-nums; color: #8c3014; }
+.toc-dots { flex: 1; border-bottom: 1px dotted #b7aa94; transform: translateY(-0.18em); min-width: 0.8em; }
+.pg { min-width: 1.5em; text-align: right; font-variant-numeric: tabular-nums; }
+.plate-list { padding-left: 1.2em; }
+.plate-list li { margin: 0.2em 0; }
+.part { page: silent; break-before: right; break-after: page; height: 7.4in; position: relative; }
+.part-inner { position: absolute; left: 0; right: 0; bottom: 0.4in; }
+.part h1 { font-size: 28pt; }
+.part .blurb { font-family: Fraunces, serif; font-style: italic; font-weight: 500; font-size: 13pt; }
+.chapter { break-before: page; }
+.plate { margin: 0.2em 0 0.8em; break-inside: avoid; }
+.plate img { width: 100%; height: auto; display: block; }
+figcaption { font-family: Fraunces, serif; font-style: italic; font-weight: 500; font-size: 9.5pt; color: #4e463c; margin-top: 0.28em; }
+.prose ul, .prose ol { padding-left: 1.15em; margin: 0.4em 0; }
+.prose li { margin: 0.18em 0; }
+.prose strong { font-weight: 700; }
+.prose em { font-style: italic; }
+.lede::first-letter { font-family: Fraunces, serif; font-weight: 600; float: left; font-size: 2.7em; line-height: 0.8; padding-right: 0.06em; color: #8c3014; }
+.table-wrap { break-inside: avoid; margin: 0.6em 0 0.8em; }
+table { width: 100%; border-collapse: collapse; font-size: 9pt; line-height: 1.35; }
+th { font-family: Fraunces, serif; font-weight: 600; text-align: left; border-bottom: 1px solid #1c1712; padding: 0.25em 0.45em 0.25em 0; }
+td { border-bottom: 1px solid #d2c4aa; padding: 0.28em 0.45em 0.28em 0; vertical-align: top; }
+.math { font-family: Fraunces, serif; white-space: nowrap; }
+.math.display { display: block; text-align: center; margin: 0.7em 0; white-space: normal; }
+.frac { display: inline-flex; flex-direction: column; vertical-align: middle; text-align: center; font-size: 0.92em; line-height: 1.05; margin: 0 0.15em; }
+.frac .num { border-bottom: 1px solid currentColor; padding: 0 0.2em 0.04em; }
+.frac .den { padding: 0.04em 0.2em 0; }
+.sup, .sub { font-size: 0.7em; line-height: 0; }
+.sup { vertical-align: super; }
+.sub { vertical-align: sub; }
+.sqrt .rad { border-top: 1px solid currentColor; padding: 0 0.12em; }
+.tex-text { font-family: Literata, serif; font-style: normal; font-size: 0.92em; }
+pre { font-family: ui-monospace, monospace; font-size: 8.5pt; line-height: 1.35; background: #e7dcc6; padding: 0.45em 0.55em; white-space: pre-wrap; break-inside: avoid; }
+code { font-family: ui-monospace, monospace; font-size: 0.92em; }
+
+</style>
+</head>
+<body>
+<section class="coverpage">
+  <div class="cover-art"></div>
+  <div class="cover-band">
+    <p class="kicker">A field manual</p>
+    <h1>Zombieproof<br/>Engines</h1>
+    <p class="sub">How to Keep the Wheels Turning</p>
+  </div>
+</section>
+<section class="blank-verso"></section>
+<section class="half silent-page" id="halftitle">
+  <p class="kicker">A field manual</p>
+  <h1>Zombieproof<br/>Engines</h1>
+  <p class="ornament">— · —</p>
+</section>
+<section class="frontis silent-page" id="frontis">
+  <img src="art/frontis.jpg" alt="A dopey mint zombie asleep against a warm stationary engine, a daisy in the oil cap"/>
+  <blockquote><p>The dead may walk. The engine still needs oil.</p><cite>— Written on the sump, in grease, then properly</cite></blockquote>
+</section>
+<section class="title silent-page" id="title">
+  <p class="kicker">A field manual in seventeen chapters</p>
+  <h1>Zombieproof Engines</h1>
+  <p class="sub">How to Keep the Wheels Turning</p>
+  <div class="title-gap"></div>
+  <p class="blank"><span>Author</span></p>
+<p class="blank"><span>Publisher</span></p>
+<p class="blank"><span>City</span></p>
+</section>
+<section class="copy page-front" id="copyright">
+  <h1>Copyright</h1>
+  <p class="small">Copyright ©</p>
+  <p class="blank"><span>Year</span></p>
+<p class="blank"><span>Author</span></p>
+  <p>All rights reserved. No part of this book may be reproduced, stored, or transmitted in any form — print, electronic, photocopy, recording, semaphore, or a service note you would not be ashamed to have copied — without the prior written permission of the publisher, except for brief passages in a review, a workshop notebook, or a caution you are willing to sign.</p>
+  <p class="blank"><span>Publisher</span></p>
+<p class="blank"><span>Place of publication</span></p>
+  <p class="small">First edition</p>
+  <p class="blank"><span>Year of publication</span></p>
+<p class="blank"><span>ISBN</span></p>
+<p class="blank"><span>Cataloguing-in-publication data</span></p>
+  <p>This is a work of humor and amateur curiosity. It is not engineering certification, a pressure-vessel code, legal advice, medical advice, or a licence to build a boiler, a fuel system, or a gasifier. Laws outlive grids. Do not run a combustion engine indoors. Do not improvise a pressure vessel. Carbon monoxide does not care that you are improvising. The undead are a metaphor. The exhaust is not.</p>
+  <p class="small">Illustrations made for this edition. Author, dedication, and publisher left blank to be filled in ink.</p>
+  <p class="blank"><span>Printed in</span></p>
+</section>
+<section class="dedi page-front" id="dedication">
+  <h1>Dedication</h1>
+  <p class="quiet">For</p>
+  <p class="blank"><span>Name</span></p>
+<p class="blank"><span>And, if you like, a line</span></p>
+<p class="blank"><span>And one more</span></p>
+</section>
+<section class="praise page-flow" id="praise">
+  <h1>Early word from the yard</h1>
+  <p class="note">Stand-in notices, so the page has a shape. Cross them out. Put real readers here.</p>
+  <blockquote><p>I read the safety page aloud to a generator. It did not start, which I am choosing to take as consent.</p><cite>— Yard gate, name withheld, fingers intact</cite></blockquote>
+<blockquote><p>Finally a manual that admits the horde is not the hard part. The hard part is the belt you were sure was guarded.</p><cite>— A person who would like their shed withheld</cite></blockquote>
+<blockquote><p>I fell asleep in the four-stroke chapter and woke convinced I could rebuild civilisation with a crank and a grudge. The crank is doing its part.</p><cite>— The Committee for Slightly Steadier Flywheels</cite></blockquote>
+<blockquote><p>The pictures understand the assignment. The undead are trying. So is the carburettor. I kept it between the spare filter and the good spanner.</p><cite>— Go-bag inspection, dipstick blank</cite></blockquote>
+<blockquote><p>Heard a bit of the wood-gas chapter read in a yard. Somebody laughed once, which is the correct number of times, and then moved the drum farther from the house.</p><cite>— Workshop, identity unconfirmed, manners excellent</cite></blockquote>
+</section>
+<section class="contents page-flow" id="contents">
+  <h1>Contents</h1>
+  <a class="toc-row" href="#foreword"><span class="toc-n"></span><span class="toc-t">Foreword</span><span class="toc-dots"></span><span class="pg">12</span></a>
+<a class="toc-row" href="#preface"><span class="toc-n"></span><span class="toc-t">A note on the drafts</span><span class="toc-dots"></span><span class="pg">14</span></a>
+<p class="toc-part">Part I · Before the Key</p>
+<a class="toc-row" href="#ch01"><span class="toc-n">1</span><span class="toc-t">The Page You Do Not Skip</span><span class="toc-dots"></span><span class="pg">16</span></a>
+<a class="toc-row" href="#ch02"><span class="toc-n">2</span><span class="toc-t">A Map, Not a Licence</span><span class="toc-dots"></span><span class="pg">19</span></a>
+<p class="toc-part">Part II · The Shape of the Machine</p>
+<a class="toc-row" href="#ch03"><span class="toc-n">3</span><span class="toc-t">What an Engine Is For</span><span class="toc-dots"></span><span class="pg">23</span></a>
+<a class="toc-row" href="#ch04"><span class="toc-n">4</span><span class="toc-t">Four Strokes and a Flywheel</span><span class="toc-dots"></span><span class="pg">26</span></a>
+<a class="toc-row" href="#ch05"><span class="toc-n">5</span><span class="toc-t">The Family, and a Short History</span><span class="toc-dots"></span><span class="pg">29</span></a>
+<p class="toc-part">Part III · Heat, Numbers, and the Tank</p>
+<a class="toc-row" href="#ch06"><span class="toc-n">6</span><span class="toc-t">Torque, Knock, and the Heat You Lose</span><span class="toc-dots"></span><span class="pg">33</span></a>
+<a class="toc-row" href="#ch07"><span class="toc-n">7</span><span class="toc-t">Fuel, Vapour, and the Travelling Puddle</span><span class="toc-dots"></span><span class="pg">36</span></a>
+<a class="toc-row" href="#ch08"><span class="toc-n">8</span><span class="toc-t">Ethanol, Measured</span><span class="toc-dots"></span><span class="pg">39</span></a>
+<a class="toc-row" href="#ch09"><span class="toc-n">9</span><span class="toc-t">Wood Gas and the Guest You Cannot See</span><span class="toc-dots"></span><span class="pg">41</span></a>
+<p class="toc-part">Part IV · Bringing One Back</p>
+<a class="toc-row" href="#ch10"><span class="toc-n">10</span><span class="toc-t">The Engine That Has Been Plotting</span><span class="toc-dots"></span><span class="pg">45</span></a>
+<a class="toc-row" href="#ch11"><span class="toc-n">11</span><span class="toc-t">Bath, Spark, and the First Honest Start</span><span class="toc-dots"></span><span class="pg">48</span></a>
+<a class="toc-row" href="#ch12"><span class="toc-n">12</span><span class="toc-t">Cards for the Morning After</span><span class="toc-dots"></span><span class="pg">52</span></a>
+<p class="toc-part">Part V · Where the Power Goes</p>
+<a class="toc-row" href="#ch13"><span class="toc-n">13</span><span class="toc-t">Steam You Will Not Invent</span><span class="toc-dots"></span><span class="pg">56</span></a>
+<a class="toc-row" href="#ch14"><span class="toc-n">14</span><span class="toc-t">From the Crank to the Wheel</span><span class="toc-dots"></span><span class="pg">59</span></a>
+<a class="toc-row" href="#ch15"><span class="toc-n">15</span><span class="toc-t">The Advanced Gallery, Told Without Romance</span><span class="toc-dots"></span><span class="pg">62</span></a>
+<p class="toc-part">Part VI · The Workshop After</p>
+<a class="toc-row" href="#ch16"><span class="toc-n">16</span><span class="toc-t">Seven Projects, Ranked by Whether You Get to Tell Them</span><span class="toc-dots"></span><span class="pg">66</span></a>
+<a class="toc-row" href="#ch17"><span class="toc-n">17</span><span class="toc-t">When It Will Not Run</span><span class="toc-dots"></span><span class="pg">70</span></a>
+<a class="toc-row" href="#afterword"><span class="toc-n"></span><span class="toc-t">Afterword</span><span class="toc-dots"></span><span class="pg">75</span></a>
+<a class="toc-row" href="#ack"><span class="toc-n"></span><span class="toc-t">Acknowledgments</span><span class="toc-dots"></span><span class="pg">76</span></a>
+<a class="toc-row" href="#author"><span class="toc-n"></span><span class="toc-t">About the author</span><span class="toc-dots"></span><span class="pg">77</span></a>
+<a class="toc-row" href="#soon"><span class="toc-n"></span><span class="toc-t">Also forthcoming</span><span class="toc-dots"></span><span class="pg">78</span></a>
+<a class="toc-row" href="#colophon"><span class="toc-n"></span><span class="toc-t">Colophon</span><span class="toc-dots"></span><span class="pg">79</span></a>
+</section>
+<section class="plates page-flow" id="plates">
+  <h1>List of plates</h1>
+  <ol class="plate-list">
+    <li><span>Plate 1. The door stays open. The zombie does not get a vote.</span></li>
+<li><span>Plate 2. A map, a toy engine, and steps you climb in order.</span></li>
+<li><span>Plate 3. Energy in, motion out, and a load that asked politely.</span></li>
+<li><span>Plate 4. Four strokes. The flywheel is doing the social work.</span></li>
+<li><span>Plate 5. The family, lined up. The teapot is not a jet.</span></li>
+<li><span>Plate 6. Torque is a twist. Speed is a bill.</span></li>
+<li><span>Plate 7. The puddle travels. The match stays in the pocket.</span></li>
+<li><span>Plate 8. Two jets, a caliper, and a grape that was not invited.</span></li>
+<li><span>Plate 9. Outdoors, upwind, and the wisp nobody can see.</span></li>
+<li><span>Plate 10. It has not died. It has been plotting rust.</span></li>
+<li><span>Plate 11. First start, exhaust pointed at nobody you like.</span></li>
+<li><span>Plate 12. The relief valve is the only one who read the report.</span></li>
+<li><span>Plate 13. A certified toy, and the cooker left on the shelf.</span></li>
+<li><span>Plate 14. The guard goes on before the story does.</span></li>
+<li><span>Plate 15. Models on a shelf. Hands off the snail shell.</span></li>
+<li><span>Plate 16. Cardboard, a hand crank, and a curve with no numbers on it.</span></li>
+<li><span>Plate 17. Dawn, a pump, a broom, and the oil still due.</span></li>
+  </ol>
+</section>
+<section class="matter page-recto" id="foreword">
+  <h1>Foreword</h1>
+  <div class="prose"><p>Someone always asks, at the bad moment, whether it will start. They mean: can we move. They mean: can we pump, mill, charge, and leave.</p>
+<p>This manual is an answer with oil on it. It begins where an engine actually begins, which is not with a roar but with a decision not to be poisoned, scalded, or shortened by a belt. Then it says what the machine is. A heat engine, a motor, a turbine, a wheel in a stream: energy in, motion out, and a load that has to be met without the machine becoming the emergency.</p>
+<p>You will find the four-stroke told slowly, because most of the engines you will actually meet are that creature wearing a different coat. You will find fuels, including the tempting ones — ethanol, wood gas — treated as conversions, not as dares. You will find a sequence for waking an engine that has spent years plotting corrosion. Later chapters wander into steam you should not invent, electricity that does not burn, the path from crank to wheel, and a gallery of advanced machines described honestly enough that you will not try to build a ramjet out of a drainpipe.</p>
+<p>The zombies are a convenience. They stand in for hurry. A seized ring, a vanished fuel depot, a person who wants the generator to be a personality instead of a tool. If you are reading this while the world is, against the odds, still selling filters, the zombies will not mind. The oil is the same on a Tuesday.</p>
+<p>A word about the pages that mention pressure, producer gas, and high-voltage spark. Curiosity is not a licence. Do not build a boiler because a chapter explained the Rankine cycle in a friendly voice. Do not run a gasifier in a kitchen. Do not hold a plug lead to see if the night is still electrical. The jokes are jokes. A grid can fail and the rules about pressure vessels can still be standing. Carbon monoxide does not care that you labelled the drum.</p>
+<p>What I hope you keep is not a single engine. It is the habit of a machine you understand: what it breathes, what it burns or refuses to burn, how it makes oil pressure, how it makes waste heat, and how you turn it off without heroics. Engines are poor company and excellent servants. They do not replace the person who maintained them. They only make it possible for the water to move in the morning.</p>
+<p>Leave your name off the title page until you want it there. The machine does not require a byline. It requires a limit, a little discipline, and somebody who checked the oil.</p></div>
+  <p class="quiet sign-label">The foreword writer signs here.</p>
+  <p class="blank"><span>Name</span></p>
+<p class="blank"><span>Place and date</span></p>
+</section>
+<section class="matter page-flow" id="preface">
+  <h1>A note on the drafts</h1>
+  <div class="prose"><p>This manual was expanded from a foundation draft: a safety page, a family tree, the physics without the chanting, fuels, a revival sequence, field cards, and a firm refusal to pretend that boilers and jets are weekend projects. The draft was already careful. What it lacked was the yard. The jokes, the zombies, and the habit of saying a hard rule twice in a human voice were put in afterwards. The engineering was not loosened to make room for them.</p>
+<p>Where the draft gave a number — a shelf life, a cleaning temperature, an example jet, a wood-gas composition — the number is still here, and it is still labelled as indicative. A historical starting point is not a recipe. If a later manual for your actual engine disagrees, the later manual wins, and this book will not be offended.</p>
+<p>The projects at the back are teaching projects. The ones with code do not contain a flywheel. The one that mentions steam points at a certified model and then points, harder, at the cooker you will leave on the shelf. The gasifier is discussed as a theory and a hazard, not as a Saturday build.</p>
+<p>You can read it straight through, or raid the contents the way you would raid a parts bin. The first part is how not to die of enthusiasm. The middle is what the machine is and what you feed it. The last part is how to wake one, how to keep it, and what this edition will not pretend to teach.</p>
+<p>There is a dull warning, and it is dull on purpose. Do not run an engine indoors to see if the alarm works. Do not defeat a relief valve because it is noisy. Do not treat a humor book as a manufacturing certificate. The undead are a metaphor. A short-circuited fuel hose is not.</p>
+<p>The dedication, the author’s name, and the publisher are blank on purpose. Write them in when you know them. Ink, not pencil. Pencil is for clearances.</p></div>
+</section>
+<section class="part" id="part1"><div class="part-inner"><p class="label">Part I</p><h1>Before the Key</h1><p class="blurb">The rules that do not negotiate, and how to use a map that will not save you by itself.</p></div></section>
+<article class="chapter" id="ch01">
+  <p class="label">Chapter 1</p>
+  <h1>The Page You Do Not Skip</h1>
+  <figure class="plate"><img src="art/ch01.jpg" alt="Plate 1. The door stays open. The zombie does not get a vote."/><figcaption>Plate 1. The door stays open. The zombie does not get a vote.</figcaption></figure>
+  <div class="prose"><p class="lede">The dead may walk. Carbon monoxide does not need their help, and it will not wait while you finish the sentence.</p>
+<p>An engine is a controlled heat-and-pressure machine. The moment it stops being controlled, it becomes a metal grenade with opinions, and the opinions are not on your side. Everything after this page — the family tree, the jokes, the little program that draws a piston going up and down like a polite apocalypse — assumes you have already decided to remain alive. Read this once when you are calm. Read it again when you are not, which is when you will be tempted to skip it.</p>
+<h2>The rules that do not negotiate</h2>
+<p>Never run petrol, diesel, wood gas, charcoal gas, LPG, or any other combustion engine indoors, or in a garage that shares a wall, a loft, or a sense of optimism with a room where people sleep. &quot;The door is a bit open&quot; is not ventilation. It is a story.</p>
+<p>Carbon monoxide is invisible, tasteless, and odourless. A certified alarm is a witness, not a permission slip. If it sounds, you leave. You do not lean back in to see which hose was feeling dramatic.</p>
+<p>Do not improvise pressure vessels, boilers, compressed-gas receivers, fuel tanks, or high-pressure diesel injection. A boiler failure is not a comic beat. It is a wall leaving the building. In the United Kingdom, pressure systems above the relevant thresholds are expected to be properly designed, inspected, and fitted with relief, and to sit under a written scheme of examination. The spirit of the rule is simple enough to survive a grid: equipment stays inside its safe operating limits, and examination and repair belong to people who are actually competent. The apocalypse does not repeal that. It only removes the person who would have stopped you.</p>
+<p>Do not run a homemade gasifier inside a building. Producer gas can carry a great deal of carbon monoxide, and if air leaks into the wrong place the mixture can go from &quot;fuel&quot; to &quot;bomb&quot; without changing its expression. The forest is not a fuel until the poison has been taken out of it, and even then the work happens outdoors, upwind of anyone you like.</p>
+<p>Keep ignition sources away from fuel vapour. Petrol vapour travels. It does not hover politely over the puddle, waiting to be introduced. A match in the next county of the workshop is still a match.</p>
+<p>Shield rotating machinery. Belts, chains, flywheels, shafts, and fans do not distinguish between the undead and your fingers, and they are not impressed by either.</p>
+<p>Wear the eye, hearing, hand, respiratory, and hot-work protection the job actually requires. Heroism is a poor glove.</p>
+<p>The procedures in this book are educational. The manufacturer&#39;s service data wins every argument with a generic number. If this book and the manual disagree, the manual is right and the book is a well-meaning stranger with grease on its cuffs.</p>
+<h2>A sentence you can say out loud</h2>
+<p>Operate pressure equipment only inside its safe limits. Maintain it. Let competent people examine it and repair it. If you cannot name the limit, you do not have a project. You have a mood.</p>
+<p>The zombies in these pages are a convenience. They stand in for hurry, folklore, and the part of a person that wants the engine to start more than they want to be there when it does. They are not the hazard. The hazard is the machine, the fuel, and the decision to skip a step because the street sounds busy.</p>
+<p>If you remember one line from the whole manual, let it be the one on the sump, written first in grease and then properly: the dead may walk. The engine still needs oil. And it still needs you not to be in the room when it makes exhaust.</p></div>
+</article>
+
+<article class="chapter" id="ch02">
+  <p class="label">Chapter 2</p>
+  <h1>A Map, Not a Licence</h1>
+  <figure class="plate"><img src="art/ch02.jpg" alt="Plate 2. A map, a toy engine, and steps you climb in order."/><figcaption>Plate 2. A map, a toy engine, and steps you climb in order.</figcaption></figure>
+  <div class="prose"><p class="lede">This book is a map of the yard. It is not a licence to build the most dangerous object in the scrap pile, and it will not pretend to be one if you read it with sufficient longing.</p>
+<p>A map tells you where the ditch is. It does not fill the ditch in, and it does not congratulate you for driving into it at speed because the ditch was clearly labelled. Progress through the tiers in order. The order is the point. The undead, if they are even out there, are not grading you on ambition.</p>
+<h2>The six doors, in the only order that counts</h2>
+<ol>
+<li>Observe and identify. Name the machine before you ask it for a favour.</li>
+<li>Learn the energy flow. Where the heat or the current or the water comes in, and where the waste leaves.</li>
+<li>Service a complete, known engine. One that already existed, with a maker, a manual, and a limit.</li>
+<li>Measure before you modify. A guess with a spanner is still a guess.</li>
+<li>Build small, low-energy demonstrations. Cardboard, code, a hand crank, a certified toy.</li>
+<li>Only then consider advanced fuels, pressure systems, or high-speed machinery. &quot;Then&quot; may mean &quot;not this year.&quot; That is a successful outcome.</li>
+</ol>
+<h2>What this pile of pages is actually good at</h2>
+<p>The draft underneath this voice was strongest on four-stroke petrol engines, the revival of engines that have been asleep, the careful cleaning of a carburettor, the manners of an ethanol conversion, and the reasons biomass gasification can kill you on the way to being useful. Those are the rooms that have furniture.</p>
+<p>It is not a manufacturing textbook for making crankshafts, pressure vessels, turbines, or jet engines out of raw ore and a grudge. Where the guide gestures past the materials it actually has, it says so. Context is not a recipe. A paragraph that explains why a scramjet is a bad wheelbarrow motor is not an invitation to build a better wheelbarrow.</p>
+<h2>How to raid it</h2>
+<p>You can read straight through, the way you would walk a yard at first light, or you can open the contents and take the chapter you need the way you would take a filter from a labelled drawer. The first chapters are how not to die of enthusiasm. The middle is what the machine is and what you feed it. The revival sequence is for the day you find an engine that has been plotting. The back of the book is projects you can survive, a diagnostic tree, and a list of things this edition refuses to teach.</p>
+<p>Bring a notebook. The notebook will outperform a heroic amount of memory, and it will still be there when you are not. Ink for anything you would hate to lose. Pencil for clearances, pinouts, and opinions.</p>
+<p>If a procedure and a law disagree, follow the law. If a procedure and a manufacturer&#39;s limit disagree, follow the limit. If a joke and a relief valve disagree, the relief valve has read the incident report, and the joke has not.</p></div>
+</article>
+<section class="part" id="part2"><div class="part-inner"><p class="label">Part II</p><h1>The Shape of the Machine</h1><p class="blurb">What an engine is, the four strokes, and the family it comes from.</p></div></section>
+<article class="chapter" id="ch03">
+  <p class="label">Chapter 3</p>
+  <h1>What an Engine Is For</h1>
+  <figure class="plate"><img src="art/ch03.jpg" alt="Plate 3. Energy in, motion out, and a load that asked politely."/><figcaption>Plate 3. Energy in, motion out, and a load that asked politely.</figcaption></figure>
+  <div class="prose"><p class="lede">An engine converts an energy source into useful motion. The source may be chemical fuel, steam pressure, compressed air, electricity, falling water, or — in machines you will not be building behind the shed — nuclear heat. The motion may be rotation, reciprocation, or thrust. That is the whole family secret. Everything else is manners, metallurgy, and not setting the yard on fire.</p>
+<p>A petrol engine burns its fuel inside the cylinder. A steam engine burns fuel in a separate furnace and uses the heat to make steam, which then does the pushing. A jet engine accelerates air and combustion products rearwards and calls the recoil thrust. An electric motor skips the fire and turns electromagnetic force directly into rotation, which is why it can be quiet enough to make a zombie feel judged.</p>
+<h2>The pattern, which does not care about your costume</h2>
+<pre><code class="language-text">energy source → working fluid or electromagnetic field → force → motion → useful load
+</code></pre>
+<p>Read it until it is boring. Boring is how you notice which arrow you skipped. A machine is not useful merely because it runs. A machine that runs and cannot reject its waste heat is a kettle with ambitions. A machine that runs and cannot survive its load is a noise. A machine that runs and cannot be controlled is the metal grenade from the first chapter, now with an audience.</p>
+<p>Useful means four things at once:</p>
+<ul>
+<li>It is safe enough that the operator is still the operator afterwards.</li>
+<li>It rejects waste heat on purpose, into air or water or exhaust pointed at nobody you like.</li>
+<li>It survives the load it was asked to carry, including the dull loads: idle, heat, dust, a long hill.</li>
+<li>It delivers power through an interface you can actually govern. A clutch, a valve, a switch, a stop that works when your hands are cold.</li>
+</ul>
+<h2>What you will mostly meet</h2>
+<p>Most of the engines in a fallen parts bin are four-stroke piston engines wearing different coats: a generator, a walk-behind tractor, a pump, a motorbike that has taken the news badly. Learn that creature properly and the others become variations, not religions. The coat changes. The manners — oil, cooling, a timed breath, a way to stop — do not.</p>
+<p>There is a snobbery that says a real engine must burn something and make a satisfying sound. Ignore it. The settlement that can pump water with a quiet motor and a repaired wire is ahead of the settlement that has a magnificent knock and a funeral. Use the machine that matches the fuel you can actually keep, the load you actually have, and the person who will have to fix it on a wet Tuesday.</p>
+<p>A car engine is not automatically a good generator engine. A jet engine is an exceptionally bad wheelbarrow motor, unless the wheelbarrow is trying to leave the planet, in which case you have a different book and a much shorter future.</p>
+<p>The rest of this part takes the four-stroke apart slowly, then lines the family up so you can see which cousins are worth inviting to the yard and which ones should remain stories.</p></div>
+</article>
+
+<article class="chapter" id="ch04">
+  <p class="label">Chapter 4</p>
+  <h1>Four Strokes and a Flywheel</h1>
+  <figure class="plate"><img src="art/ch04.jpg" alt="Plate 4. Four strokes. The flywheel is doing the social work."/><figcaption>Plate 4. Four strokes. The flywheel is doing the social work.</figcaption></figure>
+  <div class="prose"><p class="lede">If you learn one picture, learn this one. It is not sacred. It is just the machine you will actually find, drawn without its shyness.</p>
+<pre><code class="language-text">                 cylinder head
+          intake valve   exhaust valve
+               ↓              ↑
+        ┌─────────────────────────┐
+        │     combustion space    │
+        │       ┌────────┐        │
+        │       │ piston │        │
+        │       └───┬────┘        │
+        └───────────┼─────────────┘
+                    │ connecting rod
+                    │
+              ──────┴────── crankpin
+             /              \
+        main journal      crank throw
+                    crankshaft
+</code></pre>
+<p>The cylinder is a cup that must hold pressure and guide a sliding plug. The piston is that plug. The rings on the piston try to keep the fire above and the oil below, and to hand heat sideways into the wall. The connecting rod is the diplomat: the piston wants to go up and down, the crankshaft wants to go round, and the rod attends the negotiation. The crankshaft turns the negotiation into rotation. The flywheel remembers the one stroke that made power, and spends that memory on the three strokes that did not. Without it, a single-cylinder engine is a series of arguments separated by silence.</p>
+<h2>The cycle, which takes its time</h2>
+<div class="table-wrap"><table>
+<thead>
+<tr>
+<th>Stroke</th>
+<th>Piston</th>
+<th>Valves</th>
+<th>What happens</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>Intake</td>
+<td>Top to bottom</td>
+<td>Intake open</td>
+<td>Air, or air and fuel, comes in</td>
+</tr>
+<tr>
+<td>Compression</td>
+<td>Bottom to top</td>
+<td>Both closed</td>
+<td>The charge gets smaller, hotter, and less patient</td>
+</tr>
+<tr>
+<td>Power</td>
+<td>Top to bottom</td>
+<td>Both closed</td>
+<td>Spark or the heat of compression releases the energy; the gas expands and pushes</td>
+</tr>
+<tr>
+<td>Exhaust</td>
+<td>Bottom to top</td>
+<td>Exhaust open</td>
+<td>The spent gas leaves, ideally outdoors</td>
+</tr>
+</tbody></table></div>
+<p>One complete four-stroke cycle takes two revolutions of the crankshaft, seven hundred and twenty degrees. Only the power stroke pays the rent. The flywheel, and any other cylinders you were lucky enough to find, carry the engine through the rest. The camshaft opens the valves at the right crank angle. In an ordinary four-stroke the cam turns at half the crankshaft speed, which is why a timing belt is not a fashion accessory. Get the relationship wrong on an interference engine and the piston and the valve try to occupy the same room. They cannot. The valve loses.</p>
+<h2>What the rest of the cast is for</h2>
+<ul>
+<li><strong>Spark plug:</strong> a timed high-voltage arc, in engines that ask for one. Not a thing you hold in your hand to &quot;see if it sparks.&quot;</li>
+<li><strong>Injector or carburettor:</strong> the measuring cup. It does not have a sense of humour about being enlarged with a drill.</li>
+<li><strong>Oil pump and sump:</strong> friction&#39;s enemy, and the postman for heat and tiny pieces of metal you would rather know about.</li>
+<li><strong>Cooling system:</strong> moves heat from the metal into air or coolant and then into the weather. If it stops, the engine starts spending itself.</li>
+</ul>
+<p>Top dead centre is the piston&#39;s highest point. Bottom dead centre is its lowest. You will see them written as TDC and BDC in every manual that has met a mechanic. Say them out loud once so they stop looking like a code.</p>
+<p>The plate for this chapter shows a teaching model, not a running engine, and four colour washes for the four strokes. There are no labels on the picture on purpose. The labels are here, where they can be corrected. A colour is not a manual. A manual is a manual. The zombie in the corner is counting on its fingers, and it is wrong, which is the correct joke and a bad maintenance plan.</p></div>
+</article>
+
+<article class="chapter" id="ch05">
+  <p class="label">Chapter 5</p>
+  <h1>The Family, and a Short History</h1>
+  <figure class="plate"><img src="art/ch05.jpg" alt="Plate 5. The family, lined up. The teapot is not a jet."/><figcaption>Plate 5. The family, lined up. The teapot is not a jet.</figcaption></figure>
+  <div class="prose"><p class="lede">Engines are a family, not a ladder. The one at the top is not the winner. The winner is the one that matches the fuel, the load, the scale, and whether your civilisation still has a depot or only a woodpile and a grudge.</p>
+<div class="table-wrap"><table>
+<thead>
+<tr>
+<th>Type</th>
+<th>What it converts</th>
+<th>Why you might want it</th>
+<th>Why it bites</th>
+<th>Where it usually lives</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>Steam, reciprocating</td>
+<td>Fuel heat into steam pressure into a piston</td>
+<td>Many fuels, high torque, a repairable idea</td>
+<td>Boiler bulk, warm-up, pressure, losses</td>
+<td>Old rail, ships, stationary work</td>
+</tr>
+<tr>
+<td>Steam turbine</td>
+<td>Steam into a fast rotor</td>
+<td>Smooth and powerful when enormous</td>
+<td>Poor when small, fussy blades</td>
+<td>Stations, ships</td>
+</tr>
+<tr>
+<td>Petrol, Otto cycle</td>
+<td>A spark-lit charge into rotation</td>
+<td>Light, eager, easy to start</td>
+<td>Knock, thirst, less efficient than diesel</td>
+<td>Cars, small generators, tools</td>
+</tr>
+<tr>
+<td>Diesel</td>
+<td>Air squeezed hot enough to light injected fuel</td>
+<td>Efficient, durable, strong low-speed pull</td>
+<td>Heavy, fussy injection, noise</td>
+<td>Trucks, tractors, ships, generators</td>
+</tr>
+<tr>
+<td>Wankel rotary</td>
+<td>Combustion pushing a triangular rotor</td>
+<td>Compact, smooth, few reciprocating parts</td>
+<td>Seals, heat, thirst, emissions</td>
+<td>A few cars, small aircraft</td>
+</tr>
+<tr>
+<td>Electric motor</td>
+<td>Current into magnetic force into rotation</td>
+<td>Efficient, instant torque, quiet</td>
+<td>Needs a battery or a wire, and the mass to store it</td>
+<td>Vehicles, tools, shops</td>
+</tr>
+<tr>
+<td>Air or hydraulic motor</td>
+<td>Stored fluid pressure into motion</td>
+<td>Controllable; kinder in some explosive airs</td>
+<td>Needs a compressor or a pump and a reservoir</td>
+<td>Tools, mines, machines</td>
+</tr>
+<tr>
+<td>Gas turbine or jet</td>
+<td>Fire into fast gas into shaft power or thrust</td>
+<td>Ferocious power for the weight, at speed and scale</td>
+<td>Hot, loud, hopeless at low speed, precision-made</td>
+<td>Aircraft, stations</td>
+</tr>
+<tr>
+<td>Water wheel or turbine</td>
+<td>Falling water into rotation</td>
+<td>Renewable where the hill cooperates</td>
+<td>Goes nowhere without the hill, and the hill needs works</td>
+<td>Mills, hydro</td>
+</tr>
+</tbody></table></div>
+<p>You can also sort them by what they hand you: torque, a push in a line, shaft power, or thrust. Naming the output stops you bolting a peacock to a plough.</p>
+<h2>A history short enough to carry</h2>
+<p>Hero of Alexandria showed a little steam reaction device long before anyone had a factory worth running. It was a demonstration, not a power system. The practical steam engines came later, through engineers including Newcomen and Watt, and they pumped mines, turned factories, and moved ships and trains. They were not subtle. They were available, and availability is a kind of genius.</p>
+<p>Early gas engines, Lenoir&#39;s among them, proved you could burn the fuel inside the working cylinder. Efficiency arrived when people learned to compress the charge and time the burn. Nikolaus Otto&#39;s compressed four-stroke became the pattern petrol engines still wear. Rudolf Diesel&#39;s compression-ignition idea bought efficiency and low-speed torque at the price of heavier parts and a fuel system with no patience for dirt. Felix Wankel&#39;s rotary replaced the piston and the rod with a triangular rotor on an eccentric. It is a beautiful oddity and a reminder that elegance does not pay your seal bill.</p>
+<p>Electric motors grew up beside the first generators and took over wherever electricity was the easier fuel to deliver. Gas turbines and turbojets became practical when metallurgy, compressors, burners, and very fast bearings caught up with the idea. None of this is a procession toward a single correct machine. It is a record of people matching a prime mover to a job.</p>
+<p>The recurring lesson, which the yard will repeat until you are tired of it: the best engine is the one whose fuel you can store, whose failures you can see, and whose parts you can still find after the catalogue has gone to compost. A magnificent machine with no gasket is a sculpture. A dull machine with a spare filter is transport.</p></div>
+</article>
+<section class="part" id="part3"><div class="part-inner"><p class="label">Part III</p><h1>Heat, Numbers, and the Tank</h1><p class="blurb">Torque, knock, ordinary fuels, ethanol measured twice, and wood gas treated as a guest.</p></div></section>
+<article class="chapter" id="ch06">
+  <p class="label">Chapter 6</p>
+  <h1>Torque, Knock, and the Heat You Lose</h1>
+  <figure class="plate"><img src="art/ch06.jpg" alt="Plate 6. Torque is a twist. Speed is a bill."/><figcaption>Plate 6. Torque is a twist. Speed is a bill.</figcaption></figure>
+  <div class="prose"><p class="lede">Torque is a twist. Power is how fast you can keep twisting. The zombie spinning in the plate has torque for a moment and then has the ground. Speed is not a personality. It is a bill.</p>
+<p><span class="math display">P = τ ω</span></p>
+<p>Power <span class="math">P</span> in watts, torque <span class="math">τ</span> in newton-metres, angular speed <span class="math">ω</span> in radians per second. For the sort of sums you do with a notebook and a suspicious tachometer:</p>
+<p><span class="math display">P<span class="sub">kW</span> = <span class="frac"><span class="num">T<span class="sub">Nm</span> × RPM</span><span class="den">9550</span></span></span></p>
+<p>The same torque at twice the speed is twice the power, and also a sharper invitation to friction, heat, and parts leaving the chat. Piston speed is roughly:</p>
+<p><span class="math display">v<span class="sub">p</span> = 2 × stroke × <span class="frac"><span class="num">RPM</span><span class="den">60</span></span></span></p>
+<p>Big engines use long strokes and heavy pieces, so piston speed and inertia talk them out of extreme revs. Small engines can spin, because the pistons are light and the stroke is short. Their little bearings still have to survive the party. Do not confuse &quot;it can&quot; with &quot;it should, today, on old oil.&quot;</p>
+<h2>Compression, which is a promise and a threat</h2>
+<p><span class="math display">r = <span class="frac"><span class="num">V<span class="sub">d</span> + V<span class="sub">c</span></span><span class="den">V<span class="sub">c</span></span></span></span></p>
+<p><span class="math">V<span class="sub">d</span></span> is the swept volume, the room the piston travels through. <span class="math">V<span class="sub">c</span></span> is the clearance volume, the room left when the piston is as high as it goes. A higher ratio can buy efficiency and power. It also raises temperature and the chance of knock. Octane is a fuel&#39;s reluctance to knock in a spark engine. It is not a score for how much energy is in the tin. A high-octane fuel is not a stronger fuel. It is a more patient one.</p>
+<h2>The ways a burn goes wrong</h2>
+<p>A useful mixture needs fuel, oxygen, enough temperature, and enough time. The failures have names, and the names are cheaper than the pistons:</p>
+<ul>
+<li><strong>Lean:</strong> too much air or too little fuel. Overheating, misfire, exhaust valves that age in public.</li>
+<li><strong>Rich:</strong> too much fuel. Waste, a sooty plug, carbon, a smell that stays in your coat.</li>
+<li><strong>Knock, or detonation:</strong> the flame has started properly, and then the rest of the unburned charge lights by itself. Pressure waves hammer the piston and the bearings. It sounds like a handful of gravel in a tin, and it is not a sound to &quot;drive through.&quot;</li>
+<li><strong>Pre-ignition:</strong> the charge lights before the spark, because of a hot spot, glowing carbon, or a plug that has been living too hot. This is worse. The burn starts too early and the piston is still coming up the stairs.</li>
+<li><strong>Valve float:</strong> the springs can no longer make the valves obey at that speed. Breathing falls apart. On the wrong engine, piston and valve meet.</li>
+<li><strong>Blow-by:</strong> combustion gas sneaks past the rings into the crankcase, which is bad for oil and bad for power.</li>
+</ul>
+<p>Do not &quot;cure&quot; knock by adding fuel, timing, and compression in a hopeful pile. Look at temperature, mixture, fuel, ignition timing, deposits, cooling, and the general health of the machine as one animal. It is one animal.</p>
+<h2>The heat you do not get back</h2>
+<p>A small conventional petrol engine may turn something like a quarter to a third of the fuel&#39;s energy into shaft work when conditions are kind. Diesels can do better, especially held at a sensible load. The rest leaves as exhaust heat, coolant heat, friction, the work of pumping air, noise, and the tax of accessories. The notes under this book use about thirty percent as a rough petrol figure and forty to forty-five percent as a broad diesel benchmark. Treat both as rumours with good manners, not as the number stamped on your particular lump of iron.</p>
+<p>Steam adds a furnace, a boiler, pipework, condensation, and every place heat can change its mind. Its gift is fuel that can be almost anything solid or cheap, and stationary work at a scale. Its gift is not compactness, and it is not forgiveness.</p>
+<p>The plate shows a flywheel and a dizzy neighbour. The flywheel is doing a job. The neighbour is a demonstration of uncontrolled speed, which is funny once and expensive forever.</p></div>
+</article>
+
+<article class="chapter" id="ch07">
+  <p class="label">Chapter 7</p>
+  <h1>Fuel, Vapour, and the Travelling Puddle</h1>
+  <figure class="plate"><img src="art/ch07.jpg" alt="Plate 7. The puddle travels. The match stays in the pocket."/><figcaption>Plate 7. The puddle travels. The match stays in the pocket.</figcaption></figure>
+  <div class="prose"><p class="lede">Fuel is not a sauce. You do not cheer it up. You store it, you meter it, and you keep it away from anything that thinks it is a spark. The puddle in the plate is already leaving. Petrol vapour does not sit on the liquid like a polite fog. It travels, along the floor, toward the lowest stupid decision in the room.</p>
+<div class="table-wrap"><table>
+<thead>
+<tr>
+<th>Fuel</th>
+<th>What it offers</th>
+<th>What it demands</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>Petrol</td>
+<td>Volatile, dense enough with energy, happy to be sparked</td>
+<td>Fire from the vapour, short storage life, knock if you get proud</td>
+</tr>
+<tr>
+<td>Diesel</td>
+<td>Dense, not eager to vapourise, lit by hot air</td>
+<td>High injection pressure, a clean system, a cold-start plan</td>
+</tr>
+<tr>
+<td>Ethanol</td>
+<td>High knock resistance, can be made where plants still grow</td>
+<td>Less energy per litre, drinks water, attacks some materials, sulks when cold</td>
+</tr>
+<tr>
+<td>Biodiesel</td>
+<td>Plant oils or waste oils, after they have been properly made into fuel</td>
+<td>Thickness, oxidation, cold flow, deposits, hoses that disagree</td>
+</tr>
+<tr>
+<td>Wood gas</td>
+<td>Biomass, if you accept a poorer and more poisonous breath</td>
+<td>Carbon monoxide, tar, ash, water, less power, a real chance of explosion</td>
+</tr>
+<tr>
+<td>Hydrogen</td>
+<td>Burns over a very wide mix, and quickly</td>
+<td>Leaks, embrittlement, eagerness to light, storage that is a project of its own</td>
+</tr>
+<tr>
+<td>Coal or wood</td>
+<td>Heat you can often still find</td>
+<td>Ash, smoke, tar, a boiler&#39;s bulk, and no interest in being metered neatly</td>
+</tr>
+</tbody></table></div>
+<p>Changing fuel is never &quot;just pour it in.&quot; The new fuel changes the mixture, the timing, the temperatures, the seals, the filters, the way you store it, and sometimes the compression ratio the engine was willing to live with. A machine that was honest on its old diet can become a liar on the new one, and liars in this yard knock, overheat, or melt something small and expensive.</p>
+<h2>Storage, which is a character test</h2>
+<p>The notes under this book give petrol a rough shelf life of three to six months before varnish and oxidation become the main plot. Heat, air, a dirty can, and ethanol blends that have found some water will shorten that. Old fuel is not a challenge. It is a varnish factory. Drain it. Label the can. Do not &quot;see if it still goes&quot; inside a building because the rain has started.</p>
+<p>Keep approved containers, outdoors or in a lawful store, away from the living and away from anything that sparks. A generator belongs away from windows, doors, and vents. Exhaust that can be sucked back indoors is exhaust you aimed at your own lungs. An inversion, one of those still evenings when the air refuses to rise, will hold that exhaust near the ground like a blanket. A quiet engine is not a safe engine. Carbon monoxide has no interest in the view.</p>
+<p>If you are converting rather than feeding, read the next two chapters before you touch a jet or light a drum. One of them is about measurement. The other is about not dying in a shed that smelled, briefly, of woodsmoke and good intentions.</p></div>
+</article>
+
+<article class="chapter" id="ch08">
+  <p class="label">Chapter 8</p>
+  <h1>Ethanol, Measured</h1>
+  <figure class="plate"><img src="art/ch08.jpg" alt="Plate 8. Two jets, a caliper, and a grape that was not invited."/><figcaption>Plate 8. Two jets, a caliper, and a grape that was not invited.</figcaption></figure>
+  <div class="prose"><p class="lede">Ethanol is not a personality. It is a fuel with less energy in each litre than petrol, a strong dislike of knocking, a habit of absorbing water, and a cold-start manner that can only be described as reluctant. It can be kinder to the burn in some engines. It can also eat the wrong rubber, the wrong metal, and your afternoon.</p>
+<p>Because each litre carries less energy, the engine wants a richer flow of it. More liquid, to do the work the old liquid did. The guide this chapter leans on describes enlarging a carburettor&#39;s main jet by something like twenty to forty percent, and gives an example: a jet of about fifty-six thousandths of an inch opened toward about seventy-eight thousandths, a nominal forty percent increase in diameter. It also talks about advancing the timing toward roughly twenty-two degrees before top dead centre, and about heat for cold starts, and about whether the materials in the fuel path can stand the new diet.</p>
+<p>Read that paragraph again, slowly, and then refuse to treat it as a spell.</p>
+<p>Those numbers are a historical starting point for a particular setup. They are not a universal recipe. A jet does not flow &quot;a diameter.&quot; It flows an area, under a pressure difference, with a fuel of a certain thickness and density, through a carburettor that has opinions of its own. Drill an irreplaceable jet because a book said forty percent and you have made a souvenir.</p>
+<h2>The only honest order</h2>
+<ol>
+<li>Establish a baseline on the fuel the engine was built for. How it idles, how it pulls, what the plug looks like, what the oil looks like after a decent run.</li>
+<li>Use jets you can swap, not holes you can only make larger. Larger is a one-way door.</li>
+<li>Change one thing at a time. If you change the jet and the timing and the needle and your hopes, you will not know which one saved you or which one started the knock.</li>
+<li>Watch exhaust temperature if you can, plug colour, oil condition, and the way the engine answers a load. A happy noise is not a measurement.</li>
+<li>Stop at the first sign of detonation, overheating, a lean stumble under load, a leak, or a seal going soft. Pride is not a coolant.</li>
+</ol>
+<p>Ethanol blends that have sat are especially good at collecting water and starting corrosion in tanks and carburettor bowls. If you are waking an old engine, assume the previous owner poured in whatever was cheap and then left. Treat the tank as guilty until it has been drained, inspected, and given fresh fuel of a kind you can name.</p>
+<p>The plate has two jets, a pair of calipers, and a grape that was not on the parts list. The grape is the joke. The calipers are the chapter.</p></div>
+</article>
+
+<article class="chapter" id="ch09">
+  <p class="label">Chapter 9</p>
+  <h1>Wood Gas and the Guest You Cannot See</h1>
+  <figure class="plate"><img src="art/ch09.jpg" alt="Plate 9. Outdoors, upwind, and the wisp nobody can see."/><figcaption>Plate 9. Outdoors, upwind, and the wisp nobody can see.</figcaption></figure>
+  <div class="prose"><p class="lede">Gasification is controlled incomplete burning. You are not making a cheerful campfire. You are making a gas that an engine can breathe, and the gas does not love you. It can be rich in carbon monoxide. It can become explosive if air leaks in where the mixture is wrong. It can carry tar that turns an engine into a sticky relic. Do this in your head, on paper, or in a yard that is not attached to a bedroom. Do not begin with a live producer-gas system because the chapter made it sound knowable. Knowable is not the same as safe, and safe is not the same as indoors.</p>
+<p>A simplified path, which hides a dozen ways to get it wrong:</p>
+<pre><code class="language-text">biomass → drying → pyrolysis → oxidation → reduction
+        → hot producer gas → cooling → cyclone → filter
+        → a measured mix of air → the engine
+</code></pre>
+<p>The material under this book sketches a producer gas somewhere near twenty percent hydrogen, twenty percent carbon monoxide, fifty to sixty percent nitrogen, and a little methane. Nitrogen is ballast. It takes up room that petrol would have filled with something keener. Power falls. The Simple-Fire notes talk about something like thirty percent less power than the same engine on petrol. Gas quality and the honesty of your filtering decide whether &quot;less&quot; means &quot;usable&quot; or &quot;a long walk home.&quot;</p>
+<h2>Principles that are not optional</h2>
+<ul>
+<li>The fuel must be dry, and of a consistent size. Wet wood is a steam lecture, not a gas supply.</li>
+<li>Tar and water have to come out before the engine sees them. A filter is not a wish.</li>
+<li>Filters need to be drained and looked at. A forgotten drain is a small lake of things you did not want in a cylinder.</li>
+<li>The gas path must be tight where a leak would let the combustible mixture meet a surprise, and it must not be a sealed bomb. Relief behaviour is a design, not a hope that the lid is loose.</li>
+<li>A flare test shows that something will burn in the open. It is not a certificate. Certificates are duller and harder to get, which is why they exist.</li>
+<li>Outdoors. Upwind of the people. A carbon-monoxide alarm that you believe, and a way to walk away.</li>
+</ul>
+<p>An illustrative table in the source material ties fire-tube diameter, very roughly, to engine power: on the order of two inches for five horsepower, out toward fourteen inches for a hundred and sixty. These are empirical sketches from a particular tradition, not a design standard you can take to a fabricator and call finished. The same notes put a Simple-Fire device in a band of about two to twenty horsepower, and call it experimental. Experimental means you are not the customer. You are the test.</p>
+<p>The plate puts the drums outside, a small flame where it can be seen and left, the survivor upwind, and two neighbours downwind looking woozy at a wisp they cannot actually see. That wisp is the joke and the warning. If you cannot see the hazard, you do not get to stand in it.</p>
+<p>If you want the educational version, model the mass, the moisture, the filter, and the power loss on paper or in code. Chapter 16 will point you at that kind of project and then refuse, again, to hand you a weekend gasifier. The refusal is the safety equipment.</p></div>
+</article>
+<section class="part" id="part4"><div class="part-inner"><p class="label">Part IV</p><h1>Bringing One Back</h1><p class="blurb">A dormant engine, a careful bath, a spark you do not hold, and the first honest start.</p></div></section>
+<article class="chapter" id="ch10">
+  <p class="label">Chapter 10</p>
+  <h1>The Engine That Has Been Plotting</h1>
+  <figure class="plate"><img src="art/ch10.jpg" alt="Plate 10. It has not died. It has been plotting rust."/><figcaption>Plate 10. It has not died. It has been plotting rust.</figcaption></figure>
+  <div class="prose"><p class="lede">An abandoned engine is not dead. It has had time. Time, in a sump, is a conspiracy of moisture, old fuel, and rings that have glued themselves to the bore out of loneliness. Treat it as a machine with a plan, not as a corpse you can surprise with a key.</p>
+<pre><code class="language-text">identify → inspect → lubricate → turn by hand → fresh fluids
+→ clean the fuel path → test the electrics → prove the timing
+→ test compression → first start, outdoors → watch → service again
+</code></pre>
+<p>Do not start at the right-hand end because the yard is noisy and you would like a victory. Victories that skip the left-hand end become connecting rods in unexpected shapes.</p>
+<h2>Name it before you touch it</h2>
+<p>Find the engine number, the fuel it was built for, the firing order, the oil grade, the timing marks, the compression ratio if anyone wrote it down, the wiring, and the limits the maker published. Photograph every linkage and every hose before you take them off. Label the parts. Future-you is not psychic, and future-you will be tired, and tired people put the float back in upside down and then blame the horde.</p>
+<h2>Make it safe enough to learn</h2>
+<p>Disconnect the battery. Remove anything that can spark while you are still in the fuel system. Look for nests, seized accessories, cracked castings, heavy corrosion, and liquid sitting in the cylinders. A cup of water in a bore is not a detail. It is a hydraulic lock waiting for someone brave and incorrect.</p>
+<p>On a spark engine, take the plugs out. Put a small amount of a suitable penetrating or assembly oil into the bores. Give it a day or two — the notes say twenty-four to forty-eight hours, and a badly seized engine may want longer. Then turn the crank by hand, with a socket that fits, not with hope and a long bar you found in the grass. If it stops hard, you stop. You do not convert a stuck piston into a sculpture.</p>
+<p>The restoration notes under this book name the catastrophic versions of ordinary neglect: dry rings, dry bearings, a valvetrain that has seized, and timing that is simply wrong. Those are not mysteries. They are what happens when an engine is asked to run before it has been introduced to oil and to the correct century of its own camshaft.</p>
+<h2>Throw the old fluids out</h2>
+<p>Drain the stale petrol. Three to six months is the rough life the source material gives it before varnish becomes the story, and a decade in a shed is not a vintage. Replace the oil and the filter. Flush coolant that has become a science experiment. Replace fuel filters. Look at the sediment in the tank, and believe it. Ethanol blends that sat are suspects for water and corrosion until proven otherwise.</p>
+<p>The mouse in the plate is not your enemy. The mouse moved out. The rust stayed, and the rust has been patient, which is more than most of us manage. Photograph the linkages. Then, and only then, think about whether this engine deserves a bath, a spark, and a first start in the open air. That is the next chapter. It is not a shortcut back to this one.</p></div>
+</article>
+
+<article class="chapter" id="ch11">
+  <p class="label">Chapter 11</p>
+  <h1>Bath, Spark, and the First Honest Start</h1>
+  <figure class="plate"><img src="art/ch11.jpg" alt="Plate 11. First start, exhaust pointed at nobody you like."/><figcaption>Plate 11. First start, exhaust pointed at nobody you like.</figcaption></figure>
+  <div class="prose"><p class="lede">There are three things a spark engine needs before it will consent to run: a mixture it can burn, compression enough to make the burn worth having, and a spark at the right moment. Everything else is costume. The costume can still kill you, which is why the costume gets a procedure.</p>
+<pre><code class="language-text">mixture + compression + a spark at the right time
+</code></pre>
+<p>If it cranks and does not catch, you are not cursed. You are missing one of the three, or you are flooded, blocked at the exhaust, or being overruled by a safety interlock that is, for once, the adult in the room.</p>
+<h2>The carburettor, washed rather than attacked</h2>
+<p>The cleaning method in the source material is a low-caustic hot-water bath for parts that can stand it, taken fully apart:</p>
+<ul>
+<li>Photograph the settings. Count the turns of the mixture screws before they come out. Write the count where yesterday-you cannot lose it.</li>
+<li>Remove jets, float, needle, gaskets, and anything that should not be cooked. Linkages too, if they are not the thing you are cleaning.</li>
+<li>A bath around ninety-three degrees Celsius, two hundred Fahrenheit, watched with a thermostat. Not a rolling boil you wandered away from.</li>
+<li>Something like twenty to thirty minutes in a mild detergent or degreaser.</li>
+<li>A soft brush. Soft nylon to clear the calibrated holes. Clean compressed air to dry them.</li>
+<li>Do not &quot;clean&quot; a jet with a wire that is secretly a file. If you enlarge a calibrated hole you have changed the fuelling, and you have done it in the dark.</li>
+<li>Replace seals and gaskets that have given up.</li>
+</ul>
+<p>This removes deposits. It does not necessarily remove the stain on the aluminium, and the stain is not the problem. The problem is the passage you cannot see and therefore decided was probably fine.</p>
+<h2>The spark, tested like an adult</h2>
+<p>Battery state. Clean terminals. Whether the starter actually engages, and what it draws. Coil resistance against the specification, not against a feeling. Plug condition and gap. The leads: continuous, and insulated. Distributor, rotor, cap, points, or the electronic trigger, whichever century you are in. Ground paths that are actually ground.</p>
+<p>Test a spark away from fuel vapour, with the proper tester and the proper procedure. Do not hold a plug lead in your hand to see if the night still has electricity. That is not diagnosis. That is volunteering for a reboot of the nervous system, and the engine will not even thank you.</p>
+<h2>Air, compression, timing</h2>
+<p>Look at intake hoses, manifold gaskets, the PCV path, and the throttle body for leaks. A proper smoke test beats spraying something flammable around a hot engine, which is a method favoured by people who like stories more than eyebrows. A compression test, if the engine is fit to be tested, tells you whether the rings, the valves, and the gasket are still a team.</p>
+<p>Line the crankshaft and camshaft marks up at the correct number-one top dead centre. Interference engines bend valves when the timing is a fairy tale. Non-interference engines merely run like a sack of spanners. Neither is a personality you want.</p>
+<h2>The first start, which is a ceremony of suspicion</h2>
+<p>Outdoors. Clear of people, fuel stores, and anything that burns if a backfire gets ideas. Fresh fuel of the correct kind. The moment it catches, confirm oil pressure. Then look, in this order, for leaks, a noise that is new, a runaway, smoke, heat, and where the exhaust is actually going.</p>
+<p>Blue smoke suggests oil in the burn. White smoke can be coolant, or only the condensation of a cold start; if the white stays, it is no longer a mood, it is a diagnosis. Black smoke often means too much fuel, but the engine type and the moment matter. Do not hang a load on an engine that has only just remembered it is an engine. If you expected the oil to pick up years of debris, change the oil and the filter again after the first careful run.</p>
+<p>For an engine that has slept for decades, the source protocol would rather you take it apart than trust a key. A key is not a resurrection. It is a question. The answer, if you have done the left-hand end of the list, might be a machine that idles in the open air while you watch the gauge and do not narrate.</p>
+<p>The neighbours in the plate have their ear defenders on sideways. You will wear yours the right way round. The exhaust points at the weather, not at the house.</p></div>
+</article>
+
+<article class="chapter" id="ch12">
+  <p class="label">Chapter 12</p>
+  <h1>Cards for the Morning After</h1>
+  <figure class="plate"><img src="art/ch12.jpg" alt="Plate 12. The relief valve is the only one who read the report."/><figcaption>Plate 12. The relief valve is the only one who read the report.</figcaption></figure>
+  <div class="prose"><p class="lede">Maintenance is not a personality. It is a stack of cards you can do when you are tired, because tired is when the belt is fraying and you are tempted to call it character. The horde does not loosen your sump plug. Neglect does. The horde is simply the name we give the week in which neglect presents the bill.</p>
+<div class="table-wrap"><table>
+<thead>
+<tr>
+<th>When</th>
+<th>Petrol or diesel</th>
+<th>Steam or boiler</th>
+<th>Electric motor</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>Before use</td>
+<td>Leaks, oil, coolant, belts, guards, fuel, battery</td>
+<td>Water level, relief, gauges, leaks, burner, feedwater</td>
+<td>Cables, insulation, cooling, bearings, guards</td>
+</tr>
+<tr>
+<td>Each run</td>
+<td>Temperature, oil pressure, exhaust, vibration, a noise that is new</td>
+<td>Pressure, water chemistry, the flame, blowdown, leaks</td>
+<td>Current, temperature, vibration, a smell that is new</td>
+</tr>
+<tr>
+<td>On a schedule</td>
+<td>Filters, plugs or injectors, valve clearance, the belt or chain that times the cam</td>
+<td>Inspection, scale, relief devices tested by someone competent</td>
+<td>Bearings greased as specified, insulation tested, alignment</td>
+</tr>
+<tr>
+<td>In storage</td>
+<td>Stabilise or drain the fuel; protect with oil; stop the intake and exhaust breathing damp; turn it now and then</td>
+<td>Drain and protect against corrosion; inspect before you ever light it</td>
+<td>Keep it dry; stop condensation; turn the shaft so the bearings remember</td>
+</tr>
+<tr>
+<td>After dirt or the wrong fluid</td>
+<td>Flush fuel, oil, and coolant as the contamination demands</td>
+<td>Isolate, depressurise, then inspect</td>
+<td>Isolate electrically; clean; test the insulation before it is asked to work</td>
+</tr>
+</tbody></table></div>
+<p>A new noise is a sentence. Learn the old noises so the new one stands out. Oil pressure that is late is not &quot;probably fine once it&#39;s warm&quot; until a manual has told you what late is allowed to mean. Temperature that climbs while the load stays honest is the cooling system filing a complaint.</p>
+<h2>The devices that have already read the report</h2>
+<p>Never defeat a relief valve, a governor, an overspeed trip, a thermal cut-out, or an interlock. The device is not in your way. It is the one component that has read the incident report and decided to be boring. Boring is the highest rank in this yard.</p>
+<p>The little crown in the plate is not jewellery. It is the relief valve being the monarch of that bench, which is the correct constitution. The calendar the neighbour is holding has no dates on it, because a schedule you cannot read is not a schedule. Write yours in the notebook, in language a stranger could follow on a wet morning: what was checked, what was changed, what the gauge said.</p>
+<p>If you store an engine, leave it so the next person can tell fuel from water and oil from hope. A label is a kindness. A label in pencil, outdoors, is a rumour. Ink, a cover, and a place the rain does not edit.</p>
+<p>Then go and do something else. An engine that is maintained does not need you to stand and admire it. Admiration is how sump plugs stay finger-tight.</p></div>
+</article>
+<section class="part" id="part5"><div class="part-inner"><p class="label">Part V</p><h1>Where the Power Goes</h1><p class="blurb">Steam you will not invent, the quiet motor, the path to the wheel, and the advanced gallery.</p></div></section>
+<article class="chapter" id="ch13">
+  <p class="label">Chapter 13</p>
+  <h1>Steam You Will Not Invent</h1>
+  <figure class="plate"><img src="art/ch13.jpg" alt="Plate 13. A certified toy, and the cooker left on the shelf."/><figcaption>Plate 13. A certified toy, and the cooker left on the shelf.</figcaption></figure>
+  <div class="prose"><p class="lede">Steam is external combustion with a long commute.</p>
+<pre><code class="language-text">fuel + air → furnace → water becomes steam under pressure
+→ piston or turbine → condenser or exhaust → feedwater back
+</code></pre>
+<p>The romance is real and old. The hazard is the boiler, and the boiler is not a beginner project. Homemade pressure vessels are how intelligent people become a cautionary paragraph. The guidance on pressure systems — suitable construction, devices that limit pressure, a gauge you can read, a relief valve that is not a suggestion, inspection, and operation by someone competent — exists because steam stores energy in a way that does not care about your narrative.</p>
+<p>For learning, use one of these, and not a clever fifth:</p>
+<ul>
+<li>A low-pressure educational model that was designed and certified for the job.</li>
+<li>An open, unpressurised demonstration: sun on a pipe, water getting warm, nothing trying to be a bomb.</li>
+<li>A commercially made boiler with written limits, used inside those limits.</li>
+<li>A calculation of a Rankine cycle on paper, which has never scalded anyone.</li>
+</ul>
+<p>The plate shows the certified toy, and the ordinary cooker left on the shelf. The neighbour is disappointed. Disappointment is survivable. A substituted pressure vessel is not. &quot;It held water yesterday&quot; is not a test. Water is heavier when it is steam only in the sense that the room becomes full of a fact you cannot put back.</p>
+<h2>The spark, which is a chain and not a dare</h2>
+<p>A basic ignition path:</p>
+<pre><code class="language-text">battery or alternator → switch → coil primary
+→ the field collapses → high voltage on the secondary
+→ the plug gap → spark → the burn, if the mixture deserves it
+</code></pre>
+<p>An alternator is an accessory with a degree. Rotation changes the magnetic flux and a current appears. It needs regulation, or it will overcharge the battery and cook whatever you hung on the line. A safe way to learn the chain is a current-limited bench supply, an ignition module meant for teaching, and a commercial spark tester. Do not build a high-voltage circuit on a breadboard beside a fuel can. The breadboard is not the hero of this story.</p>
+<h2>The motor that does not burn</h2>
+<p>An electric motor is a generator persuaded to run backwards. Current in the windings makes fields; the fields argue with magnets or with another winding; the argument is torque. Speed depends on voltage, load, the windings, the controller, and the back-voltage the motor itself produces as it spins. A battery drivetrain is usually:</p>
+<pre><code class="language-text">battery → fuse and contactors → controller → motor → a reduction gear
+         ↘ a battery-management system watching ↗
+</code></pre>
+<p>It can be efficient, quiet, and precise, which makes it feel harmless. Batteries are not harmless. They want a charger that knows them, a temperature they can live in, isolation you can trust, and a fire plan that was written before the smoke. A quiet machine can still be the thing that burns the workshop down at three in the morning, which is a poor time to invent a plan.</p>
+<p>Use electricity where you have the wire or the cells, and where the load likes a motor more than it likes a flywheel. Use combustion where you have the fuel and the exhaust path and the maintenance habit. Do not use steam as a personality. The settlement needs torque, not a legend, and the legend is how the relief valve gets tied down &quot;just for the afternoon.&quot;</p></div>
+</article>
+
+<article class="chapter" id="ch14">
+  <p class="label">Chapter 14</p>
+  <h1>From the Crank to the Wheel</h1>
+  <figure class="plate"><img src="art/ch14.jpg" alt="Plate 14. The guard goes on before the story does."/><figcaption>Plate 14. The guard goes on before the story does.</figcaption></figure>
+  <div class="prose"><p class="lede">The engine rarely shakes hands with the load directly. There is a etiquette in between, and the etiquette is a set of parts that fail in boring, predictable, preventable ways.</p>
+<pre><code class="language-text">engine → clutch or coupling → gearbox or reduction
+→ differential or final drive → axle and wheel
+</code></pre>
+<ul>
+<li><strong>A gearbox</strong> trades speed for torque. Low gear multiplies the twist and slows the shaft. High gear does the opposite. Neither gear creates energy. They spend it in a different costume.</li>
+<li><strong>A clutch</strong> lets the engine live while the load sits still, and lets the engagement be a slope instead of a cliff.</li>
+<li><strong>A differential</strong> lets the driven wheels turn at different speeds in a corner, which is the difference between a vehicle and a plough that has become confused.</li>
+<li><strong>A belt</strong> is cheap and a little forgiving, and it will slip when it should, and it will also take a finger if you give it one. Guard it.</li>
+<li><strong>A chain</strong> does not slip if it is honest, and it wants oil and alignment, and it will also take a finger. Guard it.</li>
+<li><strong>Direct drive</strong> is efficient and has fewer parts, and it demands that the engine&#39;s happy speed and the load&#39;s happy speed are already friends.</li>
+<li><strong>A generator coupling</strong> has to keep the engine at the speed the alternator was promised, with a governor that means it, and with protection against the day the load disappears and the speed does not.</li>
+</ul>
+<p>The plate puts a guard over the belt before the neighbour&#39;s curiosity arrives. Curiosity is not a tooling allowance. Pinch points do not negotiate, and they do not prefer zombies. If you are building the teaching version, Chapter 16 will insist on a hand crank or a low-voltage motor, a guard, and no glory.</p>
+<h2>Budget the journey, not the noise</h2>
+<p>On a road or a rail, the energy has to pay for rolling resistance, the air, the hills, the cargo, the desire to speed up, and the weather, which is a tax. A slow diesel may be glorious at pulling a heavy train and hopeless at making a light vehicle feel alive. A fast petrol engine may be the other way round. Match the prime mover to the job, then match the gearing to the match. A brilliant engine in the wrong ratio is a brilliant way to overheat at walking pace.</p>
+<p>For a pump or a mill, write down the speed the driven machine wants, the speed the engine is willing to hold, and the ratio that joins them. Then put a guard on it, a way to stop it, and a person who knows which is which. The person is part of the transmission. When the person leaves, the note on the cowling has to be able to do their job for the first five minutes. That is all a note can do. It is enough to stop the next person joining the belt.</p></div>
+</article>
+
+<article class="chapter" id="ch15">
+  <p class="label">Chapter 15</p>
+  <h1>The Advanced Gallery, Told Without Romance</h1>
+  <figure class="plate"><img src="art/ch15.jpg" alt="Plate 15. Models on a shelf. Hands off the snail shell."/><figcaption>Plate 15. Models on a shelf. Hands off the snail shell.</figcaption></figure>
+  <div class="prose"><p class="lede">This is a gallery. The objects are on the shelf so you can name them. They are not a shopping list, and they are not a weekend. The neighbour reaching for the turbo can keep reaching. The hand in the plate is there to be a no.</p>
+<h2>Diesel</h2>
+<p>A diesel squeezes air until the air is hot enough to light the fuel as the fuel is injected. There is no premixed spark-lit charge in the basic cycle. The compression is high. The injection pressure is high. The pistons, rods, bearings, and the cleanliness of the fuel system all have to be up to a standard that does not forgive a rusty drum. Diesels tend to be heavier and slower than petrol engines. They pay you back with low-speed torque and a better habit of turning fuel into work when the load stays steady. They are excellent servants and bad improvisations.</p>
+<h2>Atkinson, Miller, and the hybrid&#39;s bargain</h2>
+<p>Valve timing can make the effective compression stroke shorter than the expansion stroke. You give away some specific power and you gain efficiency. Hybrids like this, because an electric motor can cover the moments when you want to be quick and the piston engine would rather be wise. It is a timing strategy, not a new element.</p>
+<h2>Boost, which is a loan</h2>
+<p>A turbocharger spends exhaust energy on a compressor. A supercharger is driven by the engine directly, so it takes its pay before the exhaust has anything to say. An intercooler cools the squeezed charge so it gets denser. More oxygen lets you burn more fuel. It also raises pressure, heat, the risk of knock, and the load on every part that was sized for a quieter life. Boost is not free horsepower. It is a loan from the parts department, and the parts department charges interest in pistons.</p>
+<h2>Valves that change their mind</h2>
+<p>Variable cam timing moves the moment the valves open and close, to buy low-speed torque or high-speed breathing or a cleaner burn. Variable lift goes further. Get the timing wrong on an interference engine and the piston meets the valve. The meeting is brief. The bill is not.</p>
+<h2>The rotary</h2>
+<p>A roughly triangular rotor turns eccentrically in a housing shaped for the job. Compact, smooth, and utterly dependent on its apex seals and its side seals. The chamber is an odd shape. The heat and the emissions are not rumours. Admire it. Do not assume the scrapyard owes you a seal kit.</p>
+<h2>Turbines, and the machines that only work when they are already flying</h2>
+<pre><code class="language-text">intake → compressor, or compression by sheer speed → burner
+→ turbine and nozzle → a shaft, or thrust
+</code></pre>
+<p>A turbojet makes thrust by throwing mass backwards. A turboprop takes much of that energy and gives it to a propeller. A ramjet has no compressor; the speed of going forward does the squeezing, which means it is useless until it is already very fast. A scramjet keeps the flow inside supersonic, and lives only in a specialised regime you will not be visiting with hand tools. These are not shed projects. The rotating parts, the hot section, the fuel system, the noise, and the energy in a failure are all severe.</p>
+<p>Where turbine engines are actually operated, they are kept inside limits of temperature, rotational speed, and — where it applies — torque. The limit is the machine. Your enthusiasm is not.</p>
+<p>Leave the gallery. The next chapter is full of things you can build without becoming a statistic: a picture of a piston, a sum on a page, a cardboard engine, a guarded belt, a certified toy, and a gasifier that exists only as arithmetic. That is not a consolation prize. That is the part of the book that intends you to still be here.</p></div>
+</article>
+<section class="part" id="part6"><div class="part-inner"><p class="label">Part VI</p><h1>The Workshop After</h1><p class="blurb">Projects you can survive, the diagnostic tree, weather, and the refusal at the back.</p></div></section>
+<article class="chapter" id="ch16">
+  <p class="label">Chapter 16</p>
+  <h1>Seven Projects, Ranked by Whether You Get to Tell Them</h1>
+  <figure class="plate"><img src="art/ch16.jpg" alt="Plate 16. Cardboard, a hand crank, and a curve with no numbers on it."/><figcaption>Plate 16. Cardboard, a hand crank, and a curve with no numbers on it.</figcaption></figure>
+  <div class="prose"><p class="lede">The projects are in order of how likely you are to finish the story in person. None of them requires a flywheel at head height. If a project starts to require one, you have left the chapter.</p>
+<h2>Project 1: The cycle, drawn and not burned</h2>
+<p>A small program can show crank angle, piston position, and which stroke you are in. It contains no opportunity for a flywheel to emigrate.</p>
+<pre><code class="language-python">import math
+import matplotlib.pyplot as plt
+
+stroke = 0.086  # metres
+rod = 0.143
+angles = list(range(0, 721))
+
+def piston_down(theta):
+    r = stroke / 2
+    return (
+        r * (1 - math.cos(theta))
+        + rod
+        - math.sqrt(rod**2 - (r * math.sin(theta)) ** 2)
+    )
+
+def phase(theta_deg):
+    a = theta_deg % 720
+    if a &lt; 180:
+        return &quot;intake&quot;
+    if a &lt; 360:
+        return &quot;compression&quot;
+    if a &lt; 540:
+        return &quot;power&quot;
+    return &quot;exhaust&quot;
+
+theta = [math.radians(a) for a in angles]
+pos = [piston_down(t) * 1000 for t in theta]
+colours = {
+    &quot;intake&quot;: &quot;tab:blue&quot;,
+    &quot;compression&quot;: &quot;tab:orange&quot;,
+    &quot;power&quot;: &quot;tab:red&quot;,
+    &quot;exhaust&quot;: &quot;tab:green&quot;,
+}
+
+plt.figure(figsize=(12, 4))
+for i in range(len(angles) - 1):
+    plt.plot(
+        angles[i : i + 2],
+        pos[i : i + 2],
+        color=colours[phase(angles[i])],
+        linewidth=3,
+    )
+plt.xlabel(&quot;Crank angle (degrees)&quot;)
+plt.ylabel(&quot;Piston distance below top dead centre (mm)&quot;)
+plt.title(&quot;One four-stroke cycle&quot;)
+plt.tight_layout()
+plt.show()
+</code></pre>
+<p>Crank angle zero is top dead centre. The curve is the whole sermon: two turns, one push, three strokes carried by the flywheel you wisely did not bolt to the desk.</p>
+<h2>Project 2: A sum you can do in your head, almost</h2>
+<pre><code class="language-python">def power_kw(torque_nm, rpm):
+    return torque_nm * rpm / 9550
+
+for rpm in (800, 1500, 3000, 6000):
+    print(rpm, round(power_kw(100, rpm), 2), &quot;kW at 100 Nm&quot;)
+</code></pre>
+<p>A hundred newton-metres at eight hundred revolutions is not the same animal as a hundred newton-metres at six thousand. The second one is faster and hotter and more interested in breaking something. Write both numbers down before you boast.</p>
+<h2>Project 3: A fault tree that is only a notebook</h2>
+<pre><code class="language-text">symptom → measurement → one hypothesis → one change → measure again
+</code></pre>
+<p>Do not change five things and declare victory on the grounds of vibes. Vibes are how the original fault hides behind the new one.</p>
+<h2>Project 4: A cutaway that does not run</h2>
+<p>Cardboard, foam, a bit of clear plastic, or a donated engine that will never be asked to fire. Mark top and bottom dead centre. Mark the four strokes. Add coloured arrows for air, fuel, oil, coolant, and exhaust. If a child, or a tired adult, can point at the power stroke without your help, the model has earned its keep.</p>
+<h2>Project 5: A belt, guarded, and slow</h2>
+<p>A hand crank or a low-voltage motor. A speed ratio you can measure. Every pinch point behind a guard before the first turn. If you cannot put the guard on, you do not have a project. You have a dare, and this book does not sign dares.</p>
+<h2>Project 6: Someone else&#39;s steam</h2>
+<p>A certified low-pressure model, used exactly as it was supplied. No homemade boiler. No sealed tube. No pressure cooker with a dream. No bottle. No vessel that &quot;held&quot; yesterday. If the kit is incomplete, the project is incomplete, and you stop.</p>
+<h2>Project 7: A gasifier that is only a sum</h2>
+<p>Do not start with a live producer-gas rig. Model the flow, the moisture, the filtering, and the power you will not get, on paper or in code. If a real system ever enters your life, it should be a design that a competent person has reviewed, run outdoors, watched with a carbon-monoxide alarm, built with real relief behaviour, and supervised by someone who can tell you to shut it down. Until that person exists, the model on the page is the whole project.</p>
+<p>The plate shows the notebook curve, the cardboard lump, and the hand crank. The students are welcome. The flame is not.</p></div>
+</article>
+
+<article class="chapter" id="ch17">
+  <p class="label">Chapter 17</p>
+  <h1>When It Will Not Run</h1>
+  <figure class="plate"><img src="art/ch17.jpg" alt="Plate 17. Dawn, a pump, a broom, and the oil still due."/><figcaption>Plate 17. Dawn, a pump, a broom, and the oil still due.</figcaption></figure>
+  <div class="prose"><p class="lede">Measurements beat folklore. A compression gauge, a tachometer, a thermometer, a multimeter, a current clamp, a pressure gauge, a leak tester, and a notebook will outperform a heroic afternoon of swapping parts at random. The notebook is the tool that makes the others a method rather than a pile.</p>
+<h2>It cranks, and nothing happens</h2>
+<pre><code class="language-text">fuel actually there? ── no → fix the supply
+        │ yes
+mixture honest? ── no → clean, meter, find the leak
+        │ yes
+compression? ── no → valves, rings, gasket, timing
+        │ yes
+spark, and at the right time? ── no → ignition, timing
+        │ yes
+flooding, a blocked exhaust, a sulking sensor, a safety interlock doing its job
+</code></pre>
+<p>Work down the tree. Do not start in the middle because the middle is more interesting.</p>
+<h2>It runs, and it runs badly</h2>
+<ul>
+<li><strong>Backfire through the intake:</strong> timing, a lean mixture, valve timing, or a valve that no longer seals.</li>
+<li><strong>Black smoke:</strong> too much fuel, not enough air, a carburettor or an injector telling lies.</li>
+<li><strong>Blue smoke:</strong> oil in the chamber, or too much oil in the crankcase.</li>
+<li><strong>White smoke:</strong> coolant, water, or a cold engine clearing its throat. If it persists, stop calling it throat.</li>
+<li><strong>A hunting idle:</strong> a vacuum leak, a governor that cannot decide, a mixture that wanders, a control fault.</li>
+<li><strong>Overheating:</strong> low coolant, a blocked radiator, a pump that quit, a lean mixture, timing, too much load, not enough air across the fins.</li>
+<li><strong>Knock:</strong> the wrong fuel, too much compression or boost, timing too far advanced, heat, deposits, octane that is not up to the engine&#39;s pride.</li>
+<li><strong>Vibration:</strong> a misfire, an imbalance, a loose mount, a bent shaft, a bearing on its way out, a rotating assembly you should not be standing beside.</li>
+</ul>
+<p>If you change a part, write down what the measurement was before and after. &quot;Better&quot; is not a number. A number can be checked by the next person, who may be you, in the rain, with worse light.</p>
+<h2>Weather, which is also a mechanic</h2>
+<p>Engines breathe. Air density changes with height, heat, humidity, and the barometer. Thinner air means less oxygen in each gulp, and usually less power, unless something — a control system, a turbo, a patient retune — compensates. Weather also changes whether the fuel will vapourise for a cold start, whether the battery can be bothered, how thick the oil is, how hot the cooling air already is, whether the intake is drinking water, how fast the filter fills with dust or ash, and whether a still evening will hold the exhaust against the ground.</p>
+<p>Salt and damp are a slow disassembly. Lightning and wet ground make the electrical path and the fuel path worse neighbours than usual. Keep generators away from dwellings, windows, vents, and doors. Store fuel in lawful containers, away from ignition and away from sleep.</p>
+<h2>If the world has actually fallen over</h2>
+<p>Prioritise machines by what they can do for the living, not by how they sound in a story.</p>
+<ol>
+<li>Hand tools, and tools that measure.</li>
+<li>Pumps, and a way to make water drinkable.</li>
+<li>Small engines a person can actually repair.</li>
+<li>Charging, and low-voltage electrics.</li>
+<li>Generators, and guarded belt drives.</li>
+<li>The machines that mill, saw, drill, and work the ground.</li>
+<li>Transport, and the drivetrains that make transport more than a push.</li>
+<li>Only then the large steam, the large diesel, the turbine, the industrial plant.</li>
+<li>Precision manufacture, metallurgy, and machine tools, which are how the earlier items continue to exist.</li>
+</ol>
+<p>Keep the service manuals and the parts drawings. Keep fasteners, seals, lubricants, plugs, filters, belts, hose, wire, fuses, bearings, and gaskets. Keep the meters. Keep the knowledge of welding, brazing, machining, casting, and heat treatment, on paper, because paper does not need a bootloader. Keep every measurement that worked, and every modification, in a notebook that is not stored in the same puddle as the engine.</p>
+<p>The engine is half of a civilisation. The other half is the workshop that can measure, repair, align, clean, lubricate, and teach. A roaring machine and a silent workshop is a countdown.</p>
+<h2>Numbers you may carry, and must not worship</h2>
+<div class="table-wrap"><table>
+<thead>
+<tr>
+<th>Item</th>
+<th>The figure in the source notes</th>
+<th>The caveat that keeps it honest</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>Petrol thermal efficiency, cited</td>
+<td>About 30 percent</td>
+<td>Load and design move it</td>
+</tr>
+<tr>
+<td>Diesel benchmark, cited</td>
+<td>About 40 to 45 percent</td>
+<td>A band, not your nameplate</td>
+</tr>
+<tr>
+<td>Petrol shelf life, cited</td>
+<td>3 to 6 months</td>
+<td>Heat, air, the blend, and the can all vote</td>
+</tr>
+<tr>
+<td>Oil in a dormant bore</td>
+<td>24 to 48 hours</td>
+<td>A hard seizure may want longer</td>
+</tr>
+<tr>
+<td>Carburettor bath</td>
+<td>About 93 °C / 200 °F</td>
+<td>Only parts that can stand it; watch the heat</td>
+</tr>
+<tr>
+<td>Soak</td>
+<td>About 20 to 30 minutes</td>
+<td>Then look, do not assume</td>
+</tr>
+<tr>
+<td>Ethanol jet example</td>
+<td>About 20 to 40 percent on diameter</td>
+<td>An example, then you measure</td>
+</tr>
+<tr>
+<td>Ethanol timing example</td>
+<td>Up toward about 22° before top dead centre</td>
+<td>Copying it blindly is how knock starts</td>
+</tr>
+<tr>
+<td>Wood-gas power</td>
+<td>Roughly 30 percent down on petrol, in the notes</td>
+<td>Gas quality rules</td>
+</tr>
+<tr>
+<td>Simple-Fire band</td>
+<td>About 2 to 20 horsepower</td>
+<td>Experimental, not a certificate</td>
+</tr>
+</tbody></table></div>
+<h2>What this edition will not pretend to contain</h2>
+<p>There is no safe from-scratch recipe here for crankshafts, rods, pistons, rings, or liners. None for a certified boiler or any other pressure vessel. None for high-pressure diesel injection. None for a jet, a ramjet, a scramjet, a rocket, or an afterburner you could mistake for a project. None for industrial distillation or a chemical plant. None for weapons. None for an unreviewed high-voltage lash-up. None for a universal limit of speed, temperature, pressure, or torque that would let you skip the manual for the engine in front of you.</p>
+<p>Those things need specifications, fatigue, heat, tolerances, inspection, and a code. &quot;The apocalypse made me do it&quot; is not a pressure-vessel code. It is a sentence. Sentences do not hold pressure.</p>
+<p>Start with a known engine. Make it safe. Make it turn. Make it breathe. Make it lubricate. Make it spark, or inject, at the right time. Make it cool. Then make it work.</p>
+<p>Only after that should you ask it to run on the forest, pull a load, charge a settlement, or outlast the horde.</p>
+<p>The dead may walk. The engine still needs oil. The oil is due in the morning, and the morning does not care whether you felt finished tonight.</p></div>
+</article>
+<section class="matter page-recto" id="afterword">
+  <h1>Afterword</h1>
+  <div class="prose"><p>The last chapter of an engine book is a temptation to get solemn about civilisation. Resist it a little. The yard is not a chapel. It is a patch of ground you share with whoever needs water moved, grain milled, or a battery persuaded back to life, and the courtesy that keeps it usable is older than any of us: check the oil, point the exhaust away from the living, and leave a way to stop the machine that does not involve a hero.</p>
+<p>If you have read this far you already know the unglamorous truth. Torque without control is a rumor. Power without cooling is a fire. The question here is not how loud the engine can be. It is whether the next person can start it, load it, and shut it down without becoming the incident. The person who brings a spare filter will be remembered more kindly than the person who brings a speech.</p>
+<p>The zombies, if you still need them, are only the name we gave the interruption. A dry start is one. A belt with no guard is one. Panic that wires the choke open and walks away is one. You do not beat them by adding boost. You beat them by being able to explain, on paper, what the machine is supposed to do when the morning comes back.</p>
+<p>Leave a note on the cowling. Tell someone else the oil grade, the fuel, and where the stop is. When you are done for the night, say so, and shut it down on purpose, so nobody sits up listening to an idle out of loyalty.</p>
+<p>The signature under an afterword belongs to the person who stands by the book. That line is blank until you want it.</p>
+<p>Check the oil. Then quiet.</p></div>
+  <p class="blank"><span>Author</span></p>
+<p class="blank"><span>Place and date</span></p>
+</section>
+<section class="matter page-flow" id="ack">
+  <h1>Acknowledgments</h1>
+  <p>The author wishes to thank</p>
+  <p class="blank"><span>Name</span></p>
+<p class="blank"><span>Name</span></p>
+<p class="blank"><span>Name</span></p>
+  <p class="quiet">and the person who said, once more, check the oil before you blame the horde.</p>
+</section>
+<section class="matter page-flow" id="author">
+  <h1>About the author</h1>
+  <p class="blank"><span>Name</span></p>
+  <p class="quiet">was born in</p>
+  <p class="blank"><span>Place</span></p>
+  <p class="quiet">Two or three sentences of biography. Leave this until you are ready to sign the book.</p>
+  <p class="blank"><span>A line</span></p>
+<p class="blank"><span>Another</span></p>
+<p class="blank"><span>They live in</span></p>
+</section>
+<section class="matter page-recto" id="soon">
+  <h1>Also forthcoming</h1>
+  <p class="quiet">from</p>
+  <p class="blank"><span>Publisher</span></p>
+  <p class="note">Placeholder titles, so the page has the right furniture. Replace them with the real list.</p>
+  <h2>Zombieproof Radio</h2><p>Volume I, already on the shelf. The air, if the bench ever lets you stand up. Thirty-eight chapters, and a flower in the antenna.</p>
+<h2>Zombieproof Computers</h2><p>Volume II, already on the shelf. A mind that still remembers the list in the morning. Seventeen chapters, and a daisy in the drive.</p>
+<h2>Zombieproof Water</h2><p>A thin book that does not exist yet, about pumps, filters, and the unglamorous business of not dying of thirst while the engine showboats. Placeholder furniture. Write the real title over it.</p>
+</section>
+<section class="matter page-flow" id="colophon">
+  <h1>Colophon</h1>
+  <p>Zombieproof Engines: How to Keep the Wheels Turning was set in Fraunces and Literata. The plates were drawn for this edition. The text was prepared from a foundation draft on engines, fuels, and revival, then dressed in the voice of the yard. The numbers were kept where the draft gave them, and labelled as indicative. Nothing in the arithmetic was promoted to a universal recipe.</p>
+<p>Trim: six by nine inches. The author, the dedication, and the publisher are intentionally blank.</p>
+<p>If you are holding a file and not a book, print it on paper that can stand a workbench. Leave the last page near the machine, not in a drawer. The oil is still due.</p>
+  <p class="blank"><span>Publisher</span></p>
+<p class="blank"><span>City</span></p>
+</section>
+</body>
+</html>
