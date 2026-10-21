@@ -1,0 +1,2172 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<title>Zombieproof Radio</title>
+<style>
+
+@font-face{font-family:Fraunces;src:url("../../node_modules/@fontsource/fraunces/files/fraunces-latin-600-normal.woff") format("woff");font-weight:600;font-style:normal;font-display:swap;}
+@font-face{font-family:Fraunces;src:url("../../node_modules/@fontsource/fraunces/files/fraunces-latin-700-normal.woff") format("woff");font-weight:700;font-style:normal;font-display:swap;}
+@font-face{font-family:Fraunces;src:url("../../node_modules/@fontsource/fraunces/files/fraunces-latin-500-italic.woff") format("woff");font-weight:500;font-style:italic;font-display:swap;}
+@font-face{font-family:Literata;src:url("../../node_modules/@fontsource/literata/files/literata-latin-400-normal.woff") format("woff");font-weight:400;font-style:normal;font-display:swap;}
+@font-face{font-family:Literata;src:url("../../node_modules/@fontsource/literata/files/literata-latin-400-italic.woff") format("woff");font-weight:400;font-style:italic;font-display:swap;}
+@font-face{font-family:Literata;src:url("../../node_modules/@fontsource/literata/files/literata-latin-700-normal.woff") format("woff");font-weight:700;font-style:normal;font-display:swap;}
+@font-face{font-family:Literata;src:url("../../node_modules/@fontsource/literata/files/literata-latin-700-italic.woff") format("woff");font-weight:700;font-style:italic;font-display:swap;}
+* { box-sizing: border-box; }
+html, body { margin: 0; padding: 0; }
+body { font-family: Literata, Palatino, serif; font-size: 10.5pt; line-height: 1.45; color: #1c1712; }
+@page { size: 6in 9in; margin: 0.68in 0.66in 0.7in 0.66in;
+  @top-center { content: "ZOMBIEPROOF RADIO"; font-family: Fraunces, serif; font-size: 8pt; letter-spacing: 0.16em; color: #8a7d6b; }
+  @bottom-center { content: counter(page); font-family: Literata, serif; font-size: 9pt; color: #4e463c; }
+}
+@page :first { margin: 0; @top-center { content: none; } @bottom-center { content: none; } }
+@page silent { margin: 0.75in 0.7in; @top-center { content: none; } @bottom-center { content: none; } }
+.coverpage { width: 6in; height: 9in; display: flex; flex-direction: column; background: #f3ead8; break-after: page; }
+.cover-art { flex: 1; background: url("art/cover.jpg") center 28% / cover no-repeat; }
+.cover-band { height: 1.72in; padding: 0.22in 0.42in 0.28in; background: #f3ead8; color: #1c1712; }
+.cover-band .kicker, .kicker { font-family: Fraunces, serif; letter-spacing: 0.18em; text-transform: uppercase; font-size: 8.5pt; color: #8c3014; margin: 0 0 0.15in; }
+.cover-band h1 { font-family: Fraunces, serif; font-weight: 600; font-size: 32pt; line-height: 0.9; margin: 0; }
+.cover-band .sub { font-family: Fraunces, serif; font-style: italic; font-weight: 500; font-size: 12pt; margin: 0.12in 0 0; color: #3e4a32; }
+h1 { font-family: Fraunces, serif; font-weight: 600; font-size: 22pt; line-height: 1.12; margin: 0 0 0.35em; }
+h2 { font-family: Fraunces, serif; font-weight: 600; font-size: 13.5pt; line-height: 1.25; margin: 1.15em 0 0.3em; break-after: avoid; }
+h3 { font-family: Fraunces, serif; font-weight: 500; font-size: 12pt; margin: 1em 0 0.25em; break-after: avoid; }
+p { margin: 0.45em 0; orphans: 3; widows: 3; hyphens: auto; }
+.label { font-family: Fraunces, serif; letter-spacing: 0.16em; text-transform: uppercase; font-size: 9pt; color: #8c3014; margin: 0 0 0.2em; }
+.blank-verso { height: 1in; break-after: page; page: silent; }
+.half, .frontis, .title { page: silent; break-after: page; }
+.half { padding-top: 2.4in; }
+.half h1 { font-size: 36pt; line-height: 0.92; }
+.ornament { text-align: center; letter-spacing: 0.4em; color: #8c3014; margin-top: 0.6in; }
+.frontis img { width: 3.5in; display: block; margin: 0.3in auto 0.35in; }
+.frontis blockquote, blockquote { margin: 0.6em 0 0.8em; padding: 0; border: 0; }
+blockquote p { font-family: Fraunces, serif; font-style: italic; font-weight: 500; font-size: 13pt; line-height: 1.35; }
+cite { display: block; margin-top: 0.35em; font-style: normal; font-size: 9.5pt; color: #4e463c; }
+.title { padding-top: 1.5in; }
+.title h1 { font-size: 28pt; }
+.title .sub { font-family: Fraunces, serif; font-style: italic; font-size: 14pt; color: #3e4a32; }
+.title-gap { height: 0.8in; }
+.blank { border-bottom: 1px solid #1c1712; margin: 0.85em 0 0.15em; min-height: 1.15em; position: relative; break-inside: avoid; }
+.blank span { position: absolute; top: -0.15em; font-family: Fraunces, serif; font-size: 8pt; letter-spacing: 0.14em; text-transform: uppercase; color: #8a7d6b; }
+.quiet, .note, .small { color: #4e463c; }
+.note { font-style: italic; }
+.copy h1, .dedi h1 { font-size: 18pt; }
+.page-front { break-before: page; }
+.page-flow { break-before: page; }
+.page-recto { break-before: right; }
+.dedi { break-before: right; padding-top: 1.4in; }
+.toc-part { font-family: Fraunces, serif; font-weight: 600; margin: 0.85em 0 0.2em; font-size: 11pt; }
+.toc-row { display: flex; align-items: baseline; gap: 0.35em; text-decoration: none; color: inherit; margin: 0.12em 0; break-inside: avoid; }
+.toc-n { width: 1.5em; font-variant-numeric: tabular-nums; color: #8c3014; }
+.toc-dots { flex: 1; border-bottom: 1px dotted #b7aa94; transform: translateY(-0.18em); min-width: 0.8em; }
+.pg { min-width: 1.5em; text-align: right; font-variant-numeric: tabular-nums; }
+.plate-list { padding-left: 1.2em; }
+.plate-list li { margin: 0.2em 0; }
+.part { page: silent; break-before: right; break-after: page; height: 7.4in; position: relative; }
+.part-inner { position: absolute; left: 0; right: 0; bottom: 0.4in; }
+.part h1 { font-size: 28pt; }
+.part .blurb { font-family: Fraunces, serif; font-style: italic; font-weight: 500; font-size: 13pt; }
+.chapter { break-before: page; }
+.plate { margin: 0.2em 0 0.8em; break-inside: avoid; }
+.plate img { width: 100%; height: auto; display: block; }
+figcaption { font-family: Fraunces, serif; font-style: italic; font-weight: 500; font-size: 9.5pt; color: #4e463c; margin-top: 0.28em; }
+.prose ul, .prose ol { padding-left: 1.15em; margin: 0.4em 0; }
+.prose li { margin: 0.18em 0; }
+.prose strong { font-weight: 700; }
+.prose em { font-style: italic; }
+.lede::first-letter { font-family: Fraunces, serif; font-weight: 600; float: left; font-size: 2.7em; line-height: 0.8; padding-right: 0.06em; color: #8c3014; }
+.table-wrap { break-inside: avoid; margin: 0.6em 0 0.8em; }
+table { width: 100%; border-collapse: collapse; font-size: 9pt; line-height: 1.35; }
+th { font-family: Fraunces, serif; font-weight: 600; text-align: left; border-bottom: 1px solid #1c1712; padding: 0.25em 0.45em 0.25em 0; }
+td { border-bottom: 1px solid #d2c4aa; padding: 0.28em 0.45em 0.28em 0; vertical-align: top; }
+.math { font-family: Fraunces, serif; white-space: nowrap; }
+.math.display { display: block; text-align: center; margin: 0.7em 0; white-space: normal; }
+.frac { display: inline-flex; flex-direction: column; vertical-align: middle; text-align: center; font-size: 0.92em; line-height: 1.05; margin: 0 0.15em; }
+.frac .num { border-bottom: 1px solid currentColor; padding: 0 0.2em 0.04em; }
+.frac .den { padding: 0.04em 0.2em 0; }
+.sup, .sub { font-size: 0.7em; line-height: 0; }
+.sup { vertical-align: super; }
+.sub { vertical-align: sub; }
+.sqrt .rad { border-top: 1px solid currentColor; padding: 0 0.12em; }
+.tex-text { font-family: Literata, serif; font-style: normal; font-size: 0.92em; }
+
+</style>
+</head>
+<body>
+<section class="coverpage">
+  <div class="cover-art"></div>
+  <div class="cover-band">
+    <p class="kicker">A field manual</p>
+    <h1>Zombieproof<br/>Radio</h1>
+    <p class="sub">How to Stay Alive<br/>on the Airwaves</p>
+  </div>
+</section>
+<section class="blank-verso"></section>
+<section class="half silent-page" id="halftitle">
+  <p class="kicker">A field manual</p>
+  <h1>Zombieproof<br/>Radio</h1>
+  <p class="ornament">— · —</p>
+</section>
+<section class="frontis silent-page" id="frontis">
+  <img src="art/frontis.jpg" alt="A radio, a flower, and a sleeping listener"/>
+  <blockquote><p>If you can hear this, you are not alone. If you can answer, bring snacks.</p><cite>— Overheard, and not logged</cite></blockquote>
+</section>
+<section class="title silent-page" id="title">
+  <p class="kicker">A field manual in thirty-eight chapters</p>
+  <h1>Zombieproof Radio</h1>
+  <p class="sub">How to Stay Alive on the Airwaves</p>
+  <div class="title-gap"></div>
+  <p class="blank"><span>Author</span></p>
+<p class="blank"><span>Publisher</span></p>
+<p class="blank"><span>City</span></p>
+</section>
+<section class="copy page-front" id="copyright">
+  <h1>Copyright</h1>
+  <p class="small">Copyright ©</p>
+  <p class="blank"><span>Year</span></p>
+<p class="blank"><span>Author</span></p>
+  <p>All rights reserved. No part of this book may be reproduced, stored, or transmitted in any form — print, electronic, photocopy, recording, semaphore, or dubious packet burst — without the prior written permission of the publisher, except for brief passages in a review, a logbook, or a transmission you would not be ashamed to have played back.</p>
+  <p class="blank"><span>Publisher</span></p>
+<p class="blank"><span>Place of publication</span></p>
+  <p class="small">First edition</p>
+  <p class="blank"><span>Year of publication</span></p>
+<p class="blank"><span>ISBN</span></p>
+<p class="blank"><span>Cataloguing-in-publication data</span></p>
+  <p>This is a work of humor and amateur curiosity. It is not legal advice, engineering certification, medical advice, or permission to transmit, jam, intercept, or otherwise bother a signal you do not have the right to touch. Laws outlive grids. Get a license where a license is required. Do not take apart a mains-powered device if you like your fingers. The undead are a metaphor. The responsibility is not.</p>
+  <p class="small">Illustrations made for this edition. Author, dedication, and publisher left blank to be filled in ink.</p>
+  <p class="blank"><span>Printed in</span></p>
+</section>
+<section class="dedi page-front" id="dedication">
+  <h1>Dedication</h1>
+  <p class="quiet">For</p>
+  <p class="blank"><span>Name</span></p>
+<p class="blank"><span>And, if you like, a line</span></p>
+<p class="blank"><span>And one more</span></p>
+</section>
+<section class="praise page-flow" id="praise">
+  <h1>Early word from the air</h1>
+  <p class="note">Stand-in notices, so the page has a shape. Cross them out. Put real readers here.</p>
+  <blockquote><p>I read the antenna chapter aloud to my wire. It stood up straighter. I have witnesses, and they are tired.</p><cite>— Night watch, channel unknown</cite></blockquote>
+<blockquote><p>Finally, a manual that admits the hard part is not the horde. The hard part is the connector you dropped in the gravel.</p><cite>— A person who would like their coordinates withheld</cite></blockquote>
+<blockquote><p>I fell asleep somewhere near the crystal filter and woke up licensed in spirit, which is not a real license. Please do not write the commission.</p><cite>— The Committee for Slightly Longer Batteries</cite></blockquote>
+<blockquote><p>The pictures understand the assignment. The undead are trying. So are we. I kept it between the iodine and the good spoon.</p><cite>— Go-bag inspection, mile marker blank</cite></blockquote>
+<blockquote><p>Heard a bit of chapter one read over the air. The carrier was clean. The reader laughed once, which is the correct number of times.</p><cite>— DX, identity unconfirmed, manners excellent</cite></blockquote>
+</section>
+<section class="contents page-flow" id="contents">
+  <h1>Contents</h1>
+  <a class="toc-row" href="#foreword"><span class="toc-n"></span><span class="toc-t">Foreword</span><span class="toc-dots"></span><span class="pg">14</span></a>
+<a class="toc-row" href="#preface"><span class="toc-n"></span><span class="toc-t">A note on the drafts</span><span class="toc-dots"></span><span class="pg">16</span></a>
+<p class="toc-part">Part I · The Air Itself</p>
+<a class="toc-row" href="#ch01"><span class="toc-n">1</span><span class="toc-t">What Is Radio? (And Why Zombies Should Care)</span><span class="toc-dots"></span><span class="pg">18</span></a>
+<a class="toc-row" href="#ch02"><span class="toc-n">2</span><span class="toc-t">The Physics of Waves — How Radio Becomes Superpowered</span><span class="toc-dots"></span><span class="pg">21</span></a>
+<a class="toc-row" href="#ch03"><span class="toc-n">3</span><span class="toc-t">Signal Science — Types, Strength, and Survival</span><span class="toc-dots"></span><span class="pg">25</span></a>
+<a class="toc-row" href="#ch04"><span class="toc-n">4</span><span class="toc-t">Antennas — Your Signal’s Best Friend (and Sometimes Worst Enemy)</span><span class="toc-dots"></span><span class="pg">28</span></a>
+<a class="toc-row" href="#ch05"><span class="toc-n">5</span><span class="toc-t">Radio Protocols &amp; Data — Speaking Zombie Fluently</span><span class="toc-dots"></span><span class="pg">31</span></a>
+<p class="toc-part">Part II · Hands, Wire, and Smoke</p>
+<a class="toc-row" href="#ch06"><span class="toc-n">6</span><span class="toc-t">Projects and Practical Builds — Fox Hunting, Reverse Engineering &amp; Survivor Hacks</span><span class="toc-dots"></span><span class="pg">35</span></a>
+<a class="toc-row" href="#ch07"><span class="toc-n">7</span><span class="toc-t">Advanced Radio Hacking, Jamming, and Security — Outsmart the Horde</span><span class="toc-dots"></span><span class="pg">38</span></a>
+<a class="toc-row" href="#ch08"><span class="toc-n">8</span><span class="toc-t">Satellite Comms, Weather, and Space Survival Radio</span><span class="toc-dots"></span><span class="pg">41</span></a>
+<a class="toc-row" href="#ch09"><span class="toc-n">9</span><span class="toc-t">Troubleshooting and Repair — Keep Your Radio Alive</span><span class="toc-dots"></span><span class="pg">44</span></a>
+<a class="toc-row" href="#ch10"><span class="toc-n">10</span><span class="toc-t">Power &amp; Endurance — Keep Your Radio Running While Zombies Hunt</span><span class="toc-dots"></span><span class="pg">47</span></a>
+<p class="toc-part">Part III · The Net That Heals</p>
+<a class="toc-row" href="#ch11"><span class="toc-n">11</span><span class="toc-t">Mesh Networks and Resilient Zombieproof Data Webs</span><span class="toc-dots"></span><span class="pg">51</span></a>
+<a class="toc-row" href="#ch12"><span class="toc-n">12</span><span class="toc-t">Software Defined Radio (SDR) and Software Tools — Your Ultimate Radio Hack Kit</span><span class="toc-dots"></span><span class="pg">54</span></a>
+<a class="toc-row" href="#ch13"><span class="toc-n">13</span><span class="toc-t">Radio Wave Propagation &amp; Environment Effects — Navigating the Zombie Jungle</span><span class="toc-dots"></span><span class="pg">57</span></a>
+<p class="toc-part">Part IV · A Cleaner Signal</p>
+<a class="toc-row" href="#ch14"><span class="toc-n">14</span><span class="toc-t">Advanced Circuits, Filters, and Noise Reduction — Building Clean Radio Systems</span><span class="toc-dots"></span><span class="pg">61</span></a>
+<a class="toc-row" href="#ch15"><span class="toc-n">15</span><span class="toc-t">Digital Signal Processing and Coding Techniques — Smarter Radio Survival</span><span class="toc-dots"></span><span class="pg">64</span></a>
+<a class="toc-row" href="#ch16"><span class="toc-n">16</span><span class="toc-t">Advanced Circuit Designs and Filters — Engineering High-Performance Radio Systems</span><span class="toc-dots"></span><span class="pg">67</span></a>
+<a class="toc-row" href="#ch17"><span class="toc-n">17</span><span class="toc-t">Integrating Advanced Designs into Full Radio Systems and Field Deployments</span><span class="toc-dots"></span><span class="pg">70</span></a>
+<p class="toc-part">Part V · The Long Watch</p>
+<a class="toc-row" href="#ch18"><span class="toc-n">18</span><span class="toc-t">Survival Stockpiling and Improvised Materials — Long-Term Maintenance for Zombieproof Radios</span><span class="toc-dots"></span><span class="pg">74</span></a>
+<a class="toc-row" href="#ch19"><span class="toc-n">19</span><span class="toc-t">Emergency Communications Setups, Portable Repeaters, and Low-Tech Hacks</span><span class="toc-dots"></span><span class="pg">77</span></a>
+<a class="toc-row" href="#ch20"><span class="toc-n">20</span><span class="toc-t">Securing Your Comms — Encryption Basics and Stealth Communication Techniques</span><span class="toc-dots"></span><span class="pg">80</span></a>
+<a class="toc-row" href="#ch21"><span class="toc-n">21</span><span class="toc-t">Advanced Monitoring, Signal Intelligence, and Counter-Surveillance</span><span class="toc-dots"></span><span class="pg">83</span></a>
+<p class="toc-part">Part VI · Machines That Listen</p>
+<a class="toc-row" href="#ch22"><span class="toc-n">22</span><span class="toc-t">AI and Automation Integration — Smarter Survival Comms</span><span class="toc-dots"></span><span class="pg">87</span></a>
+<a class="toc-row" href="#ch23"><span class="toc-n">23</span><span class="toc-t">AI-Driven Mesh Network Optimization and Autonomous Communication Nodes</span><span class="toc-dots"></span><span class="pg">90</span></a>
+<a class="toc-row" href="#ch24"><span class="toc-n">24</span><span class="toc-t">AI-Powered Signal Decoding and Adaptive Encryption for Stealth Comms</span><span class="toc-dots"></span><span class="pg">93</span></a>
+<a class="toc-row" href="#ch25"><span class="toc-n">25</span><span class="toc-t">Practical AI Projects for Radio Enthusiasts and Survivalists</span><span class="toc-dots"></span><span class="pg">96</span></a>
+<p class="toc-part">Part VII · Protocols of the Rubble</p>
+<a class="toc-row" href="#ch26"><span class="toc-n">26</span><span class="toc-t">POCSAG, SMS, and Ringtone Formats — Decoding Basics and Protocol Insights</span><span class="toc-dots"></span><span class="pg">99</span></a>
+<a class="toc-row" href="#ch27"><span class="toc-n">27</span><span class="toc-t">The Zombieproof Radio Lab Essentials</span><span class="toc-dots"></span><span class="pg">102</span></a>
+<a class="toc-row" href="#ch28"><span class="toc-n">28</span><span class="toc-t">Contactless Transactions in the Apocalypse</span><span class="toc-dots"></span><span class="pg">108</span></a>
+<a class="toc-row" href="#ch29"><span class="toc-n">29</span><span class="toc-t">Bluetooth and Wireless Survival</span><span class="toc-dots"></span><span class="pg">111</span></a>
+<a class="toc-row" href="#ch30"><span class="toc-n">30</span><span class="toc-t">Digital FM Receivers and RDS Data</span><span class="toc-dots"></span><span class="pg">113</span></a>
+<a class="toc-row" href="#ch31"><span class="toc-n">31</span><span class="toc-t">Packet Radio and UDP Networking</span><span class="toc-dots"></span><span class="pg">115</span></a>
+<a class="toc-row" href="#ch32"><span class="toc-n">32</span><span class="toc-t">Advanced Protocols: MFSK, DominoEX, and Thor</span><span class="toc-dots"></span><span class="pg">117</span></a>
+<p class="toc-part">Part VIII · Eyes and Handshakes</p>
+<a class="toc-row" href="#ch33"><span class="toc-n">33</span><span class="toc-t">WiFi and SHF Radar for Zombie Detection</span><span class="toc-dots"></span><span class="pg">120</span></a>
+<a class="toc-row" href="#ch34"><span class="toc-n">34</span><span class="toc-t">The Secret Handshakes of Ham Radio</span><span class="toc-dots"></span><span class="pg">122</span></a>
+<a class="toc-row" href="#ch35"><span class="toc-n">35</span><span class="toc-t">Hardware Operation and Troubleshooting</span><span class="toc-dots"></span><span class="pg">124</span></a>
+<a class="toc-row" href="#ch36"><span class="toc-n">36</span><span class="toc-t">Protocols and Security in the Apocalypse</span><span class="toc-dots"></span><span class="pg">127</span></a>
+<p class="toc-part">Part IX · Last Light</p>
+<a class="toc-row" href="#ch37"><span class="toc-n">37</span><span class="toc-t">RF Survival Guide</span><span class="toc-dots"></span><span class="pg">131</span></a>
+<a class="toc-row" href="#ch38"><span class="toc-n">38</span><span class="toc-t">The Final Transmission</span><span class="toc-dots"></span><span class="pg">133</span></a>
+<a class="toc-row" href="#afterword"><span class="toc-n"></span><span class="toc-t">Afterword</span><span class="toc-dots"></span><span class="pg">135</span></a>
+<a class="toc-row" href="#ack"><span class="toc-n"></span><span class="toc-t">Acknowledgments</span><span class="toc-dots"></span><span class="pg">136</span></a>
+<a class="toc-row" href="#author"><span class="toc-n"></span><span class="toc-t">About the author</span><span class="toc-dots"></span><span class="pg">137</span></a>
+<a class="toc-row" href="#soon"><span class="toc-n"></span><span class="toc-t">Also forthcoming</span><span class="toc-dots"></span><span class="pg">138</span></a>
+<a class="toc-row" href="#colophon"><span class="toc-n"></span><span class="toc-t">Colophon</span><span class="toc-dots"></span><span class="pg">139</span></a>
+</section>
+<section class="plates page-flow" id="plates">
+  <h1>List of plates</h1>
+  <ol class="plate-list">
+    <li><span>Plate 1. A briefing. The zombie is not retaining it.</span></li>
+<li><span>Plate 2. The wave, which does not wait for you to be ready.</span></li>
+<li><span>Plate 3. Signal strength, measured in hope.</span></li>
+<li><span>Plate 4. A dipole is just a coat hanger that went to school.</span></li>
+<li><span>Plate 5. How a radio says please and thank you.</span></li>
+<li><span>Plate 6. The fox is a transmitter. The zombie brought binoculars anyway.</span></li>
+<li><span>Plate 7. The jammer is loud. The little radio is not impressed.</span></li>
+<li><span>Plate 8. If the sky can see you, the weather can too.</span></li>
+<li><span>Plate 9. The patient is a radio. The prognosis is beeps.</span></li>
+<li><span>Plate 10. Power, which is a polite word for not going quiet.</span></li>
+<li><span>Plate 11. Every node is someone’s cousin.</span></li>
+<li><span>Plate 12. The waterfall. Pretty, and occasionally useful.</span></li>
+<li><span>Plate 13. The hill keeps the signal. The shopping cart has opinions.</span></li>
+<li><span>Plate 14. For noise, not for zombies. Unfortunately.</span></li>
+<li><span>Plate 15. The machine looks for the dit and the dah.</span></li>
+<li><span>Plate 16. Rocks that learned to keep time.</span></li>
+<li><span>Plate 17. The shopping cart has been promoted.</span></li>
+<li><span>Plate 18. Label everything. The zombie will not.</span></li>
+<li><span>Plate 19. Gossip, with better range.</span></li>
+<li><span>Plate 20. Say it once. Then let the page go.</span></li>
+<li><span>Plate 21. Three bearings, and a very embarrassed transmitter.</span></li>
+<li><span>Plate 22. The night shift has been automated. Tip it in batteries.</span></li>
+<li><span>Plate 23. It has already made friends with a pigeon.</span></li>
+<li><span>Plate 24. Static in, paper airplane out. Read it before you trust it.</span></li>
+<li><span>Plate 25. Small proofs of concept. Medium crumbs.</span></li>
+<li><span>Plate 26. Something in the pager band would like a word.</span></li>
+<li><span>Plate 27. Do not let the zombie hold the hot end.</span></li>
+<li><span>Plate 28. Rocks are not a recognized tender.</span></li>
+<li><span>Plate 29. Short range, long feelings, one dead battery.</span></li>
+<li><span>Plate 30. The dashboard still knows the song. Nobody asked it to.</span></li>
+<li><span>Plate 31. Letters that refused to take the road.</span></li>
+<li><span>Plate 32. They sing when the channel is cruel.</span></li>
+<li><span>Plate 33. It sees shuffling, not souls.</span></li>
+<li><span>Plate 34. The secret is mostly not talking over each other.</span></li>
+<li><span>Plate 35. Smoke is a diagnostic. It is not a feature.</span></li>
+<li><span>Plate 36. A lock on the microphone is still a lock.</span></li>
+<li><span>Plate 37. Lay the kit out before the night does it for you.</span></li>
+<li><span>Plate 38. Leave the frequency open. Someone is still tuning.</span></li>
+  </ol>
+</section>
+<section class="matter page-recto" id="foreword">
+  <h1>Foreword</h1>
+  <div class="prose"><p>Someone always asks, at the bad moment, whether the radio is on. They mean: is there a voice. They mean: are we still a we.</p>
+<p>This manual is an answer with grease on it. It begins where radio actually begins, which is not with a brand of handset but with a wave that does not care about your afternoon. Frequency, wavelength, the stubborn speed of light. Then antennas, which are only metal arranged so the air will agree with you. Then the languages signals speak when they are trying not to be mistaken for noise. Then the unglamorous trinity: power, repair, and a place to put the thing so the rain, and the neighbors, do not improve it.</p>
+<p>You will find projects. Some of them can be done with scavenged wire and a patience you may have to borrow. Some of them want a software-defined radio, a notebook, and the humility to read the band plan before you key up. Later chapters wander into pagers, contactless scraps, packet, radar-ish tricks, and the old secret of amateur radio, which was never secret: listen more than you talk, and sign your work.</p>
+<p>The zombies are a convenience. They stand in for every reason a network fails. Panic, distance, weather, a dead battery, a person who will not stop transmitting their grocery list on the calling frequency. If you are reading this while the world is, against the odds, still answering its phone, the zombies will not mind. The physics is the same on a Tuesday.</p>
+<p>A word about the pages that mention jamming, interception, and cleverness at other people’s expense. Cleverness is not a license. The book says so in its own chapters, and the copyright page says so again, because some readers skip to the interesting part. Be one of the ones who does not.</p>
+<p>What I hope you keep is not a single circuit. It is the habit of a net: a time, a frequency, a way to say you are still there, and a way to say it shorter than your fear would prefer. Radios are poor company and excellent neighbors. They do not replace the person on the other end. They only make it possible for that person to be far away and still count.</p>
+<p>Leave your name off the title page until you want it there. The air does not require a byline. It requires a carrier, a little discipline, and somebody listening at the hour you promised.</p></div>
+  <p class="quiet sign-label">The foreword writer signs here.</p>
+  <p class="blank"><span>Name</span></p>
+<p class="blank"><span>Place and date</span></p>
+</section>
+<section class="matter page-flow" id="preface">
+  <h1>A note on the drafts</h1>
+  <div class="prose"><p>This manual was assembled from a stack of chapter drafts. They did not all arrive in the same handwriting. The early chapters are tight, technical, and fond of a formula. The later ones are looser, more of a campfire brief, and once or twice they promise a code listing that was never in the pile. Where a draft pointed at a missing file, or told you to see “the next markdown,” that crumb has been swept off the bench. The chapters themselves are the ones you brought.</p>
+<p>You can read it straight through, or raid the contents the way you would raid a parts bin. Part I is the physics you will pretend you already knew. The middle is wire, power, weather, and repair. The last third is protocols, lab scraps, and the long business of staying hearable.</p>
+<p>The formulas are the ordinary ones. An antenna in a real wind will disagree with them a little. That is not the formula being rude.</p>
+<p>There is a dull warning, and it is dull on purpose. Do not jam a frequency you do not have the right to touch. Do not intercept what is not yours. Do not transmit where you are not allowed. The jokes are jokes. A grid can fail and the rules about the spectrum can still be standing. Mains voltage does not care that you are improvising. If a chapter invites you to open a thing that plugs into a wall, assume it can bite.</p>
+<p>The dedication, the author’s name, and the publisher are blank on purpose. Write them in when you know them. Ink, not pencil. Pencil is for frequencies.</p></div>
+</section>
+<section class="part" id="part1"><div class="part-inner"><p class="label">Part I</p><h1>The Air Itself</h1><p class="blurb">What a wave is, before you trust it with a message.</p></div></section>
+<article class="chapter" id="ch01">
+  <p class="label">Chapter 1</p>
+  <h1>What Is Radio? (And Why Zombies Should Care)</h1>
+  <figure class="plate"><img src="art/ch01.jpg" alt="Plate 1. A briefing. The zombie is not retaining it."/><figcaption>Plate 1. A briefing. The zombie is not retaining it.</figcaption></figure>
+  <div class="prose"><p class="lede">Welcome, post-civ survivor! Whether you&#39;re scavenging K-pop t-shirts or building a bunker out of PlayStation cases, you’ll soon discover that <em>radio</em> is the real cheat-code for communication in the end times.</p>
+<h3>What Counts as &quot;Radio&quot;?</h3>
+<ul>
+<li>Radio is electromagnetic energy, part of the spectrum squeezed between sound waves and microwaves.</li>
+<li>It’s how walkie-talkies, satellites, airport scanners, your Bluetooth speaker, and even some microwaves talk to each other.</li>
+<li>Radios work by tossing electromagnetic waves (oscillating electric and magnetic fields) through space at the speed of light.</li>
+<li>Radio = electric and magnetic fields oscillating together</li>
+<li>Frequency (<span class="math">f</span>), wavelength (<span class="math">λ</span>), and the speed of light (<span class="math">c</span>) are related by <span class="math">λ = <span class="frac"><span class="num">c</span><span class="den">f</span></span></span>.</li>
+<li>Radio is strictly physical, not magic — and sometimes, not even digital!</li>
+</ul>
+<h3>A Brief Meme-Ridden History of Radio</h3>
+<ul>
+<li>In the 1930s-1940s, radios were living room centerpieces, bigger than most survivors&#39; bugout bags.</li>
+<li>Orson Welles panicked a nation with La Guerra de los Mundos (War of the Worlds) — proving radios could out-troll TikTok, even before trolls existed.</li>
+<li>Old-time shows were like audio Netflix, with suspense, laughs, and science fiction all at the twist of a dial.</li>
+</ul>
+<h3>Why Bother After the End of the World?</h3>
+<ul>
+<li>When the grid dies and cell towers are overrun by zombies (or just out-of-service teens), only radio still connects people.</li>
+<li>All modern “wireless” stuff — WiFi, Bluetooth, walkie-talkies, GPS, remote car keys, contactless credit cards — is just radio in a fancier wrapper.</li>
+<li>True apocalypse survivors use radio for:<ul>
+<li>Long-distance memes and squad comms.</li>
+<li>Weather alerts (to avoid mutant hurricanes).</li>
+<li>Fox hunting (actually finding hidden transmissions, not animals).</li>
+<li>Disaster coordination and hacking.</li>
+<li>Trolling and eavesdropping on the unprepared.</li>
+</ul>
+</li>
+</ul>
+<h3>Key Radio Terms You Actually Need</h3>
+<div class="table-wrap"><table>
+<thead>
+<tr>
+<th>Term</th>
+<th>Meaning</th>
+<th>Example &amp; Meme</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>Frequency (<span class="math">f</span>)</td>
+<td>Swings per second (Hertz, Hz)</td>
+<td>100 MHz = FM radio</td>
+</tr>
+<tr>
+<td>Wavelength (<span class="math">λ</span>)</td>
+<td>Distance between cycle peaks (<span class="math">c/f</span>), usually in meters</td>
+<td>3 meters for 100 MHz</td>
+</tr>
+<tr>
+<td>Modulation</td>
+<td>Encoding information on a wave</td>
+<td>AM, FM, FSK, PSK, all the classics</td>
+</tr>
+<tr>
+<td>Bandwidth</td>
+<td>How much information you can pack into a signal</td>
+<td>Narrowband walkie-talkie vs. Netflix stream</td>
+</tr>
+<tr>
+<td>Spectrum</td>
+<td>The whole range of radio frequencies</td>
+<td>&quot;The wild west of waves&quot;</td>
+</tr>
+</tbody></table></div>
+<h3>Next Up</h3>
+<ul>
+<li>The nuts and bolts: what makes “waves” work, what’s really inside a radio, and how to spot signals in the wild like a true radio witcher.</li>
+</ul></div>
+</article>
+
+<article class="chapter" id="ch02">
+  <p class="label">Chapter 2</p>
+  <h1>The Physics of Waves — How Radio Becomes Superpowered</h1>
+  <figure class="plate"><img src="art/ch02.jpg" alt="Plate 2. The wave, which does not wait for you to be ready."/><figcaption>Plate 2. The wave, which does not wait for you to be ready.</figcaption></figure>
+  <div class="prose"><h2>Introduction: Why Physics Matters (Even in the Zombie Apocalypse)</h2>
+<p>Before you start building antennas, hacking signals, or jammin’ droids, you gotta understand what actually makes a radio wave. Think of radio not as magic but as pure electromagnetic (EM) energy traveling at light-speed in the chaos of the spectrum.</p>
+<h2>Electromagnetic Waves: The Core Concept</h2>
+<ul>
+<li>All radio signals are EM waves, oscillating electric (<span class="math">E</span>) and magnetic (<span class="math">B</span>) fields intertwined.</li>
+<li>These waves are transverse, meaning the electric and magnetic fields are perpendicular to the wave’s direction.</li>
+<li>They carry energy across space, bouncing around like the chaos in a zombie horde.</li>
+</ul>
+<h2>Wave Parameters: Wavelength, Frequency, Speed</h2>
+<h3>Speed of Light</h3>
+<ul>
+<li>All EM waves travel at <span class="math">c = 299,792,458  <span class="tex-text">m/s</span></span>.  </li>
+<li>Imagine them as zombies moving at the speed of light—nothing can outrun them.</li>
+</ul>
+<h3>Wavelength (<span class="math">λ</span>)</h3>
+<ul>
+<li>Distance between two wave peaks.</li>
+<li><span class="math">λ = <span class="frac"><span class="num">c</span><span class="den">f</span></span></span>, where <span class="math">f</span> is the frequency.</li>
+</ul>
+<h3>Frequency (<span class="math">f</span>)</h3>
+<ul>
+<li>How many wave peaks pass a point per second.</li>
+<li>Hz (Hertz) for normal radios, kHz, MHz, GHz for different piles of spectrum.</li>
+</ul>
+<h3>Example Calculation</h3>
+<ul>
+<li>A 100 MHz FM station has a wavelength:<br><span class="math">λ = <span class="frac"><span class="num">3 × 10<span class="sup">8</span></span><span class="den">10<span class="sup">8</span></span></span> = 3  <span class="tex-text">m</span></span>.</li>
+</ul>
+<h2>How Waves Propagate</h2>
+<h3>Line of Sight (LOS)</h3>
+<ul>
+<li>In open terrain, waves travel straight like a laser beam—perfect for clear radio paths.</li>
+<li>No hills or zombies in the way: simple, direct.</li>
+</ul>
+<h3>Reflection &amp; Diffraction</h3>
+<ul>
+<li>When disruptive terrain (buildings, mountains, zombies) are present, waves bounce or bend.</li>
+<li>Critical for communication across ruins: antennas and waveguides are modern-day magic tools.</li>
+</ul>
+<h3>Interference &amp; Multipath</h3>
+<ul>
+<li>Multiple waves colliding may cancel out or amplify each other.</li>
+<li>Your signal could be zombie-strong or zombie-weak, depending on the chaos.</li>
+</ul>
+<h2>Attenuation &amp; Signal Loss</h2>
+<ul>
+<li>As waves travel, they weaken — similar to a meme losing punch the further it spreads.</li>
+<li>Decibels (<span class="math">dB</span>) measure how much the signal drops.</li>
+<li><span class="math">dB = 10 × log<span class="sub">10</span>(<span class="frac"><span class="num">P<span class="sub"><span class="tex-text">out</span></span></span><span class="den">P<span class="sub"><span class="tex-text">in</span></span></span></span>)</span></li>
+</ul>
+<h2>Modulation &amp; Data Embedding</h2>
+<ul>
+<li>Embedding info onto waves—like surreptitious radio memes or encrypted alien transmissions.</li>
+<li>Types:<ul>
+<li><strong>Amplitude Modulation (AM):</strong> Change the wave’s volume.</li>
+<li><strong>Frequency Modulation (FM):</strong> Change the pitch.</li>
+<li><strong>Phase Shift Keying (PSK):</strong> Shift the wave’s phase—great for hackers.</li>
+<li><strong>Frequency-Shift Keying (FSK):</strong> Switch between different frequencies.</li>
+</ul>
+</li>
+</ul>
+<h2>Signal Spectrum: The Wild West</h2>
+<ul>
+<li>Different signals occupy different bands:<ul>
+<li><strong>ELF (Extremely Low Frequency):</strong> Deep underground comms.</li>
+<li><strong>VLF (Very Low Frequency):</strong> Submarine comms.</li>
+<li><strong>HF (High Frequency, 3-30 MHz):</strong> CB, shortwave, pirate radio.</li>
+<li><strong>VHF, UHF (Very/Ultra High Frequency):</strong> TV, FM, cell phones, WiFi.</li>
+<li><strong>Microwaves (GHz):</strong> Radar, satellite links, microwave ovens.</li>
+</ul>
+</li>
+</ul>
+<h2>How to Visualize EM Waves</h2>
+<ul>
+<li><p>Imagine a wave as a roller coaster: height = electric field, vertical length = magnetic field.</p>
+</li>
+<li><p>Wavelength is the distance from the hilltops, frequency is how often the roller coaster rides pass.</p>
+</li>
+<li><p>Propagation techniques</p>
+</li>
+<li><p>Wave polarization and antenna interaction</p>
+</li>
+<li><p>Signal strength and difficult terrain</p>
+</li>
+<li><p>Building your first simple antenna</p>
+</li>
+</ul>
+<p><em>Keep this as your mental toolkit: understanding the waves makes hacking, building, or surviving with radios possible even when the zombies are knocking on your door.</em></p>
+<p>Next: <strong>Chapter 3: Building Your First Radio Receiver or Transmitter.</strong> Let me know if you want diagrams, formulas, or specific points highlighted. For now, this chapter is ready for your use!</p></div>
+</article>
+
+<article class="chapter" id="ch03">
+  <p class="label">Chapter 3</p>
+  <h1>Signal Science — Types, Strength, and Survival</h1>
+  <figure class="plate"><img src="art/ch03.jpg" alt="Plate 3. Signal strength, measured in hope."/><figcaption>Plate 3. Signal strength, measured in hope.</figcaption></figure>
+  <div class="prose"><h2>Overview: Why Signal Matters in Apocalypse Radio</h2>
+<p>If you want reliable comms, hack the spectrum, or just yak with your crew while zombies roam, understanding signal types, behaviors, and strengths is a must. This chapter unlocks the physics, math, and practicalities of signals—your lifeline in the airwaves.</p>
+<h2>Signal Types and Modulations</h2>
+<ul>
+<li><strong>Continuous Wave (CW):</strong> Simple on/off pulses, Morse code style, zombie classic.</li>
+<li><strong>Amplitude Modulation (AM):</strong> Vary signal strength to encode info; simple but noise-prone.</li>
+<li><strong>Frequency Modulation (FM):</strong> Shift frequency; less noise, better music and voices.</li>
+<li><strong>Phase Shift Keying (PSK):</strong> Hack-level encoding by changing phase of wave.</li>
+<li><strong>Frequency Shift Keying (FSK):</strong> Digital style frequency switches.</li>
+<li><strong>Spread Spectrum:</strong> Secret sauce for jam resistance and secure comms (includes FHSS and DSSS).</li>
+</ul>
+<h2>Signal Strength &amp; Measuring Power</h2>
+<ul>
+<li>Signal power measured in Watts (W) or dBm (decibels referenced to 1 milliwatt).</li>
+<li><span class="math">P(dBm) = 10 × log<span class="sub">10</span> left(<span class="frac"><span class="num">P(W)</span><span class="den">1mW</span></span>right)</span>.</li>
+<li>Field strength (Volts per meter, <span class="math">V/m</span>) tells actual wave voltage in air.</li>
+<li>Free space path loss (FSPL) law describes how signal weakens with distance <span class="math">d</span>:</li>
+</ul>
+<p><span class="math display">FSPL(dB) = 20 log<span class="sub">10</span>(d) + 20 log<span class="sub">10</span>(f) + 20 log<span class="sub">10</span> left(<span class="frac"><span class="num">4π</span><span class="den">c</span></span>right)</span></p>
+<ul>
+<li>Practical survival tip: antenna gain can boost received signal strength by degrees.</li>
+</ul>
+<h2>Signal-to-Noise Ratio (SNR)</h2>
+<ul>
+<li>How clean your signal is vs background noise.</li>
+<li>High SNR = clear messages; low SNR = zombie static and confusion.</li>
+<li>Techniques to improve SNR:<ul>
+<li>Use directional antennas.</li>
+<li>Increase transmitter power or receiver sensitivity.</li>
+<li>Use digital protocols with error correction.</li>
+</ul>
+</li>
+</ul>
+<h2>Doppler Effect in Radio</h2>
+<ul>
+<li>Moving zombies and vehicles change perceived frequency.</li>
+<li>Important for fast-moving drones or when tracking survivors.</li>
+<li>Formula for shifted frequency:</li>
+</ul>
+<p><span class="math display">f' = f × <span class="frac"><span class="num">c + v<span class="sub">r</span></span><span class="den">c + v<span class="sub">s</span></span></span></span></p>
+<p>  where <span class="math">v<span class="sub">r</span></span> and <span class="math">v<span class="sub">s</span></span> are velocities of receiver and source.</p>
+<h2>Advanced Signal Handling</h2>
+<ul>
+<li>Filtering: Removing unwanted frequencies/noise.</li>
+<li>Mixing and Heterodyning: Creating new frequencies by combining signals.</li>
+<li>IQ Modulation: Complex amplitude and phase control for SDR and advanced radios.</li>
+</ul>
+<h2>Signal Types Summary Table</h2>
+<div class="table-wrap"><table>
+<thead>
+<tr>
+<th>Signal Type</th>
+<th>Characteristics</th>
+<th>Usage</th>
+<th>Apocalypse Utility</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>CW (Morse Code)</td>
+<td>Simple on/off</td>
+<td>Basic text messaging</td>
+<td>Stealth comms with minimal power</td>
+</tr>
+<tr>
+<td>AM</td>
+<td>Strength varies, noisier</td>
+<td>AM radio, simple voice</td>
+<td>Low-tech, widely understood</td>
+</tr>
+<tr>
+<td>FM</td>
+<td>Frequency varies, noise-resistant</td>
+<td>Radio broadcasting</td>
+<td>Clearer voice, music transmission</td>
+</tr>
+<tr>
+<td>PSK, FSK</td>
+<td>Digital phase/freq modulation</td>
+<td>Data comms, hacking</td>
+<td>Secure, efficient data transfer</td>
+</tr>
+<tr>
+<td>Spread Spectrum</td>
+<td>Hopping/fading frequencies</td>
+<td>Military, secure radio</td>
+<td>Resistant to jamming, secure ops</td>
+</tr>
+</tbody></table></div>
+<h2>Next Up: Antennas and Direction - How to Catch Those Signals Like a Pro</h2>
+<p>Stay tuned for full antenna designs, direction-finding tricks, and signal-strength formulae with hands-on projects up next!</p></div>
+</article>
+
+<article class="chapter" id="ch04">
+  <p class="label">Chapter 4</p>
+  <h1>Antennas — Your Signal’s Best Friend (and Sometimes Worst Enemy)</h1>
+  <figure class="plate"><img src="art/ch04.jpg" alt="Plate 4. A dipole is just a coat hanger that went to school."/><figcaption>Plate 4. A dipole is just a coat hanger that went to school.</figcaption></figure>
+  <div class="prose"><h2>Why Antennas Are the Game-Changers</h2>
+<p>No matter how powerful your transmitter or clever your code, an antenna is what throws your message into the wild and catches the buzz from your squad. Knowing antennas means knowing how to maximize range, minimize noise, and survive the signal jungle.</p>
+<h2>Antenna Basics</h2>
+<ul>
+<li>An antenna converts electric signals into EM waves for transmission and vice versa for reception.</li>
+<li>It behaves as an electrical conductor matched to a wavelength or fraction thereof.</li>
+<li>Types include dipoles, loops, yagis, ground planes, and fractals.</li>
+<li>Resonance: Antennas must be tuned to their operational frequency for maximum efficiency.</li>
+<li>Polarization: Vertical, horizontal, or circular polarization affect signal clarity and range.</li>
+</ul>
+<h2>Antenna Theory Highlights</h2>
+<h3>Radiation Pattern</h3>
+<ul>
+<li>Describes how an antenna distributes energy in space.</li>
+<li>Omni-directional antennas radiate equally in all directions.</li>
+<li>Directional antennas focus energy in specific directions for longer range or less interference.</li>
+</ul>
+<h3>Gain</h3>
+<ul>
+<li>Measures antenna efficiency and focus compared to a theoretical isotropic radiator.</li>
+<li>Expressed in dBi (decibels over isotropic radiator).</li>
+<li>Higher gain = longer directed reach but narrower beamwidth.</li>
+</ul>
+<h3>Bandwidth</h3>
+<ul>
+<li>Frequency range over which the antenna operates effectively.</li>
+<li>Wider bandwidth helps handle signal hopping and multipath fading.</li>
+</ul>
+<h2>Practical Antenna Tips For Survivors</h2>
+<ul>
+<li>Use the longest wire possible for simple dipoles.</li>
+<li>Raise your antenna away from metallic surfaces to avoid signal loss.</li>
+<li>Ground planes and radials increase effectiveness for vertical antennas.</li>
+<li>Match antenna impedance (usually 50 or 75 ohms) to your radio gear to prevent reflections.</li>
+</ul>
+<h2>Antenna Design Formulae and Math</h2>
+<ul>
+<li>Half-wave dipole length:</li>
+</ul>
+<p><span class="math display">L = <span class="frac"><span class="num">143</span><span class="den">f<span class="sub"><span class="tex-text">MHz</span></span></span></span> <span class="tex-text"> meters</span></span></p>
+<ul>
+<li>Quarter-wave vertical length:</li>
+</ul>
+<p><span class="math display">L = <span class="frac"><span class="num">71.5</span><span class="den">f<span class="sub"><span class="tex-text">MHz</span></span></span></span> <span class="tex-text"> meters</span></span></p>
+<ul>
+<li>Effective radiated power (ERP) calculation:</li>
+</ul>
+<p><span class="math display">ERP = P<span class="sub"><span class="tex-text">Tx</span></span> × G<span class="sub"><span class="tex-text">Ant</span></span></span></p>
+<h2>Diagram: Typical Dipole Antenna</h2>
+<h2>Real World Antenna Projects</h2>
+<ul>
+<li>Wire dipole antenna from scavenged wire.</li>
+<li>Ground plane vertical antenna using metal scraps.</li>
+<li>Directional Yagi antenna for long-range zombie beaconing.</li>
+</ul>
+<p>Next chapter: <strong>Radio Protocols and Data — How Your Signal Speaks Zombie Fluently</strong> coming up next!</p></div>
+</article>
+
+<article class="chapter" id="ch05">
+  <p class="label">Chapter 5</p>
+  <h1>Radio Protocols &amp; Data — Speaking Zombie Fluently</h1>
+  <figure class="plate"><img src="art/ch05.jpg" alt="Plate 5. How a radio says please and thank you."/><figcaption>Plate 5. How a radio says please and thank you.</figcaption></figure>
+  <div class="prose"><h2>Introduction: The Language of Radio Signals</h2>
+<p>Once you understand how radio waves travel and how antennas broadcast those waves, it&#39;s crucial to know how information is encoded and decoded. Radio protocols are the grammar and vocabulary of wireless communication — without them, your radio is just static.</p>
+<h2>Common Radio Protocols for Survivors</h2>
+<ul>
+<li><p><strong>Morse Code</strong><br>Old but gold. A series of short and long signals (dots and dashes) used as a simple digital alphabet.</p>
+</li>
+<li><p><strong>AM/FM</strong><br>Analog modulation; AM varies amplitude, FM frequency. Widely used for broadcasting voice and music.</p>
+</li>
+<li><p><strong>Frequency Shift Keying (FSK)</strong><br>Digital method switching between frequencies to represent binary data.</p>
+</li>
+<li><p><strong>Phase Shift Keying (PSK)</strong><br>Digital phase changes of the carrier wave. PSK31 is famous among radio hackers.</p>
+</li>
+<li><p><strong>Packet Radio</strong><br>Transmits data in small packets with headers, checksums, and error-correction.</p>
+</li>
+<li><p><strong>Wi-Fi &amp; Bluetooth</strong><br>Higher-frequency protocols for local area networking and device communication.</p>
+</li>
+<li><p><strong>LoRa / LoRaWAN</strong><br>Long-range, low-power digital modulation for IoT and survival sensor nets.</p>
+</li>
+</ul>
+<h2>Protocol Layers Simplified</h2>
+<ul>
+<li>Physical Layer: How signals are sent (AM/FM, FSK, etc.)</li>
+<li>Data Link Layer: Packet framing, error detection</li>
+<li>Network Layer: Routing and addressing (mesh, IP)</li>
+<li>Application Layer: Actual message content, commands.</li>
+</ul>
+<h2>Digital Encoding and Error Correction</h2>
+<ul>
+<li>Encoding schemes like Manchester, NRZ for reliable data recovery.</li>
+<li>Error correction: Forward Error Correction (FEC), CRC codes to detect and fix errors.</li>
+</ul>
+<h2>Open Standards &amp; OSS Radio Protocols</h2>
+<ul>
+<li>Popular open-source protocols you can hack on or implement for survival networks.</li>
+<li>Includes APRS, AX.25, POCSAG pager codes, and much more.</li>
+</ul>
+<h2>Signal Timing &amp; Synchronization</h2>
+<ul>
+<li>Clocking signals and synchronization maintain proper message decoding.</li>
+<li>Important in spread-spectrum and frequency hopping protocols to avoid jamming.</li>
+</ul>
+<h2>Summary Table of Protocols</h2>
+<div class="table-wrap"><table>
+<thead>
+<tr>
+<th>Protocol/Modulation</th>
+<th>Data Type</th>
+<th>Range</th>
+<th>Power Usage</th>
+<th>Typical Usage</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>Morse (CW)</td>
+<td>Text/Digital</td>
+<td>Long (HF/VHF)</td>
+<td>Very Low</td>
+<td>Emergency and covert comms</td>
+</tr>
+<tr>
+<td>AM/FM</td>
+<td>Analog Voice</td>
+<td>Medium</td>
+<td>Medium</td>
+<td>Broadcasting, voice comms</td>
+</tr>
+<tr>
+<td>FSK/PSK</td>
+<td>Digital Data</td>
+<td>Variable</td>
+<td>Medium</td>
+<td>Packet radio, data comms</td>
+</tr>
+<tr>
+<td>Packet Radio</td>
+<td>Digital Packets</td>
+<td>Moderate</td>
+<td>Medium</td>
+<td>Amateur radio networks</td>
+</tr>
+<tr>
+<td>Wi-Fi/Bluetooth</td>
+<td>Digital Data</td>
+<td>Short range</td>
+<td>High</td>
+<td>Local comms, IoT devices</td>
+</tr>
+<tr>
+<td>LoRa/LoRaWAN</td>
+<td>Digital Data</td>
+<td>Very Long range</td>
+<td>Very Low</td>
+<td>Sensor networks, survive net</td>
+</tr>
+</tbody></table></div>
+<h2>Next Up: Building Real-world Projects — Fox Hunting, SDR Hacking, and More</h2>
+<p>Stay tuned for full projects bridging theory and the real apocalypse game.</p></div>
+</article>
+<section class="part" id="part2"><div class="part-inner"><p class="label">Part II</p><h1>Hands, Wire, and Smoke</h1><p class="blurb">Builds, mischief, weather from orbit, the art of repair, and the battery.</p></div></section>
+<article class="chapter" id="ch06">
+  <p class="label">Chapter 6</p>
+  <h1>Projects and Practical Builds — Fox Hunting, Reverse Engineering &amp; Survivor Hacks</h1>
+  <figure class="plate"><img src="art/ch06.jpg" alt="Plate 6. The fox is a transmitter. The zombie brought binoculars anyway."/><figcaption>Plate 6. The fox is a transmitter. The zombie brought binoculars anyway.</figcaption></figure>
+  <div class="prose"><h2>Introduction: Time to Get Your Hands Dirty</h2>
+<p>Theory is cool and all, but the apocalypse doesn’t care unless you turn knowledge into homebrew radios, tracking gear, or hacked comms. This chapter loads your toolkit with easy-to-follow, zombie-tested projects from hunting hidden signals to reverse engineering random remotes.</p>
+<h2>Project 1: Radio Fox Hunting — Tracking Signals Like a Zombie Pro</h2>
+<ul>
+<li>Purpose: Find hidden transmitters by triangulating their signal direction.</li>
+<li>Gear: Simple directional antenna, receiver, compass, notebook.</li>
+<li>Method: Walk and rotate, note signal strength and direction at various points.</li>
+<li>Use triangulation math to zero in on signal origin.</li>
+</ul>
+<h2>Project 2: Reverse Engineering a Remote Control</h2>
+<ul>
+<li>Salvage a broken remote from the rubble.</li>
+<li>Tools: Basic radio frequency receiver/debugger or SDR.</li>
+<li>Decode transmitted codes by capturing signal patterns.</li>
+<li>Replay hacks: replay signals with transmitter or SDR to control remote devices.</li>
+</ul>
+<h2>Project 3: Build Your Field Strength Meter</h2>
+<ul>
+<li>Parts: Wire loop antenna, diode (1N34A germanium recommended), analog meter.</li>
+<li>Construction: Assemble as schematic to measure signal strength visually.</li>
+<li>Use: Locate transmitter proximity or check antenna performance instantly.</li>
+</ul>
+<h2>Project 4: DIY Transmitters and Signal Boosters</h2>
+<ul>
+<li>Build a low-power AM or FM transmitter from scavenged electronics.</li>
+<li>Use variable capacitors and inductors to tune frequency.</li>
+<li>Safety: Always comply with legal power limits (a max 1500W transmitter project discussed later).</li>
+<li>Tip: Pair transmitter with gain antennas to maximize range.</li>
+</ul>
+<h2>Project 5: Software Defined Radio (SDR) Basics</h2>
+<ul>
+<li>Use cheap SDR USB sticks and open-source software.</li>
+<li>Receive signals from a massive range of spectrum bands.</li>
+<li>Experiment with decoding paging systems, weather satellites, or emergency broadcasts.</li>
+<li>Write Python scripts for automation and signal decoding.</li>
+</ul>
+<h2>Practical Survival Tips</h2>
+<ul>
+<li>Always carry a fiber or copper wire for impromptu antennas.</li>
+<li>Have multiple hand-held scanners tuned to different bands.</li>
+<li>Learn to build and test your gear from scratch to avoid zombie tech strikes.</li>
+</ul>
+<h2>Memory Aid: Quick Build Checklist</h2>
+<ul>
+<li>Antenna type and length ready.</li>
+<li>Power source (battery, solar).</li>
+<li>Receiver/transmitter assembled.</li>
+<li>Test signal strength and range.</li>
+<li>Log frequencies and codes.</li>
+</ul>
+<p><em>Next chapter: Advanced hacking, jamming defenses, and crypto overlays to keep your radio game sharp in hostile zones.</em></p></div>
+</article>
+
+<article class="chapter" id="ch07">
+  <p class="label">Chapter 7</p>
+  <h1>Advanced Radio Hacking, Jamming, and Security — Outsmart the Horde</h1>
+  <figure class="plate"><img src="art/ch07.jpg" alt="Plate 7. The jammer is loud. The little radio is not impressed."/><figcaption>Plate 7. The jammer is loud. The little radio is not impressed.</figcaption></figure>
+  <div class="prose"><h2>Introduction: Going Beyond Survival</h2>
+<p>Real survivors not only build radios—they hack spectrum, defend comms, and exploit weaknesses. Welcome to the wild side where radio meets espionage, warfare, and digital trench battles.</p>
+<h2>Jamming and Anti-Jamming Tactics</h2>
+<ul>
+<li><strong>Jamming:</strong> Intentional interference to block or confuse signals.</li>
+<li>Types include barrage jamming, spot jamming, sweep jamming.</li>
+<li><strong>Anti-jamming:</strong><ul>
+<li>Frequency hopping (FHSS) to jump across frequencies unpredictably.</li>
+<li>Direct sequence spread spectrum (DSSS) to hide signals from interference.</li>
+<li>Using directional antennas to avoid jammers.</li>
+</ul>
+</li>
+</ul>
+<h2>Encryption and Secure Comms</h2>
+<ul>
+<li>Use simple ciphers (OTP, Caesar, substitution) for voice and morse.</li>
+<li>Digital encryption standards in SDR and ham radio (AES, DES).</li>
+<li>Steganography: embedding messages in noise or seemingly innocent data.</li>
+</ul>
+<h2>Protocol Hacking and Injection</h2>
+<ul>
+<li>Packet sniffing and injection for APRS, POCSAG, and pager systems.</li>
+<li>Exploiting weak OTP reuse or poor key management.</li>
+<li>Replay attacks: record and resend signals to gain unauthorized control.</li>
+</ul>
+<h2>Hardware Mods and Software Tools</h2>
+<ul>
+<li>Using SDR platforms (HackRF, RTL-SDR) to scan, decode, and inject.</li>
+<li>Building jammers or spoofers from off-the-shelf parts.</li>
+<li>Python and GNU Radio scripting to automate attacks or monitoring.</li>
+</ul>
+<h2>Ethical and Legal Warning</h2>
+<ul>
+<li>Many techniques are illegal or restricted.</li>
+<li>In the apocalypse, “legal” may mean “survival,” but consequences exist.</li>
+<li>Always understand your local laws and risks when experimenting.</li>
+</ul>
+<h2>Survival Tips</h2>
+<ul>
+<li>Keep your hackery gear hidden and mobile.</li>
+<li>Use layered security in comms.</li>
+<li>Stay updated on signals intelligence and jammer detection.</li>
+</ul>
+<p>Ready? The next chapters will explore satellite comms, weather, and space-related radio survival. Keep your radio close and your brains closer, woflfren.</p></div>
+</article>
+
+<article class="chapter" id="ch08">
+  <p class="label">Chapter 8</p>
+  <h1>Satellite Comms, Weather, and Space Survival Radio</h1>
+  <figure class="plate"><img src="art/ch08.jpg" alt="Plate 8. If the sky can see you, the weather can too."/><figcaption>Plate 8. If the sky can see you, the weather can too.</figcaption></figure>
+  <div class="prose"><h2>Introduction: Beyond Earthbound — Talking Satellite and Weather Signals</h2>
+<p>When zombies crash your radio party, the sky’s the limit. Satellite and space weather radios open new doors — from tracking storms to reaching orbiting survivors.</p>
+<h2>Satellite Communications Basics</h2>
+<ul>
+<li>Satellites relay signals globally, bouncing EM waves over the curvature of the Earth.</li>
+<li>Types:<ul>
+<li><strong>LEO (Low Earth Orbit):</strong> Fast-moving, short range, low latency. Examples: Starlink, Iridium.</li>
+<li><strong>MEO (Medium Earth Orbit):</strong> GPS system satellites.</li>
+<li><strong>GEO (Geostationary Earth Orbit):</strong> Fixed position relative to Earth, used for TV, weather, and comms.</li>
+</ul>
+</li>
+</ul>
+<h2>How To Receive Satellite Signals</h2>
+<ul>
+<li>Use directional antennas and tracking rotators for LEOs.</li>
+<li>GEO satellites can be tracked with fixed dishes aimed at the right coordinates.</li>
+<li>Be prepared for Doppler shifts and fading signals on LEOs due to rapid orbit.</li>
+</ul>
+<h2>Space Weather and Its Impact on Radio</h2>
+<ul>
+<li>Solar flares and coronal mass ejections (CMEs) can disrupt HF and VHF propagation.</li>
+<li>Effects include scintillation, ionospheric disturbances, and blackouts.</li>
+<li>Space weather alerts available via NOAA and amateur shortwave broadcasts—vital info during survival.</li>
+</ul>
+<h2>Atomic Clock Basics &amp; Synchronization</h2>
+<ul>
+<li>Satellite timekeeping involves atomic clocks critical for GPS functionality.</li>
+<li>Understanding clock drift and synchronization helps in timing-sensitive comm protocols.</li>
+</ul>
+<h2>DIY Satellite Signal Projects</h2>
+<ul>
+<li>Build a simple NOAA weather satellite signal receiver using SDR.</li>
+<li>Track airplanes and satellites using ADS-B signals.</li>
+<li>Receive amateur radio satellite signals for messages and telemetry.</li>
+</ul>
+<h2>Survival Strategy</h2>
+<ul>
+<li>Use satellite comms for long-range, decentralized emergency networks.</li>
+<li>Monitor space weather to adjust radio strategies preemptively.</li>
+<li>Combine satellite data and local nets for robust, layered communications.</li>
+</ul>
+<p><em>Ready to journey deeper into troubleshooting, repair, and power essentials next? Just say the word, woflfren.</em></p></div>
+</article>
+
+<article class="chapter" id="ch09">
+  <p class="label">Chapter 9</p>
+  <h1>Troubleshooting and Repair — Keep Your Radio Alive</h1>
+  <figure class="plate"><img src="art/ch09.jpg" alt="Plate 9. The patient is a radio. The prognosis is beeps."/><figcaption>Plate 9. The patient is a radio. The prognosis is beeps.</figcaption></figure>
+  <div class="prose"><h2>Introduction: When Your Radio Sucks, Your Survival Sucks</h2>
+<p>Even the best radio gear breaks down or gets outsmarted by zombies and cosmic rays. This chapter arms you with hard-won tips, tricks, and full diagnostic battle plans to keep your comms on air and zombies off your tail.</p>
+<h2>Diagnosing Common Problems</h2>
+<h3>No Power / Dead Radio</h3>
+<ul>
+<li>Check batteries and power sources first.</li>
+<li>Inspect fuses, switches, and connectors.</li>
+<li>Use a multimeter to test volts at various circuit points.</li>
+</ul>
+<h3>No Sound or Faint Audio</h3>
+<ul>
+<li>Verify speaker connections.</li>
+<li>Check receiver sensitivity and tuning.</li>
+<li>Inspect and clean audio amplifier components.</li>
+</ul>
+<h3>Weak or No Transmission</h3>
+<ul>
+<li>Test antenna and cables for damage.</li>
+<li>Use SWR meters to check antenna match.</li>
+<li>Confirm transmitter power and modulation settings.</li>
+</ul>
+<h3>Noise and Interference</h3>
+<ul>
+<li>Identify sources of EMI (motors, power lines, fluorescent lighting).</li>
+<li>Use ferrite beads and shielding.</li>
+<li>Adjust frequency to avoid local noise bands.</li>
+</ul>
+<h2>Essential Tools for Radio Repair</h2>
+<ul>
+<li>Multimeter (voltage, resistance, continuity)</li>
+<li>SWR meter (antenna matching)</li>
+<li>Oscilloscope (waveform monitoring)</li>
+<li>Signal generator (inject known signals)</li>
+<li>Soldering iron and replacement parts</li>
+</ul>
+<h2>Step-by-Step Repair Workflow</h2>
+<ol>
+<li>Visual inspection for obvious damage or corrosion.</li>
+<li>Power checks and voltage measurements.</li>
+<li>Signal tracing from antenna through to speaker.</li>
+<li>Component testing and replacement.</li>
+<li>Final function test on air.</li>
+</ol>
+<h2>Advanced Troubleshooting</h2>
+<ul>
+<li>Use spectrum analyzers or SDR to compare expected vs actual signals.</li>
+<li>Monitor frequency stability and drift.</li>
+<li>Diagnose microphonic and thermal noise issues.</li>
+<li>Verifying digital signal sync and timing.</li>
+</ul>
+<h2>Zombie Survival Tip: Field Repair Kits</h2>
+<ul>
+<li>Carry a small toolkit with spare fuses, wire, connectors, and basic components.</li>
+<li>Keep printouts of schematics and repair notes.</li>
+<li>Practice quick field fixes under pressure.</li>
+</ul>
+<h2>Troubleshooting Table</h2>
+<div class="table-wrap"><table>
+<thead>
+<tr>
+<th>Symptom</th>
+<th>Possible Cause</th>
+<th>Quick Fix</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>No Power</td>
+<td>Dead battery, wiring broken</td>
+<td>Replace battery, check connections</td>
+</tr>
+<tr>
+<td>No Sound</td>
+<td>Faulty speaker, amplifier</td>
+<td>Test and swap components</td>
+</tr>
+<tr>
+<td>Weak Signal</td>
+<td>Bad antenna, loose cable</td>
+<td>Adjust/replace antenna</td>
+</tr>
+<tr>
+<td>Static or Noise</td>
+<td>Interference or bad ground</td>
+<td>Shield, relocate gear</td>
+</tr>
+<tr>
+<td>Distorted Transmission</td>
+<td>Overdrive, faulty modulator</td>
+<td>Tune levels, repair circuits</td>
+</tr>
+</tbody></table></div>
+<p><em>Next chapter will cover essential power sources, battery management, and solar solutions for radio endurance in the apocalypse.</em></p></div>
+</article>
+
+<article class="chapter" id="ch10">
+  <p class="label">Chapter 10</p>
+  <h1>Power &amp; Endurance — Keep Your Radio Running While Zombies Hunt</h1>
+  <figure class="plate"><img src="art/ch10.jpg" alt="Plate 10. Power, which is a polite word for not going quiet."/><figcaption>Plate 10. Power, which is a polite word for not going quiet.</figcaption></figure>
+  <div class="prose"><h2>Introduction: Power Is Your Lifeblood</h2>
+<p>No power means no signal, no hack, no survival. This chapter tackles batteries, power management, alternative energy, and strategies to keep your radio gear alive when the world goes dark.</p>
+<h2>Battery Types and Selection</h2>
+<ul>
+<li><strong>Lead Acid:</strong> Heavy, cheap, reliable. Perfect for base stations and solar banks.</li>
+<li><strong>Lithium-Ion (Li-ion):</strong> Lightweight, high energy density, but must be managed carefully.</li>
+<li><strong>Nickel-Metal Hydride (NiMH):</strong> Cheap and safer than Li-ion but lower capacity.</li>
+<li><strong>Alkaline:</strong> Great for small handheld devices, non-rechargeable, practical for spares.</li>
+</ul>
+<h2>Battery Care and Management</h2>
+<ul>
+<li>Avoid deep discharge to extend life.</li>
+<li>Use proper chargers and charge controllers.</li>
+<li>Keep batteries at moderate temperatures.</li>
+<li>Monitor voltage and capacity regularly.</li>
+</ul>
+<h2>Solar Power Systems</h2>
+<ul>
+<li>Solar panels: Rigid or flexible, sized to your power needs.</li>
+<li>Charge controllers prevent battery overcharge.</li>
+<li>Batteries store solar energy for nighttime and cloudy days.</li>
+<li>Portable systems useful for mobile survivors.</li>
+</ul>
+<h2>Power Calculation and Efficiency</h2>
+<ul>
+<li>Calculate device power draw in Watts.</li>
+<li>Estimate hours of operation given battery capacity (Ah) and voltage.</li>
+<li>Use power-saving modes and efficient hardware.</li>
+</ul>
+<h2>Alternative Power Sources</h2>
+<ul>
+<li>Hand-crank generators for emergency power.</li>
+<li>Thermoelectric generators using heat differences.</li>
+<li>Vehicle power taps (cigarette lighter, battery clamps).</li>
+</ul>
+<h2>Survival Tips</h2>
+<ul>
+<li>Carry multiple power options and recharge methods.</li>
+<li>Build solar charging outposts for base stations.</li>
+<li>Prep for seasonal variation — winter solar is low, have backups.</li>
+</ul>
+<h2>Quick Reference: Sample Power Budget</h2>
+<div class="table-wrap"><table>
+<thead>
+<tr>
+<th>Device</th>
+<th>Voltage (V)</th>
+<th>Current (A)</th>
+<th>Power (W)</th>
+<th>Hours on 12V 100Ah Battery</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>SDR Receiver</td>
+<td>5</td>
+<td>0.5</td>
+<td>2.5</td>
+<td>~480</td>
+</tr>
+<tr>
+<td>Handheld Transceiver</td>
+<td>7.4</td>
+<td>2</td>
+<td>14.8</td>
+<td>~80</td>
+</tr>
+<tr>
+<td>Laptop (field ops)</td>
+<td>19</td>
+<td>3</td>
+<td>57</td>
+<td>~20</td>
+</tr>
+</tbody></table></div>
+<p><em>Next chapter: Deep dive into advanced protocols, mesh networks, and resilient zombieproof data webs.</em></p></div>
+</article>
+<section class="part" id="part3"><div class="part-inner"><p class="label">Part III</p><h1>The Net That Heals</h1><p class="blurb">Meshes, software radios, and the ground getting in the way.</p></div></section>
+<article class="chapter" id="ch11">
+  <p class="label">Chapter 11</p>
+  <h1>Mesh Networks and Resilient Zombieproof Data Webs</h1>
+  <figure class="plate"><img src="art/ch11.jpg" alt="Plate 11. Every node is someone’s cousin."/><figcaption>Plate 11. Every node is someone’s cousin.</figcaption></figure>
+  <div class="prose"><h2>Introduction: Building the Network When the Grid Is Dead</h2>
+<p>Traditional radio links can fail—zombies bite cables and fences. Mesh networks create flexible, self-healing webs for radio comms that survive attacks, jamming, and broken equipment.</p>
+<h2>What Is Mesh Networking?</h2>
+<ul>
+<li>A decentralized network of nodes (radios) where each node routes data for the others.</li>
+<li>Nodes connect dynamically — if one path fails, signals reroute.</li>
+<li>Increases range, resilience, and redundancy for survivors’ communications.</li>
+</ul>
+<h2>Key Features for Survivors</h2>
+<ul>
+<li><strong>Self-configuring:</strong> No central server needed, just working radios.</li>
+<li><strong>Fault-tolerant:</strong> Can handle node failures or zombie destroyers.</li>
+<li><strong>Scalable:</strong> Easily add or remove nodes during survival operations.</li>
+<li><strong>Secure:</strong> Encryption and authentication options prevent hijacking.</li>
+</ul>
+<h2>Popular Mesh Protocols</h2>
+<ul>
+<li><strong>802.11s:</strong> Wi-Fi mesh standard for local networks.</li>
+<li><strong>BATMAN (Better Approach To Mobile Adhoc Networking):</strong> Optimized routing for mobile nodes.</li>
+<li><strong>OLSR (Optimized Link State Routing):</strong> Uses routing tables and proactive messaging.</li>
+<li><strong>LoRa Mesh:</strong> Long-range low power mesh for sensor networks.</li>
+</ul>
+<h2>Implementing Mesh in the Field</h2>
+<ul>
+<li>Use SDR or modular radios flashed with mesh-capable firmware.</li>
+<li>Combine with directional antennas for long hops.</li>
+<li>Experiment with open source tools: Meshtastic, cjdns, Serval Project.</li>
+</ul>
+<h2>Protocol Abstraction Layers in Mesh</h2>
+<ul>
+<li>Physical and link layers with frequency-agile radios.</li>
+<li>Routing protocols adapting realtime topology.</li>
+<li>Application layers for voice, text, or sensor data sharing.</li>
+</ul>
+<h2>Practical Tips</h2>
+<ul>
+<li>Start with small local meshes, expand as needed.</li>
+<li>Keep spare nodes ready to replace dead radios.</li>
+<li>Monitor network health and vary power to optimize battery life.</li>
+</ul>
+<h2>Example Mesh Use Cases</h2>
+<ul>
+<li>Emergency comms between bunkers.</li>
+<li>Sharing intelligence on zombie movements.</li>
+<li>Coordinating resource logistics in hostile zones.</li>
+</ul>
+<p><em>Next chapter focuses on integrating SDR and software tools for powerful flexible comms hacking.</em></p></div>
+</article>
+
+<article class="chapter" id="ch12">
+  <p class="label">Chapter 12</p>
+  <h1>Software Defined Radio (SDR) and Software Tools — Your Ultimate Radio Hack Kit</h1>
+  <figure class="plate"><img src="art/ch12.jpg" alt="Plate 12. The waterfall. Pretty, and occasionally useful."/><figcaption>Plate 12. The waterfall. Pretty, and occasionally useful.</figcaption></figure>
+  <div class="prose"><h2>Introduction: The Power of SDR</h2>
+<p>SDR turns your computer and cheap hardware into a powerful radio scanner, transmitter, and hacker’s dream device. With open-source tools, you gain unprecedented control and flexibility, essential for adaptable, zombieproof communications.</p>
+<h2>What Is SDR?</h2>
+<ul>
+<li>Unlike traditional radios with fixed hardware, SDR uses software to process signals.</li>
+<li>Hardware (like RTL-SDR, HackRF, LimeSDR) digitizes incoming RF signals for software processing.</li>
+<li>Output can be fully software-modulated, decoded, or analyzed.</li>
+</ul>
+<h2>Popular SDR Hardware</h2>
+<ul>
+<li><strong>RTL-SDR:</strong> Ultra-cheap receiver, ideal for listening.</li>
+<li><strong>HackRF One:</strong> Full-duplex transceiver, mid-range price.</li>
+<li><strong>LimeSDR:</strong> Professional-grade SDR with wide frequency range and bandwidth.</li>
+</ul>
+<h2>SDR Software Tools</h2>
+<ul>
+<li><strong>GNU Radio:</strong> Visual programming toolkit for advanced signal processing.</li>
+<li><strong>SDR# (SDRSharp):</strong> Easy-to-use Windows receiver interface.</li>
+<li><strong>GQRX:</strong> Linux/Mac GUI for SDR receivers.</li>
+<li><strong>CubicSDR:</strong> Cross-platform SDR software.</li>
+<li><strong>Python libraries:</strong> PySDR, SoapySDR for scripting and automation.</li>
+</ul>
+<h2>SDR Applications in Apocalypse Radio</h2>
+<ul>
+<li>Spectrum scanning and interference analysis.</li>
+<li>Signal decoding (morse, pager, weather satellites).</li>
+<li>Transmission and replay attacks (with legal caution).</li>
+<li>Creating custom protocols and experimental modulations.</li>
+</ul>
+<h2>Basic SDR Setup Example (Listening)</h2>
+<ol>
+<li>Connect RTL-SDR USB dongle.</li>
+<li>Open GQRX or SDR#.</li>
+<li>Tune FM, AM, or shortwave bands.</li>
+<li>Filter and demodulate the signals.</li>
+<li>Record or log transmissions.</li>
+</ol>
+<h2>Scripting &amp; Automation</h2>
+<ul>
+<li>Python + GNU Radio flowgraphs automate signal detection.</li>
+<li>Use scripts to alert you on lookout frequencies.</li>
+<li>Decode digital signals in realtime for messaging.</li>
+</ul>
+<h2>Security and Legal Notes</h2>
+<ul>
+<li>Listen only where legal; transmitting may require licenses.</li>
+<li>Many hacking or replay attacks are illegal but are crucial skills for survival—in emergencies, legal status varies.</li>
+</ul>
+<p><em>Next chapter: Deep dive into propagation, advanced antenna tricks, and environment effects on your undeadproof radio network.</em></p></div>
+</article>
+
+<article class="chapter" id="ch13">
+  <p class="label">Chapter 13</p>
+  <h1>Radio Wave Propagation &amp; Environment Effects — Navigating the Zombie Jungle</h1>
+  <figure class="plate"><img src="art/ch13.jpg" alt="Plate 13. The hill keeps the signal. The shopping cart has opinions."/><figcaption>Plate 13. The hill keeps the signal. The shopping cart has opinions.</figcaption></figure>
+  <div class="prose"><h2>Introduction: The Wild World of Wave Travel</h2>
+<p>Radio doesn’t just fly straight forever—terrain, weather, and even undead hordes mess it up. This chapter explores how signals travel, bend, fade, and bounce, so you can exploit or counteract those effects.</p>
+<h2>Propagation Modes</h2>
+<ul>
+<li><strong>Ground Wave:</strong> Follows the Earth surface; good for LF/MF bands; limited by terrain conductivity.</li>
+<li><strong>Sky Wave (Ionospheric Reflection):</strong> Bounces off ionosphere layers; enables long-range HF comms but affected by solar activity.</li>
+<li><strong>Line of Sight (LOS):</strong> Direct path, essential for VHF/UHF and microwave.</li>
+<li><strong>Tropospheric Scatter:</strong> Uses troposphere irregularities to scatter signals beyond LOS.</li>
+<li><strong>Meteor Scatter:</strong> Exploits ionized trails of meteors for brief long-distance bursts.</li>
+<li><strong>Satellite Relay:</strong> Signals bounce via orbiting satellites.</li>
+</ul>
+<h2>Environmental Effects on Propagation</h2>
+<ul>
+<li><strong>Terrain:</strong> Mountains, forests, buildings absorb or reflect waves.</li>
+<li><strong>Weather:</strong> Rain, fog, and humidity can attenuate or scatter signals.</li>
+<li><strong>Temperature Inversions:</strong> Cause ducting, allowing signals to travel unusually far.</li>
+<li><strong>Solar Activity:</strong> Sunspots and solar flares cause ionospheric disturbances.</li>
+<li><strong>Urban Interference:</strong> Man-made noise worsens reception.</li>
+</ul>
+<h2>Wave Polarization and Its Effects</h2>
+<ul>
+<li>Orientation of the wave&#39;s electric field affects signal clarity.</li>
+<li>Mismatch in polarization between TX and RX antennas causes signal loss.</li>
+<li>Circular polarization useful for satellite and helicopter comms.</li>
+</ul>
+<h2>Fading &amp; Multipath</h2>
+<ul>
+<li>Signal strength fluctuates due to multiple path arrivals.</li>
+<li>Causes distortion, phase shift, and signal dropouts.</li>
+<li>Combat with diversity antennas and spread spectrum.</li>
+</ul>
+<h2>Practical Propagation Tips for Survivors</h2>
+<ul>
+<li>Scout terrain and choose antenna placement with clear horizons.</li>
+<li>Use higher frequencies for line-of-sight; lower for long-distance.</li>
+<li>Monitor solar conditions and plan HF comms accordingly.</li>
+<li>Use weather forecasts; avoid storms during critical comm windows.</li>
+</ul>
+<h2>Propagation Quick Formula: Free Space Path Loss (FSPL)</h2>
+<p><span class="math display">FSPL(dB) = 20 log<span class="sub">10</span>(d) + 20 log<span class="sub">10</span>(f) + 32.44</span></p>
+<p>where <span class="math">d</span> is distance in km and <span class="math">f</span> frequency in MHz.</p>
+<h2>Next Up: Advanced Circuit Designs, Filters, and Noise Reduction in Radio Builds</h2>
+<p>If you want diagrams, code snippets, or more experimental insights here or shall we move ahead to circuits? Just holler, woflfren.</p></div>
+</article>
+<section class="part" id="part4"><div class="part-inner"><p class="label">Part IV</p><h1>A Cleaner Signal</h1><p class="blurb">Circuits, filters, and the moment a bench project has to survive a field.</p></div></section>
+<article class="chapter" id="ch14">
+  <p class="label">Chapter 14</p>
+  <h1>Advanced Circuits, Filters, and Noise Reduction — Building Clean Radio Systems</h1>
+  <figure class="plate"><img src="art/ch14.jpg" alt="Plate 14. For noise, not for zombies. Unfortunately."/><figcaption>Plate 14. For noise, not for zombies. Unfortunately.</figcaption></figure>
+  <div class="prose"><h2>Introduction: Clean Signals Beat Zombies Every Time</h2>
+<p>Getting your radio working is one thing; getting it to stay reliable and clean through interference is another. This chapter digs into circuitry essentials for filtering noise, shaping signals, and building bulletproof radio gear.</p>
+<h2>Key Circuit Components</h2>
+<ul>
+<li><strong>Amplifiers:</strong> Increase signal strength. Use low-noise amplifiers (LNA) near antennas.</li>
+<li><strong>Mixers:</strong> Combine signals to convert frequencies (heterodyne principle).</li>
+<li><strong>Oscillators:</strong> Generate stable carrier waves; fundamental for transmitters.</li>
+<li><strong>Filters:</strong> Remove unwanted frequencies, noise, and interference.</li>
+<li><strong>Switches &amp; Attenuators:</strong> Control signal flow and strength.</li>
+</ul>
+<h2>Filters</h2>
+<ul>
+<li><strong>Low-pass filters:</strong> Block high frequencies, allow low frequencies.</li>
+<li><strong>High-pass filters:</strong> Block low frequencies, allow higher.</li>
+<li><strong>Band-pass filters:</strong> Only allow frequencies within a set band — critical for channel purity.</li>
+<li><strong>Notch filters:</strong> Remove specific interfering frequencies.</li>
+</ul>
+<h2>Noise Sources &amp; Reduction Techniques</h2>
+<ul>
+<li><strong>Thermal noise:</strong> From resistors and semiconductors; reduce with cooling where possible.</li>
+<li><strong>Interference:</strong> Use shielding, grounding, and isolation.</li>
+<li><strong>Cross-talk:</strong> Keep signal paths separate; use twisted pair and coaxial cables.</li>
+<li><strong>Power supply noise:</strong> Use regulated, filtered power supplies.</li>
+</ul>
+<h2>Circuit Design Tips</h2>
+<ul>
+<li>Use proper impedance matching to maximize power transfer.</li>
+<li>Keep leads short and neat to minimize parasitic capacitance and inductance.</li>
+<li>Employ decoupling capacitors close to active devices.</li>
+<li>Shield sensitive components and wires.</li>
+</ul>
+<h2>Sample Build: Simple Band-pass Filter</h2>
+<ul>
+<li>Describe values and components.</li>
+<li>Include schematic snippet.</li>
+<li>Use practical examples from scavenged or common parts.</li>
+</ul>
+<h2>Troubleshooting Circuit Noise</h2>
+<ul>
+<li>Identify noise source with spectrum analyzer or SDR.</li>
+<li>Check grounding and shielding.</li>
+<li>Improve circuit layout for signal integrity.</li>
+</ul>
+<h2>Summary Table: Filter Types and Uses</h2>
+<div class="table-wrap"><table>
+<thead>
+<tr>
+<th>Filter Type</th>
+<th>Frequency Control</th>
+<th>Application</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>Low-pass</td>
+<td>Blocks HF, passes LF</td>
+<td>Audio circuits, power supplies</td>
+</tr>
+<tr>
+<td>High-pass</td>
+<td>Blocks LF, passes HF</td>
+<td>RF transmitter outputs, antenna inputs</td>
+</tr>
+<tr>
+<td>Band-pass</td>
+<td>Passes narrow band</td>
+<td>Channel filtering</td>
+</tr>
+<tr>
+<td>Notch</td>
+<td>Blocks narrow freq</td>
+<td>Interference removal</td>
+</tr>
+</tbody></table></div>
+<p><em>Next chapter will explore digital signal processing in radio, including DSP algorithms and coding.</em></p></div>
+</article>
+
+<article class="chapter" id="ch15">
+  <p class="label">Chapter 15</p>
+  <h1>Digital Signal Processing and Coding Techniques — Smarter Radio Survival</h1>
+  <figure class="plate"><img src="art/ch15.jpg" alt="Plate 15. The machine looks for the dit and the dah."/><figcaption>Plate 15. The machine looks for the dit and the dah.</figcaption></figure>
+  <div class="prose"><h2>Introduction: Making Sense of Noisy Signals</h2>
+<p>DSP allows you to digitally filter, decode, and improve signals beyond what analog circuits can handle. Combine with coding theory to boost reliability and security when zombies and nature wreak havoc.</p>
+<h2>DSP Basics</h2>
+<ul>
+<li>Convert analog radio signals into digital samples.</li>
+<li>Apply algorithms to filter noise, demodulate signals, and extract data.</li>
+<li>Techniques include Fast Fourier Transform (FFT), filters (FIR, IIR), and modulation/demodulation routines.</li>
+</ul>
+<h2>Common DSP Operations</h2>
+<ul>
+<li><strong>Filtering:</strong> Remove unwanted frequencies digitally.</li>
+<li><strong>Decimation &amp; Interpolation:</strong> Change signal sample rates.</li>
+<li><strong>Demodulation:</strong> Extract information encoded in carrier signals.</li>
+<li><strong>Noise Reduction:</strong> Adaptive filters and noise blankers.</li>
+</ul>
+<h2>Error Correcting Codes (ECC)</h2>
+<ul>
+<li>Add redundancy to detect and correct errors.</li>
+<li>Common codes: Hamming, Reed-Solomon, convolutional codes.</li>
+<li>BCH and Turbo codes used in modern digital radios.</li>
+</ul>
+<h2>Modulation &amp; Demodulation in Software</h2>
+<ul>
+<li>Implement AM, FM, PSK, FSK, QAM in code.</li>
+<li>Software flexibility allows custom modulations optimized for survival.</li>
+</ul>
+<h2>Practical DSP Tools &amp; Languages</h2>
+<ul>
+<li>GNU Radio flowgraphs for graphical DSP design.</li>
+<li>Python libraries (SciPy, NumPy) for algorithm prototyping.</li>
+<li>C/C++ for embedded DSP on microcontrollers and SDR hardware.</li>
+</ul>
+<h2>Sample DSP Application: Morse Code Decoder</h2>
+<ul>
+<li>Capture raw signal.</li>
+<li>Filter noise.</li>
+<li>Detect tone presence and duration.</li>
+<li>Translate dots and dashes into characters.</li>
+</ul>
+<h2>Coding and Compression</h2>
+<ul>
+<li>Use compression to maximize limited bandwidth.</li>
+<li>Encrypt data with minimal overhead for security.</li>
+</ul>
+<h2>Survival Tip: Build Your Own Digital Codecs</h2>
+<ul>
+<li>Develop tailored codecs for zombie infestations.</li>
+<li>Balance complexity and power constraints for your devices.</li>
+</ul>
+<p><em>Next chapter: Mesh network protocols and managing large-scale zombieproof communications.</em></p></div>
+</article>
+
+<article class="chapter" id="ch16">
+  <p class="label">Chapter 16</p>
+  <h1>Advanced Circuit Designs and Filters — Engineering High-Performance Radio Systems</h1>
+  <figure class="plate"><img src="art/ch16.jpg" alt="Plate 16. Rocks that learned to keep time."/><figcaption>Plate 16. Rocks that learned to keep time.</figcaption></figure>
+  <div class="prose"><h2>Introduction: Sharpen Your Builds for the Apocalypse</h2>
+<p>Welcome to the engineering cave where waveform purity, power efficiency, and signal integrity decide survival. This chapter covers detailed circuit design strategies, advanced filtering techniques, and practical construction notes.</p>
+<h2>Advanced Oscillator Designs</h2>
+<ul>
+<li><strong>Colpitts Oscillator:</strong> Common RF oscillator with good frequency stability.</li>
+<li><strong>Clapp Oscillator:</strong> Modified Colpitts with enhanced frequency quality.</li>
+<li>Use quartz crystals or SAW resonators for ultra-stable frequencies.</li>
+</ul>
+<h2>Mixers and Frequency Converters</h2>
+<ul>
+<li>Implement superheterodyne architectures for selectivity.</li>
+<li>Balanced mixers reduce unwanted harmonics and spurious signals.</li>
+<li>Use low-noise active mixers for sensitive receivers.</li>
+</ul>
+<h2>Building High-Quality Filters</h2>
+<h3>Band-Pass Filter Design Steps</h3>
+<ol>
+<li>Define center frequency and bandwidth.</li>
+<li>Choose filter type (LC, crystal, ceramic).</li>
+<li>Calculate component values with</li>
+</ol>
+<p><span class="math display">f<span class="sub">0</span> = <span class="frac"><span class="num">1</span><span class="den">2π <span class="sqrt">√<span class="rad">LC</span></span></span></span></span></p>
+<ol start="4">
+<li>Simulate with software before building.</li>
+</ol>
+<h3>Crystal Filters and ND Filters</h3>
+<ul>
+<li>Crystal filters provide very narrow bandwidth and high Q-factors.</li>
+<li>ND (Narrowband Digital) filters in DSP provide software alternates.</li>
+</ul>
+<h2>Noise Figure and Amplifier Optimization</h2>
+<ul>
+<li>Calculate noise figure (NF) to predict system noise.</li>
+<li>Use cascaded NF formula for multi-stage receivers.</li>
+<li>Amplifier linearity critical to avoid intermodulation distortion.</li>
+</ul>
+<h2>Shielding and PCB Layout Tips</h2>
+<ul>
+<li>Design ground planes and return paths.</li>
+<li>Minimize crosstalk with careful trace spacing.</li>
+<li>Use RF shielding cans or metal enclosures.</li>
+</ul>
+<h2>Practical: A Simple Crystal Filter Schematic</h2>
+<ul>
+<li>Include detailed schematic, part list.</li>
+<li>Build considerations for stability and temperature compensation.</li>
+</ul>
+<h2>Pro-tip: Measuring Performance</h2>
+<ul>
+<li>Use network analyzers for filter characterization.</li>
+<li>Spectrum analyzers expose spurs and noise.</li>
+<li>SWR meters validate antenna integration.</li>
+</ul>
+<p><em>Next chapter will explore integrating these advanced designs into full radio systems and field deployments.</em></p></div>
+</article>
+
+<article class="chapter" id="ch17">
+  <p class="label">Chapter 17</p>
+  <h1>Integrating Advanced Designs into Full Radio Systems and Field Deployments</h1>
+  <figure class="plate"><img src="art/ch17.jpg" alt="Plate 17. The shopping cart has been promoted."/><figcaption>Plate 17. The shopping cart has been promoted.</figcaption></figure>
+  <div class="prose"><h2>Introduction: From Lab to Battlefield</h2>
+<p>You&#39;ve built advanced circuits and filters—now it’s time to integrate them into robust, reliable radios designed for real-world survival zones. Learn to assemble, test, and deploy radios that can withstand zombie horde chaos and environmental challenges.</p>
+<h2>System Integration</h2>
+<ul>
+<li>Combine oscillator, mixer, amplifier, and filter stages for superheterodyne receivers.</li>
+<li>Ensure impedance matching between stages to minimize loss.</li>
+<li>Use modular design for easy maintenance and upgrades.</li>
+</ul>
+<h2>Packaging and Shielding</h2>
+<ul>
+<li>Use metal enclosures for electromagnetic shielding.</li>
+<li>Add EMI gaskets and conductive paints.</li>
+<li>Optimize ventilation while maintaining RF integrity.</li>
+</ul>
+<h2>Power and Thermal Management</h2>
+<ul>
+<li>Integrate efficient DC-DC converters and regulators.</li>
+<li>Design thermal paths for heat dissipation—use heat sinks and fans if needed.</li>
+<li>Balance power draw with battery capacity and solar input.</li>
+</ul>
+<h2>Field Deployment Strategies</h2>
+<ul>
+<li>Select site with clear LOS and minimal interference.</li>
+<li>Deploy directional antennas with rotators for tracking.</li>
+<li>Use mesh networking to extend range and resilience.</li>
+</ul>
+<h2>Testing and Calibration</h2>
+<ul>
+<li>Use signal generators and spectrum analyzers for in-field tune-up.</li>
+<li>Calibrate frequency, modulation index, and power output.</li>
+<li>Monitor SWR and noise figure for optimal performance.</li>
+</ul>
+<h2>Maintenance and Repair</h2>
+<ul>
+<li>Keep spare parts and tools accessible.</li>
+<li>Establish routine check procedures.</li>
+<li>Train team members for emergency repairs.</li>
+</ul>
+<h2>Sample Deployment Scenario</h2>
+<ul>
+<li>Base station with full radio suite.</li>
+<li>Portable kits for mobile squads.</li>
+<li>Overlapping mesh nets for fallback comm.</li>
+</ul>
+<p><em>Next chapter will dive into survival stockpiling, improvised materials, and long-term maintenance for zombieproof radios.</em></p></div>
+</article>
+<section class="part" id="part5"><div class="part-inner"><p class="label">Part V</p><h1>The Long Watch</h1><p class="blurb">Spares, emergency nets, secrecy, and the art of noticing someone else.</p></div></section>
+<article class="chapter" id="ch18">
+  <p class="label">Chapter 18</p>
+  <h1>Survival Stockpiling and Improvised Materials — Long-Term Maintenance for Zombieproof Radios</h1>
+  <figure class="plate"><img src="art/ch18.jpg" alt="Plate 18. Label everything. The zombie will not."/><figcaption>Plate 18. Label everything. The zombie will not.</figcaption></figure>
+  <div class="prose"><h2>Introduction: Keeping Your Radio Arsenal Ready</h2>
+<p>Survival in the undead world means your radio gear must be reliable, repairable, and well-stocked for long-term use. This chapter covers smart stockpiling, scavenging parts, and improvising replacements when resources run dry.</p>
+<h2>Essential Radio Parts to Stockpile</h2>
+<ul>
+<li>Common resistors, capacitors (electrolytic, ceramic), and inductors.</li>
+<li>Transistors (BJTs, MOSFETs), diodes (signal and power).</li>
+<li>ICs: Op-amps, audio amplifiers, mixers, voltage regulators.</li>
+<li>Connectors, switches, potentiometers, and fuses.</li>
+<li>Solder, wire, PCB materials, heat shrink tubing.</li>
+</ul>
+<h2>Scavenging and Improvised Materials</h2>
+<ul>
+<li>Salvage parts from discarded electronics: old radios, TVs, car stereos.</li>
+<li>Use copper wire from electrical wiring or scrap for antennas and coils.</li>
+<li>Plastic containers and rubber tubing for enclosures and insulation.</li>
+<li>Tin cans or metal boxes for shielding.</li>
+<li>Batteries from common devices, refurbished solar panels.</li>
+</ul>
+<h2>Long-term Maintenance Tips</h2>
+<ul>
+<li>Clean contacts regularly with alcohol or contact cleaner.</li>
+<li>Protect electronics from moisture and dust.</li>
+<li>Use conformal coatings or varnish on PCBs.</li>
+<li>Rotate stock to avoid part degradation.</li>
+<li>Regularly test batteries and replace weak ones.</li>
+</ul>
+<h2>Improvised Repair Techniques</h2>
+<ul>
+<li>Use jumper wires and twist connections in absence of soldering.</li>
+<li>Create makeshift antennas with random conductive materials.</li>
+<li>Patch damaged cables with foil tape or shrink wrap.</li>
+<li>Improvise heat sinks from aluminum cans or scrap metal.</li>
+</ul>
+<h2>Building a Basic Survival Repair Kit</h2>
+<ul>
+<li>Multitool, soldering iron with spare tips.</li>
+<li>Small selection of passive and active components.</li>
+<li>Replacement cables, connectors, and basic test gear.</li>
+<li>Epoxy, tape, and adhesives.</li>
+</ul>
+<h2>Example: Scavenged Wire Antenna Build</h2>
+<ul>
+<li>Use insulated copper wire wound to approximate length.</li>
+<li>Insulate with electrical tape or tubing.</li>
+<li>Attach to radio via hacked connector or clip.</li>
+</ul>
+<h2>Survival Mindset</h2>
+<ul>
+<li>Stockpile for redundancy to survive extended supply chain collapse.</li>
+<li>Prioritize modular, repair-friendly gear designs.</li>
+<li>Teach maintenance skills within your survival group.</li>
+</ul>
+<p><em>Next chapter: Exploring emergency comms setups, portable repeaters, and low-tech hacks.</em></p></div>
+</article>
+
+<article class="chapter" id="ch19">
+  <p class="label">Chapter 19</p>
+  <h1>Emergency Communications Setups, Portable Repeaters, and Low-Tech Hacks</h1>
+  <figure class="plate"><img src="art/ch19.jpg" alt="Plate 19. Gossip, with better range."/><figcaption>Plate 19. Gossip, with better range.</figcaption></figure>
+  <div class="prose"><h2>Introduction: Stay Connected When It Counts</h2>
+<p>In the apocalypse, quick, reliable communication saves lives. This chapter explores setting up emergency comms, building portable repeaters, and leveraging low-tech hacks for reliable signal coverage even in the toughest conditions.</p>
+<h2>Emergency Comms Essentials</h2>
+<ul>
+<li>Keep radios pre-programmed with emergency frequencies.</li>
+<li>Use simplex and duplex channels to maximize reach.</li>
+<li>Have backup power solutions plugged in and ready.</li>
+<li>Establish check-in procedures and schedules.</li>
+</ul>
+<h2>Portable Repeaters</h2>
+<ul>
+<li>Extend radio range using battery-powered or solar-enabled repeaters.</li>
+<li>Use simple cross-band repeaters or dual-radio setups.</li>
+<li>Place repeaters on high ground or vehicles for optimum coverage.</li>
+<li>Design repeaters with fail-safes and remote control features.</li>
+</ul>
+<h2>Low-Tech Hacks to Boost Coverage</h2>
+<ul>
+<li>Use natural elevation (hills, buildings) to increase signal line-of-sight.</li>
+<li>Construct wire antennas on trees, poles, or improvised masts.</li>
+<li>Reuse old satellite dishes or metal surfaces as reflectors.</li>
+<li>Employ signal relays with trusted operators to hop messages.</li>
+</ul>
+<h2>Improvised Communication Methods</h2>
+<ul>
+<li>Use flags, lights, or sound (whistles, drums) for silent or low-power signaling.</li>
+<li>Signal mirrors for optical communication during daytime.</li>
+<li>Pre-arranged visual or audio codes to convey critical info.</li>
+</ul>
+<h2>Survival Tips</h2>
+<ul>
+<li>Regularly test all equipment in real conditions.</li>
+<li>Train with your emergency network to refine protocols.</li>
+<li>Maintain simple, clear communication to avoid confusion.</li>
+</ul>
+<h2>Sample Setup: Quick Field Repeater</h2>
+<ul>
+<li>Two handheld radios with cross-band repeat programmed.</li>
+<li>Portable solar panel and battery pack.</li>
+<li>Lightweight tripod for antenna and repeater mounting.</li>
+</ul>
+<p><em>Next chapter will cover securing your comms, encryption basics, and stealth communication techniques to evade unwanted listeners.</em></p></div>
+</article>
+
+<article class="chapter" id="ch20">
+  <p class="label">Chapter 20</p>
+  <h1>Securing Your Comms — Encryption Basics and Stealth Communication Techniques</h1>
+  <figure class="plate"><img src="art/ch20.jpg" alt="Plate 20. Say it once. Then let the page go."/><figcaption>Plate 20. Say it once. Then let the page go.</figcaption></figure>
+  <div class="prose"><h2>Introduction: Guard Your Signals Like Your Life Depends On It</h2>
+<p>In the apocalypse, eavesdroppers are everywhere—from zombies to hostile survivors. Securing your radio communications with encryption and stealth helps keep your plans and locations secret.</p>
+<h2>Basics of Encryption</h2>
+<ul>
+<li><strong>Symmetric Encryption:</strong> Same key for encrypting and decrypting (AES, DES).</li>
+<li><strong>Asymmetric Encryption:</strong> Public/private key pairs (RSA, ECC).</li>
+<li>Use strong keys and rotate them regularly.</li>
+</ul>
+<h2>Simple Voice and Text Encryption</h2>
+<ul>
+<li>Use one-time pads (OTP) for perfect secrecy if implemented correctly.</li>
+<li>Use simple ciphers (Caesar, substitution) for quick scrambling.</li>
+<li>Layer voice scrambling devices or software DSP encryptors.</li>
+</ul>
+<h2>Digital Encryption in SDR and Radios</h2>
+<ul>
+<li>Software DSP can implement secure digital voice codecs.</li>
+<li>Encrypted digital protocols (e.g., AES-256) protect data and voice.</li>
+<li>Key exchange can be manual or via secure public key infrastructure (PKI).</li>
+</ul>
+<h2>Stealth and Low Probability of Intercept (LPI)</h2>
+<ul>
+<li>Frequency hopping spread spectrum (FHSS) to avoid being tracked.</li>
+<li>Use narrowband and low power transmissions.</li>
+<li>Employ burst transmissions or scheduled windows.</li>
+<li>Directional antennas pointed away from likely adversaries.</li>
+</ul>
+<h2>Cover and Camouflage Techniques</h2>
+<ul>
+<li>Use disguising frequencies, mimic ambient signals or noise.</li>
+<li>Employ innocuous cover stories or protocol decoys.</li>
+<li>Vary transmission parameters unpredictably.</li>
+</ul>
+<h2>Practical Tools and Devices</h2>
+<ul>
+<li>Open-source encryption tools: GnuPG, OTR for text.</li>
+<li>Hardware voice scramblers.</li>
+<li>SDR-based LPI implementations.</li>
+</ul>
+<h2>Survival Tip: Encrypt Your Logs and Key Materials</h2>
+<ul>
+<li>Use secure storage for key material and communication logs.</li>
+<li>Avoid revealing cryptographic methods and key schedules in public.</li>
+</ul>
+<p><em>Next chapter will discuss advanced monitoring, signal intelligence, and counter-surveillance for zombieproof communications.</em></p></div>
+</article>
+
+<article class="chapter" id="ch21">
+  <p class="label">Chapter 21</p>
+  <h1>Advanced Monitoring, Signal Intelligence, and Counter-Surveillance</h1>
+  <figure class="plate"><img src="art/ch21.jpg" alt="Plate 21. Three bearings, and a very embarrassed transmitter."/><figcaption>Plate 21. Three bearings, and a very embarrassed transmitter.</figcaption></figure>
+  <div class="prose"><h2>Introduction: Stay One Step Ahead of Threats</h2>
+<p>In a world where enemies are always lurking, developing sharp signal intelligence and counter-surveillance skills protects your comms and keeps you safe. This chapter explores how to monitor, analyze, and evade detection.</p>
+<h2>Signal Intelligence (SIGINT) Basics</h2>
+<ul>
+<li>Use SDRs and scanners to monitor enemy frequencies and patterns.</li>
+<li>Analyze signal strength, timing, and modulation to identify sources.</li>
+<li>Identify jamming, spoofing, and interception attempts.</li>
+</ul>
+<h2>Direction Finding and Triangulation</h2>
+<ul>
+<li>Use directional antennas (Yagi, Loop) for locating transmitters.</li>
+<li>Combine bearings from multiple stations for triangulation.</li>
+<li>Portable direction-finding gear for field operations.</li>
+</ul>
+<h2>Spectrum Monitoring</h2>
+<ul>
+<li>Continuously scan spectrum for anomalies and unauthorized transmissions.</li>
+<li>Use spectrum analyzers and SDR software with waterfall and FFT displays.</li>
+<li>Map signal activity over time to predict enemy behavior.</li>
+</ul>
+<h2>Counter-Surveillance Measures</h2>
+<ul>
+<li>Employ spread spectrum and frequency hopping to avoid interception.</li>
+<li>Use low power, short bursts to minimize detectability.</li>
+<li>Encrypt all transmissions and use protocol obfuscation.</li>
+</ul>
+<h2>Stealth Hardware Techniques</h2>
+<ul>
+<li>Concealed or disguised antennas.</li>
+<li>Use directional and beam antennas to focus transmissions.</li>
+<li>RF shielding to hide active gear.</li>
+</ul>
+<h2>Practical SIGINT Tools</h2>
+<ul>
+<li>Open-source SDR software for real-time signal monitoring.</li>
+<li>Direction-finding software plugins and hardware kits.</li>
+<li>Portable spectrum analyzers and logging tools.</li>
+</ul>
+<h2>Survival Tip: Build a SIGINT Network</h2>
+<ul>
+<li>Share monitoring data securely within trusted groups.</li>
+<li>Train operators in signal interception and analysis.</li>
+<li>Use intelligence to adapt comms strategy dynamically.</li>
+</ul>
+<p><em>Next chapter will focus on integration of AI and automation for smarter survival comms.</em></p></div>
+</article>
+<section class="part" id="part6"><div class="part-inner"><p class="label">Part VI</p><h1>Machines That Listen</h1><p class="blurb">Let a small mind keep the night shift. You still sign the log.</p></div></section>
+<article class="chapter" id="ch22">
+  <p class="label">Chapter 22</p>
+  <h1>AI and Automation Integration — Smarter Survival Comms</h1>
+  <figure class="plate"><img src="art/ch22.jpg" alt="Plate 22. The night shift has been automated. Tip it in batteries."/><figcaption>Plate 22. The night shift has been automated. Tip it in batteries.</figcaption></figure>
+  <div class="prose"><h2>Introduction: The Future of Radio Is Smart and Adaptive</h2>
+<p>Artificial Intelligence and automation are game-changers in managing complex, dynamic survival communication networks. Automation can optimize frequency use, signal processing, and network health monitoring, keeping comms effective with minimal human effort.</p>
+<h2>AI Applications in Radio</h2>
+<ul>
+<li><strong>Signal Classification and Detection:</strong> AI algorithms identify signal types, modulation, and interference patterns.</li>
+<li><strong>Anomaly Detection:</strong> AI spots jamming, spoofing, or unusual activity in spectrum.</li>
+<li><strong>Adaptive Protocols:</strong> Self-optimizing frequencies and power levels based on environment.</li>
+<li><strong>Predictive Maintenance:</strong> AI forecasts hardware failures for proactive repairs.</li>
+</ul>
+<h2>Automation Tools and Techniques</h2>
+<ul>
+<li><strong>Autonomous Network Management:</strong> Automate routing, load balancing, and node health checks.</li>
+<li><strong>Scheduled and Event-triggered Messaging:</strong> Automate beacon transmissions and alerts.</li>
+<li><strong>Software-defined Networking:</strong> Centralized control with decentralized execution.</li>
+</ul>
+<h2>Practical AI Integration Examples</h2>
+<ul>
+<li>Use neural networks to separate overlapping signals.</li>
+<li>Automate frequency hopping patterns using reinforcement learning.</li>
+<li>Deploy chatbot assistants for emergency communications and coordination.</li>
+</ul>
+<h2>Hardware Platforms</h2>
+<ul>
+<li>Edge AI devices (NVIDIA Jetson, Google Coral) for local processing.</li>
+<li>Integration with SDRs and embedded controllers.</li>
+<li>Cloud-assisted analytics when connectivity available.</li>
+</ul>
+<h2>Implementation Challenges</h2>
+<ul>
+<li>Data privacy and secure handling of sensitive comms.</li>
+<li>Energy and computation constraints in field deployments.</li>
+<li>Training datasets for unusual environments.</li>
+</ul>
+<h2>Survival Tip: Start Small, Build Smarts Gradually</h2>
+<ul>
+<li>Begin with simple signal classifiers and expand AI roles.</li>
+<li>Use open-source frameworks (TensorFlow, PyTorch).</li>
+<li>Combine AI with manual override for safety.</li>
+</ul>
+<p><em>Next chapter will dive into AI-driven mesh network optimization and autonomous communication nodes.</em></p></div>
+</article>
+
+<article class="chapter" id="ch23">
+  <p class="label">Chapter 23</p>
+  <h1>AI-Driven Mesh Network Optimization and Autonomous Communication Nodes</h1>
+  <figure class="plate"><img src="art/ch23.jpg" alt="Plate 23. It has already made friends with a pigeon."/><figcaption>Plate 23. It has already made friends with a pigeon.</figcaption></figure>
+  <div class="prose"><h2>Introduction: Smarter Networks for Harder Times</h2>
+<p>Applying AI to mesh networks brings self-optimizing, adaptive, and resilient communication systems that require minimal human oversight, perfect for chaotic survival environments.</p>
+<h2>AI in Mesh Networks</h2>
+<ul>
+<li><strong>Dynamic Routing:</strong> AI algorithms adapt routes in real-time based on link quality, congestion, and node availability.</li>
+<li><strong>Load Balancing:</strong> Distribute traffic for optimal throughput and reduced latency.</li>
+<li><strong>Fault Prediction:</strong> Detect impending node or link failures; reroute preemptively.</li>
+<li><strong>Energy Management:</strong> Optimize power use by toggling nodes or adjusting power levels.</li>
+</ul>
+<h2>Autonomous Nodes</h2>
+<ul>
+<li>Embedded AI enables nodes to self-configure, heal, and coordinate.</li>
+<li>Nodes can learn traffic patterns, user habits, and environmental changes.</li>
+<li>Autonomous uplinks to external networks or satellite links for backup.</li>
+</ul>
+<h2>Implementation Approaches</h2>
+<ul>
+<li>Use lightweight AI models deployable on embedded devices.</li>
+<li>Employ reinforcement learning for routing and resource allocation.</li>
+<li>Integrate sensor data (location, interference) for context-aware decisions.</li>
+</ul>
+<h2>Tools and Frameworks</h2>
+<ul>
+<li>TensorFlow Lite, Edge Impulse for embedded AI.</li>
+<li>Open-source mesh firmware with AI modules (e.g., OpenThread with AI layers).</li>
+<li>Simulation and testing environments for network behavior.</li>
+</ul>
+<h2>Practical Considerations</h2>
+<ul>
+<li>Balance AI complexity with node hardware constraints.</li>
+<li>Ensure fail-safe mechanisms and manual override paths.</li>
+<li>Secure AI models and data to avoid adversarial attacks.</li>
+</ul>
+<h2>Future Prospects</h2>
+<ul>
+<li>Fully autonomous, self-sustaining mesh networks adapting to zombie threats.</li>
+<li>Collaborative AI among nodes for swarm intelligence.</li>
+<li>Integration with AI-powered SDRs for smart spectrum use.</li>
+</ul>
+<p><em>Next chapter explores AI-powered signal decoding and adaptive encryption for stealth communications.</em></p></div>
+</article>
+
+<article class="chapter" id="ch24">
+  <p class="label">Chapter 24</p>
+  <h1>AI-Powered Signal Decoding and Adaptive Encryption for Stealth Comms</h1>
+  <figure class="plate"><img src="art/ch24.jpg" alt="Plate 24. Static in, paper airplane out. Read it before you trust it."/><figcaption>Plate 24. Static in, paper airplane out. Read it before you trust it.</figcaption></figure>
+  <div class="prose"><h2>Introduction: Smarter Decoding and Secure Adaptation</h2>
+<p>AI enhances your ability to decode complex signals, even in noisy or hostile environments, while adaptive encryption keeps your communications stealthy and resilient against eavesdropping.</p>
+<h2>AI in Signal Decoding</h2>
+<ul>
+<li>Use machine learning models to classify and demodulate unknown or weak signals.</li>
+<li>Neural networks excel at recognizing patterns in noisy data.</li>
+<li>Train AI to decode morse, digital modes, or even encrypted traffic without prior knowledge.</li>
+</ul>
+<h2>Adaptive Encryption</h2>
+<ul>
+<li>Algorithms that change encryption keys and methods dynamically.</li>
+<li>AI predicts potential threats and adjusts security parameters on the fly.</li>
+<li>Adaptive encryption resists cryptanalysis and jamming attempts.</li>
+</ul>
+<h2>Integrating AI in SDR Pipelines</h2>
+<ul>
+<li>Input raw RF data to AI-powered signal classifiers.</li>
+<li>Automate modulation recognition and demodulation.</li>
+<li>Feed decoded data into adaptive encryption modules.</li>
+</ul>
+<h2>Practical Implementation Tips</h2>
+<ul>
+<li>Collect diverse datasets for training AI in varied conditions.</li>
+<li>Use lightweight models for edge deployment; heavier models can run in cloud or base stations.</li>
+<li>Combine AI decoding output with human supervision for critical communications.</li>
+</ul>
+<h2>Tools and Frameworks</h2>
+<ul>
+<li>TensorFlow/PyTorch for AI model building.</li>
+<li>GNU Radio + AI integration plugins.</li>
+<li>Custom FPGA and DSP implementations of AI algorithms.</li>
+</ul>
+<h2>Survival Tip: Blend Automation with Manual Control</h2>
+<ul>
+<li>AI can speed decoding but maintain manual override.</li>
+<li>Keep backups of encryption keys off-network for emergencies.</li>
+<li>Regularly update AI and encryption software to counter new threats.</li>
+</ul>
+<p><em>Next chapter will explore practical AI projects for radio enthusiasts and survivalists.</em></p></div>
+</article>
+
+<article class="chapter" id="ch25">
+  <p class="label">Chapter 25</p>
+  <h1>Practical AI Projects for Radio Enthusiasts and Survivalists</h1>
+  <figure class="plate"><img src="art/ch25.jpg" alt="Plate 25. Small proofs of concept. Medium crumbs."/><figcaption>Plate 25. Small proofs of concept. Medium crumbs.</figcaption></figure>
+  <div class="prose"><h2>Introduction: Turning Theory into Survival Tools</h2>
+<p>Explore concrete AI applications that enhance your radio projects for detection, decoding, and network optimization—empowering your survival communications.</p>
+<h2>Project 1: AI-Based Signal Classifier</h2>
+<ul>
+<li>Train a simple neural network to classify common modulation types (AM, FM, FSK, PSK).</li>
+<li>Use labeled signal datasets or capture your own with SDR.</li>
+<li>Employ Python libraries like TensorFlow or PyTorch.</li>
+<li>Integrate classifier with GNU Radio for real-time signal sorting.</li>
+</ul>
+<h2>Project 2: Automated Morse Code Decoder</h2>
+<ul>
+<li>Use recurrent neural networks (RNNs) or CNNs to decode Morse tones amid noise.</li>
+<li>Preprocess raw audio signals with bandpass filters.</li>
+<li>Train model on Morse audio samples; test with field recordings.</li>
+<li>Output decoded text automatically to aid messaging.</li>
+</ul>
+<h2>Project 3: Adaptive Frequency Hopping Controller</h2>
+<ul>
+<li>Implement reinforcement learning agent to manage frequency hopping sequences.</li>
+<li>Optimize for minimal interference and maximum stealth.</li>
+<li>Deploy on embedded AI platforms for real-time control.</li>
+</ul>
+<h2>Project 4: AI-Powered Noise Reduction</h2>
+<ul>
+<li>Train AI models for spectral noise suppression in radio signals.</li>
+<li>Improve weak, distorted signals from hostile sources.</li>
+<li>Integrate with SDR receivers for cleaner audio and data.</li>
+</ul>
+<h2>Tools and Resources</h2>
+<ul>
+<li>Jupyter notebooks for prototyping.</li>
+<li>Open datasets like RadioML for training.</li>
+<li>Collaborate via open-source clubs or forums.</li>
+</ul>
+<h2>Survival Tip: Start with Small Proofs of Concept</h2>
+<ul>
+<li>Validate ideas on simple hardware before full deployment.</li>
+<li>Share and test with your survival network.</li>
+<li>Incrementally add AI complexity to maintain reliability.</li>
+</ul>
+<p><em>Ready to explore next chapter on AI-enhanced encryption or want code examples for these projects, woflfren?</em></p></div>
+</article>
+<section class="part" id="part7"><div class="part-inner"><p class="label">Part VII</p><h1>Protocols of the Rubble</h1><p class="blurb">Pagers, packets, payment taps, and the modes that still sing when the channel is cruel.</p></div></section>
+<article class="chapter" id="ch26">
+  <p class="label">Chapter 26</p>
+  <h1>POCSAG, SMS, and Ringtone Formats — Decoding Basics and Protocol Insights</h1>
+  <figure class="plate"><img src="art/ch26.jpg" alt="Plate 26. Something in the pager band would like a word."/><figcaption>Plate 26. Something in the pager band would like a word.</figcaption></figure>
+  <div class="prose"><h2>Introduction to POCSAG</h2>
+<p>POCSAG (Post Office Code Standardisation Advisory Group) is a widely used paging protocol for sending numeric or alphanumeric messages over radio channels. It’s foundational for pager communications.</p>
+<p>Uses 512, 1200, or 2400 baud transmission rates.</p>
+<p>Data is encoded using a BCH (Bose–Chaudhuri–Hocquenghem) error-correcting code.</p>
+<p>Messages include address and function bits, followed by message data.</p>
+<h2>POCSAG Decoding</h2>
+<p>Receive the bitstream via a radio or SDR tuned to the pager frequency.</p>
+<p>Synchronize to the sync codeword to align decoding.</p>
+<p>BCH decoding corrects bit errors.</p>
+<p>Extract pager address and message payload.</p>
+<p>Payload parsing differentiates numeric and alphanumeric message types.</p>
+<h2>SMS (Short Message Service) Basics</h2>
+<p>SMS uses a store-and-forward system in cellular networks.</p>
+<p>Text messages are encoded often in 7-bit GSM default alphabet or UCS-2 for Unicode.</p>
+<p>Messages are packetized into Protocol Data Units (PDUs) with headers including sender, recipient, timestamp.</p>
+<p>SMS uses signaling channels in GSM, but internet-based SMS uses SMPP or other push protocols.</p>
+<h2>SMS Decoding Essentials</h2>
+<p>Decode PDU blocks to extract text and metadata.</p>
+<p>Handle message segmentation and reassembly for long texts.</p>
+<p>Implement character set decoding based on GSM 03.38 or UCS-2 standards.</p>
+<h2>Ringtone Formats Overview</h2>
+<p>Early mobile ringtones were simple monophonic formats, often stored in RTTTL (Ring Tone Text Transfer Language) or MIDI.</p>
+<p>RTTTL encodes music as note, duration, and octave in plain text strings.</p>
+<p>Modern phones use polyphonic MIDI or audio file formats (WAV, MP3).</p>
+<p>Decoding involves interpreting note commands or parsing audio waveform data.</p>
+<h2>Practical Applications</h2>
+<p>Build a POCSAG decoder using RTL-SDR and Python libraries.</p>
+<p>Develop SMS message interceptors for testing network security.</p>
+<p>Write parsers for RTTTL to MIDI converters.</p>
+<p>Use AI to classify ringtone formats and transcode between them.</p>
+<h2>Tools and Resources</h2>
+<p>Python libraries: pylibrtlsdr, pyserial, scapy.</p>
+<p>Online RTTTL repositories for testing.</p>
+<p>GSM specifications for detailed SMS internals.</p></div>
+</article>
+
+<article class="chapter" id="ch27">
+  <p class="label">Chapter 27</p>
+  <h1>The Zombieproof Radio Lab Essentials</h1>
+  <figure class="plate"><img src="art/ch27.jpg" alt="Plate 27. Do not let the zombie hold the hot end."/><figcaption>Plate 27. Do not let the zombie hold the hot end.</figcaption></figure>
+  <div class="prose"><p class="lede">Welcome, fellow survivor, to the most important room in your apocalypse bunker: the radio lab. Forget the canned beans and the machetes—your real lifeline is the collection of wires, chips, and blinking LEDs that keep you connected to the outside world. In this chapter, we’ll walk through the essential tools and hardware you need to build, repair, and maintain your zombieproof radio systems. And yes, we’ll do it with a smile, because if you’re not laughing, you’re probably already a zombie.</p>
+<h2>The Radio Lab: Your Fortress of Solitude</h2>
+<p>Your radio lab is more than just a workspace; it’s your fortress of solitude, your command center, and your last line of defense against the undead. Here, you’ll find the tools that turn scraps into communication devices, and the knowledge that keeps you one step ahead of the horde.</p>
+<h2>The Essential Tools</h2>
+<p>Let’s start with the basics. Every zombieproof radio lab needs a few key tools:</p>
+<p><strong>Soldering Iron.</strong> The bread and butter of any electronics lab. A good soldering iron can turn a pile of scrap into a working radio. Just remember, in a zombie apocalypse, you don’t want to be the one who burns their fingers while trying to fix the last working transceiver.</p>
+<p><strong>Multimeter.</strong> Your multimeter is your best friend. It can tell you if a battery is dead, if a wire is broken, or if a zombie is about to break down your door (okay, maybe not that last one, but it’s close).</p>
+<p><strong>Oscilloscope.</strong> For the more advanced survivor, an oscilloscope can help you debug complex circuits and ensure your signals are clean and strong. It’s like having X-ray vision for your electronics.</p>
+<p><strong>Breadboard.</strong> The breadboard is where you prototype your circuits. It’s the playground for your ideas, where you can test out new designs without committing to soldering. Just be careful not to leave your breadboard unattended—zombies love to chew on wires.</p>
+<h2>The Hardware Arsenal</h2>
+<p>Now, let’s talk about the hardware you’ll need to build your radio systems:</p>
+<p><strong>Microcontrollers.</strong> Devices like the ESP32, ESP8266, and RP2040 are the brains of your radio projects. They’re cheap, powerful, and can be programmed to do just about anything. Whether you’re building a simple FM transmitter or a complex packet radio system, a microcontroller is your best bet.</p>
+<p><strong>Radio Modules.</strong> Modules like the CC1101, Si4703, and Si5351 are the heart of your radio systems. They handle the heavy lifting of transmitting and receiving signals, and they’re easy to integrate with microcontrollers.</p>
+<p><strong>Antennas.</strong> A good antenna is crucial for long-range communication. Whether you’re using a simple wire or a sophisticated Yagi-Uda, your antenna is what connects you to the outside world.</p>
+<p><strong>Power Supplies.</strong> In a zombie apocalypse, power is precious. Make sure you have a reliable power supply, whether it’s a battery pack, a solar panel, or a hand-crank generator. And don’t forget to keep your power supplies charged—zombies don’t like it when your radio dies.</p>
+<h2>The Zombieproof Mindset</h2>
+<p>Building and maintaining radio systems in a zombie apocalypse requires more than just tools and hardware. It requires a zombieproof mindset. Here are a few tips to keep you sane and your radio working:</p>
+<p><strong>Improvisation.</strong> In a zombie apocalypse, you can’t always rely on Amazon Prime. Learn to improvise with what you have. A paperclip can be a wire, a soda can can be an antenna, and a rubber band can hold your breadboard together.</p>
+<p><strong>Redundancy.</strong> Always have a backup plan. If your main radio fails, you should have a spare ready to go. And if your spare fails, you should have a backup for your backup.</p>
+<p><strong>Community.</strong> Don’t go it alone. Join a local ham radio club or online community. Share your knowledge, learn from others, and help each other survive. After all, in a zombie apocalypse, the only thing stronger than a radio signal is a community of survivors.</p>
+<h2>Building Your First Zombieproof Radio</h2>
+<p>Now that you have your tools and hardware, it’s time to build your first zombieproof radio. Here’s a simple project to get you started:</p>
+<h2>The FM Transmitter</h2>
+<p>An FM transmitter is a great way to broadcast your message to the world. Here’s what you’ll need:</p>
+<p><strong>ESP8266 or ESP32.</strong> The brain of your transmitter.</p>
+<p><strong>Si4703 FM Radio Module.</strong> The heart of your transmitter.</p>
+<p><strong>Antenna.</strong> A simple wire will do.</p>
+<p><strong>Power Supply.</strong> A battery pack or USB power bank.</p>
+<h2>Step-by-Step Instructions</h2>
+<p>Connect the Hardware: Connect the Si4703 module to the ESP8266 or ESP32 using the I2C interface. Connect the antenna to the module, and connect the power supply to the microcontroller.</p>
+<p><strong>Write the Code.</strong> The draft promised a code listing here and did not include one, so bring a sketch you trust for this board. This code will allow you to transmit an FM signal on a specific frequency.</p>
+<p><strong>Test Your Transmitter.</strong> Tune an FM radio to the frequency you’re transmitting on. If everything is working, you should hear your message.</p>
+<p><strong>Broadcast Your Message.</strong> Use your transmitter to broadcast important information to other survivors. Just remember to keep your message short and sweet—zombies don’t like long speeches.</p>
+<h2>The Packet Radio Chat</h2>
+<p>If you want to get fancy, you can build a packet radio chat system. This system allows you to send text messages over the airwaves, making it perfect for coordinating with other survivors.</p>
+<h2>What You’ll Need</h2>
+<p>ESP32 or ESP8266: The brain of your chat system.</p>
+<p><strong>CC1101 Radio Module.</strong> The heart of your chat system.</p>
+<p><strong>Antenna.</strong> A simple wire or a more sophisticated antenna.</p>
+<p><strong>Power Supply.</strong> A battery pack or USB power bank.</p>
+<h2>Step-by-Step Instructions</h2>
+<p>Connect the Hardware: Connect the CC1101 module to the ESP32 or ESP8266 using the SPI interface. Connect the antenna to the module, and connect the power supply to the microcontroller.</p>
+<p><strong>Write the Code.</strong> The draft promised a code listing here and did not include one, so bring a sketch you trust for this board. This code will allow you to send and receive text messages over the airwaves.</p>
+<p><strong>Test Your Chat System.</strong> Use another radio to send and receive messages. If everything is working, you should be able to chat with other survivors.</p>
+<p><strong>Coordinate with Other Survivors.</strong> Use your chat system to coordinate with other survivors, share information, and plan your next move.</p>
+<h2>The Zombieproof Radio Lab: A Survivor’s Guide</h2>
+<p>Your radio lab is more than just a workspace; it’s your lifeline in a zombie apocalypse. With the right tools, hardware, and mindset, you can build, repair, and maintain your radio systems, keeping you connected to the outside world and one step ahead of the horde. So roll up your sleeves, grab your soldering iron, and get ready to build your zombieproof radio lab. The apocalypse is coming, but with your radio lab, you’ll be ready.</p></div>
+</article>
+
+<article class="chapter" id="ch28">
+  <p class="label">Chapter 28</p>
+  <h1>Contactless Transactions in the Apocalypse</h1>
+  <figure class="plate"><img src="art/ch28.jpg" alt="Plate 28. Rocks are not a recognized tender."/><figcaption>Plate 28. Rocks are not a recognized tender.</figcaption></figure>
+  <div class="prose"><p class="lede">When the world goes dark and the undead start shuffling, your wallet is the least of your worries—unless it’s a contactless wallet. In a zombie apocalypse, contactless payment and transaction tech can be your lifeline for exchanging supplies, verifying identities, and even bartering with other survivors. Forget about cash and coins; NFC and RFID systems are the new currency of the apocalypse.</p>
+<h2>The Rise of the Zombie-Proof Wallet</h2>
+<p>Contactless transactions rely on Near Field Communication (NFC) and Radio-Frequency Identification (RFID) technologies. These systems allow you to make payments or exchange data by simply waving your device near a reader. In a world where touching anything is a gamble, contactless tech is a godsend. Whether you’re trading ammo for canned beans or verifying your identity at a survivor checkpoint, NFC and RFID keep you safe from both zombies and germs.</p>
+<h2>Building Your Own Contactless Terminal</h2>
+<p>You don’t need a fancy terminal to get started. With a few scavenged parts, you can build your own contactless payment system. Start with an NFC reader module, which can be found in old smartphones, payment terminals, or even public transit cards. Pair it with a microcontroller like an Arduino or Raspberry Pi, and you’ve got the brains of your system. Add a display for feedback, and you’re ready to roll.</p>
+<h2>The Protocols of Apocalypse Payments</h2>
+<p>Contactless transactions use a variety of protocols, including ISO/IEC 14443 and ISO/IEC 18092. These standards ensure that your device can communicate with any reader, no matter who built it. In a zombie apocalypse, interoperability is key. You never know what kind of tech you’ll find in a scavenged terminal, so stick to the standards.</p>
+<h2>Security in the Apocalypse</h2>
+<p>Security is a major concern when the world is falling apart. Contactless systems use encryption and authentication to protect your data. In a zombie apocalypse, you’ll want to use the strongest encryption available. Look for systems that support AES-128 or higher, and always keep your software up to date. If you’re building your own system, make sure to implement secure key management and regular firmware updates.</p>
+<h2>The Future of Apocalypse Payments</h2>
+<p>As the world rebuilds, contactless transactions will become even more important. With the rise of blockchain and decentralized currencies, you might find yourself trading crypto with other survivors. Whether you’re using NFC, RFID, or something entirely new, the future of apocalypse payments is bright.</p></div>
+</article>
+
+<article class="chapter" id="ch29">
+  <p class="label">Chapter 29</p>
+  <h1>Bluetooth and Wireless Survival</h1>
+  <figure class="plate"><img src="art/ch29.jpg" alt="Plate 29. Short range, long feelings, one dead battery."/><figcaption>Plate 29. Short range, long feelings, one dead battery.</figcaption></figure>
+  <div class="prose"><p class="lede">Bluetooth and other wireless protocols are your lifeline in a post-apocalyptic world. From connecting headsets to sharing data between survivors, wireless tech keeps you connected and informed. In a zombie apocalypse, Bluetooth is your best friend.</p>
+<h2>The Basics of Bluetooth Survival</h2>
+<p>Bluetooth is a short-range wireless technology that allows devices to communicate with each other. In a zombie apocalypse, you can use Bluetooth to connect headsets, share data, and even control devices remotely. With a range of up to 100 meters, Bluetooth is perfect for short-range communication.</p>
+<h2>Building a Zombie-Proof Wireless Network</h2>
+<p>You don’t need a fancy router to get started. With a few scavenged parts, you can build your own wireless network. Start with a Bluetooth module, which can be found in old smartphones, laptops, or even cars. Pair it with a microcontroller, and you’ve got the brains of your network. Add a power supply, and you’re ready to roll.</p>
+<h2>The Protocols of Apocalypse Wireless</h2>
+<p>Bluetooth uses a variety of protocols, including Bluetooth Classic and Bluetooth Low Energy (BLE). These standards ensure that your devices can communicate with each other, no matter who built them. In a zombie apocalypse, interoperability is key. You never know what kind of tech you’ll find in a scavenged device, so stick to the standards.</p>
+<h2>Security in the Apocalypse</h2>
+<p>Security is a major concern when the world is falling apart. Bluetooth uses encryption and authentication to protect your data. In a zombie apocalypse, you’ll want to use the strongest encryption available. Look for systems that support AES-128 or higher, and always keep your software up to date. If you’re building your own system, make sure to implement secure key management and regular firmware updates.</p>
+<h2>The Future of Apocalypse Wireless</h2>
+<p>As the world rebuilds, wireless tech will become even more important. With the rise of mesh networks and decentralized communication, you might find yourself building your own wireless network from scratch. Whether you’re using Bluetooth, Wi-Fi, or something entirely new, the future of apocalypse wireless is bright.</p></div>
+</article>
+
+<article class="chapter" id="ch30">
+  <p class="label">Chapter 30</p>
+  <h1>Digital FM Receivers and RDS Data</h1>
+  <figure class="plate"><img src="art/ch30.jpg" alt="Plate 30. The dashboard still knows the song. Nobody asked it to."/><figcaption>Plate 30. The dashboard still knows the song. Nobody asked it to.</figcaption></figure>
+  <div class="prose"><p class="lede">Building and using digital FM receivers is a must for any zombie survivor. Learn how to decode station data, from the call sign to the song playing, even when the zombies are tuning in. We’ll walk you through the hardware and software needed to build your own receiver, and show you how to use RDS data to stay informed and entertained.</p>
+<h2>The Basics of Digital FM Reception</h2>
+<p>Digital FM receivers use a variety of technologies to decode station data. From the call sign to the song playing, RDS data keeps you informed and entertained. In a zombie apocalypse, a digital FM receiver is your lifeline to the outside world.</p>
+<h2>Building Your Own Digital FM Receiver</h2>
+<p>You don’t need a fancy receiver to get started. With a few scavenged parts, you can build your own digital FM receiver. Start with an FM receiver module, which can be found in old radios, TVs, or even car stereos. Pair it with a microcontroller, and you’ve got the brains of your receiver. Add a display for feedback, and you’re ready to roll.</p>
+<h2>The Protocols of Apocalypse FM</h2>
+<p>Digital FM receivers use a variety of protocols, including RDS and RBDS. These standards ensure that your receiver can decode station data from any broadcaster, no matter who built it. In a zombie apocalypse, interoperability is key. You never know what kind of tech you’ll find in a scavenged receiver, so stick to the standards.</p>
+<h2>Security in the Apocalypse</h2>
+<p>Security is a major concern when the world is falling apart. Digital FM receivers use encryption and authentication to protect your data. In a zombie apocalypse, you’ll want to use the strongest encryption available. Look for systems that support AES-128 or higher, and always keep your software up to date. If you’re building your own system, make sure to implement secure key management and regular firmware updates.</p>
+<h2>The Future of Apocalypse FM</h2>
+<p>As the world rebuilds, digital FM receivers will become even more important. With the rise of digital broadcasting and decentralized communication, you might find yourself building your own receiver from scratch. Whether you’re using RDS, RBDS, or something entirely new, the future of apocalypse FM is bright.</p></div>
+</article>
+
+<article class="chapter" id="ch31">
+  <p class="label">Chapter 31</p>
+  <h1>Packet Radio and UDP Networking</h1>
+  <figure class="plate"><img src="art/ch31.jpg" alt="Plate 31. Letters that refused to take the road."/><figcaption>Plate 31. Letters that refused to take the road.</figcaption></figure>
+  <div class="prose"><p class="lede">Packet radio and UDP networking are the backbone of resilient, zombie-proof communication. Dive into the world of packet radio, from building your own transceiver to setting up a network that can withstand the apocalypse. We’ll cover the protocols and hardware needed for reliable communication, and show you how to use UDP for fast, efficient data transfer.</p>
+<h2>The Basics of Packet Radio</h2>
+<p>Packet radio uses a variety of technologies to transmit data over radio waves. From Morse code to streaming video, packet radio keeps you connected and informed. In a zombie apocalypse, packet radio is your lifeline to the outside world.</p>
+<h2>Building Your Own Packet Radio Network</h2>
+<p>You don’t need a fancy transceiver to get started. With a few scavenged parts, you can build your own packet radio network. Start with a packet radio module, which can be found in old radios, TVs, or even car stereos. Pair it with a microcontroller, and you’ve got the brains of your network. Add a power supply, and you’re ready to roll.</p>
+<h2>The Protocols of Apocalypse Packet Radio</h2>
+<p>Packet radio uses a variety of protocols, including AX.25 and UDP. These standards ensure that your network can transmit data from any broadcaster, no matter who built it. In a zombie apocalypse, interoperability is key. You never know what kind of tech you’ll find in a scavenged transceiver, so stick to the standards.</p>
+<h2>Security in the Apocalypse</h2>
+<p>Security is a major concern when the world is falling apart. Packet radio uses encryption and authentication to protect your data. In a zombie apocalypse, you’ll want to use the strongest encryption available. Look for systems that support AES-128 or higher, and always keep your software up to date. If you’re building your own system, make sure to implement secure key management and regular firmware updates.</p>
+<h2>The Future of Apocalypse Packet Radio</h2>
+<p>As the world rebuilds, packet radio will become even more important. With the rise of digital broadcasting and decentralized communication, you might find yourself building your own network from scratch. Whether you’re using AX.25, UDP, or something entirely new, the future of apocalypse packet radio is bright.</p></div>
+</article>
+
+<article class="chapter" id="ch32">
+  <p class="label">Chapter 32</p>
+  <h1>Advanced Protocols: MFSK, DominoEX, and Thor</h1>
+  <figure class="plate"><img src="art/ch32.jpg" alt="Plate 32. They sing when the channel is cruel."/><figcaption>Plate 32. They sing when the channel is cruel.</figcaption></figure>
+  <div class="prose"><p class="lede">Advanced radio protocols like MFSK, DominoEX, and Thor are your secret weapons for surviving the apocalypse. These protocols can handle weak signals and interference, making them perfect for zombie-proof communication. We’ll explore the science behind these protocols, from the hardware to the software, and show you how to build your own transceiver.</p>
+<h2>The Basics of Advanced Protocols</h2>
+<p>MFSK, DominoEX, and Thor use a variety of technologies to transmit data over radio waves. From Morse code to streaming video, these protocols keep you connected and informed. In a zombie apocalypse, advanced protocols are your lifeline to the outside world.</p>
+<h2>Building Your Own Advanced Protocol Transceiver</h2>
+<p>You don’t need a fancy transceiver to get started. With a few scavenged parts, you can build your own advanced protocol transceiver. Start with a protocol module, which can be found in old radios, TVs, or even car stereos. Pair it with a microcontroller, and you’ve got the brains of your transceiver. Add a power supply, and you’re ready to roll.</p>
+<h2>The Protocols of Apocalypse Advanced Protocols</h2>
+<p>MFSK, DominoEX, and Thor use a variety of protocols, including varicode and forward error correction. These standards ensure that your transceiver can transmit data from any broadcaster, no matter who built it. In a zombie apocalypse, interoperability is key. You never know what kind of tech you’ll find in a scavenged transceiver, so stick to the standards.</p>
+<h2>Security in the Apocalypse</h2>
+<p>Security is a major concern when the world is falling apart. Advanced protocols use encryption and authentication to protect your data. In a zombie apocalypse, you’ll want to use the strongest encryption available. Look for systems that support AES-128 or higher, and always keep your software up to date. If you’re building your own system, make sure to implement secure key management and regular firmware updates.</p>
+<h2>The Future of Apocalypse Advanced Protocols</h2>
+<p>As the world rebuilds, advanced protocols will become even more important. With the rise of digital broadcasting and decentralized communication, you might find yourself building your own transceiver from scratch. Whether you’re using MFSK, DominoEX, Thor, or something entirely new, the future of apocalypse advanced protocols is bright.</p></div>
+</article>
+<section class="part" id="part8"><div class="part-inner"><p class="label">Part VIII</p><h1>Eyes and Handshakes</h1><p class="blurb">Seeing movement, the old courtesies, a smoking radio, and a lock on the microphone.</p></div></section>
+<article class="chapter" id="ch33">
+  <p class="label">Chapter 33</p>
+  <h1>WiFi and SHF Radar for Zombie Detection</h1>
+  <figure class="plate"><img src="art/ch33.jpg" alt="Plate 33. It sees shuffling, not souls."/><figcaption>Plate 33. It sees shuffling, not souls.</figcaption></figure>
+  <div class="prose"><p class="lede">WiFi and SHF radar are your eyes and ears in a zombie apocalypse. Learn how to use these technologies to detect movement and track zombies, with practical build guides and real-world examples. We’ll cover the hardware and software needed to build your own WiFi and SHF radar systems, and show you how to use them to stay one step ahead of the undead.</p>
+<h2>The Basics of WiFi and SHF Radar</h2>
+<p>WiFi and SHF radar use a variety of technologies to detect movement and track zombies. From simple motion detection to advanced tracking, these systems keep you safe and informed. In a zombie apocalypse, WiFi and SHF radar are your lifeline to the outside world.</p>
+<h2>Building Your Own WiFi and SHF Radar System</h2>
+<p>You don’t need a fancy system to get started. With a few scavenged parts, you can build your own WiFi and SHF radar system. Start with a WiFi module, which can be found in old routers, laptops, or even smartphones. Pair it with a microcontroller, and you’ve got the brains of your system. Add a display for feedback, and you’re ready to roll.</p>
+<h2>The Protocols of Apocalypse WiFi and SHF Radar</h2>
+<p>WiFi and SHF radar use a variety of protocols, including 802.11 and 24 GHz radar. These standards ensure that your system can detect movement from any broadcaster, no matter who built it. In a zombie apocalypse, interoperability is key. You never know what kind of tech you’ll find in a scavenged system, so stick to the standards.</p>
+<h2>Security in the Apocalypse</h2>
+<p>Security is a major concern when the world is falling apart. WiFi and SHF radar use encryption and authentication to protect your data. In a zombie apocalypse, you’ll want to use the strongest encryption available. Look for systems that support AES-128 or higher, and always keep your software up to date. If you’re building your own system, make sure to implement secure key management and regular firmware updates.</p>
+<h2>The Future of Apocalypse WiFi and SHF Radar</h2>
+<p>As the world rebuilds, WiFi and SHF radar will become even more important. With the rise of digital broadcasting and decentralized communication, you might find yourself building your own system from scratch. Whether you’re using 802.11, 24 GHz radar, or something entirely new, the future of apocalypse WiFi and SHF radar is bright.</p></div>
+</article>
+
+<article class="chapter" id="ch34">
+  <p class="label">Chapter 34</p>
+  <h1>The Secret Handshakes of Ham Radio</h1>
+  <figure class="plate"><img src="art/ch34.jpg" alt="Plate 34. The secret is mostly not talking over each other."/><figcaption>Plate 34. The secret is mostly not talking over each other.</figcaption></figure>
+  <div class="prose"><p class="lede">Ham radio is a world of traditions and gatekeeping, but in a zombie apocalypse, everyone is welcome. Discover the secret handshakes and rituals of ham radio, and learn how to break in when the world ends. We’ll cover the basics of ham radio hardware and protocols, and show you how to build your own transceiver. Plus, learn how to use ham radio to coordinate with other survivors and stay informed, because in a zombie apocalypse, every voice counts.</p>
+<h2>The Basics of Ham Radio</h2>
+<p>Ham radio uses a variety of technologies to transmit data over radio waves. From Morse code to streaming video, ham radio keeps you connected and informed. In a zombie apocalypse, ham radio is your lifeline to the outside world.</p>
+<h2>Building Your Own Ham Radio Transceiver</h2>
+<p>You don’t need a fancy transceiver to get started. With a few scavenged parts, you can build your own ham radio transceiver. Start with a ham radio module, which can be found in old radios, TVs, or even car stereos. Pair it with a microcontroller, and you’ve got the brains of your transceiver. Add a power supply, and you’re ready to roll.</p>
+<h2>The Protocols of Apocalypse Ham Radio</h2>
+<p>Ham radio uses a variety of protocols, including CW, SSB, and FM. These standards ensure that your transceiver can transmit data from any broadcaster, no matter who built it. In a zombie apocalypse, interoperability is key. You never know what kind of tech you’ll find in a scavenged transceiver, so stick to the standards.</p>
+<h2>Security in the Apocalypse</h2>
+<p>Security is a major concern when the world is falling apart. Ham radio uses encryption and authentication to protect your data. In a zombie apocalypse, you’ll want to use the strongest encryption available. Look for systems that support AES-128 or higher, and always keep your software up to date. If you’re building your own system, make sure to implement secure key management and regular firmware updates.</p>
+<h2>The Future of Apocalypse Ham Radio</h2>
+<p>As the world rebuilds, ham radio will become even more important. With the rise of digital broadcasting and decentralized communication, you might find yourself building your own transceiver from scratch. Whether you’re using CW, SSB, FM, or something entirely new, the future of apocalypse ham radio is bright.</p></div>
+</article>
+
+<article class="chapter" id="ch35">
+  <p class="label">Chapter 35</p>
+  <h1>Hardware Operation and Troubleshooting</h1>
+  <figure class="plate"><img src="art/ch35.jpg" alt="Plate 35. Smoke is a diagnostic. It is not a feature."/><figcaption>Plate 35. Smoke is a diagnostic. It is not a feature.</figcaption></figure>
+  <div class="prose"><p class="lede">Understanding how radio hardware actually works is key to surviving the apocalypse. Learn how to keep your equipment running, from troubleshooting common problems to improvising with scavenged parts. We’ll cover the basics of radio hardware, from transmitters to receivers, and show you how to build your own systems from scratch. Whether you’re repairing a broken transceiver or building a new one, this chapter will keep you connected, even when the zombies are banging on the door.</p>
+<h2>The Basics of Radio Hardware</h2>
+<p>Radio hardware uses a variety of technologies to transmit and receive data over radio waves. From simple transmitters to advanced receivers, radio hardware keeps you connected and informed. In a zombie apocalypse, radio hardware is your lifeline to the outside world.</p>
+<h2>Building Your Own Radio Hardware</h2>
+<p>You don’t need a fancy system to get started. With a few scavenged parts, you can build your own radio hardware. Start with a radio module, which can be found in old radios, TVs, or even car stereos. Pair it with a microcontroller, and you’ve got the brains of your system. Add a power supply, and you’re ready to roll.</p>
+<h2>The Protocols of Apocalypse Radio Hardware</h2>
+<p>Radio hardware uses a variety of protocols, including AM, FM, and SSB. These standards ensure that your system can transmit and receive data from any broadcaster, no matter who built it. In a zombie apocalypse, interoperability is key. You never know what kind of tech you’ll find in a scavenged system, so stick to the standards.</p>
+<h2>Security in the Apocalypse</h2>
+<p>Security is a major concern when the world is falling apart. Radio hardware uses encryption and authentication to protect your data. In a zombie apocalypse, you’ll want to use the strongest encryption available. Look for systems that support AES-128 or higher, and always keep your software up to date. If you’re building your own system, make sure to implement secure key management and regular firmware updates.</p>
+<h2>The Future of Apocalypse Radio Hardware</h2>
+<p>As the world rebuilds, radio hardware will become even more important. With the rise of digital broadcasting and decentralized communication, you might find yourself building your own system from scratch. Whether you’re using AM, FM, SSB, or something entirely new, the future of apocalypse radio hardware is bright.</p></div>
+</article>
+
+<article class="chapter" id="ch36">
+  <p class="label">Chapter 36</p>
+  <h1>Protocols and Security in the Apocalypse</h1>
+  <figure class="plate"><img src="art/ch36.jpg" alt="Plate 36. A lock on the microphone is still a lock."/><figcaption>Plate 36. A lock on the microphone is still a lock.</figcaption></figure>
+  <div class="prose"><p class="lede">In the zombie apocalypse, communication isn’t just about sending a message—it’s about making sure that message stays secret, secure, and doesn’t get hijacked by the undead or rival survivor gangs. Radio protocols and security are your digital armor, shielding your transmissions from prying ears and malicious interference.</p>
+<h2>The Protocol Zoo</h2>
+<p>Radio protocols are the rulebooks that govern how your signals behave. From simple Morse code to complex digital packet systems, each protocol has its strengths and weaknesses. In the apocalypse, you’ll want protocols that are robust, easy to implement, and resistant to interference.</p>
+<p><strong>Morse Code.</strong> The granddaddy of all protocols, Morse code is simple, reliable, and can be sent with minimal equipment. It’s also hard to jam or intercept, making it perfect for emergency signals.</p>
+<p><strong>AX.25.</strong> This packet radio protocol is the backbone of amateur digital radio. It’s designed for noisy, unreliable channels and includes error checking and addressing, making it ideal for sending text messages or data over long distances.</p>
+<p><strong>UDP.</strong> For fast, connectionless communication, UDP is your go-to. It’s perfect for short bursts of data, like alerts or status updates, but lacks the reliability of more complex protocols.</p>
+<h2>Security: Keeping the Zombies Out</h2>
+<p>Security in the apocalypse isn’t just about encryption—it’s about making your communications as hard to intercept or disrupt as possible.</p>
+<p><strong>Encryption.</strong> Use simple ciphers or one-time pads to scramble your messages. Even basic encryption can keep your communications safe from casual eavesdroppers.</p>
+<p><strong>Rolling Codes.</strong> For repeated transmissions, use rolling codes that change with each message. This prevents replay attacks, where an attacker records your signal and plays it back later.</p>
+<p><strong>Frequency Hopping.</strong> Switch frequencies regularly to avoid jamming and eavesdropping. This technique is used in Bluetooth and some military radios, and it’s surprisingly effective against both zombies and hackers.</p>
+<h2>Practical Tips</h2>
+<p>Always use strong, unique passwords for your radios and networks.</p>
+<p>Regularly update your protocols and security measures to stay ahead of new threats.</p>
+<p>Keep your communications brief and to the point to minimize the risk of interception.</p>
+<p>With the right protocols and security measures, you can keep your messages safe and your survival network thriving, even in the face of zombie hordes and digital threats.</p></div>
+</article>
+<section class="part" id="part9"><div class="part-inner"><p class="label">Part IX</p><h1>Last Light</h1><p class="blurb">What to carry, and what to leave on the air.</p></div></section>
+<article class="chapter" id="ch37">
+  <p class="label">Chapter 37</p>
+  <h1>RF Survival Guide</h1>
+  <figure class="plate"><img src="art/ch37.jpg" alt="Plate 37. Lay the kit out before the night does it for you."/><figcaption>Plate 37. Lay the kit out before the night does it for you.</figcaption></figure>
+  <div class="prose"><p class="lede">Surviving the zombie apocalypse with radio technology isn’t just about having the right gear—it’s about knowing how to use it, maintain it, and adapt to changing circumstances. This chapter is your ultimate RF survival guide, packed with practical tips and tricks to keep your communications alive and your spirits high.</p>
+<h2>Essential Gear</h2>
+<p>Radios: Stock up on a variety of radios, from handheld walkie-talkies to base stations and HF transceivers. Diversity is key—different radios are suited to different situations.</p>
+<p><strong>Antennas.</strong> Have a range of antennas for different frequencies and environments. Portable, collapsible antennas are great for mobile operations, while fixed antennas provide better range and stability.</p>
+<p><strong>Power Supplies.</strong> Keep a mix of batteries, solar chargers, and hand-crank generators. Power is life, and you never know when the grid will go down.</p>
+<p><strong>Accessories.</strong> Don’t forget essentials like coaxial cables, connectors, and spare parts. A well-stocked toolkit can save your bacon when things go wrong.</p>
+<h2>Maintenance and Repair</h2>
+<p>Regular Checks: Inspect your gear regularly for signs of wear and tear. Clean connectors, check batteries, and test all functions.</p>
+<p><strong>Field Repairs.</strong> Learn basic repair skills, like soldering and replacing components. In the apocalypse, you can’t rely on professional help.</p>
+<p><strong>Scavenging.</strong> Be resourceful. Scavenge parts from abandoned electronics and repurpose them for your radio gear.</p>
+<h2>Survival Strategies</h2>
+<p>Redundancy: Always have backup gear and multiple communication methods. If one system fails, you’ll have another to fall back on.</p>
+<p><strong>Training.</strong> Practice using your gear regularly. The more familiar you are with your equipment, the better you’ll perform under pressure.</p>
+<p><strong>Community.</strong> Build a network of fellow survivors. Share knowledge, resources, and support. Together, you’re stronger.</p>
+<p>With these tips and tricks, you’ll be ready to face any challenge the zombie apocalypse throws your way. Stay vigilant, stay prepared, and keep the airwaves alive.</p></div>
+</article>
+
+<article class="chapter" id="ch38">
+  <p class="label">Chapter 38</p>
+  <h1>The Final Transmission</h1>
+  <figure class="plate"><img src="art/ch38.jpg" alt="Plate 38. Leave the frequency open. Someone is still tuning."/><figcaption>Plate 38. Leave the frequency open. Someone is still tuning.</figcaption></figure>
+  <div class="prose"><p class="lede">As the sun sets on the zombie apocalypse, your radio becomes more than just a tool—it’s a lifeline, a beacon of hope, and a symbol of resilience. This final chapter is a tribute to the survivors who kept the airwaves alive, sharing their stories, their struggles, and their triumphs.</p>
+<h2>The Power of Radio</h2>
+<p>Radio has the unique ability to connect people across vast distances, bridging gaps of geography, language, and culture. In the apocalypse, it’s the only thing that can bring survivors together, share vital information, and keep the spirit of humanity alive.</p>
+<h2>Stories from the Airwaves</h2>
+<p>The Last Broadcast: A lone ham operator sends a final message, hoping someone, somewhere, will hear it and know they’re not alone.</p>
+<p><strong>The Rescue Signal.</strong> A group of survivors uses a radio to call for help, leading to a dramatic rescue and a new beginning.</p>
+<p><strong>The Community Network.</strong> Survivors build a network of radios, sharing news, resources, and support, creating a new society from the ashes of the old.</p>
+<h2>The Legacy of Survival</h2>
+<p>The legacy of the zombie apocalypse isn’t just about survival—it’s about the bonds forged, the lessons learned, and the hope that endures. Radio is a testament to the human spirit, a reminder that even in the darkest times, we can find light and connection.</p>
+<h2>The Final Word</h2>
+<p>As you tune your radio for the last time, remember the power of communication, the strength of community, and the resilience of the human spirit. The airwaves may be silent, but the stories live on, inspiring future generations to keep the signal alive.</p></div>
+</article>
+<section class="matter page-recto" id="afterword">
+  <h1>Afterword</h1>
+  <div class="prose"><p>The last chapter of a radio book is a temptation to get solemn. Resist it a little. The band is not a chapel. It is a bench you share with strangers, and the courtesy that keeps it usable is older than any of us: listen first, sign your work, leave a gap so someone else can answer.</p>
+<p>If you have read this far you already know the unglamorous truth. Range is an antenna and a clear path more often than it is a bigger battery. A net is a promise about time as much as it is a piece of hardware. Encryption is a tool, not a personality. And the person who brings a spare connector will be remembered more kindly than the person who brings a speech.</p>
+<p>The zombies, if you still need them, are only the name we gave the interruption. Weather is one. A dead coax is one. Panic on the calling frequency is one. You do not beat them by being louder. You beat them by being findable, brief, and still there at the hour you named.</p>
+<p>Leave a frequency in the log. Tell someone else what it is. When you are done for the night, say so, and mean it, so nobody sits up listening to static out of loyalty.</p>
+<p>The signature under an afterword belongs to the person who stands by the book. That line is blank until you want it.</p>
+<p>73 — which is to say, best regards — and then quiet.</p></div>
+  <p class="blank"><span>Author</span></p>
+<p class="blank"><span>Place and date</span></p>
+</section>
+<section class="matter page-flow" id="ack">
+  <h1>Acknowledgments</h1>
+  <p>The author wishes to thank</p>
+  <p class="blank"><span>Name</span></p>
+<p class="blank"><span>Name</span></p>
+<p class="blank"><span>Name</span></p>
+  <p class="quiet">and the night operator who said, once, again, more slowly.</p>
+</section>
+<section class="matter page-flow" id="author">
+  <h1>About the author</h1>
+  <p class="blank"><span>Name</span></p>
+  <p class="quiet">was born in</p>
+  <p class="blank"><span>Place</span></p>
+  <p class="quiet">Two or three sentences of biography. Leave this until you are ready to sign the book.</p>
+  <p class="blank"><span>A line</span></p>
+<p class="blank"><span>Another</span></p>
+<p class="blank"><span>They live in</span></p>
+</section>
+<section class="matter page-recto" id="soon">
+  <h1>Also forthcoming</h1>
+  <p class="quiet">from</p>
+  <p class="blank"><span>Publisher</span></p>
+  <p class="note">Placeholder titles, so the page has the right furniture. Replace them with the real list.</p>
+  <h2>Culverts and Courtesy</h2><p>A pamphlet on water, ditches, and not starting a fight at the tap. Shorter than this book. Wetter.</p>
+<h2>The Spare Battery</h2><p>Notes on redundancy from the person who brought two of everything and still forgot the coax. A tragedy in fittings.</p>
+<h2>Night Net</h2><p>A short novel of the nine o’clock roll call, in which nobody is heroic and the frequency is. Bring a pencil.</p>
+</section>
+<section class="matter page-flow" id="colophon">
+  <h1>Colophon</h1>
+  <p><em>Zombieproof Radio: How to Stay Alive on the Airwaves</em> was set in Fraunces and Literata. The plates were drawn for this edition. The text was prepared from the chapter drafts, with the file-crumbs and the broken cross-references removed and the order of a book put around them.</p>
+  <p>Trim: six by nine inches. The author, the dedication, and the publisher are intentionally blank.</p>
+  <p class="blank"><span>Publisher</span></p>
+<p class="blank"><span>City</span></p>
+  <p class="quiet">If you are holding a file and not a book, print it on paper that can stand a workbench. Leave the last page near the radio, not in a drawer.</p>
+</section>
+</body>
+</html>

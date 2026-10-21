@@ -1,0 +1,646 @@
+6 Tips for Starting an Old Engine - Auto | HowStuffWorks
+
+button\_magic Source guide
+
+This educational guide explains the mechanical challenges of reviving a vehicle that has been dormant for an extended period. The text outlines a systematic recovery process that includes **lubricating internal components**, **flushing degraded fluids**, and **inspecting the electrical system** to overcome issues like corrosion and seized parts. Beyond the practical tips for restarting an engine, the source provides a comprehensive overview of **internal combustion principles**, detailing how the **four-stroke cycle** and various subsystems—such as the valve train and cooling system—function in harmony. Ultimately, the article serves as both a troubleshooting manual for classic car enthusiasts and a fundamental primer on the **engineering and maintenance** required to ensure automotive longevity.
+
+How Car Engines Work | HowStuffWorks
+
+[\_\_\_](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fauto.howstuffworks.com%2F5-tips-starting-old-engine.htm) [](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fwww.howstuffworks.com%2F)
+
+[Science](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fscience.howstuffworks.com%2F) [Tech](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Felectronics.howstuffworks.com%2Ftech) [Home &amp; Garden](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fhome.howstuffworks.com%2F) [Auto](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fauto.howstuffworks.com%2F) [Culture](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fpeople.howstuffworks.com%2Fculture)
+
+More
+
+[Health](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fhealth.howstuffworks.com%2F) [Money](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fmoney.howstuffworks.com%2F) [Animals](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fanimals.howstuffworks.com%2F) [Lifestyle](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Flifestyle.howstuffworks.com%2F) [Entertainment](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fentertainment.howstuffworks.com%2F) [Quizzes](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fplay.howstuffworks.com%2F)
+
+[1](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fauto.howstuffworks.com%2F5-tips-starting-old-engine.htm)
+
+Submit Search
+
+[Search](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fauto.howstuffworks.com%2F5-tips-starting-old-engine.htm) [Close Search](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fauto.howstuffworks.com%2F5-tips-starting-old-engine.htm)
+
+* [Science](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fscience.howstuffworks.com%2F)
+* [Tech](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Felectronics.howstuffworks.com%2Ftech)
+* [Home &amp; Garden](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fhome.howstuffworks.com%2F)
+* [Auto](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fauto.howstuffworks.com%2F)
+* [Culture](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fpeople.howstuffworks.com%2Fculture)
+* [Health](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fhealth.howstuffworks.com%2F)
+* [Money](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fmoney.howstuffworks.com%2F)
+* [Animals](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fanimals.howstuffworks.com%2F)
+* [Lifestyle](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Flifestyle.howstuffworks.com%2F)
+* [Entertainment](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fentertainment.howstuffworks.com%2F)
+* [Quizzes](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fplay.howstuffworks.com%2F)
+
+Submit Search
+
+[Sign up for our Newsletter!](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fauto.howstuffworks.com%2F5-tips-starting-old-engine.htm)
+
+HowStuffWorks Newsletter 
+
+Advertisement
+
+[HowStuffWorks](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fwww.howstuffworks.com%2F)
+
+[Auto](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fauto.howstuffworks.com%2F)
+
+[Under the Hood](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fauto.howstuffworks.com%2Funder-the-hood-channel.htm)
+
+[Engines](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fauto.howstuffworks.com%2Fcar-engine-information-channel.htm)
+
+[Engine Performance](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fauto.howstuffworks.com%2Fcar-engine-performance-channel.htm)
+
+# 6 Tips for Starting an Old Engine
+
+By: [Christopher Neiger](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fwww.howstuffworks.com%2Fhsw-contact.htm) &amp; [Talon Homer](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fwww.howstuffworks.com%2Fabout-talon-homer.htm)
+
+* [](https://www.google.com/url?sa=E&amp;q=mailto%3A%3Fsubject%3DHow%2520Car%2520Engines%2520Work%2B-%2Bundefined%26body%3D%250A%2509Hi%252C%250A%250A%2509I%2520thought%2520you%2520would%2520like%2520this%253A%250A%2509https%253A%252F%252Fauto.howstuffworks.com%252Fengine.htm%253Futm%5Fsource%253Demail%2526utm%5Fmedium%253Dshare%2526utm%5Fcampaign%253Dhsw%5Fshare%250A%250A%2509How%2520Car%2520Engines%2520Work%250A%2509) If you've ever tried to start an old car that's been sitting for a long time, you know that it isn't always as easy as just turning the key. NurPhoto/Getty Images
+
+If you've ever had an old car sitting around for a while, you know that getting it started and back in running condition isn't always easy. [Engines](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fauto.howstuffworks.com%2Fengine.htm) were made to run regularly. The longer they sit idle the more they can develop problems you'll have to deal with later.
+
+Think of an old engine like your body. The less exercise you get the more your body gets used to not exercising and the harder it is to start working out. Your body may even be more likely to suffer injury because the muscles aren't used to that level of physical activity. A car works in a similar way. When the moving parts of an engine sit for too long and aren't used or properly lubricated they have a tendency to get stuck and become resistant to movement.
+
+Advertisement
+
+But the mechanical parts aren't the only things that go bad when a car sits around. Old [oil](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fauto.howstuffworks.com%2Fengine-lubrication-system.htm), antifreeze and gasoline don't hold up well when sitting in an engine for months or even years. Fluids break down, seals leak and corrosion sets in on various parts of the engine. And the delivery systems that moves fluids like fuel and oil pumps, hoses and filters can all cause problems when starting an old engine. When your vehicle has been sitting unused, all of the fluids that once made the vehicle run may now be working hard against it.
+
+An old engine may be difficult to get started, but it's not impossible. Every engine is different, but there are a few general techniques that can be used to get almost any engine in running condition once again. Just remember, it's likely that you'll have to use more than one technique listed here to get your engine started.
+
+**Contents**
+
+* [Lubricate the Engine](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fauto.howstuffworks.com%2F5-tips-starting-old-engine.htm%23pt1)
+* [Replace the Fluids and Filters](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fauto.howstuffworks.com%2F5-tips-starting-old-engine.htm%23pt2)
+* [Inspect the Electrical System](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fauto.howstuffworks.com%2F5-tips-starting-old-engine.htm%23pt3)
+* [Check for Vacuum Leaks](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fauto.howstuffworks.com%2F5-tips-starting-old-engine.htm%23pt4)
+* [Replace Timing Belt](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fauto.howstuffworks.com%2F5-tips-starting-old-engine.htm%23pt5)
+* [Care and Maintenance](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fauto.howstuffworks.com%2F5-tips-starting-old-engine.htm%23pt6)
+
+## 6: Lubricate the Engine
+
+When an engine is really old or has been [sitting unused for a long time](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fwww.hagerty.com%2Fmedia%2Fmaintenance-and-tech%2Fdont-cold-start-a-long-dead-car%2F), the internal components are going to be less likely to get going. You can liken it to [Newton's first law](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fscience.howstuffworks.com%2Finnovation%2Fscientific-experiments%2Fnewton-law-of-motion.htm) where he said that an object at rest tends to stay at rest. This just means the engine will need a little coaxing.
+
+Since the engine hasn't had any oil running through it in a while it will need to be lubricated. You can do this using a product called [Marvel Mystery Oil](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fwww.marvelmysteryoil.com%2Fproducts%2F) to lubricate the cylinders, pistons and rings. You can do this by taking out the [spark plugs](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fauto.howstuffworks.com%2Fspark-plugs.htm) and pouring a small amount of oil directly into the cylinders. The plugs will probably need to be replaced anyway.
+
+Advertisement You might need to pour a small amount of penetrating oil directly into the cylinders to get things moving.
+
+Barrett-Jackson/Getty Images
+
+There are two different ways to get the engine to turn over at this point. In some cars you may be able to turn the engine over using a socket wrench on the crankshaft nut or you could hook up a battery to the ignition. Any oil that's in the cylinders will come out when you do this. If the engine turns over after you crank it then it may start up once the spark plugs are replaced. If your engine has a carburetor, some people recommend spraying [starting fluid](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fthenewswheel.com%2Fwhat-is-starting-fluid-and-does-my-car-need-it%2F) into the carburetor to aid combustion.
+
+Getting the engine to turnover is a good sign, and if you've already corrected some other problem areas then the above suggestions may be all you need. But even if everything is working properly with the engine, there still are several other factors that you need to inspect before you can get the engine running for good.
+
+## 5: Replace the Fluids and Filters
+
+One way to start up that old engine is to make sure the fuel, oil and engine coolant are all flowing properly. We already talked about lubricating the engine before you turn it over, but another major factor that causes old engines not to start is old gas. Regular petroleum fuel has a shelf life of [about three to six months](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fwww.jdpower.com%2Fcars%2Fshopping-guides%2Fhow-long-can-gas-sit-in-a-car-before-it-goes-bad). If it's left sitting for longer than that, it can easily cause problems in the fuel system.
+
+Gasoline is a highly refined product that vaporizes and combusts easily. The same chemicals that give gas these properties are also the ones that allow it to evaporate over time and cause the gas to lose its ability to ignite easily. In addition to evaporation, a process called oxidation can occur, when chemicals in the gas mix with oxygen. This produces deposits in the gas that can clog fuel lines, [fuel filters](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fauto.howstuffworks.com%2Funder-the-hood%2Fvehicle-maintenance%2Fchange-fuel-filter.htm), and the carburetor or fuel injectors. Gasoline that has ethanol in it also tends to draw moisture out of the air, and [corrode the fuel system](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fwww.ecolab.com%2Fsolutions%2Fethanol-corrosion-inhibitors%23f%3A%40websolutions%3D%255BEthanol%2520Corrosion%2520Inhibitors%255D%26f%3A%40webapplications%3D%255BCorrosion%2520Protection%255D) even faster.
+
+Advertisement
+
+To start an engine that has old gas in it, you may need to pump fresh fuel into the system from an external source. You may also need to completely remove the old gas from the tank and fuel lines before trying to start the engine. Fuel filters and injectors that have been sitting for months or years may need a good cleaning, or to be replaced entirely. It's important to check and, most likely, replace the filters in an old car.
+
+Portland Press Herald/Getty Images
+
+Before putting a car into storage, also consider adding a product known as [fuel stabilizer](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fwww.roadandtrack.com%2Fcar-culture%2Fbuying-maintenance%2Fhow-to%2Fa24409%2Fwinter-storage-tips-stabil-and-other-fuel-stabilizer-additives%2F) to the gas tank. This stabilizer slightly changes the chemical properties of the fuel, preventing corrosion while sitting for a few months. In addition to replacing the old gas, the antifreeze will [likely need to be flushed](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fwww.cars.com%2Farticles%2Fhow-often-should-i-change-engine-coolant-1420680853669%2F) as well. Antifreeze breaks down over time and forms acids that can hurt your engine.
+
+An engine [oil change](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fauto.howstuffworks.com%2Funder-the-hood%2Fvehicle-maintenance%2Fdirty-truth-about-oil-changes.htm) with a new oil filter replacement is also a must-do. Most manufacturers recommend replacing oil after 12 months, at the maximum. You may also want to consider [more frequent](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fitstillruns.com%2Freduce-oil-sludge-4516111.html) oil and filter changes after the engine is running just to flush out any sludge that has been sitting in the engine block.
+
+If changing the gas, coolant, oil and filters doesn't work for your engine, you may need to try a different approach.
+
+## 4: Inspect the Electrical System
+
+The newer your car the more electrical components you'll probably find under the hood, but even old engines can have electrical problems. If all the mechanical parts seem to be working properly and you still can't start your old engine, you may have an electrical problem.
+
+The easiest problem to [diagnose and fix is the battery](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fwww.championautoparts.com%2FParts-Matter%2Fautomotive-repair-and-maintenance%2FCar-Battery-Troubleshooting.html). Car batteries are made up of a lead-acid or lead-calcium system that converts chemical energy into electrical energy. Batteries go through a recharging cycle when the [alternator](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fauto.howstuffworks.com%2Falternator.htm) sends a current to the battery's internal plates and back into the electrolyte mixture inside the battery.
+
+Advertisement
+
+When a battery isn't being used, the chemical reaction in the battery breaks down and causes it to lose its energy. If the battery sits long enough it will be ineffective for starting up the engine. [Corrosive green slime](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fwww.familyhandyman.com%2Farticle%2Fcar-battery-corrosion%2F) can also take over the battery's terminals. If more than a little corrosion is present, that's a sure-fire sign it's due for replacement. Also be sure to clean from your car's wiring contacts before installing the new battery. Another product great for car storage is a [battery tender](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fitstillruns.com%2Fuse-tender-charge-car-battery-5933205.html). This device provides a small, constant charge to the battery, which prevents it from draining and maintains electrical component health.
+
+In addition to checking the battery, inspect the [ignition coils](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fauto.howstuffworks.com%2Fignition-coil.htm) and coil wires. Use a multimeter on the coil to see if the resistance reading matches the recommendation for your vehicle. If it doesn't, then the coil may be bad. If the coil and its wiring work, use a current reader to see if the [starter motor](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fwww.firestonecompleteautocare.com%2Fblog%2Fmaintenance%2Fsigns-of-a-bad-starter%2F) is receiving a current. Corrosion or bad wiring can inhibit the starter motor and prevent the engine from firing up. If the starter motor gets enough current and still doesn't engage, then it may need a rebuild or replacement.
+
+If your electrical systems are working and the car still won't start, you'll have to look elsewhere for the problem.
+
+## 3: Check for Vacuum Leaks
+
+Your engine creates a vacuum when the intake valve is partially closed in the [intake manifold](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fauto.howstuffworks.com%2Fintake-manifold-affect-engine.htm). The vacuum is then used to help power other components on the car. It may help reduce your effort in pressing down the brake pedal or, in older cars, it may even power the [windshield wipers](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fauto.howstuffworks.com%2Fwiper.htm). If enough vacuum hoses have leaks, or you have one big leak, it may keep your old engine from starting.
+
+In newer cars, some [vacuum leaks](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fwww.popularmechanics.com%2Fcars%2Fhow-to%2Fa3094%2Fhow-to-find-a-vacuum-leak%2F) can cause engine sensors to report incorrect readings to the engine's computer system. When this happens, even minor leaks could keep your engine from starting. A few trouble spots for vacuum leaks may be the throttle body, the manifold seals, the positive crankcase ventilation (PCV) valve or the PCV hose. Although those may be some trouble spots, there are numerous vacuum hoses in each car.
+
+Advertisement Even minor vacuum leaks can keep your engine from starting.
+
+CLEMENT MAHOUDEAU/Getty Images
+
+When the engine sits for a long time the hoses can deteriorate and develop cracks. A few small leaks won't keep your car from starting but large leaks, or too many small ones, may be too much. There are several ways to determine if you have a vacuum leak, but the most effective is using a smoke generator. This smoke-out tool generates smoke in the engine so you can see where the vacuum leaks are coming from in each hose.
+
+This tool is somewhat expensive and usually used by professionals, so it may be a better idea to locate a diagram of your engine's vacuum hoses and replace them all instead. Replacing all of the hoses in an old engine isn't a bad idea, considering you could spend a lot of time trying to track down a leak and you'll be replacing several hoses either way.
+
+Old engines may also have [compression leaks](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fwww.motortrend.com%2Fhow-to%2Fengine-diagnosis-leakdown-compression-test%2F) in their cylinder heads. Low compression can stop fuel from combusting in the chamber and keep the engine from starting, so a compression test at your local mechanic may be in order.
+
+## 2: Replace Timing Belt
+
+[Timing belts](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fauto.howstuffworks.com%2Funder-the-hood%2Fvehicle-maintenance%2Ftiming-belt-replacement.htm), or chains, are the part of your engine that keeps the camshaft, distributor, crankshaft and pistons in sync. When the timing belt breaks or is damaged it can keep the engine from starting up. Most timing belts will last about [60,000 miles](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fauto.howstuffworks.com%2Funder-the-hood%2Fcar-part-longevity%2Ftiming-belt-last.htm) (96,561 kilometers) but if your engine has been sitting for a long time it might be a good idea to inspect it.
+
+Many cars use reinforced [rubber](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fscience.howstuffworks.com%2Frubber.htm) belts, but older cars and many newer luxury cars still use metal chains. Timing chains typically last much longer than belts, but may still [become stretched out](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fitstillruns.com%2Fsigns-stretched-timing-chain-7447803.html) and loosen over many years of use. In either case, a broken timing belt (or chain) will inhibit your engine from starting.
+
+Advertisement
+
+Although it may take only a few minutes to actually slip the belt on, [getting to the belt](https://www.google.com/url?sa=E&amp;q=http%3A%2F%2Fwww.popularmechanics.com%2Fcars%2Fhow-to%2Fmaintenance%2F4212995) might not be all that easy. It's likely you'll have to take off multiple hoses, move electrical wiring and remove other engine components to gain access to it. Once you're able to access the belt you'll have to make sure to align the crankshaft and camshaft markings and ensure the number one piston is at top dead center (TDC). If you don't get this exactly right you can throw the entire engine off its timing and probably cause some serious internal damage when all of those metal parts start crashing into each other.
+
+While performing a timing belt, or chain, replacement, you may as well put on fresh accessory belts at the same time. Accessory belts are also made of rubber, but sit outside the engine, exposed to air. For this reason, they are likely to become dry-rotted after long periods of disuse.
+
+Needless to say, changing the timing belt isn't for everyone. It requires a high level of skill, and in some cases, it might even require taking off an engine mount to gain full access while suspending part of the engine as you work on it. If your timing belt or chain is old, stretched, worn or broken though, you'll need to replace it to get your engine started. Consider taking it to a mechanic if you don't have the tools and skill required to replace it.
+
+## 1: Care and Maintenance
+
+It's important to remember that getting an engine started is only half the battle to ensure longevity. [Regular maintenance](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fauto.howstuffworks.com%2Funder-the-hood%2Fvehicle-maintenance%2Fvehicle-maintenance-make-you-safer.htm) is the most important thing to mechanical health, and a neglected engine requires even more care. If your car has been sitting for a few months, then all it may need is fluid and filter changes to run right again. If it's had years or even decades without use, then more drastic repairs will be required.
+
+[Gaskets](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fshop.advanceautoparts.com%2Fr%2Fadvice%2Fcar-maintenance%2Fengine-gaskets-the-good-the-bad-the-ugly), the seals that sit between engine components, can dry-rot and leak after disuse. Running an engine for too long with bad gaskets can cause oil and coolant to leak outside, or back into the combustion chamber. This can then lead [to worse problems](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fwww.hagerty.com%2Fmedia%2Fopinion%2Fthe-hack-mechanic%2Fidentifying-cracked-heads-and-blown-head-gaskets%2F) like overheating, corrosion and eventually a seized engine. Other drivetrain components like the transmission and differentials also have fluids and gaskets that may need changed.
+
+Advertisement Regular care and maintenence is the most important part of the mechanical health of an old car.
+
+Barrett-Jackson/Getty Images
+
+In an old engine, oil passages may be blocked by [sludge deposits](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Frxmechanic.com%2Fhow-to-clean-engine-sludge%2F), causing [piston rings and crankshaft bearings](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fwww.knowyourparts.com%2Ftechnical-resources%2Fengine%2Ftypes-of-engine-bearing-damage%2F) to be denied proper lubrication. If these small metal pieces are run dry, they will definitely scratch the components they rub up against, requiring more repairs. Worst case, they will scrape off [metal shavings](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fwww.uti.edu%2Fblog%2Fautomotive%2Fmetal-shavings-in-oil%23%3A~%3Atext%3DIf%2520oil%2520with%2520metal%2520shavings%2Clead%2520to%2520premature%2520engine%2520failure.) that fall into oil passages and contaminate the rest of the engine.
+
+If you're dealing with an antique engine that hasn't run in 40 years, the safest bet is to have a [professional tear it down](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fwww.carsdirect.com%2Fcar-repair%2Fhow-to-tell-if-its-time-for-an-engine-rebuild) and inspect each component before it even starts. They'll be able to check the block for warpage or scoring, replace bearings and gaskets, and clean out carbon deposits. A full engine rebuild will be an expensive operation, but it's really the only way to be sure an old car will run like new.
+
+### Start Old Engine FAQ
+
+##### How do you start an old engine?
+
+You can get an old engine running by lubricating the engine, replacing the fluids and filters, inspecting the electrical system, checking the timing and fixing any leaks.
+
+##### What happens if a car is not driven for a long time?
+
+Car engines are designed to run regularly. If it sits for a long time, the moving parts become stuck and fluids such as oil, gas and antifreeze corrode parts of the engine, causing problems with the fuel pumps, radiators, hoses, filters and more.
+
+##### What causes a car not to start if the battery is good?
+
+If your car won't start despite a working battery, inspect the ignition coil and coil wire. Use a multimeter to check if the resistance reading reads the same as your vehicle's requirement. If it isn't, the ignition coil is bad.
+
+##### What do you do if your engine won't turn over?
+
+You can try two different methods to get your engine to turn over. The first involves using a socket wrench on the crankshaft nut. If your car has a carburetor, you can try spraying starter fluid into it to help start the engine.
+
+##### Will starter fluid help my car start?
+
+When your car sits for a long time, the engine might get too cold or its ignition system may become faulty. In such cases, starter fluid might help start your car.
+
+## Lots More Information
+
+### Related Articles
+
+* [How Car Engines Work](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fauto.howstuffworks.com%2Fengine.htm)
+* [How Gasoline Works](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fscience.howstuffworks.com%2Fgasoline.htm)
+* [How Gas Compression-ignition Engines Work](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fauto.howstuffworks.com%2Fgas-compression-ignition-engines.htm)
+* [How does a carburetor work?](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fauto.howstuffworks.com%2Fquestion377.htm)
+
+### Sources
+
+* AAA. "How Often Should You Change Engine Oil." (Jan. 26, 2022) https://www.aaa.com/autorepair/articles/how-often-should-you-change-engine-oil
+* Allen, Mike. "How to Find a Vacuum Leak." Popular Mechanics. Feb. 28, 2011\. (Jan. 26, 2012) http://www.popularmechanics.com/cars/how-to/maintenance/how-to-find-a-vacuum-leak
+* Autos.com. "How to Test Ignition Coil." (Jan. 25, 2012) http://www.autos.com/car-maintenance/how-to-test-an-ignition-coil
+* Autotap.com. "Engine Stalls, Misfire Code and Cylinder Misfire." (Jan. 23, 2012) http://www.autotap.com/problem6\_engine\_stalls.asp
+* Bill, Kaiser. "Old Car Start-Up Procedure." Kaiserbill.com. (Jan. 24, 2012) http://www.kaiserbill.com/Web-PDF/Start-Up.pdf
+* Bledsoe, Misty. "How to Use a Battery Tender to Charge a Car Battery." It Still Runs (Jan. 26, 2022) https://itstillruns.com/use-tender-charge-car-battery-5933205.html
+* Cars Direct. "How to Tell If It's Time for an Engine Rebuild." (Jan. 26, 2022) https://www.carsdirect.com/car-repair/how-to-tell-if-its-time-for-an-engine-rebuild
+* Champion Auto Parts. "Battery Troubleshooting Guide" (Jan. 26, 2022) https://www.championautoparts.com/Parts-Matter/automotive-repair-and-maintenance/Car-Battery-Troubleshooting.html
+* Choksey, Jessica. "How Long Can Gas Sit in a Car Before it Goes Bad?" J.D. Power. (Jan. 26, 2022) https://www.jdpower.com/cars/shopping-guides/how-long-can-gas-sit-in-a-car-before-it-goes-bad
+* EcoLab. "Ethanol Corrosion Inhibitors." (Jan. 26, 2022) https://www.ecolab.com/solutions/ethanol-corrosion-inhibitors#f:@websolutions=[Ethanol%20Corrosion%20Inhibitors]&amp;f:@webapplications=[Corrosion%20Protection]
+* Ellis, Rich. "Engine Gaskets: the Good, the Bad, the Ugly." Advance Auto. (Jan. 26, 2022) https://shop.advanceautoparts.com/r/advice/car-maintenance/engine-gaskets-the-good-the-bad-the-ugly
+* Firestone Complete Auto Care. "Car Won't Start? 5 Signs of a Bad Starter." (Jan. 26, 2022) https://www.firestonecompleteautocare.com/blog/maintenance/signs-of-a-bad-starter/
+* Garner, Jerry. "How to Reduce Oil Sludge." It Still Runs. (Jan. 26, 2022) https://itstillruns.com/reduce-oil-sludge-4516111.html
+* Gluckman, David. "How to Keep Gas from Going Bad Over the Winter." Road &amp; Track. (Jan. 26, 2022) https://www.roadandtrack.com/car-culture/buying-maintenance/how-to/a24409/winter-storage-tips-stabil-and-other-fuel-stabilizer-additives/
+* Juran, Ken. "Replacing a Timing Belt." Popular Mechanics. Feb. 23, 2007\. (Jan. 26, 2012) http://www.popularmechanics.com/cars/how-to/maintenance/4212995.
+* Know Your Parts. "Types of Engine Bearing Damage." (Jan. 26, 2022) https://www.knowyourparts.com/technical-resources/engine/types-of-engine-bearing-damage/
+* Marvel Mystery Oil. "Products." (Jan. 26, 2022) https://www.marvelmysteryoil.com/products/
+* Maxwell, Robert, If Your Car Battery is Corroded, It Could Mean This." Family Handyman. (Jan. 26, 2022) https://www.familyhandyman.com/article/car-battery-corrosion/
+* Memmer, Scott. "A Shocking Expose: Your Car's Battery." Edmunds.com. Dec. 17, 2000\. (Jan. 26, 2012) http://www.edmunds.com/car-technology/a-shocking-expose-your-cars-battery.html
+* Mitchell, Justin. "Signs of a Stretch Timing Chain." It Still Runs. (Jan. 26, 2022) https://itstillruns.com/signs-stretched-timing-chain-7447803.html
+* New Hampshire Department Of Environmental Services. "Waste Antifreeze: Management Requirements for Handlers and Transporters." NH.gov. (Jan. 27, 2012) https://web.archive.org/web/20130312060507/http://des.nh.gov/organization/commissioner/pip/factsheets/hw/documents/hw-4.pdf
+* Popely, Rick. "How Often Should I Change Engine Coolant?" Cars.com. (Jan. 26, 2022) https://www.cars.com/articles/how-often-should-i-change-engine-coolant-1420680853669/
+* Siegel, Rob. "Identifying cracked heads and blown head gaskets." Hagerty. (Jan. 26, 2022) https://www.hagerty.com/media/opinion/the-hack-mechanic/identifying-cracked-heads-and-blown-head-gaskets/
+* Siegel, Rob. "Why you shouldn't cold-start a long-dead car." Hagerty. (Jan. 26, 2022) https://www.hagerty.com/media/maintenance-and-tech/dont-cold-start-a-long-dead-car/
+* Solomon, Osuagwu. "How to Clean Engine Sludge? Causes and Symptoms." RX Mechanic. (Jan. 26, 2022) https://rxmechanic.com/how-to-clean-engine-sludge/
+* Stribling, David. "Engine Diagnosis: Leakdown and Compression Test." Motor Trend. (Jan. 26, 2022) https://www.motortrend.com/how-to/engine-diagnosis-leakdown-compression-test/
+* Russell, Whitney. "What Is Starting Fluid and Does My Car Need It?" The News Wheel (Jan. 26, 2022) https://thenewswheel.com/what-is-starting-fluid-and-does-my-car-need-it/
+* Universal Technical Institute. "What Causes Metal Shavings In Oil?" (Jan. 26, 2021) https://www.uti.edu/blog/automotive/metal-shavings-in-oil#:\~:text=If%20oil%20with%20metal%20shavings,lead%20to%20premature%20engine%20failure
+
+Cite This!
+
+Please copy/paste the following text to properly cite this HowStuffWorks.com article:
+
+Copy
+
+Christopher Neiger &amp; Talon Homer "6 Tips for Starting an Old Engine" 20 July 2012.
+
+HowStuffWorks.com. [https://auto.howstuffworks.com/5-tips-starting-old-engine.htm](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fauto.howstuffworks.com%2F5-tips-starting-old-engine.htm) 25 September 2026
+
+Close
+
+[Citation](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fauto.howstuffworks.com%2F5-tips-starting-old-engine.htm)
+
+Related Links
+
+[2018 Mercedes-AMG G65 Up Next How Car Engines Work Explore More](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fauto.howstuffworks.com%2Fengine.htm)
+
+[car fire Driving &amp; Safety Top 10 Causes of a Car Fire](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fauto.howstuffworks.com%2Fcar-driving-safety%2Faccidents-hazardous-conditions%2F10-causes-of-car-fires.htm)
+
+[ClassyCar Cars, Trucks &amp; Engines Rapid Fire Quiz: Car Symptoms and Solutions Edition](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fplay.howstuffworks.com%2Fquiz%2Frapid-fire-quiz-car-symptoms-and-solutions-edition)
+
+[Timing belt and camshaft wheels Under the Hood How Timing Belt Replacement Works](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fauto.howstuffworks.com%2Funder-the-hood%2Fvehicle-maintenance%2Ftiming-belt-replacement.htm)
+
+[man installing car battery Under the Hood How to Change a Car Battery](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fauto.howstuffworks.com%2Funder-the-hood%2Fvehicle-maintenance%2Fchange-car-battery.htm)
+
+[An image of a cars fuel gauge. Under the Hood How to Replace the Fuel Pump in a Gas Tank](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fauto.howstuffworks.com%2Funder-the-hood%2Fvehicle-maintenance%2Fhow-to-replace-fuel-pump-in-gas-tank.htm)
+
+[Engine coolant tank with cap Under the Hood How to Identify and Fix a Coolant Leak](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fauto.howstuffworks.com%2Funder-the-hood%2Fdiagnosing-car-problems%2Fmechanical%2Fcoolant-leak.htm)
+
+[Mazda's SKYACTIV-X engine You May Like How Gas Compression-ignition Engines Work Explore More](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fauto.howstuffworks.com%2Fgas-compression-ignition-engines.htm)
+
+[An electric car fuels up by plugging in. Fuel Efficiency How Fuel Cells Work](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fauto.howstuffworks.com%2Ffuel-efficiency%2Falternative-fuels%2Ffuel-cell.htm)
+
+[illuminated dashboard display Electronics How Car Dashboard Displays Work](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Felectronics.howstuffworks.com%2Fgadgets%2Fautomotive%2Fdashboard-display.htm)
+
+[The 1970 version of the Clean Air Act gave the EPA its sweeping authority to regulate automotive emissions. Under the Hood How Automotive Exhaust Systems Work](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fauto.howstuffworks.com%2Fautomotive-exhaust-system.htm)
+
+[Crankshaft Cars, Trucks &amp; Engines Can You Name These Car Parts by Looking at Just One Image?](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fplay.howstuffworks.com%2Fquiz%2F86-people-cant-guess-these-48-car-parts-looking-just-one-image-can-you-learn)
+
+[car repairs Under the Hood The 10 Most Expensive Car Repairs](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fauto.howstuffworks.com%2Funder-the-hood%2Fvehicle-maintenance%2Fthe-10-most-expensive-car-repairs.htm)
+
+[alternator Under the Hood How Alternators Work](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fauto.howstuffworks.com%2Falternator.htm)
+
+[diesel engine Keep Reading How Diesel Engines Work Explore More](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fauto.howstuffworks.com%2Fdiesel.htm)
+
+Advertisement
+
+Advertisement
+
+# How Car Engines Work
+
+By: [Marshall Brain](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fwww.howstuffworks.com%2Fabout-marshall-brain.htm%23brain) &amp; [Kristen Hall-Geisler](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fwww.howstuffworks.com%2Fabout-kristen-hall-geisler.htm) The 2018 Mercedes-AMG G65 final edition engine delivers 621 hp and 738 lb-ft. of torque. Mercedes AMG
+
+Have you ever opened the hood of your car and wondered what was going on in there? A car engine can look like a big confusing jumble of metal, tubes and wires to the uninitiated.
+
+You might want to know what's going on simply out of curiosity. Or perhaps you are [buying a new car](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fauto.howstuffworks.com%2Fbuying-selling%2Fcar-buying.htm), and you hear things like "2.5-liter incline four" and "turbocharged" and "start/stop technology." What does all of that mean?
+
+Advertisement
+
+In this article, we'll discuss the basic idea behind an engine and then go into detail about how all the pieces fit together, what can go wrong and how to increase performance.
+
+The purpose of a gasoline car engine is to convert [gasoline](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fscience.howstuffworks.com%2Fgasoline.htm) into motion so that your car can move. Currently the easiest way to create motion from gasoline is to burn the gasoline inside an engine. Therefore, a car engine is an **internal combustion engine** — combustion takes place internally.
+
+Two things to note:
+
+* There are different kinds of internal combustion engines. [Diesel engines](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fauto.howstuffworks.com%2Fdiesel.htm) are one type and gas turbine engines are another. Each has its own advantages and disadvantages.
+* There is also the **external combustion engine**. The [steam engine](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fscience.howstuffworks.com%2Ftransport%2Fengines-equipment%2Fsteam.htm) in old-fashioned trains and steam boats is the best example of an external combustion engine. The fuel (coal, wood, oil) in a steam engine burns outside the engine to create steam, and the steam creates motion inside the engine. Internal combustion is a lot more efficient than external combustion, plus an internal combustion engine is a lot smaller.
+
+Let's look at the internal combustion process in more detail in the next section.
+
+Advertisement
+
+**Contents**
+
+* [Internal Combustion](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fauto.howstuffworks.com%2F5-tips-starting-old-engine.htm%23pt296%5F1)
+* [Basic Engine Parts](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fauto.howstuffworks.com%2F5-tips-starting-old-engine.htm%23pt296%5F2)
+* [Engine Problems](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fauto.howstuffworks.com%2F5-tips-starting-old-engine.htm%23pt296%5F3)
+* [Engine Valve Train and Ignition Systems](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fauto.howstuffworks.com%2F5-tips-starting-old-engine.htm%23pt296%5F4)
+* [Engine Cooling, Air-intake and Starting Systems](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fauto.howstuffworks.com%2F5-tips-starting-old-engine.htm%23pt296%5F5)
+* [Engine Lubrication, Fuel, Exhaust and Electrical Systems](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fauto.howstuffworks.com%2F5-tips-starting-old-engine.htm%23pt296%5F6)
+* [Producing More Engine Power](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fauto.howstuffworks.com%2F5-tips-starting-old-engine.htm%23pt296%5F7)
+* [Engine Questions and Answers](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fauto.howstuffworks.com%2F5-tips-starting-old-engine.htm%23pt296%5F8)
+* [How Are 4-cylinder and V6 Engines Different?](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fauto.howstuffworks.com%2F5-tips-starting-old-engine.htm%23pt296%5F9)
+
+## Internal Combustion
+
+The principle behind any reciprocating internal combustion engine: If you put a tiny amount of high-energy-density fuel (like gasoline) in a small, enclosed space and ignite it, an incredible amount of energy is released in the form of expanding gas.
+
+You can use that energy for interesting purposes. For example, if you can create a cycle that allows you to set off explosions like this hundreds of times per minute, and if you can harness that energy in a useful way, what you have is the core of a car engine.
+
+Advertisement
+
+Almost every car with a gasoline engine uses a **four-stroke combustion cycle** to convert gasoline into motion. The four-stroke approach is also known as the **Otto cycle**, in honor of Nikolaus Otto, who invented it in 1867\. The four strokes are illustrated in **the animation**. They are:
+
+* Intake stroke
+* Compression stroke
+* Combustion stroke
+* Exhaust stroke
+
+The piston is connected to the **crankshaft** by a **connecting rod**. As the crankshaft revolves, it has the effect of "resetting the cannon." Here's what happens as the engine goes through its cycle:
+
+* The piston starts at the top, the intake valve opens, and the piston moves down to let the engine take in a cylinder full of air and gasoline. This is the **intake stroke**. Only the tiniest drop of gasoline needs to be mixed into the air for this to work. (Part 1 of the animation)
+* Then the piston moves back up to compress this fuel/air mixture. **Compression** makes the explosion more powerful. (Part 2 of the animation)
+* When the piston reaches the top of its stroke, the [spark plug](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fauto.howstuffworks.com%2Fignition-system.htm%23pt296%5F2) emits a spark to ignite the gasoline. The gasoline charge in the cylinder **explodes**, driving the piston down. (Part 3 of the animation)
+* Once the piston hits the bottom of its stroke, the exhaust valve opens and the **exhaust** leaves the cylinder to go out the tailpipe. (Part 4 of the animation)
+
+Now the engine is ready for the next cycle, so it intakes another charge of air and gas.
+
+In an engine, the linear motion of the pistons is converted into rotational motion by the crankshaft. The rotational motion is nice because we plan to turn (rotate) the car's wheels with it anyway.
+
+Now let's look at all the parts that work together to make this happen, starting with the cylinders.
+
+Advertisement
+
+## Basic Engine Parts
+
+**Figure 2\. Inline: The cylinders are arranged in a line in a single bank.**
+
+HowStuffWorks
+
+The core of the engine is the cylinder, with the piston moving up and down inside the cylinder. Single cylinder engines are typical of most lawn mowers, but usually cars have more than one cylinder (four, six and eight cylinders are common). In a multi-cylinder engine, the cylinders usually are arranged in one of three ways: **inline**, **V** or **flat** (also known as horizontally opposed or boxer), as shown in the figures to the left.
+
+So that inline four we mentioned at the beginning is an engine with four cylinders arranged in a line. Different configurations have different advantages and disadvantages in terms of smoothness, manufacturing cost and shape characteristics. These advantages and disadvantages make them more suitable for certain vehicles.
+
+Advertisement **Figure 3\. V: The cylinders are arranged in two banks set at an angle to one another.**
+
+HowStuffWorks **Figure 4\. Flat: The cylinders are arranged in two banks on opposite sides of the engine.**
+
+HowStuffWorks
+
+Let's look at some key engine parts in more detail.
+
+### Spark plug
+
+The [spark plug](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fauto.howstuffworks.com%2Fignition-system.htm) supplies the spark that ignites the air/fuel mixture so that combustion can occur. The spark must happen at just the right moment for things to work properly.
+
+### Valves
+
+The intake and exhaust valves open at the proper time to let in air and fuel and to let out exhaust. Note that both valves are closed during compression and combustion so that the combustion chamber is sealed.
+
+### Piston
+
+A piston is a cylindrical piece of metal that moves up and down inside the cylinder.
+
+### Piston Rings
+
+Piston rings provide a sliding seal between the outer edge of the piston and the inner edge of the cylinder. The rings serve two purposes:
+
+* They prevent the fuel/air mixture and exhaust in the combustion chamber from leaking into the sump during compression and combustion.
+* They keep oil in the sump from leaking into the combustion area, where it would be burned and lost.
+
+Most cars that "burn oil" and have to have a quart added every 1,000 miles are burning it because the engine is old and the rings no longer seal things properly. Many modern vehicles use more advance materials for piston rings. That's one of the reasons why engines last longer and can go longer between [oil changes](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fauto.howstuffworks.com%2Fcar-driving-safety%2Fsafety-regulatory-devices%2Fnever-changed-oil.htm).
+
+### Connecting rod
+
+The connecting rod connects the piston to the crankshaft. It can rotate at both ends so that its angle can change as the piston moves and the crankshaft rotates.
+
+### Crankshaft
+
+The crankshaft turns the piston's up-and-down motion into circular motion just like a crank on a jack-in-the-box does.
+
+### Sump
+
+The sump surrounds the crankshaft. It contains some amount of [oil](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fauto.howstuffworks.com%2Fsynthetic-motor-oil.htm), which collects in the bottom of the sump (the oil pan).
+
+Next, we'll learn what can go wrong with engines.
+
+Advertisement
+
+## Engine Problems
+
+Car engines can have all sorts of problems, whether fuel related or battery related. Zero Creatives/Getty Images
+
+So you go out one morning and your engine will turn over but it won't start. What could be wrong? Now that you know how an engine works, you can understand the basic things that can keep an engine from running.
+
+Three fundamental things can happen: a bad [fuel](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fauto.howstuffworks.com%2Ffuel-efficiency%2Ffuel-economy%2Fdo-fuel-additives-do-anything.htm) mix, lack of [compression](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fauto.howstuffworks.com%2Ffuel-efficiency%2Ffuel-consumption%2Fquestion90.htm) or lack of [spark](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fauto.howstuffworks.com%2Fignition-system.htm). Beyond that, thousands of minor things can create problems, but these are the "big three." Based on the simple engine we have been discussing, here is a quick rundown on how these problems affect your engine:
+
+Advertisement
+
+**A bad fuel mix** can occur in several ways:
+
+* You are [out of gas](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fauto.howstuffworks.com%2Ffuel-efficiency%2Ffuel-economy%2Fis-it-bad-to-drive-car-with-nearly-empty-gas-tank.htm), so the engine is getting air but no fuel.
+* The air intake might be clogged, so there is fuel but not enough air.
+* The fuel system might be supplying too much or too little fuel to the mix, meaning that combustion does not occur properly.
+* There might be an impurity in the fuel (like water in your gas tank) that prevents the fuel from burning.
+
+**Lack of compression:** If the charge of air and fuel cannot be compressed properly, the combustion process will not work like it should. Lack of compression might occur for these reasons:
+
+* Your piston rings are worn (allowing the air/fuel mix to leak past the piston during compression).
+* The intake or exhaust valves are not sealing properly, again allowing a leak during compression.
+* There is a hole in the cylinder.
+
+The most common "hole" in a cylinder occurs where the top of the cylinder (holding the valves and spark plug and also known as **the cylinder head**) attaches to the cylinder itself. Generally, the cylinder and the cylinder head bolt together with a thin **gasket** pressed between them to ensure a good seal. If the gasket breaks down, small holes develop between the cylinder and the cylinder head, and these holes cause leaks.
+
+**Lack of spark:** The spark might be nonexistent or weak for several reasons:
+
+* If your sparkplug or the wire leading to it is worn out, the spark will be weak.
+* If the wire is cut or missing, or if the system that sends a spark down the wire is not working properly, there will be no spark.
+* If the spark occurs either too early or too late in the cycle (i.e. if the [ignition timing](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fauto.howstuffworks.com%2Fignition-system.htm) is off), the fuel will not ignite at the right time.
+
+Many other things can go wrong. For example:
+
+* If the [battery](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Felectronics.howstuffworks.com%2Feveryday-tech%2Fbattery.htm) is dead, you cannot turn over the engine to start it.
+* If the [bearings](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fscience.howstuffworks.com%2Ftransport%2Fengines-equipment%2Fbearing.htm) that allow the crankshaft to turn freely are worn out, the crankshaft cannot turn so the engine cannot run.
+* If the valves do not open and close at the right time or at all, air cannot get in and exhaust cannot get out, so the engine cannot run.
+* If you run out of oil, the piston cannot move up and down freely in the cylinder, and the engine will seize.
+
+In a properly running engine, all of these factors are working fine. Perfection is not required to make an engine run, but you'll probably notice when things are less than perfect.
+
+As you can see, an engine has a number of systems that help it do its job of converting fuel into motion. We'll look at the different subsystems used in engines in the next few sections.
+
+Advertisement
+
+## Engine Valve Train and Ignition Systems
+
+Figure 5\. The camshaft
+
+HowStuffWorks
+
+Most engine subsystems can be implemented using different technologies, and better technologies can improve the performance of the engine. Let's look at all of the different subsystems used in modern engines, beginning with the valve train.
+
+The valve train consists of the valves and a mechanism that opens and closes them. The opening and closing system is called a [camshaft](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fauto.howstuffworks.com%2Fcamshaft.htm). The camshaft has lobes on it that move the valves up and down, as shown in **Figure 5**.
+
+Advertisement
+
+Most modern engines have what are called **overhead cams**. This means that the camshaft is located above the valves, as shown in Figure 5\. The cams on the shaft activate the valves directly or through a very short linkage. Older engines used a camshaft located in the sump near the crankshaft.
+
+A [timing belt](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fauto.howstuffworks.com%2Funder-the-hood%2Fcar-part-longevity%2Ftiming-belt-last.htm) or timing chain links the crankshaft to the camshaft so that the valves are in sync with the pistons. The camshaft is geared to turn at one-half the rate of the crankshaft. Many high-performance engines have four valves per cylinder (two for intake, two for exhaust), and this arrangement requires two camshafts per bank of cylinders, hence the phrase "dual overhead cams." **Figure 6\. The ignition system**
+
+HowStuffWorks
+
+The **ignition system** (Figure 6) produces a high-voltage electrical charge and transmits it to the spark plugs via **ignition wires**. The charge first flows to a **distributor**, which you can easily find under the hood of most cars. The distributor has one wire going in the center and four, six or eight wires (depending on the number of cylinders) coming out of it. These [ignition wires](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fauto.howstuffworks.com%2Fignition-system.htm) send the charge to each spark plug. The engine is timed so that only one cylinder receives a spark from the distributor at a time. This approach provides maximum smoothness.
+
+We'll look at how your car's engine starts, cools and circulates air in the next section.
+
+Advertisement
+
+## Engine Cooling, Air-intake and Starting Systems
+
+This diagram shows details of how a cooling system and the plumbing is connected.
+
+HowStuffWorks
+
+The [cooling system](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fauto.howstuffworks.com%2Fcooling-system.htm) in most cars consists of the radiator and water pump. Water circulates through passages around the cylinders and then travels through the radiator to cool it off. In a few cars (most notably [pre-1999 Volkswagen Beetles](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fwww.edmunds.com%2Fvolkswagen%2Fnew-beetle%2Fhistory%2F)), as well as most [motorcycles](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fauto.howstuffworks.com%2Fmotorcycle.htm) and lawn mowers, the engine is air-cooled instead (You can tell an air-cooled engine by the fins adorning the outside of each cylinder to help dissipate heat.). Air-cooling makes the engine lighter but hotter, generally decreasing engine life and overall performance.
+
+So now you know how and why your engine stays cool. But why is air circulation so important? Most cars are **normally aspirated**, which means that air flows through an air filter and directly into the cylinders. High-performance and modern fuel-efficient engines are either **turbocharged** or **supercharged**, which means that air coming into the engine is first pressurized (so that more air/fuel mixture can be squeezed into each cylinder) to increase performance. The amount of pressurization is called **boost**. A [turbocharger](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fauto.howstuffworks.com%2Fturbo.htm) uses a small turbine attached to the exhaust pipe to spin a compressing turbine in the incoming air stream. A supercharger is attached directly to the engine to spin the compressor.
+
+Advertisement
+
+Since the turbocharger is reusing hot exhaust to spin the turbine and compress the air, it increases the power from smaller engines. So a fuel-sipping four-cylinder can see horsepower that you might expect a six-cylinder engine to put out while getting 10 to 30 percent better fuel economy.
+
+Increasing your engine's performance is great, but what exactly happens when you turn the key to start it? The **starting system** consists of an electric starter motor and a **starter solenoid**. When you turn the ignition key, the starter motor spins the engine a few revolutions so that the combustion process can start. It takes a powerful motor to spin a cold engine. The starter motor must overcome:
+
+* All of the internal friction caused by the piston rings
+* The compression pressure of any cylinder(s) that happens to be in the compression stroke
+* The energy needed to open and close valves with the camshaft
+* All of the other things directly attached to the engine, like the water pump, oil pump, alternator, etc.
+
+Because so much energy is needed and because a car uses a 12-volt electrical system, hundreds of amps of electricity must flow into the starter motor. The starter solenoid is essentially a large electronic switch that can handle that much current. When you turn the ignition key, it activates the solenoid to power the motor.
+
+Next, we'll look at the engine subsystems that maintain what goes in (oil and fuel) and what comes out (exhaust and emissions).
+
+Advertisement
+
+## Engine Lubrication, Fuel, Exhaust and Electrical Systems
+
+The exhaust system of your car includes the exhaust pipe and the muffler. Marin Tomas/Getty Images
+
+When it comes to day-to-day car maintenance, your first concern is probably the amount of gas in your car. How does the gas that you put in power the cylinders? The engine's **fuel system** pumps gas from the gas tank and mixes it with air so that the proper air/fuel mixture can flow into the cylinders. Fuel is delivered in modern vehicles in two common ways: port fuel injection and direct fuel injection.
+
+In a [fuel-injected](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fauto.howstuffworks.com%2Ffuel-injection.htm) engine, the right amount of fuel is injected individually into each cylinder either right above the intake valve (port fuel injection) or directly into the cylinder (direct fuel injection). Older vehicles were carbureted, where gas and air were mixed by a carburetor as the air flowed into the engine.
+
+Advertisement
+
+Oil also plays an important part. The **lubrication** system makes sure that every moving part in the engine gets oil so that it can move easily. The two main parts needing oil are the pistons (so they can slide easily in their cylinders) and any bearings that allow things like the crankshaft and [camshafts](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fauto.howstuffworks.com%2Fcamshaft.htm) to rotate freely. In most cars, oil is sucked out of the oil pan by the oil pump, run through the oil filter to remove any grit, and then squirted under high pressure onto bearings and the cylinder walls. The oil then trickles down into the sump, where it is collected again and the cycle repeats.
+
+Now that you know about some of the stuff that you put *in* your car, let's look at some of the stuff that comes out of it. The **exhaust system** includes the exhaust pipe and the [muffler](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fauto.howstuffworks.com%2Fmuffler.htm). Without a muffler, what you would hear is the sound of thousands of small explosions coming out your tailpipe. A muffler dampens the sound.
+
+The **emission control system** in modern cars consists of a [catalytic converter](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fauto.howstuffworks.com%2Fcatalytic-converter.htm), a collection of sensors and actuators, and a computer to monitor and adjust everything. For example, the catalytic converter uses a catalyst and oxygen to burn off any unused fuel and certain other chemicals in the exhaust. An [oxygen sensor](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fauto.howstuffworks.com%2Fquestion257.htm) in the exhaust stream makes sure there is enough oxygen available for the catalyst to work and adjusts things if necessary.
+
+Besides gas, what else powers your car? The electrical system consists of a **battery** and an **alternator**. The alternator is connected to the engine by a belt and generates electricity to recharge the battery. The [battery](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Felectronics.howstuffworks.com%2Feveryday-tech%2Fbattery.htm) makes 12-volt power available to everything in the car needing electricity (the ignition system, radio, headlights, [windshield wipers](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fauto.howstuffworks.com%2Fwiper.htm), [power windows](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fauto.howstuffworks.com%2Fpower-window.htm) and seats, [computers](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fauto.howstuffworks.com%2Funder-the-hood%2Ftrends-innovations%2Fcar-computer.htm), etc.) through the vehicle's wiring.
+
+Now that you know all about the main engine subsystems, let's look at ways that you can boost engine performance.
+
+Advertisement
+
+## Producing More Engine Power
+
+Adding a turbocharger to a car's engine can help increase it's overall power and performance. Monty Rakusen/Getty Images
+
+Using all of this information, you can begin to see that there are lots of different ways to make an engine perform better. Car manufacturers are constantly playing with all of the following variables to make an engine more powerful and/or more fuel efficient.
+
+**Increase displacement:** More displacement means more power because you can burn more gas during each revolution of the engine. You can increase displacement by making the cylinders bigger or by adding more cylinders. Twelve cylinders seems to be the practical limit.
+
+Advertisement
+
+**Increase the compression ratio:** Higher compression ratios produce more power, up to a point. The more you compress the air/fuel mixture, however, the more likely it is to spontaneously burst into flame (before the spark plug ignites it). [Higher-octane](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fauto.howstuffworks.com%2Ffuel-efficiency%2Ffuel-consumption%2Fquestion90.htm) gasolines prevent this sort of early combustion. That is why high-performance cars generally need high-octane gasoline — their engines are using higher compression ratios to get more power.
+
+**Stuff more into each cylinder:** If you can cram more air (and therefore fuel) into a cylinder of a given size, you can get more power from the cylinder (in the same way that you would by increasing the size of the cylinder) without increasing the fuel required for combustion. [Turbochargers](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fauto.howstuffworks.com%2Fturbo.htm) and superchargers pressurize the incoming air to effectively cram more air into a cylinder.
+
+**Cool the incoming air:** Compressing air raises its temperature. However, you would like to have the coolest air possible in the cylinder because the hotter the air is, the less it will expand when combustion takes place. Therefore, many turbocharged and supercharged cars have an **intercooler**. An intercooler is a special radiator through which the compressed air passes to cool it off before it enters the cylinder.
+
+**Let air come in more easily:** As a piston moves down in the intake stroke, air resistance can rob power from the engine. Air resistance can be lessened dramatically by putting two intake valves in each cylinder. Some newer cars are also using polished intake manifolds to eliminate air resistance there. Bigger air filters can also improve air flow.
+
+**Let exhaust exit more easily:** If air resistance makes it hard for [exhaust](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fauto.howstuffworks.com%2Fquestion172.htm) to exit a cylinder, it robs the engine of power. Air resistance can be lessened by adding a second exhaust valve to each cylinder. A car with two intake and two exhaust valves has four valves per cylinder, which improves performance. When you hear a car ad tell you the car has four cylinders and 16 valves, what the ad is saying is that the engine has four valves per cylinder.
+
+If the exhaust pipe is too small or the muffler has a lot of air resistance, this can cause back-pressure, which has the same effect. High-performance exhaust systems use headers, big tail pipes and free-flowing mufflers to eliminate back-pressure in the exhaust system. When you hear that a car has "dual exhaust," the goal is to improve the flow of exhaust by having two exhaust pipes instead of one.
+
+**Make everything lighter:** Lightweight parts help the engine perform better. Each time a piston changes direction, it uses up energy to stop the travel in one direction and start it in another. The lighter the piston, the less energy it takes. This results in better fuel efficiency as well as better performance.
+
+**Inject the fuel:** [Fuel injection](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fauto.howstuffworks.com%2Ffuel-injection.htm) allows very precise metering of fuel to each cylinder. This improves performance and fuel economy.
+
+In the next sections, we'll answer some common engine-related questions submitted by readers.
+
+Advertisement
+
+## Engine Questions and Answers
+
+Here is a set of engine-related questions from readers and their answers:
+
+* **What is the difference between a gasoline engine and a diesel engine?** In a diesel engine, there is no spark plug. Instead, diesel fuel is injected into the cylinder, and the heat and pressure of the compression stroke cause the fuel to ignite. Diesel fuel has a higher energy density than gasoline, so a diesel engine gets better mileage. See [How Diesel Engines Work](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fauto.howstuffworks.com%2Fdiesel.htm) for more information.
+* **What is the difference between a two-stroke and a four-stroke engine?** Most [chain saws](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fhome.howstuffworks.com%2Fchainsaw.htm) and boat motors use two-stroke engines. A two-stroke engine has no moving valves, and the spark plug fires each time the piston hits the top of its cycle. A hole in the lower part of the cylinder wall lets in gas and air. As the piston moves up it is compressed, the spark plug ignites combustion, and exhaust exits through another hole in the cylinder. You have to mix oil into the gas in a two-stroke engine because the holes in the cylinder wall prevent the use of rings to seal the combustion chamber. Generally, a two-stroke engine produces a lot of power for its size because there are twice as many combustion cycles occurring per rotation. However, a two-stroke engine uses more gasoline and burns lots of oil, so it is far more polluting. See [How Two-stroke Engines Work](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fscience.howstuffworks.com%2Ftransport%2Fengines-equipment%2Ftwo-stroke.htm) for more information.
+* **You mentioned steam engines in this article — are there any advantages to steam engines and other external combustion engines?** The main advantage of a steam engine is that you can use anything that burns as the fuel. For example, a steam engine can use coal, newspaper or wood for the fuel, while an internal combustion engine needs pure, high-quality liquid or gaseous fuel. See [How Steam Engines Work](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fscience.howstuffworks.com%2Ftransport%2Fengines-equipment%2Fsteam.htm) for more information.
+* **Why have eight cylinders in an engine? Why not have one big cylinder of the same displacement of the eight cylinders instead?** There are a couple of reasons why a big 4.0-liter engine has eight half-liter cylinders rather than one big 4-liter cylinder. The main reason is smoothness. A V-8 engine is much smoother because it has eight evenly spaced explosions instead of one big explosion. Another reason is starting [torque](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fauto.howstuffworks.com%2Fauto-parts%2Ftowing%2Ftowing-capacity%2Finformation%2Ffpte.htm). When you start a V-8 engine, you are only driving two cylinders (1 liter) through their compression strokes, but with one big cylinder you would have to compress 4 liters instead.
+
+Advertisement
+
+## How Are 4-cylinder and V6 Engines Different?
+
+The 2017 Fusion V6 Sport comes standard with a 2.7-liter EcoBoost engine with 380 lb.-ft. torque and 325 hp. Ford
+
+The number of cylinders that an engine contains is an important factor in the overall performance of the engine. Each cylinder contains a piston that pumps inside of it and those pistons connect to and turn the crankshaft. The more pistons there are pumping, the more combustive events are taking place during any given moment. That means that more power can be generated in less time.
+
+Four-cylinder engines commonly come in "straight" or "inline" configurations while 6-cylinder engines are usually configured in the more compact "V" shape, and thus are referred to as V6 engines. V6 engines were the engine of choice for American automakers because they're powerful and quiet, but turbocharging technologies have made four-cylinder engines more powerful and attractive to buyers.
+
+Advertisement
+
+Historically, American auto consumers turned their noses up at four-cylinder engines, believing them to be slow, weak, unbalanced and short on acceleration. However, when Japanese auto makers, such as Honda and Toyota, began installing highly efficient four-cylinder engines in their cars in the 1980s and '90s, Americans found a new appreciation for the compact engine. Japanese models, such as the Toyota Camry, began quickly outselling comparable American models
+
+Modern four-cylinder engines use lighter materials and turbocharging technology, like [Ford's EcoBoost](https://www.google.com/url?sa=E&amp;q=http%3A%2F%2Fwww.ford.com%2Fgreen%2Ffuel-efficiency%2F) engine, to eke V-6 performance from more efficient four-cylinder engines. Advanced aerodynamics and technologies, such as those used by Mazda in its [SKYACTIV designs](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fwww.mazdausa.com%2Fwhy-mazda%2Fskyactiv), put less stress on these smaller turbocharged engines, further increasing their efficiency and performance.
+
+As for the future of the V6, in recent years the disparity between four-cylinder and V6 engines has lessened considerably. But V-6 engines still have their uses, and not only in performance cars. Trucks that are used to tow trailers or haul loads need the power of a V-6 to get those jobs done. Power in those cases is more important than efficiency.
+
+Advertisement
+
+## Lots More Information
+
+### Related Articles
+
+* [How Diesel Engines Work](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fauto.howstuffworks.com%2Fdiesel.htm)
+* [How Diesel Two-stroke Engines Work](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fauto.howstuffworks.com%2Fdiesel-two-stroke.htm)
+* [How Manual Transmissions Work](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fauto.howstuffworks.com%2Ftransmission.htm)
+* [How Turbochargers Work](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fauto.howstuffworks.com%2Fturbo.htm)
+* [How Fuel Injection Systems Work](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fauto.howstuffworks.com%2Ffuel-injection.htm)
+
+### More Great Links
+
+* [Animated Engines](https://www.google.com/url?sa=E&amp;q=http%3A%2F%2Fwww.animatedengines.com%2F)
+* [Erbman's Engine Emporium](https://www.google.com/url?sa=E&amp;q=http%3A%2F%2Fwww.eaa1000.av.org%2Ftechnicl%2Fengemp%2Fengemp1.htm)
+
+### Sources
+
+* Associated Press. "Consumers Moving to 4-Cylinder Engines Amid High Gas Prices." July 10, 2007\. https://web.archive.org/web/20070823210145/http://www.foxnews.com:80/story/0,2933,288644,00.html
+* Collins, Dan. "How Do Car Engines Work?" http://www.carbibles.com/fuel\_engine\_bible.html
+* Ofria, Charles. "A Short Course on Automobile Engines." http://www.familycar.com/engine.htm
+
+Loading...
+
+Advertisement
+
+Advertisement
+
+Advertisement
+
+We're as obsessed with finding answers as you are.
+
+Send me the latest news in science, culture and tech! Get the HowStuffWorks Newsletter
+
+Success
+
+You are now subscribed.
+
+Continue
+
+Newsletter Sign Up
+
+Send me the latest news in science, culture and tech! SIGN UP [](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fwww.howstuffworks.com%2F)
+
+Learn How Everything Works!
+
+Company
+
+* [About](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fwww.howstuffworks.com%2Fabout-hsw.htm)
+* [Careers](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fsystem1.com%2Fjob-openings)
+* [Contact Us](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fwww.howstuffworks.com%2Fhsw-contact.htm)
+* [Help](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fwww.howstuffworks.com%2Ffaq.htm)
+* [Sitemap](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fwww.howstuffworks.com%2Fsitemap.htm)
+
+Information
+
+* [Terms](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fwww.howstuffworks.com%2Fterms-and-conditions.htm)
+* [Reprints](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fwww.parsintl.com%2Fpublication%2Fhowstuffworks%2F)
+* [Privacy Policy](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fsystem1.com%2Fterms%2Fprivacy-policy)
+* [For Advertisers](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fwww.howstuffworks.com%2Ffor-advertisers.htm)
+* Do Not Sell My Info
+
+Explore
+
+* [Quizzes](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fplay.howstuffworks.com%2F)
+* [Video](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fwww.howstuffworks.com%2Fvideo)
+
+[Privacy Policy](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fsystem1.com%2Fterms%2Fprivacy-policy) [Terms](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fwww.howstuffworks.com%2Fterms-and-conditions.htm)
+
+[Do Not Sell My Info](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fauto.howstuffworks.com%2F5-tips-starting-old-engine.htm)
+
+Copyright © 2026 HowStuffWorks, a [System1](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fsystem1.com%2F) Property

@@ -1,0 +1,1223 @@
+Power in the Apocalypse (How to Build a Wood-Gasifier) - Instructables
+
+button\_magic Source guide
+
+This instructional guide details how to engineer a DIY **wood-gasifier**, a device designed to generate flammable fuel from organic matter through the process of **incomplete combustion**. By restricting oxygen, the machine converts solid biomass into a **synthetic gas** capable of powering engines or generators during resource scarcities. The text outlines a multi-stage construction involving a **fire tube** for burning fuel, a **cyclone filter** for removing moisture and tar, and a **media filter** for final purification. Ultimately, the author provides a practical blueprint for **energy independence** and survival preparedness, demonstrating how discarded scrap materials can be repurposed into a functional alternative power source.
+
+Power in the Apocalypse (How to Build a Wood-Gasifier) : 6 Steps (with Pictures) - Instructables
+
+Projects
+
+[Contests](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fwww.instructables.com%2Fcontest) [Teachers](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fwww.instructables.com%2Fteachers)
+
+[Sign up](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fwww.instructables.com%2Faccount%2Fregister) [Log in](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fwww.instructables.com%2Faccount%2Flogin)
+
+[Projects](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fwww.instructables.com%2Fprojects) [Contests](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fwww.instructables.com%2Fcontest) [Teachers](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fwww.instructables.com%2Fteachers) [](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fwww.instructables.com%2Fsearch) [](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fwww.instructables.com%2Fsearch)
+
+[Log In](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fwww.instructables.com%2Faccount%2Flogin) [Sign Up](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fwww.instructables.com%2Faccount%2Fregister)
+
+Projects
+
+[Contests](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fwww.instructables.com%2Fcontest) [Teachers](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fwww.instructables.com%2Fteachers)
+
+[Sign up](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fwww.instructables.com%2Faccount%2Fregister) [Log in](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fwww.instructables.com%2Faccount%2Flogin)
+
+### Power in the Apocalypse (How to Build a Wood-Gasifier)
+
+by [tatebullrider](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fwww.instructables.com%2Fmember%2Ftatebullrider)
+
+Save PDF
+
+# Power in the Apocalypse (How to Build a Wood-Gasifier)
+
+By [tatebullrider](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fwww.instructables.com%2Fmember%2Ftatebullrider) in [Outside](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fwww.instructables.com%2Foutside%2Fprojects) [Survival](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fwww.instructables.com%2Foutside%2Fsurvival%2Fprojects)
+
+318,883
+
+877
+
+[104](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fwww.instructables.com%2FPower-in-the-Apocalypse-How-to-Build-a-Wood-Gasifi%2F%23discuss)
+
+Featured
+
+Winner
+
+Published on November 5th, 2016
+
+Save PDF 
+
+By [tatebullrider](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fwww.instructables.com%2Fmember%2Ftatebullrider) [Follow](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fwww.instructables.com%2Faccount%2Flogin%2F%3FnxtPg%3D%2FPower-in-the-Apocalypse-How-to-Build-a-Wood-Gasifi%2F)
+
+In this Instructable I will be showing you the steps I used to build my Wood/Biomass Gasifier. It was really a fun project and I would encourage anyone serious about preparedness to build one. Now in case you don't know what a Gasifier is (and don't feel bad if you don't as very few people do lol), they are quite simple, let me explain. Essentially all gasification is, is a form of incomplete combustion, heat from the burning solid fuel creates gases which are unable to burn completely because of the insufficient amounts of oxygen from the available supply of air, it then filters those gasses(which is by weight: 20% hydrogen, 20% carbon monoxide, 50 to 60% nitrogen, and a little bit of methane) And you can really use any kind of Biomass(organic material) that will burn. You can even use things like paper, coal, peat, and lignite. You can then use that filtered gas to run any thing from a generator to a car. So now that you have a basic understanding of what gasification is, lets get down to the build!!!
+
+## Step 1: Basic Information.
+
+Don't worry, for this project you wont need any fancy tools or equipment. Just a welder, an angle grinder, an oxy-acetylene torch, and a drill, along with the knowledge of how to use them. Most of the materials used were found in friends' scrap piles so for me cost wasn't a big issue. And you can (in theory) make this to whatever size you need, so keep that in mind when gathering materials. But don't forget, whatever fuel you use has to be able to feed through the fire tube easily. The fire tube acts as a sort of dryer and hopper. The fire tube feeds the fuel into the shaker grate, which is where the fuel combusts. The gasses are then sucked out of the gasifier unit and pulled through the filter units. And after doing some research I chose to go with a cyclone filter and a media filter. Ideally I should have added a condenser after the cyclone filter to to get as much moisture out of the gas as possible. But oh well lol. But I would recommend adding one if you plan on building one of these.
+
+The size of the fire tube governs the size of the engine you can run. Here is a chart showing the fire tube sizes and the respective horsepower. The larger the fire tube, the more fuel it will burn, the more gas it will produce.
+
+Inside diameter (inches) Minimum length (inches) Engine power (hp)
+
+2 16 5
+
+4 16 15
+
+6 16 30
+
+7 18 40
+
+8 20 50
+
+9 22 65
+
+10 24 80
+
+11 26 100
+
+12 28 120
+
+13 30 140
+
+14 32 160
+
+## Step 2: Building the Gasifier Unit.
+
+View 8 more
+
+View 8 more images
+
+The first thing you need (as with anything) is a solid foundation. Because I was dealing with scrap metal, the frame is made from 1"x2" tubing and angle iron. I used a piece of 4.75" exhaust pipe for the fire tube, and the shaker grate is made from a brake rotor with the bottom cut out, and .25" rebar welded in place. The grate is suspended from chains welded to the fire tube supports. I left about 1" from the bottom of the fire tube to the bottom of the grate. I used 1.25" pipe for the ignition tube, which is that pipe leading into the side of the fire tube.
+
+Everything on a gasifier needs to be air tight, which presented me with one of the main problems. How to get the shaker grate assembly through the side of the barrel and make it rotate while keeping it air tight, and it had to be heat resistant. My solution, was to run the handle rod through a piece of .75" pipe capped off on both ends, and then pack that with fine steel wool. And that seems to have done the job quite well. The purpose of the shaking action is to sift the ash and dead charcoal through the grate to make space for more fuel.
+
+The ash clean out port is made from a piece of 6" pipe with a cover made from a .25" steel plate. I welded some lengths of 3/8" all thread to the sides of the 6" pipe and drilled corresponding holes in ears I left on the cover plate. And I sealed it with wood stove gasket maker and cemented it in place with stove cement. Then you just bolt and unbolt the cover plate as needed.
+
+The pipe you see going into the side of the fire tube is the ignition tube. Its capped off with 1.25" coupler with a washer welded on to seal it off, and I decided to add a handle to make it easier to use.
+
+## Step 3: The Cyclone Filter.
+
+Okay good, the hard part is over with lol. The filter units are the easiest part of the whole build. The first of the two filters is a cyclone filter which acts partly as a filter (obviously) and partly as a condenser. The water vapor, creosote, tar, and some particulates are collected on the inner sides of the filter as the cyclone of gas spins. These then run down into the collection jar. I chose to use a 5 gallon propane tank as the filter housing. All I had to do was run a pipe from the gasifier unit in through the side of the tank at an angle, to initiate a cyclone. Then run another pipe through the top of the tank which sits about 2" from the bottom. I flipped the tank over and used the original top of the tank as the bottom of the filter. The threads from the valve hole accept a .75" pipe nipple, which is attached to a flange and bolted to a jar lid. I added a rubber gasket between the flange and the lid to make a nice air tight seal. Now just screw on the jar and tadaa, a catchment basin lol. And that's really all there is to the cyclone filter.
+
+Now... onto the next step.
+
+## Step 4: The Media Filter.
+
+The media filter is made from a metal strong box tipped onto its side. The pipe leading through the top of the box comes straight from the top of the cyclone filter. And then you would just fill the box with an appropriate filter media such as wood shavings, cloth, or even as a more expensive but safer alternative, steel wool.
+
+Next comes the plumbing. You can see the logic behind the pipe assortment there, but i'll explain anyway. So first there is a tee which splits between the air pump and the outlet to the engine. The valves are for switching between the two as well as acting as a choke for the air pump. And the pump leads up to the flare. The purpose of the flare is to check gas quality before routing it to the engine.
+
+I figured that in the apocalypse the chance of having a working wall outlet is pretty slim lol. So I chose to use an air pump that could run off of a 12v car battery. Nothing special, just an air mattress pump that connects to a vehicles power point.
+
+## Step 5: Tips on Using Your New Gasifier.
+
+If you decided to reproduce this project, here are some tips and tricks to get you started. Firstly, the fuel you use must be bone dry, and I mean REALLY dry. Store bought wood pellets seam to do the trick nicely.
+
+So you built a gasifier and want to try it out... Now what? First fill the fire tube with your fuel of choice, then simply turn the pump on(with lots of choke at first), then uncap the ignition tube, insert a source of ignition, let the fire catch, recap the ignition tube, and as the fire progresses let off the choke a little bit at a time. After it has been running for awhile hold a flame to the end of the flare and, with any luck, the gas will ignite. Between the gasifier and the engine, the gas will need to be pre-carbureted, which is as simple as adding a tee in the hose to bleed off excess gas. Then you just run the line into the engine carburetor and that's it! Unfortunately, I haven't tested this on a full size vehicle yet, as I am only 15, and my mom wont let me get anywhere near her car lol.
+
+## Step 6: In Closing.
+
+Lastly I added a handle and some caster wheels, as well as sealing everything with wood stove sealer and giving it a coat or two of high heat paint. This was a fun and very educational project, I would really encourage anyone who is interested in being prepared, or just looking for a fun project, to build a gasifier. If you enjoyed this instructable, let me know in the comment section below. If you have any questions please let me know and I will do my best to answer them.
+
+This is not something you should use indoors. As it does produce flammable and toxic gasses.
+
+DISCLAIMER:
+
+As the reader, you assume all risks of reproduction of this project. I am in no way responsible for any damages or injuries to anyone or anything during the making or using of this project.
+
+If you really enjoyed, please consider voting for me in the Apocalypse Ready contest. :)
+
+First Prize in:
+
+### Survival Ready Contest
+
+[View Contest](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fwww.instructables.com%2Fcontest%2Fsurvivalready%2F)
+
+## Be the First to Share
+
+Did you make this project? Share it with us!
+
+[Log in to post an I Made It](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fwww.instructables.com%2Faccount%2Flogin%2F%3FnxtPg%3D%2FPower-in-the-Apocalypse-How-to-Build-a-Wood-Gasifi%2F)
+
+## Recommendations
+
+[
+
+# Toys, Games and Puzzles
+
+## Contest
+
+](https://www.instructables.com/contest/ToysGamesPuzzles26)
+
+[
+
+# Yours for the Making
+
+## Student Contest in Building Products &amp; Fabrication
+
+](https://www.instructables.com/contest/yoursforthemaking1)
+
+[
+
+# Halloween
+
+## Contest
+
+](https://www.instructables.com/contest/halloween26)
+
+You must be logged in to post a comment or add an I Made It.
+
+[Log In](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fwww.instructables.com%2Faccount%2Flogin%2F%3FnxtPg%3D%2FPower-in-the-Apocalypse-How-to-Build-a-Wood-Gasifi%2F)
+
+## 92 Comments
+
+[Faithful53](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fwww.instructables.com%2Fmember%2FFaithful53%2F) 3 years ago
+
+Why use a 55 gal can? I'm at a lose, are you just filling the 4-6" burn tube? I don't see any images of the wood in the drum
+
+Flag
+
+* Not nice
+* Inappropriate
+* Spam
+
+Reply 
+
+[vigilantez327](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fwww.instructables.com%2Fmember%2Fvigilantez327%2F) 4 years ago
+
+Man I give you big time Kudos!!! I learned how to weld at age 11 from my dad and next door neighbor. I built gocarts and mini bikes for fun among other thing. That experience helped me on many jobs later on in life. I am a generator freak and as of now have 8 gennies laying around if not more.
+
+Im building 2 gasifiers rite now so i can power my house and my landlords house in power outages witch we both get allot of. I just ordered my blower and shaker gear motor from amazon. In my pic ive got 3 100lb LP tanks and 2 of the smaller RV tanks. The yellow tubes are old parking stop posts from an old gas station for burn tubes. The 3rd 100lb LP tank is sacrificial for 2 lids and 2 ash clean out side doors. All that was only $50 at my local scrap yard and the amazon parts $80\. The rest of the plumbing i have lying around.
+
+Thanks for your great contribution!!! 
+
+...
+
+Flag
+
+* Not nice
+* Inappropriate
+* Spam
+
+Reply 
+
+[fcaylor4](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fwww.instructables.com%2Fmember%2Ffcaylor4%2F) 4 years ago
+
+Your 15 and built something that most people would never dream of doing. On top of that you were so skilled at it, that you were able to teach all of these people how to build their own. Your already making a difference in the world as a kid. Imagine what you can do when you grow older and wiser. Keep it up and I wish you the best of luck with whatever you decide to do.
+
+Flag
+
+* Not nice
+* Inappropriate
+* Spam
+
+Reply 
+
+[Hananndefaaa](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fwww.instructables.com%2Fmember%2FHananndefaaa%2F) 5 years ago
+
+Can i have the mechanical design of it ?
+
+Flag
+
+* Not nice
+* Inappropriate
+* Spam
+
+Reply 
+
+[KellyCraig](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fwww.instructables.com%2Fmember%2FKellyCraig%2F) 6 years ago
+
+I forgot the "excellent job" part. Here it is: EXCELLENT JOB.
+
+Haven you gone down the fire brick / soap stone path for protection of the burn chambers yet? If not, look into those things and tie in water glass (sodium silicate). Soap stone is said to take about 1000 degrees more than common fire brick.
+
+I was told mixing water glass and talc, then baking it could create soap stone.
+
+When I look at forge an kiln linings, many of the cloth materials offered list sodium silicate.
+
+Too, look into diatomaceous earth. Here, there is a "mine" and we can go get free, broken bags of the stuff for projects and pest control. A few jet stoves use it to insulate between pipes.
+
+I believe some bags material sold in auto parts stores for clean up are just diatomaceous earth. That would be a lot cheaper than the bag my boss sent me to town to get twenty-five years ago. I paid twenty bucks for a one or two pound bag. Now I have a couple free, five gallon buckets sitting out in the shop.
+
+Flag
+
+* Not nice
+* Inappropriate
+* Spam
+
+Reply 
+
+[KellyCraig](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fwww.instructables.com%2Fmember%2FKellyCraig%2F) 6 years ago
+
+I've long had an appreciation for things like gassifiers, and jet stoves. I figure the two go hand in hand because they both focus on efficient use of an ancient technology.
+
+With today's knowledge and technology, they should be more common, and even more practical than they were back when the U.S. government used gassifiers to power a fleet of vehicles.
+
+Sadly, the wood stove has seen few honest improvements over the years. In fact, I was shocked to hear friends brag about only needing four cords of wood to heat their rather large homes. Especially because, back around 72, I heated an uninsulated, two story farm house off an antique stove (about three or four hundred pounds) with more controls than my modern car (okay, that might be a slight exaggeration). I did it in a fifty below, Eastern Washington winter and on two cords (about a half cord of fir and the rest apple).
+
+Then there is the matter of my sister's complaint about her pellet stove - it's worthless without power. In fact, when I lived on the ocean beaches of the Pacific Northwet, I saw nearly new pellet stoves out in front of houses with free signs on them, just after major storms and a resulting two week spell with no power to the area.
+
+I haven't done it, but for that solution, I figured one or two five gallon buckets of concrete would solve the problem.
+
+Using the method used to drive pendulum clocks, one could build a variable speed system that ran the auger somewhere around one RPM, or whatever such stoves require.
+
+To raise the buckets, a simple block and tackle system would allow even a kid to "charge the auger battery."
+
+I would not be surprised if the system would run a week between times the buckets had to be raised.
+
+Using jet stove and gassifier technology, then mixing in the auger feed technology, one should be able to run a pretty efficient household, even if the gassifier portion only produced enough power to run a chipper to fill the auger.
+
+One of the key points of both systems is, smoke should be nearly a non-issue, and one should be able to heat a well insulated structure with a fraction of the fuel the pretty wood stoves sold today use.
+
+SIDE NOTE: A house I rented on the Northewet ocean beaches had an open basement. I enclosed it and installed a wood burner in the basement. The solid concrete floors and walls acted like a heat flywheel. It took about three days to bring all the concrete up to a comfortable temp, but, once there, it took a couple days to cool too.
+
+The combo of heat and concrete made the basement quite comfortable. I imagine it would have been remarkable, had the concrete floor had foam under it and if the exterior of the walls had six inches of insulation on the outside.
+
+Flag
+
+* Not nice
+* Inappropriate
+* Spam
+
+Reply 
+
+[AleksA2](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fwww.instructables.com%2Fmember%2FAleksA2%2F) 6 years ago
+
+Nice project. Creative success in new projects!
+
+Flag
+
+* Not nice
+* Inappropriate
+* Spam
+
+Reply 
+
+[ChrisS936](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fwww.instructables.com%2Fmember%2FChrisS936%2F) 8 years ago
+
+Hi. Amazing project. Can you post video of the gassifier operating? Or maybe even make a video version of this how to article? Thank you!
+
+Flag
+
+* Not nice
+* Inappropriate
+* Spam
+
+Reply 
+
+[JacobM211](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fwww.instructables.com%2Fmember%2FJacobM211%2F) 8 years ago
+
+What about using a large flat panel magnifying glass focused on a tungsten Archimedes screw to gasifiy wet algae biomass?
+
+this could process waste water and make diesel per home no?
+
+Flag
+
+* Not nice
+* Inappropriate
+* Spam
+
+Reply 
+
+[grahamgamer2447](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fwww.instructables.com%2Fmember%2Fgrahamgamer2447%2F) 8 years ago
+
+Where can you get these materials and could you provide a materials list and cost?
+
+Flag
+
+* Not nice
+* Inappropriate
+* Spam
+
+Reply 
+
+[DutchD3](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fwww.instructables.com%2Fmember%2FDutchD3%2F) 9 years ago
+
+Kid, that's totally badass !
+
+Flag
+
+* Not nice
+* Inappropriate
+* Spam
+
+Reply
+
+1 reply 
+
+[tatebullrider](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fwww.instructables.com%2Fmember%2Ftatebullrider%2F) 9 years ago
+
+Well, thanks! But wait until you see my NEXT project...
+
+Flag
+
+* Not nice
+* Inappropriate
+* Spam
+
+Reply 
+
+[RonB182](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fwww.instructables.com%2Fmember%2FRonB182%2F) 9 years ago
+
+Grate job young man . Vary clear and understandable.
+
+You say your're 15 ? I can't remember that far back with out blacking out.
+
+My first attempt at gassification was a flop. Too many leaks.
+
+The second one works I use it to heat a hot tub.
+
+The shaker grate you came up with , Works Awesome Thanks .
+
+I'm a retired Millwright and I had issues with this part.
+
+Flag
+
+* Not nice
+* Inappropriate
+* Spam
+
+Reply
+
+1 reply 
+
+[tatebullrider](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fwww.instructables.com%2Fmember%2Ftatebullrider%2F) 9 years ago
+
+Thank you! I appreciate the kind words, and I'm glad you could take something useful away from this Instructable.
+
+Flag
+
+* Not nice
+* Inappropriate
+* Spam
+
+Reply 
+
+[XGrillot2021](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fwww.instructables.com%2Fmember%2FXGrillot2021%2F) 9 years ago
+
+You did a great job on this project.
+
+I am planning on making A gasifier and was taking some notes.
+
+Was wondering, I know that the one handle on the gasifier is the shacker but what is the other one for.
+
+Also could you post a drawing or something of all the components that go into the actual gasifier unit because I am having troubles understanding the configuration of it.
+
+Thanks
+
+Flag
+
+* Not nice
+* Inappropriate
+* Spam
+
+Reply
+
+1 reply 
+
+[tatebullrider](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fwww.instructables.com%2Fmember%2Ftatebullrider%2F) 9 years ago
+
+Hey there! Thanks for the comment. The other handle just makes it easier to take off the ignition port cap. As to your second question, I believe I showed everything on the inside. If you're still having trouble, let me know!
+
+Flag
+
+* Not nice
+* Inappropriate
+* Spam
+
+Reply 
+
+[Malkaris](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fwww.instructables.com%2Fmember%2FMalkaris%2F) 10 years ago
+
+very nice build, I've read there is a way to convert Syngas I to diesel, but I'm not sure how that exactly works.
+
+Flag
+
+* Not nice
+* Inappropriate
+* Spam
+
+Reply
+
+4 replies 
+
+[tatebullrider](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fwww.instructables.com%2Fmember%2Ftatebullrider%2F) 10 years ago
+
+Yeah, I am currently working on a machine to turn coal into diesel. It's essentially the same process, only using indirect heating via a burner. The gasses produced are then condensed and ran thru a fuel scrubber.
+
+Thank you so much for the comment!
+
+Flag
+
+* Not nice
+* Inappropriate
+* Spam
+
+Reply 
+
+[Malkaris](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fwww.instructables.com%2Fmember%2FMalkaris%2F) 10 years ago
+
+do you know the process for converting syngas to diesel? could you point me at something to learn? I've been looking at a way to use plasma to turn material into syngas too.
+
+Flag
+
+* Not nice
+* Inappropriate
+* Spam
+
+Reply 
+
+[tatebullrider](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fwww.instructables.com%2Fmember%2Ftatebullrider%2F) 10 years ago
+
+This guy can explain it better than I can lol. [www.youtube.com/MrTeslonian](https://www.google.com/url?sa=E&amp;q=http%3A%2F%2Fwww.youtube.com%2FMrTeslonian) . He also has alot of other alternative energy projects you might enjoy. Hope this helps.
+
+Flag
+
+* Not nice
+* Inappropriate
+* Spam
+
+Reply 
+
+[Flenters](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fwww.instructables.com%2Fmember%2FFlenters%2F) 9 years ago
+
+[http://www.energeticforum.com/renewable-energy/704...](https://www.google.com/url?sa=E&amp;q=http%3A%2F%2Fwww.energeticforum.com%2Frenewable-energy%2F7040-how-turn-plastic-waste-into-diesel-fuel-cheaply.html)
+
+Above is a link to a forum where a lot of people has done a lot of work regarding the plastic to fuel process.
+
+Flag
+
+* Not nice
+* Inappropriate
+* Spam
+
+Reply 
+
+[JakeY16](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fwww.instructables.com%2Fmember%2FJakeY16%2F) 9 years ago
+
+Are you on FB or IG? I'd love to follow you!
+
+Flag
+
+* Not nice
+* Inappropriate
+* Spam
+
+Reply
+
+1 reply 
+
+[tatebullrider](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fwww.instructables.com%2Fmember%2Ftatebullrider%2F) 9 years ago
+
+Unfortunately, I don't have any social media accounts. However I do have a Youtube channel. I only have one video right now, but I have plans for many more! I'll post a link soon.
+
+Flag
+
+* Not nice
+* Inappropriate
+* Spam
+
+Reply 
+
+[JakeY16](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fwww.instructables.com%2Fmember%2FJakeY16%2F) 9 years ago
+
+15??? Dude, that's awesome! This article is the best I've seen on Gasification! Keep it up buddy!
+
+Flag
+
+* Not nice
+* Inappropriate
+* Spam
+
+Reply
+
+1 reply 
+
+[tatebullrider](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fwww.instructables.com%2Fmember%2Ftatebullrider%2F) 9 years ago
+
+Haha, thank you so much!! I'm really glad you enjoyed it. I will :D.
+
+Flag
+
+* Not nice
+* Inappropriate
+* Spam
+
+Reply 
+
+[paul29690](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fwww.instructables.com%2Fmember%2Fpaul29690%2F) 10 years ago
+
+Hi tatebullrider, thank you for an excellent instructable. I think you
+
+should be commended for your acquired knowledge and passion for an
+
+alternative lifestyle. Your parents should be commended equally for
+
+having the sense to keep you away from the 'sheople factory'. Stick with
+
+your passion, your gut and your insatiable appetite for knowledge and
+
+how that can be converted into making things. You are a survivor, a
+
+warrior and a valuable asset to any community.
+
+Flag
+
+* Not nice
+* Inappropriate
+* Spam
+
+Reply
+
+1 reply 
+
+[tatebullrider](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fwww.instructables.com%2Fmember%2Ftatebullrider%2F) 10 years ago
+
+Wow... you have no idea how good that makes me feel :). Thank you so much for the kind words!!!
+
+Flag
+
+* Not nice
+* Inappropriate
+* Spam
+
+Reply 
+
+[offseidjr](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fwww.instructables.com%2Fmember%2Foffseidjr%2F) 10 years ago
+
+Wow!
+
+Flag
+
+* Not nice
+* Inappropriate
+* Spam
+
+Reply
+
+1 reply 
+
+[tatebullrider](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fwww.instructables.com%2Fmember%2Ftatebullrider%2F) 10 years ago
+
+Thank you, i'm glad you enjoyed it. :)
+
+Flag
+
+* Not nice
+* Inappropriate
+* Spam
+
+Reply 
+
+[pfred2](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fwww.instructables.com%2Fmember%2Fpfred2%2F) 10 years ago
+
+I've heard of gassifiers. They were popular in World War Two in Germany.
+
+Flag
+
+* Not nice
+* Inappropriate
+* Spam
+
+Reply
+
+3 replies 
+
+[tatebullrider](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fwww.instructables.com%2Fmember%2Ftatebullrider%2F) 10 years ago
+
+That is correct. They were popular all over Europe at the time, due to the fuel shortages. I was debating whether or not to add a little history, but the instrutable was already quite long.
+
+Flag
+
+* Not nice
+* Inappropriate
+* Spam
+
+Reply 
+
+[tatebullrider](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fwww.instructables.com%2Fmember%2Ftatebullrider%2F) 10 years ago
+
+Found this pic. 
+
+...
+
+Flag
+
+* Not nice
+* Inappropriate
+* Spam
+
+Reply 
+
+[pfred2](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fwww.instructables.com%2Fmember%2Fpfred2%2F) 10 years ago
+
+Yes when you look at Google images of gassifiers the first couple rows are all WW2 German in origin.
+
+Flag
+
+* Not nice
+* Inappropriate
+* Spam
+
+Reply 
+
+[Razanur](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fwww.instructables.com%2Fmember%2FRazanur%2F) 10 years ago
+
+Awesome build!
+
+I've been toying with the idea of building a gasifier for a long
+
+time (but you know, time - the one thing ppl over 18 always claim to
+
+have less of than anyone else). But my idea was more in
+
+the direction of plastic gasification for third world countries. Right
+
+now, plastic (together with everything else) usually gets burned in smouldering
+
+open fires on the streets. I would love to be able to burn it in a hot
+
+and more or less clean fashion and get energy out of it. Especially
+
+since a lot of cars run on gas anyway (e.g. in Pakistan or Iran), or
+
+people cook with it (though with 20% CO you might not want to use it for
+
+cooking ;))
+
+So what do you think? Could you use this gasifier with plastic? Or a mixture of plastic and wood?
+
+Flag
+
+* Not nice
+* Inappropriate
+* Spam
+
+Reply
+
+5 replies 
+
+[tatebullrider](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fwww.instructables.com%2Fmember%2Ftatebullrider%2F) 10 years ago
+
+You can absolutely make fuel from plastic, via indirect heating. And it's way simpler than one might think. Essentially all it is, is a sealed metal container filled with plastic, paper, wood, coal or really any suitable substance. Heat that container over a fire, and run the resulting gasses through a series of condensers and collection containers. I would probably have a series of at least 3 condensers with a collection container between every one. What you will be left with is whats called "biocrude." The biocrude is then refined via the same process. (indirect heating and condensing). The results are a crude form of gasoline.
+
+If you build one of these please let me know. It's great to see people like you, out there making the world a better place. Thanks so much for the comment!! :)
+
+Flag
+
+* Not nice
+* Inappropriate
+* Spam
+
+Reply 
+
+[ed-romes](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fwww.instructables.com%2Fmember%2Fed-romes%2F) 10 years ago
+
+On. This comment you say over a fire have you ever concidered using the sun ?? Any light reflecting item such as a parabolic dish or a freisenell lens like those found in old time image projectors that are really the same as a magnifying glass with rings !! Some can get one spot hot enough to melt lead or solider !!! Or star a fire :-D
+
+Flag
+
+* Not nice
+* Inappropriate
+* Spam
+
+Reply 
+
+[tatebullrider](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fwww.instructables.com%2Fmember%2Ftatebullrider%2F) 10 years ago
+
+This is a good idea, but unfortunately I don't think you could get even enough heat distribution. In order for pyrolysis to occur, the fuel has to reach 451 degrees fahrenheit while in the sealed metal container. I am absolutely not saying that this is not possible though, just a bit harder to achieve than lighting a fire. Thank you for the comment, and keep on coming up with good ideas. :)
+
+Flag
+
+* Not nice
+* Inappropriate
+* Spam
+
+Reply 
+
+[ed-romes](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fwww.instructables.com%2Fmember%2Fed-romes%2F) 10 years ago
+
+With correct size and angle you can get up to 1000 degrees or more lead has a higher melting point than 450
+
+Flag
+
+* Not nice
+* Inappropriate
+* Spam
+
+Reply 
+
+[tatebullrider](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fwww.instructables.com%2Fmember%2Ftatebullrider%2F) 10 years ago
+
+Like I said my only concern would be even heat distribution, but if you could figure that out it would probably work. If you try this please let me know I want to see how you did it. :)
+
+Flag
+
+* Not nice
+* Inappropriate
+* Spam
+
+Reply 
+
+[aebe](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fwww.instructables.com%2Fmember%2Faebe%2F) 10 years ago
+
+Very nice build . I helped put one together ('78) that went on a '53 Studebaker with a little flathead six . Owner loaded it up and headed off towards Missouri .
+
+Flag
+
+* Not nice
+* Inappropriate
+* Spam
+
+Reply
+
+1 reply 
+
+[tatebullrider](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fwww.instructables.com%2Fmember%2Ftatebullrider%2F) 10 years ago
+
+Wow, that sounds cool. Thanks for the comment.
+
+Flag
+
+* Not nice
+* Inappropriate
+* Spam
+
+Reply 
+
+[Edgar](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fwww.instructables.com%2Fmember%2FEdgar%2F) 10 years ago
+
+Great Instructable, went a link to my Blog, and this can also improve some impoverished folk's lives, this Winter, as the base for a Oven and Water Heating project... Here's the Blog: http://faz-voce-mesmo.blogspot.pt/2016/11/impressora-3d-de-bolso-e-fazer-plastico.html
+
+Flag
+
+* Not nice
+* Inappropriate
+* Spam
+
+Reply 
+
+[Straw\_Cat](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fwww.instructables.com%2Fmember%2FStraw%5FCat%2F) 10 years ago
+
+How much biochar does this produce?
+
+Flag
+
+* Not nice
+* Inappropriate
+* Spam
+
+Reply
+
+1 reply 
+
+[tatebullrider](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fwww.instructables.com%2Fmember%2Ftatebullrider%2F) 10 years ago
+
+There seems to be very little of any bi-product (ash,char, tar,etc...)being produced so far. But I really haven't been running this to often so... as of now not much lol.
+
+Flag
+
+* Not nice
+* Inappropriate
+* Spam
+
+Reply 
+
+[boatmakertoo](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fwww.instructables.com%2Fmember%2Fboatmakertoo%2F) 10 years ago
+
+Tatebullrilder, Congratulations this is clearly a very evolved device: After WWII gasifiers were used in Europe and Britain to power motor vehicles including tractors. In some cases the gas was collected in large bags and strapped on the back of the operator of a powered cultivator or even a motor bicycle. Those were desperate times there and not unlike an apocalypse. Fuel and food were scarce as was everything else. Along with the charred wood and the tar produced is a small amount of methyl alcohol which is a useful fuel. If you add a condenser you might be able to collect this as well. (Don't drink it. It's poison.) The ash is a source of sodium hydroxide and potassium hydroxide, good for apocalyptic soap making and dissolving zombies.- Boatmakertoo
+
+Flag
+
+* Not nice
+* Inappropriate
+* Spam
+
+Reply
+
+3 replies 
+
+[tatebullrider](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fwww.instructables.com%2Fmember%2Ftatebullrider%2F) 10 years ago
+
+I entered this in our local county fair and included a presentation board, and I had to do alot of research for it(obviously) and I came across lots of cool stuff like that. I don't know why this technology isn't more used. I have plans for another build soon, a sort of "refinery." Turning household garbage into gasoline. I'll probably show an instructable on that when it's finished.
+
+Flag
+
+* Not nice
+* Inappropriate
+* Spam
+
+Reply 
+
+[wheeets](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fwww.instructables.com%2Fmember%2Fwheeets%2F) 10 years ago
+
+Please do
+
+Flag
+
+* Not nice
+* Inappropriate
+* Spam
+
+Reply 
+
+[tatebullrider](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fwww.instructables.com%2Fmember%2Ftatebullrider%2F) 10 years ago
+
+I'll do my best!!
+
+Flag
+
+* Not nice
+* Inappropriate
+* Spam
+
+Reply 
+
+[ron.walker.1690](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fwww.instructables.com%2Fmember%2Fron.walker.1690%2F) 10 years ago
+
+Hi Tatebullrider, I enjoyed your instructable. I have a few comments. It is important to get the tar and other condensate stuff out of the gas stream before it gets to the filter. So cooling the gas does that and if it is a separate section, it can be cleaned out by just a pull through(?) The tar &amp; stuff could clog an engines innards, not to mention any dust in the gas. Your filter looks like it would get the dust OK. keep up the good work. If you wanted to burn larger pieces of wood it might be necessary to have a tapered fire tube so that nothing could be caught in a corner. I made a similar burner for heating out of bricks and the pieces of wood all slid down to the hot zone readily. However I had problems with controlling the rate of burn, but the engine would control that.
+
+Regards
+
+Ron W
+
+Flag
+
+* Not nice
+* Inappropriate
+* Spam
+
+Reply
+
+1 reply 
+
+[tatebullrider](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fwww.instructables.com%2Fmember%2Ftatebullrider%2F) 10 years ago
+
+Thank you for the comments, I am absolutely no expert, so any words of advice are greatly appreciated. Yeah this was more of a learning project. Its far from perfect, but I plan on taking what I learned in the building of this one, and building a second one. And actually I am left with quite a bit of liquid in the collection jar when I am finished using it, do to the cooler walls of the cyclone filter.
+
+Flag
+
+* Not nice
+* Inappropriate
+* Spam
+
+Reply
+
+More Comments [Log in to post a comment](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fwww.instructables.com%2Faccount%2Flogin%2F%3FnxtPg%3D%2FPower-in-the-Apocalypse-How-to-Build-a-Wood-Gasifi%2F)
+
+## About
+
+Instructables is a community for people who are passionate about making. We are supported by Autodesk, a global leader in design and make technology.
+
+[Autodesk](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fwww.autodesk.com%2F)
+
+## Projects
+
+* [Circuits](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fwww.instructables.com%2Fcircuits%2F)
+* [Workshop](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fwww.instructables.com%2Fworkshop%2F)
+* [Design](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fwww.instructables.com%2Fdesign%2F)
+* [Craft](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fwww.instructables.com%2Fcraft%2F)
+* [Cooking](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fwww.instructables.com%2Fcooking%2F)
+* [Living](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fwww.instructables.com%2Fliving%2F)
+* [Outside](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fwww.instructables.com%2Foutside%2F)
+* [Teachers](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fwww.instructables.com%2Fteachers%2F)
+
+## Resources
+
+* [Why publish](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fwww.instructables.com%2Fcreate%2F)
+* [Get started](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fwww.instructables.com%2FGet-Started%2F)
+* [Help](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fwww.instructables.com%2Fhelp%2F)
+* [Sitemap](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fwww.instructables.com%2Fsitemap%2F)
+* [Who we are](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fwww.instructables.com%2Fabout%2F)
+
+## Follow
+
+* [@instructables](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fwww.instagram.com%2Finstructables%2F)
+* [@autodeskedu](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fwww.instagram.com%2Fautodeskedu%2F)
+
+© 2026 Autodesk, Inc.| [Terms of service](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fwww.autodesk.com%2Fcompany%2Flegal-notices-trademarks%2Fterms-of-service-autodesk360-web-services%2Finstructables-terms-of-service-june-5-2013)| [Privacy statement](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fwww.autodesk.com%2Fcompany%2Flegal-notices-trademarks%2Fprivacy-statement)| [Privacy settings](https://www.google.com/url?sa=E&amp;q=about%3Ainvalid%23zClosurez)| [Do not sell or share my personal information](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fwww.autodesk.com%2Fcompany%2Flegal-notices-trademarks%2Fccpa-do-not-sell)| [Legal notices &amp; trademarks](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fwww.autodesk.com%2Fcompany%2Flegal-notices-trademarks)
+
+## Cookie preferences
+
+Your privacy is important to us and so is an optimal experience. To help us customize information and build applications, we collect data about your use of this site.
+
+**May we collect and use your data?**
+
+Learn more about the [Third Party Services](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fwww.instructables.com%2FPower-in-the-Apocalypse-How-to-Build-a-Wood-Gasifi%2F) we use and our [Privacy Statement](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fwww.instructables.com%2FPower-in-the-Apocalypse-How-to-Build-a-Wood-Gasifi%2F).
+
+YES TO ALL NO TO ALL
+
+#### Strictly necessary – required for our site to work and to provide services to you
+
+These cookies allow us to record your preferences or login information, respond to your requests or fulfill items in your shopping cart. [x]
+
+YES
+
+#### Improve your experience – allows us to show you what is relevant to you
+
+These cookies enable us to provide enhanced functionality and personalization. They may be set by us or by third party providers whose services we use to deliver information and experiences tailored to you. If you do not allow these cookies, some or all of these services may not be available for you. [x]
+
+YES [-]
+
+NO
+
+#### Customize your advertising – permits us to offer targeted advertising to you
+
+These cookies collect data about you based on your activities and interests in order to show you relevant ads and to track effectiveness. By collecting this data, the ads you see will be more tailored to your interests. If you do not allow these cookies, you will experience less targeted advertising. [x]
+
+YES [-]
+
+NO
+
+CONTINUE TO SITE
+
+**To change your settings later, click Privacy Settings at the bottom of any page.** 
+
+## THIRD PARTY SERVICES
+
+Learn more about the Third-Party Services we use in each category, and how we use the data we collect from you online.
+
+### Strictly necessary – required for our site to work and to provide services to you
+
+**Qualtrics**
+
+W
+
+**Akamai mPulse**
+
+W
+
+**Digital River**
+
+W
+
+**Dynatrace**
+
+W
+
+**Khoros**
+
+W
+
+**Launch Darkly**
+
+W
+
+**New Relic**
+
+W
+
+**Salesforce Live Agent**
+
+W
+
+**Wistia**
+
+W
+
+**Tealium**
+
+W
+
+**Upsellit**
+
+W
+
+**CJ Affiliates**
+
+W
+
+**Commission Factory**
+
+W
+
+**Google Analytics (Strictly Necessary)**
+
+W
+
+**Typepad Stats**
+
+W
+
+**Geo Targetly**
+
+W
+
+**SpeedCurve**
+
+W
+
+**Qualified**
+
+### Improve your experience – allows us to show you what is relevant to you
+
+**Google Optimize**
+
+W
+
+**ClickTale**
+
+W
+
+**OneSignal**
+
+W
+
+**Optimizely**
+
+W
+
+**Amplitude**
+
+W
+
+**Snowplow**
+
+W
+
+**UserVoice**
+
+W
+
+**Clearbit**
+
+**YouTube**
+
+### Customize your advertising – permits us to offer targeted advertising to you
+
+**Adobe Analytics**
+
+W
+
+**Google Analytics (Web Analytics)**
+
+W
+
+**AdWords**
+
+W
+
+**Marketo**
+
+W
+
+**Doubleclick**
+
+W
+
+**HubSpot**
+
+W
+
+**Twitter**
+
+W
+
+**Facebook**
+
+W
+
+**LinkedIn**
+
+W
+
+**Yahoo! Japan**
+
+W
+
+**Naver**
+
+W
+
+**Quantcast**
+
+W
+
+**Call Tracking**
+
+W
+
+**Wunderkind**
+
+W
+
+**ADC Media**
+
+W
+
+**AgrantSEM**
+
+W
+
+**Bidtellect**
+
+W
+
+**Bing**
+
+W
+
+**G2Crowd**
+
+W
+
+**NMPI Display**
+
+W
+
+**VK**
+
+W
+
+**Adobe Target**
+
+W
+
+**Google Analytics (Advertising)**
+
+W
+
+**Trendkite**
+
+W
+
+**Hotjar**
+
+W
+
+**6 Sense**
+
+W
+
+**Terminus**
+
+W
+
+**StackAdapt**
+
+W
+
+**The Trade Desk**
+
+W
+
+**RollWorks**
+
+W
+
+## Are you sure you want a less customized experience?
+
+We can access your data only if you select "yes" for the categories on the previous screen. This lets us tailor our marketing so that it's more relevant for you. You can change your settings at any time by visiting our [privacy statement](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fwww.instructables.com%2FPower-in-the-Apocalypse-How-to-Build-a-Wood-Gasifi%2F)
+
+Review settings
+
+CONTINUE TO SITE 
+
+## Your experience. Your choice.
+
+We care about your privacy. The data we collect helps us understand how you use our products, what information you might be interested in, and what we can improve to make your engagement with Autodesk more rewarding.
+
+**May we collect and use your data to tailor your experience?**
+
+Explore the benefits of a customized experience by managing your [privacy settings](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fwww.instructables.com%2FPower-in-the-Apocalypse-How-to-Build-a-Wood-Gasifi%2F) for this site or visit our [Privacy Statement](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fwww.instructables.com%2FPower-in-the-Apocalypse-How-to-Build-a-Wood-Gasifi%2F) to learn more about your options.
+
+YES Decline

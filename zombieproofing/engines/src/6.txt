@@ -1,0 +1,499 @@
+The Simple-Fire: An easy way to run an engine on homemade wood charcoal
+
+button\_magic Source guide
+
+Gary Gilmore’s manual provides a practical guide for constructing the **Simple-Fire**, an experimental **charcoal gasifier** designed to power small internal combustion engines using **homemade wood charcoal**. The text details the mechanical transition from solid fuel to a combustible gas, emphasizing a chemical process where air is drawn into a **reactor** to create **carbon monoxide** through oxidation and reduction zones. Safety is a primary theme throughout the document, as the author highlights the **lethal risks of carbon monoxide poisoning**, potential explosions from air leaks, and the necessity of using high-quality, **tar-free fuel** to avoid engine damage. Ultimately, the source serves as a technical blueprint and operational primer for enthusiasts seeking to utilise **renewable energy** through a simplified, low-cost thermal conversion system.
+
+##   **The Simple-Fire:** 
+
+## An easy way to run an engine on homemade wood charcoal. 
+
+**By: Gary L. Gilmore 2012Goals** 
+
+ To increase the knowledge of charcoal gasification using wood as a renewable resource. 
+
+ To simplify the technology necessary to run small (2 – 20 HP) internal combustion engine. 
+
+ To share my progress on this experiment, to date. 
+
+### **Warning:** 
+
+ This design is experimental and has NOT been proven through thousands of hours of run time. There 
+
+are risks associated with this process that you must assume if you want to experiment using this style of 
+
+charcoal gasifier. Here are some of them: 
+
+**1.)Charcoal gas is about 20% carbon monoxide. This is a deadly poison that you cannot smell or** 
+
+taste. At concentrations as low as .05% your blood starts to lose its ability to get oxygen. 
+
+## 2.)NEVER use this device in an enclosed building!!!!!Charcoal gas will burn in the presence of 
+
+oxygen. With the correct mixture of oxygen it can explode. This means air leaks in the system may 
+
+create a mixture of explosive gas that can explode if the engine backfires. 
+
+3.)You are using fire contained in a steel container. Do not place it near any combustible material. 
+
+### 4.)This device uses charcoal as fuel. If the charcoal is not well made, tar will be created that will 
+
+literally gum up an engine. This will cause the valves to stick and will ruin your motor. 
+
+5.)Gasoline and gasoline vapors are very explosive. Extreme care must be exercised when priming an 
+
+engine with gasoline. Only a very small squeeze bottle and quantity should be used, and the bottle 
+
+should be kept away from any open flame at all times. 
+
+This is by no means an exhaustive list of all the risks that are associated with a charcoal gasifier. 
+
+**Terminology** 
+
+Air inlet – The place where atmospheric air enters the reactor. 
+
+Nozzle – The terminal portion of the air inlet where the oxidation zone starts. 
+
+Oxidation zone – The area where charcoal is oxidized in the presence of oxygen to form carbon dioxide. 
+
+Reduction zone – The area surrounding the oxidation zone where hot charcoal reduces carbon dioxide 
+
+into carbon monoxide. 
+
+Reactor – The metal container that incorporates the air inlet and holds the charcoal. 
+
+Charcoal gas - The combustible gas created by the reduction of carbon and water into carbon monoxide 
+
+and hydrogen with traces of methane. 
+
+Gas filter – A device used to trap dust that may be present in the charcoal gas, thus preventing the dust 
+
+from getting to the engine. 
+
+Exhaust gas re-circulation – The concept whereby engine exhaust gas is routed back to the oxidation 
+
+zone to lower the temperature of that area as well as to recycle carbon dioxide and water by converting 
+
+them into charcoal gas. 
+
+Wood tar – Thick compounds produced when wood is heated. They begin as a vapor but condense to 
+
+form a tar-like residue. 
+
+Charcoal – The black, lightweight, almost pure carbon material remaining when wood is pyrolized. 
+
+Gas hose – Sump pump hose that fits a 1 ¼”fitting. It is inexpensive but will melt around 140F. 
+
+### **The Concept** 
+
+Charcoal gas is made from burning carbon in a reducing atmosphere. This gas is then cooled, filtered 
+
+and mixed with oxygen at the engine. It is sucked into an internal combustion engine where the 
+
+charcoal gas/air mixture is compressed and burns. Charcoal gas provides about 30% less power than 
+
+the same engine running on gasoline. This is due to the fact that charcoal gas contains less energy than 
+
+the same of amount of gasoline vapor. Do not expect the engine to produce the same amount of power 
+
+as if you are running on gasoline. Here’s how it works: 
+
+**The Fuel** 
+
+The fuel for the Simple-Fire is charcoal. Please do not confuse charcoal with ash. Ash is the white 
+
+powder left after all the carbon in the wood has been consumed. Ash is the non-burnable component of 
+
+wood that consists of chemicals such as potassium-calcium carbonate, potassium-calcium hydroxide and 
+
+silica. Ash is not charcoal. Do not confuse these two different products. 
+
+Charcoal is BLACK. It is easily broken apart by hand. It can be made from either hard or soft woods. 
+
+Since hard wood has a greater density of carbon, charcoal made from it will last longer and allow longer 
+
+intervals between fueling than will running on soft wood charcoal. The charcoal has to be properly 
+
+made in that all the wood has to be fully charred. In nearly every batch of charcoal, you will find some 
+
+“brands” that may look well-charred, but are not easily broken up and show dark brown wood under the 
+
+charred surface. These brands must not be used as fuel in the Simple-Fire because they will produce 
+
+wood tar. 
+
+The Simple-Fire is not intended to be used with charcoal purchased from the store: 
+
+Charcoal briquettes are made from charcoal dust, coal, lime/clay, sodium nitrate and a binder to 
+
+hold everything together. These WILL NOT WORK IN THE SIMPLE-FIRE. 
+
+Natural lump charcoal or cowboy charcoal MAY work if it is well made, but I doubt it. This 
+
+charcoal is sold by weight and the more tar left in the charcoal, the heavier it is. If this charcoal 
+
+is heated to 600F to drive off the tar, then it will be OK. 
+
+Charcoal can easily be made using a variety of methods. If you do decide to make charcoal, please 
+
+respect others by using a method that minimizes or eliminates smoke. It isn’t hard and here is one way. 
+
+**Fuel Size** 
+
+Fuel size is very important. If the fuel is too small, the charcoal gas will have difficulty getting through 
+
+the tightly-packed particles. If the fuel is too big, the carbon dioxide created in the oxidation zone will 
+
+find enough gaps between the charcoal and not get converted to flammable carbon monoxide. Screen 
+
+your charcoal so it passes a ¾” screen at the large size but does not pass through a 1/8” screen. This 
+
+means the charcoal fuel will be a mixture of sizes 1/8” or larger but no larger than ¾”. No more sizing of 
+
+fuel is needed. 
+
+### **Putting it all together.** 
+
+**The Reactor** 
+
+ This is a steel container that holds a batch of charcoal which is converted into charcoal gas by a 
+
+fire within the reactor. Although much flexibility exists as to what you can use to make the reactor from, 
+
+here are a few rules that must be followed. 
+
+The reactor must be air tight. The air MUST enter at the correct place and the charcoal gas must exit at 
+
+the correct place. Both of these places need to be sealed with a gasket material such as RTV silicone. If 
+
+the reactor has a lid, this too must be well sealed with a gasket and some method to hold the lid in 
+
+place. Allowing air to leak into the reactor may set you up for an explosion if your engine back fires. 
+
+Make sure there are no pin holes from rust, too. The main lid to the reactor must not be bolted or 
+
+welded shut; rather, the lid should be held on tightly with springs so as to allow the reactor to open if a 
+
+“puff” or backfire occurs. 
+
+The reactor may get red hot at the bottom or along the side. Use a steel container. 
+
+You will need a way to fill the reactor with charcoal. Make sure this can be done through an area that 
+
+can be sealed air tight. Due to the increased suction created by larger engines, it is necessary to place a 
+
+1/8 wire screen on top of the charcoal. This will prevent pieces of charcoal getting sucked into the filter. 
+
+A taller reactor will hold more charcoal than a shorter one and therefore will allow the engine to run 
+
+longer. The width of the reactor is not as important as the height. A larger engine will pull the oxidation 
+
+lobe further from the nozzle and therefore require a reactor that is larger in diameter. 
+
+**Air inlet** 
+
+ This component is made from a 1” pipe coupling that is welded to a plate which is in turn 
+
+screwed to the reactor (using, say, #10 or #8 sheet metal screws). Use RTV high temperature silicone 
+
+gasket material (red is best) to seal the plate to the reactor. The air inlet should be located on the side 
+
+of the reactor at least two inches above the bottom of the reactor. 
+
+**Air inlet pipe** 
+
+ This is a short section of 1” iron pipe that is located inside the reactor and screwed into the air 
+
+inlet coupling. This pipe should extend between 1/3 to 2/5 of the way into the reactor. In other words, 
+
+it needs to be less than halfway. 
+
+To increase the longevity of this nozzle, you can use a stainless steel pipe or wrap the end of the iron 
+
+pipe with a tube made from stainless steel sheet metal. For the more ambitious, the nozzle can be 
+
+made from clay. Care must be taken to allow room for expansion to keep the clay from breaking. 
+
+**Gas exit** 
+
+ This fixture is a plate with a short 1” pipe welded or threaded in. It is attached to the top of the 
+
+reactor to allow charcoal gas to exit. It is screwed on and sealed with RTV silicone gasket material. A 
+
+section of gas hose is attached to this pipe to direct the gas to the filter. 
+
+**Gas Filter** 
+
+This unit is must trap any charcoal dust that comes from the reactor. It must be air tight and contain a 
+
+filter material that can catch fine dust. I have had good success using open cell foam rubber. It is cut to 
+
+be slightly larger than the canister so that it must be lightly compressed to insert. Neither the container 
+
+nor the filter material has to be fire resistant since there is no heat reaching it. The charcoal gas enters 
+
+and exits the filter using the same setup as the gas exit fixture. 
+
+**Engine gas intake** 
+
+The IC engine must have an adapter made to attach the gas hose to the air intake. This is usually done 
+
+by removing the air filter and fabricating a plate to bolt on. The gas hose from the filter is attached to a 
+
+pipe “T” fitting that is attached to the plate. A valve is attached to the other inlet of the “T” to allow 
+
+control of the air mixture so that the charcoal gas will run the engine. On smaller engines, I have found 
+
+it helpful to make this device as lightweight as possible, using as many plastic components as possible. 
+
+This reduces the amount of stress on your carburetor by the weight and vibration of heavier steel parts. 
+
+**Engine exhaust return** 
+
+The IC engine must have an adapter made to take some of the exhaust gas to the air inlet. This will 
+
+require removal of the muffler and making an adapter to fit a 1” pipe. A “T” is also installed and fitted 
+
+with a muffler. Only a portion of the exhaust gas will be used and the excess must be vented. 
+
+**Exhaust return line** 
+
+This return line takes the exhaust gas from the engine to the air inlet. The exhaust gas is hot so metal 
+
+pipe is used to move it to the air inlet. 1 ½” flexible automotive exhaust pipe works well for this 
+
+application. 
+
+**Exhaust control valve** 
+
+This valve is attached to a 1” NPT “T” on the air inlet and controls the amount of exhaust gas going into 
+
+the reactor. It is best to use a ball or gate valve. The exhaust return line is attached to the other end of 
+
+this valve. 
+
+### **Operational procedure** 
+
+The Simple-Fire has no start up fan to bring it up to working temperature. Therefore the engine must be 
+
+started on gasoline to create the movement of air into the air inlet so the charcoal can be lit and gas 
+
+made. Every engine will have its own starting characteristics; these will only be learned with 
+
+experience. A process procedure that works for me is as follows: 
+
+Fill the reactor with charcoal, fasten the lid on the reactor and attach all hoses. THIS NEXT STEP IS 
+
+DANGEROUS IF YOU DO IT WRONG. THERE WILL BE AN EXPLOSION IF YOU PUT THE GASOLINE IN THE 
+
+WRONG OPENING. MAKE SURE YOU UNDERSTAND WHERE THE GASOLINE GOES. IT IS NOT HARD BUT 
+
+YOU NEED TO THINK. 
+
+Open the air mixture valve about half-way. Using a small squeeze bottle squirt about a teaspoon of 
+
+gasoline into the valve opening. NOTE: THIS VALVE CONTROLS THE AIR/CHARCOAL GAS MIXTURE NEAR 
+
+THE ENGINE CARBURETOR. 
+
+UNDER NO CIRCUMSTANCES PLACE ANY FLAMMABLE LIQUIDS IN THE REACTOR OR THE INLET INTO THE 
+
+REACTOR. IF YOU DO, THE POSSIBILITY OF AN EXPLOSION IS NEARLY CERTAIN WHEN YOU START TO 
+
+LIGHT THE CHARCOAL. 
+
+Open the engine throttle and pull start the engine and until it runs. As the gasoline in the pipe is used 
+
+up, the engine will start to die and you will need to give it another squirt of gasoline to keep running. 
+
+While the engine is running, you need to insert a lit propane torch into the air inlet pipe to ignite the 
+
+charcoal at the end of the nozzle. As the charcoal starts to burn, you need to keep adding squirts of 
+
+gasoline to keep the engine running. After about 45 seconds, the charcoal gas should be getting to the 
+
+engine carburetor. The need for gasoline to keep the engine running will diminish and the air mixture 
+
+valve will need to be adjusted. Whether more or less air is needed will have to be established by trial 
+
+and error. Keep the gasoline squeeze bottle far away from the propane torch, and move it away from 
+
+the engine when finished with the priming. 
+
+Once the engine is running on charcoal gas, you will need to adjust the air mixture valve by listening to 
+
+the engine as you open and close the valve. The setting where the engine runs best is what you desire. 
+
+This is known as stochiometric mixture, which simply means that mixture where the amount of oxygen 
+
+in the air is in the correct proportion to the charcoal gas so as to obtain complete combustion. Once this 
+
+valve is set, it does not need changed even though engine speed may vary between idle and full throttle. 
+
+Make sure your valve is not affected by engine vibration. One gate valve I used slowly closed as it was 
+
+vibrated. This was fixed by replacing it with a ball valve. 
+
+**Exhaust gas regulation** 
+
+Once the engine is running on charcoal gas, it is time to open the valve that allows engine exhaust gas to 
+
+enter the oxidation zone. While watching the glow of charcoal through the air inlet, open the exhaust 
+
+control valve. You will notice the brightly glowing charcoal will darken. 
+
+This is caused by the carbon dioxide and water vapor in the engine exhaust absorbing heat as they get 
+
+broken down into carbon monoxide and hydrogen. How much should this valve be opened will be 
+
+determined by experience. If left closed, the temperature around the nozzle will reach 3000F and melt 
+
+it. If there is too much exhaust gas the reaction will be cooled down too much and the carbon dioxide 
+
+will not get reduced, yielding low quality woodgas. The best quality charcoal gas is obtained when the 
+
+oxidation zone is slightly cooled. Once this valve is set, it does not need changed even though engine 
+
+speed may. 
+
+**Running the Simple-Fire** 
+
+With the charcoal gas/air mixture valve set, you mostly leave it alone. I find myself checking it from time 
+
+to time, but rarely make much of an adjustment. If you idle the engine down, you may need to richen 
+
+the gas mixture. I use a thermometer to determine when to refuel the reactor. The sump pump hose 
+
+starts to deform at 135 F. I shut off the engine when the temperature reaches 130F. This rise in 
+
+temperature happens as the charcoal is consumed thereby reducing the amount of insulation between 
+
+the fire and the gas outlet. 
+
+The reactor is refilled after the engine is turned off. Remove the lid to the reactor and dump in more 
+
+charcoal. There is a slight possibility of the charcoal gas in the reactor igniting. If it does, do not be 
+
+alarmed. Dump in the charcoal and put the lid back on. This is also a good time to shake out the dust 
+
+filter too. Be careful to avoid breathing any charcoal gas when the reactor is open. Replace the lid, 
+
+fasten it down and try starting the engine. It may run well on the charcoal gas still in the lines, but will 
+
+probably die out when the slug of diluted charcoal gas gets to the engine. A little gasoline should get it 
+
+going again quite easily since the system is already warmed up. 
+
+**Shutting down the Simple-Fire** 
+
+Charcoal is noted for its ability to retain fire for hours, if not days. The only way to shut down the 
+
+Simple-Fire is to exclude all the oxygen. This is done by screwing a plug into the air inlet “T” and closing 
+
+the exhaust circulation valve. This should exclude enough oxygen to let the fire die in an hour or so. If 
+
+you do not put the plug in the air inlet, the fire can last eight or more hours. Remember the warning 
+
+about carbon dioxide an enclosed spaces. Do not shut the Simple-Fire down inside a building where 
+
+people live. BAD IDEA. 
+
+Problems 
+
+It is not a perfect world and here are a few detractors to using the Simple-Fire. Charcoal is black and 
+
+dusty. It is not a neat, clean fuel. You will get “dirty” with charcoal. 
+
+This unit has no bells or whistles. This is a bare bones charcoal gasifier. A starting fan would be nice and 
+
+if anyone is making a reasonably priced hand operated suction fan, let us know. 
+
+Charcoal gas contains moisture and therefore will cause rust inside any steel parts. The reactor and 
+
+filter canister are expendables. When they develop holes, move the reusable components to a new 
+
+vessel. 
+
+You cannot go down to your local store and get the type of charcoal you need for this reactor. Some 
+
+how you will have to get it and my hope is you make it. 
+
+Run time on charcoal will depend on the size of engine you run, the amount of charcoal located above 
+
+the reduction zone and the density of the charcoal. My little Honda 5.5hp will run the log splitter for 30 
+
+minutes on a gallon container of hardwood charcoal. My Commercial Gravely at 8hp will get 15 to 20 
+
+minutes on that same volume. 
+
+--Image of: https://lh3.googleusercontent.com/notebooklm/AKYWMX_o2G4mayk653JIf9m1I6_FEpdpHyJ7waiP8AQFKbxAR8Dy9PVag3UGP9QfvC_ZWkSn5yz7ez-9EkIJbQUMPO5m-c0CWa6wDcnDSWS88gkoL81PwaYlnfIAvTG0T0qh-KB7F9jdwA=w334-h306-v0--
+
+--Image of: https://lh3.googleusercontent.com/notebooklm/AKYWMX_nq6_F9oRN_XkKWp5EtUmK1aEIud_q7msnNYxYIPtDmSpDGld7fM0leOqmRUdkuMlgsfP0R59BOJBQ-Ywh1QeZ5WNclwoA2oWrYwgHdn7rcg0WAAL_kIx0hlPK_6eKU5Sn9oWGhA=w532-h623-v0--
+
+--Image of: https://lh3.googleusercontent.com/notebooklm/AKYWMX9_GiUYTN8QS_5OSMKEO2eKMTJZkO1DyCV7GTaTLDxnkrAbqQAJDvAyA_Q5LouPxVfW3MXOKPHTKpMCpjvwn3xcSZzhS_zOIvV_NQukEJWVcFwo4Z85EJekuR0ZZmuQMifl9H6EdQ=w717-h349-v0--
+
+Simple-Fire 
+
+The gas in/outlet. 
+
+This is a pipe with a 1 ¼” outside diameter. Sump pump hose makes a 
+
+tight fit over this fitting. There are four holes drilled in the base to attach 
+
+it to container. Use #10 screws. Use RTV high temperature silicone to seal the flange to the container. 
+
+The air inlet is made from a 1” pipe nipple 
+
+welded to a 1/8” plate. The air inlet is 
+
+mounted 3” above the bottom of the 
+
+reactor. Use RTV high temperature silicone 
+
+to seal the flange to the container. Use #10 
+
+screws to bolt this plate to the reactor. 
+
+A short piece of 1” pipe is threaded into the 
+
+air inlet on the inside of the reactor. This 
+
+nozzle must be reach about 2/5ths of the way into the reactor. That is less than half way. At the end of 
+
+the nozzle, you may wrap a piece of stainless steel sheet metal to protect the steel pipe. This sheet 
+
+metal can be held in place with a pipe clamp and will extend the life of your nozzle. 
+
+When the reactor has all the components attached, it will look 
+
+like this. The air inlet is at the bottom. Inside the reactor is 
+
+the nozzle with the optional stainless steel protective sleeve in 
+
+place. At the top of the reactor, the gas in/outlet is attached 
+
+to the air tight lid. A hose then directs the charcoal gas to the 
+
+filter. You may want to put a screen on top of the charcoal if 
+
+you are running an engine larger than 8 HP. With out the 
+
+screen, some charcoal chunks may get sucked over into the 
+
+filter. 
+
+As air enters the air inlet, it hits the hot charcoal causing it to 
+
+oxidize and creates carbon dioxide. This hot carbon dioxide is 
+
+pulled through the surrounding charcoal that strips off a 
+
+oxygen atom and reduces the carbon dioxide to carbon 
+
+monoxide. This is the burnable gas your engine will run on. 
+
+ Gary Gilmore 
+
+Luthersburg, PA 
+
+Ggilmore67@yahoo.com

@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:epub="http://www.idpf.org/2007/ops" lang="en" xml:lang="en">
+<head>
+<meta charset="utf-8"/>
+<title>Chapter 16. Seven Projects, Ranked by Whether You Get to Tell Them</title>
+<link rel="stylesheet" type="text/css" href="style.css"/>
+</head>
+<body>
+<section><p class="label">Chapter 16</p><h1>Seven Projects, Ranked by Whether You Get to Tell Them</h1><figure><img src="images/ch16.jpg" alt="Plate 16. Cardboard, a hand crank, and a curve with no numbers on it."/><figcaption>Plate 16. Cardboard, a hand crank, and a curve with no numbers on it.</figcaption></figure><div class="prose"><p class="lede">The projects are in order of how likely you are to finish the story in person. None of them requires a flywheel at head height. If a project starts to require one, you have left the chapter.</p>
+<h2>Project 1: The cycle, drawn and not burned</h2>
+<p>A small program can show crank angle, piston position, and which stroke you are in. It contains no opportunity for a flywheel to emigrate.</p>
+<pre><code class="language-python">import math
+import matplotlib.pyplot as plt
+
+stroke = 0.086  # metres
+rod = 0.143
+angles = list(range(0, 721))
+
+def piston_down(theta):
+    r = stroke / 2
+    return (
+        r * (1 - math.cos(theta))
+        + rod
+        - math.sqrt(rod**2 - (r * math.sin(theta)) ** 2)
+    )
+
+def phase(theta_deg):
+    a = theta_deg % 720
+    if a &lt; 180:
+        return &quot;intake&quot;
+    if a &lt; 360:
+        return &quot;compression&quot;
+    if a &lt; 540:
+        return &quot;power&quot;
+    return &quot;exhaust&quot;
+
+theta = [math.radians(a) for a in angles]
+pos = [piston_down(t) * 1000 for t in theta]
+colours = {
+    &quot;intake&quot;: &quot;tab:blue&quot;,
+    &quot;compression&quot;: &quot;tab:orange&quot;,
+    &quot;power&quot;: &quot;tab:red&quot;,
+    &quot;exhaust&quot;: &quot;tab:green&quot;,
+}
+
+plt.figure(figsize=(12, 4))
+for i in range(len(angles) - 1):
+    plt.plot(
+        angles[i : i + 2],
+        pos[i : i + 2],
+        color=colours[phase(angles[i])],
+        linewidth=3,
+    )
+plt.xlabel(&quot;Crank angle (degrees)&quot;)
+plt.ylabel(&quot;Piston distance below top dead centre (mm)&quot;)
+plt.title(&quot;One four-stroke cycle&quot;)
+plt.tight_layout()
+plt.show()
+</code></pre>
+<p>Crank angle zero is top dead centre. The curve is the whole sermon: two turns, one push, three strokes carried by the flywheel you wisely did not bolt to the desk.</p>
+<h2>Project 2: A sum you can do in your head, almost</h2>
+<pre><code class="language-python">def power_kw(torque_nm, rpm):
+    return torque_nm * rpm / 9550
+
+for rpm in (800, 1500, 3000, 6000):
+    print(rpm, round(power_kw(100, rpm), 2), &quot;kW at 100 Nm&quot;)
+</code></pre>
+<p>A hundred newton-metres at eight hundred revolutions is not the same animal as a hundred newton-metres at six thousand. The second one is faster and hotter and more interested in breaking something. Write both numbers down before you boast.</p>
+<h2>Project 3: A fault tree that is only a notebook</h2>
+<pre><code class="language-text">symptom → measurement → one hypothesis → one change → measure again
+</code></pre>
+<p>Do not change five things and declare victory on the grounds of vibes. Vibes are how the original fault hides behind the new one.</p>
+<h2>Project 4: A cutaway that does not run</h2>
+<p>Cardboard, foam, a bit of clear plastic, or a donated engine that will never be asked to fire. Mark top and bottom dead centre. Mark the four strokes. Add coloured arrows for air, fuel, oil, coolant, and exhaust. If a child, or a tired adult, can point at the power stroke without your help, the model has earned its keep.</p>
+<h2>Project 5: A belt, guarded, and slow</h2>
+<p>A hand crank or a low-voltage motor. A speed ratio you can measure. Every pinch point behind a guard before the first turn. If you cannot put the guard on, you do not have a project. You have a dare, and this book does not sign dares.</p>
+<h2>Project 6: Someone else&#39;s steam</h2>
+<p>A certified low-pressure model, used exactly as it was supplied. No homemade boiler. No sealed tube. No pressure cooker with a dream. No bottle. No vessel that &quot;held&quot; yesterday. If the kit is incomplete, the project is incomplete, and you stop.</p>
+<h2>Project 7: A gasifier that is only a sum</h2>
+<p>Do not start with a live producer-gas rig. Model the flow, the moisture, the filtering, and the power you will not get, on paper or in code. If a real system ever enters your life, it should be a design that a competent person has reviewed, run outdoors, watched with a carbon-monoxide alarm, built with real relief behaviour, and supervised by someone who can tell you to shut it down. Until that person exists, the model on the page is the whole project.</p>
+<p>The plate shows the notebook curve, the cardboard lump, and the hand crank. The students are welcome. The flame is not.</p></div></section>
+</body>
+</html>

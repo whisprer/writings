@@ -1,0 +1,569 @@
+What Is an Internal Combustion Engine? - Science | HowStuffWorks
+
+button\_magic Source guide
+
+This comprehensive guide details the mechanics and historical significance of the **internal combustion engine**, a transformative invention that converts fuel into motion via **controlled explosions**. The text outlines the foundational **four-stroke cycle**—comprised of the intake, compression, combustion, and exhaust phases—while explaining how various components like the **piston and crankshaft** translate linear force into rotational energy. Beyond basic mechanics, the source explores different engine configurations, the distinction between **gasoline and diesel** systems, and the vital role of auxiliary subsystems such as **ignition, cooling, and lubrication**. Ultimately, the article serves to educate readers on how these engines shaped the **Industrial Revolution** and how modern enhancements like **turbocharging** continue to refine their efficiency and power.
+
+How Car Engines Work | HowStuffWorks
+
+[\_\_\_](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fscience.howstuffworks.com%2Finnovation%2Finventions%2Finternal-combustion-engine.htm) [](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fwww.howstuffworks.com%2F)
+
+[Science](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fscience.howstuffworks.com%2F) [Tech](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Felectronics.howstuffworks.com%2Ftech) [Home &amp; Garden](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fhome.howstuffworks.com%2F) [Auto](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fauto.howstuffworks.com%2F) [Culture](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fpeople.howstuffworks.com%2Fculture)
+
+More
+
+[Health](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fhealth.howstuffworks.com%2F) [Money](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fmoney.howstuffworks.com%2F) [Animals](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fanimals.howstuffworks.com%2F) [Lifestyle](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Flifestyle.howstuffworks.com%2F) [Entertainment](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fentertainment.howstuffworks.com%2F) [Quizzes](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fplay.howstuffworks.com%2F)
+
+[1](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fscience.howstuffworks.com%2Finnovation%2Finventions%2Finternal-combustion-engine.htm)
+
+Submit Search
+
+[Search](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fscience.howstuffworks.com%2Finnovation%2Finventions%2Finternal-combustion-engine.htm) [Close Search](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fscience.howstuffworks.com%2Finnovation%2Finventions%2Finternal-combustion-engine.htm)
+
+* [Science](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fscience.howstuffworks.com%2F)
+* [Tech](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Felectronics.howstuffworks.com%2Ftech)
+* [Home &amp; Garden](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fhome.howstuffworks.com%2F)
+* [Auto](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fauto.howstuffworks.com%2F)
+* [Culture](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fpeople.howstuffworks.com%2Fculture)
+* [Health](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fhealth.howstuffworks.com%2F)
+* [Money](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fmoney.howstuffworks.com%2F)
+* [Animals](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fanimals.howstuffworks.com%2F)
+* [Lifestyle](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Flifestyle.howstuffworks.com%2F)
+* [Entertainment](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fentertainment.howstuffworks.com%2F)
+* [Quizzes](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fplay.howstuffworks.com%2F)
+
+Submit Search
+
+[Sign up for our Newsletter!](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fscience.howstuffworks.com%2Finnovation%2Finventions%2Finternal-combustion-engine.htm)
+
+HowStuffWorks Newsletter 
+
+Advertisement
+
+[HowStuffWorks](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fwww.howstuffworks.com%2F)
+
+[Science](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fscience.howstuffworks.com%2F)
+
+[Innovation](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fscience.howstuffworks.com%2Finnovation)
+
+[Inventions](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fscience.howstuffworks.com%2Finnovation%2Finventions)
+
+# What Is an Internal Combustion Engine?
+
+By: [Desiree Bowie](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fdangerbowie.com%2F)
+
+* [](https://www.google.com/url?sa=E&amp;q=mailto%3A%3Fsubject%3DHow%2520Car%2520Engines%2520Work%2B-%2Bundefined%26body%3D%250A%2509Hi%252C%250A%250A%2509I%2520thought%2520you%2520would%2520like%2520this%253A%250A%2509https%253A%252F%252Fauto.howstuffworks.com%252Fengine.htm%253Futm%5Fsource%253Demail%2526utm%5Fmedium%253Dshare%2526utm%5Fcampaign%253Dhsw%5Fshare%250A%250A%2509How%2520Car%2520Engines%2520Work%250A%2509) We've come a long way since the first internal combustion engine. Elena Popova / Getty Images
+
+Unleashing the power that drives our vehicles and fuels our world, the **internal combustion engine** is a marvel of engineering. By harnessing controlled fuel explosions, this four-stroke engine seamlessly converts energy into powerful mechanical motion, propelling us forward with unprecedented efficiency.
+
+From the exhilarating rumble of a sports car to the thunderous roar of an airplane taking flight, this invention transformed transportation, shaping the very fabric of our modern way of life. Its impact resonates far and wide, across the roads and skies that connect us all.
+
+Advertisement
+
+**Contents**
+
+* [What Is an Internal Combustion Engine?](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fscience.howstuffworks.com%2Finnovation%2Finventions%2Finternal-combustion-engine.htm%23pt1)
+* [Mechanics and Components](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fscience.howstuffworks.com%2Finnovation%2Finventions%2Finternal-combustion-engine.htm%23pt2)
+* [The Four-Stroke Cycle](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fscience.howstuffworks.com%2Finnovation%2Finventions%2Finternal-combustion-engine.htm%23pt3)
+* [Types of Internal Combustion Engines](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fscience.howstuffworks.com%2Finnovation%2Finventions%2Finternal-combustion-engine.htm%23pt4)
+* [Combustible Engines and the Industrial Revolution](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fscience.howstuffworks.com%2Finnovation%2Finventions%2Finternal-combustion-engine.htm%23pt5)
+* [Internal vs. External Combustion Engines](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fscience.howstuffworks.com%2Finnovation%2Finventions%2Finternal-combustion-engine.htm%23pt6)
+
+## What Is an Internal Combustion Engine?
+
+An internal combustion engine is a type of heat engine that is widely used in various applications, particularly in transportation. This engine acts as the primary power source for automobiles, motorcycles, airplanes, boats, and many other machines.
+
+The engine works by turning the stored energy in fuel into useful energy that makes these machines move. It does this by carefully controlling explosions that create force, which then powers the engine's parts and makes everything work together.
+
+Advertisement
+
+Picture the internal combustion engine as a powerful muscle that converts the energy stored in fuel into motion, driving vehicles and machinery. Just as our muscles use energy from food to move our bodies, the engine uses controlled explosions to transform fuel's energy into mechanical energy, propelling machines forward.
+
+This forceful energy conversion from fuel helps vehicles and machinery do their jobs and get us where we need to go.
+
+Advertisement
+
+## Mechanics and Components
+
+The internal combustion engine consists of several key components working together to produce power:
+
+* The **cylinder** provides a sealed chamber where combustion actively occurs.
+* The **piston** moves up and down with a graceful reciprocating motion.
+* The **crankshaft** takes charge, converting the piston's linear motion into active rotational motion.
+* The **valves**, including intake and exhaust valves, actively control the flow of the fuel-air mixture and the expulsion of exhaust gases.
+* Finally, the **spark plug** actively generates a spark to ignite the fuel-air mixture, setting the entire performance in motion. These components work together, actively producing the powerful and coordinated performance of the engine.
+
+Advertisement
+
+## The Four-Stroke Cycle
+
+Most internal combustion engines use a four-stroke cycle, which includes the intake, compression, combustion and exhaust strokes to convert fuel into mechanical power efficiently.
+
+* During the **intake stroke**, the piston moves downward, creating a vacuum that draws the fuel-air mixture into the cylinder.
+* In the **compression stroke**, both valves close, and the piston moves upward, compressing the mixture.
+* The spark plug ignites the compressed mixture in the **combustion stroke**, resulting in a rapid explosion. The high-pressure gases from combustion push the piston downward in the power stroke, generating mechanical work.
+* Finally, the exhaust valve opens in the **exhaust stroke**, allowing the piston to expel the spent gases.
+
+To better understand this process, think of the four-stroke cycle of the internal combustion engine as a musical performance.
+
+Advertisement
+
+The intake stroke acts as a conductor bringing in the fuel-air mixture. The compression stroke builds up excitement, just like the rising anticipation in the audience. The combustion stroke creates an explosive burst, similar to the climax of the music. Lastly, the exhaust stroke releases spent gases, like the smooth fade-out of the music.
+
+Together, these strokes work in harmony to power vehicles, creating a symphony of motion.
+
+Advertisement
+
+## Types of Internal Combustion Engines
+
+There are three main types of internal combustion engines, each of which has its own unique characteristics and applications:
+
+* **Gas engines**, also known as gasoline engines, are commonly found in cars. They work by igniting a fuel-air mixture with a spark plug. The intake stroke creates a vacuum, drawing in the mixture. During the compression stroke, the mixture is compressed, and when ignited, combustion occurs, generating power. Sometimes called a spark ignition engine, a gas engine is known for its quick throttle response, high-revving nature and smooth operation.
+* **Diesel engines**, on the other hand, are heavy-duty workhorses found in trucks and buses. They operate differently from gas engines. In a diesel engine, air is highly compressed, and fuel gets injected directly into the hot, compressed air. This creates controlled combustion without the need for a spark plug. Diesel engines offer exceptional fuel efficiency, high torque output and rugged durability, making them ideal for demanding tasks.
+* **Turbines** are used in aircraft engines, power plants and ships. They don't have pistons like gas and diesel engines. Instead, they use a continuous flow of air or combustion gases. The intake process compresses the air, and when fuel is added and ignited, rapid combustion occurs. The resulting high-pressure gases flow through turbine blades, spinning them rapidly. This spinning motion is harnessed to power the engine or generate electricity. Turbines offer a high power-to-weight ratio, quick acceleration and reliability, making them essential for aviation and power generation.
+
+Advertisement
+
+## Combustible Engines and the Industrial Revolution
+
+The invention of the internal combustion engine significantly impacted the Industrial Revolution. Several inventors played roles in the engine's development, but Nikolaus Otto was credited for creating the first internal combustion engine in 1876\. But it may only have been possible with advancements from Belgian engineer Jean Joseph Étienne Lenoir decades earlier.
+
+In 1859, Lenoir created an engine that used a mixture of coal, gas and air, ignited by an electric spark. His engine was the first commercially successful internal combustion engine, used primarily in stationary applications.
+
+Advertisement
+
+Although it had limited efficiency, it was a crucial stepping stone in advancing engine technology. Lenoir's pioneering work laid the groundwork for subsequent innovations by inventors like Otto, leading to the more efficient and practical internal combustion engines we have today.
+
+Before Otto's invention, the industrial landscape primarily relied on steam power. [Steam engines](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fscience.howstuffworks.com%2Ftransport%2Fengines-equipment%2Fsteam.htm) were cumbersome, required large infrastructure, and were predominantly stationary. Then the combustion engine came along and introduced a portable and efficient source of power, completely revolutionizing transportation.
+
+The engine's compact size and portability enabled it to be incorporated into vehicles, such as automobiles and locomotives, leading to unprecedented mobility and the rapid transportation of goods and people. This advancement in transportation greatly facilitated trade, expanded markets and contributed to the growth of cities and urbanization.
+
+Over in the manufacturing world, the engine's widespread adoption in industrial machinery and equipment revolutionized laborious processes. It powered machines and tools, increasing productivity and efficiency, and pushing the whole industrial sector forward.
+
+Advertisement
+
+## Internal vs. External Combustion Engines
+
+Internal combustion and external combustion are two different methods of harnessing energy from fuel.
+
+Internal combustion refers to the process where fuel combustion occurs within the engine itself. Fuel, typically a mixture of air and a hydrocarbon, is ignited inside a combustion chamber, resulting in controlled explosions. These explosions generate high pressure and temperature, which drive the movement of pistons, ultimately converting the energy into mechanical work.
+
+Advertisement
+
+On the other hand, external combustion involves burning fuel outside the engine to produce heat. This heat is then transferred to a working fluid, such as steam or a gas, which expands and drives a piston or turbine. Examples of external combustion engines include steam engines and Stirling engines.
+
+*This article was created in conjunction with AI technology, then fact-checked and edited by a HowStuffWorks editor.*
+
+Advertisement
+
+Cite This!
+
+Please copy/paste the following text to properly cite this HowStuffWorks.com article:
+
+Copy
+
+Desiree Bowie "What Is an Internal Combustion Engine?" 1 January 1970.
+
+HowStuffWorks.com. [https://science.howstuffworks.com/innovation/inventions/internal-combustion-engine.htm](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fscience.howstuffworks.com%2Finnovation%2Finventions%2Finternal-combustion-engine.htm) 25 September 2026
+
+Close
+
+[Citation](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fscience.howstuffworks.com%2Finnovation%2Finventions%2Finternal-combustion-engine.htm)
+
+More Awesome Stuff
+
+[2018 Mercedes-AMG G65 Under the Hood How Car Engines Work](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fauto.howstuffworks.com%2Fengine.htm)
+
+[How Rotary Engines Work Under the Hood How Rotary Engines Work](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fauto.howstuffworks.com%2Frotary-engine.htm)
+
+[How Exploding Manholes Work Environmental Science How Exploding Manholes Work](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fscience.howstuffworks.com%2Fenvironmental%2Fenergy%2Fexploding-manhole.htm)
+
+[diesel engine Under the Hood How Diesel Engines Work](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fauto.howstuffworks.com%2Fdiesel.htm)
+
+[How to Repair Small Engines Home Improvement How to Repair Small Engines](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fhome.howstuffworks.com%2Fhome-improvement%2Frepair%2Fhow-to-repair-small-engines.htm)
+
+[The 2012 Toyota Prius C hybrid is introduced during a press preview at the North American International Auto Show at the COBO Center on Jan. 10, 2012 in Detroit, Mich. Under the Hood How an Atkinson Cycle Engine Works](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fauto.howstuffworks.com%2Fatkinson-cycle-engine.htm)
+
+[direct-injection-engine-1 Under the Hood How Direct Injection Engines Work](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fauto.howstuffworks.com%2Fdirect-injection-engine.htm)
+
+[Atlanta Dragway in Commerce, Georgia Under the Hood How Superchargers Work](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fauto.howstuffworks.com%2Fsupercharger.htm)
+
+[Can You Name These Engine Parts by Looking at Just One Image Cars, Trucks &amp; Engines Can You Name These Engine Parts by Looking at Just One Image?](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fplay.howstuffworks.com%2Fquiz%2Fcan-you-name-these-engine-parts-by-looking-at-just-one-image)
+
+[The diesel two-stroke cycle is capable of producing twice as much power as a four-stroke engine. Find out why the diesel two-stroke cycle is so powerful. Under the Hood How Diesel Two-Stroke Engines Work](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fauto.howstuffworks.com%2Fdiesel-two-stroke.htm)
+
+[Only a Pro Can Pass This Auto Quiz! Can You. Cover Photo. Cars, Trucks &amp; Engines Only a Pro Can Pass This Auto Quiz! Can You?](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fplay.howstuffworks.com%2Fquiz%2Fonly-a-pro-can-pass-this-auto-quiz-can-you)
+
+[How Automobile Ignition Systems Work Under the Hood How Automobile Ignition Systems Work](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fauto.howstuffworks.com%2Fignition-system.htm)
+
+Advertisement
+
+Advertisement
+
+# How Car Engines Work
+
+By: [Marshall Brain](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fwww.howstuffworks.com%2Fabout-marshall-brain.htm%23brain) &amp; [Kristen Hall-Geisler](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fwww.howstuffworks.com%2Fabout-kristen-hall-geisler.htm) The 2018 Mercedes-AMG G65 final edition engine delivers 621 hp and 738 lb-ft. of torque. Mercedes AMG
+
+Have you ever opened the hood of your car and wondered what was going on in there? A car engine can look like a big confusing jumble of metal, tubes and wires to the uninitiated.
+
+You might want to know what's going on simply out of curiosity. Or perhaps you are [buying a new car](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fauto.howstuffworks.com%2Fbuying-selling%2Fcar-buying.htm), and you hear things like "2.5-liter incline four" and "turbocharged" and "start/stop technology." What does all of that mean?
+
+Advertisement
+
+In this article, we'll discuss the basic idea behind an engine and then go into detail about how all the pieces fit together, what can go wrong and how to increase performance.
+
+The purpose of a gasoline car engine is to convert [gasoline](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fscience.howstuffworks.com%2Fgasoline.htm) into motion so that your car can move. Currently the easiest way to create motion from gasoline is to burn the gasoline inside an engine. Therefore, a car engine is an **internal combustion engine** — combustion takes place internally.
+
+Two things to note:
+
+* There are different kinds of internal combustion engines. [Diesel engines](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fauto.howstuffworks.com%2Fdiesel.htm) are one type and gas turbine engines are another. Each has its own advantages and disadvantages.
+* There is also the **external combustion engine**. The [steam engine](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fscience.howstuffworks.com%2Ftransport%2Fengines-equipment%2Fsteam.htm) in old-fashioned trains and steam boats is the best example of an external combustion engine. The fuel (coal, wood, oil) in a steam engine burns outside the engine to create steam, and the steam creates motion inside the engine. Internal combustion is a lot more efficient than external combustion, plus an internal combustion engine is a lot smaller.
+
+Let's look at the internal combustion process in more detail in the next section.
+
+Advertisement
+
+**Contents**
+
+* [Internal Combustion](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fscience.howstuffworks.com%2Finnovation%2Finventions%2Finternal-combustion-engine.htm%23pt296%5F1)
+* [Basic Engine Parts](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fscience.howstuffworks.com%2Finnovation%2Finventions%2Finternal-combustion-engine.htm%23pt296%5F2)
+* [Engine Problems](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fscience.howstuffworks.com%2Finnovation%2Finventions%2Finternal-combustion-engine.htm%23pt296%5F3)
+* [Engine Valve Train and Ignition Systems](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fscience.howstuffworks.com%2Finnovation%2Finventions%2Finternal-combustion-engine.htm%23pt296%5F4)
+* [Engine Cooling, Air-intake and Starting Systems](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fscience.howstuffworks.com%2Finnovation%2Finventions%2Finternal-combustion-engine.htm%23pt296%5F5)
+* [Engine Lubrication, Fuel, Exhaust and Electrical Systems](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fscience.howstuffworks.com%2Finnovation%2Finventions%2Finternal-combustion-engine.htm%23pt296%5F6)
+* [Producing More Engine Power](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fscience.howstuffworks.com%2Finnovation%2Finventions%2Finternal-combustion-engine.htm%23pt296%5F7)
+* [Engine Questions and Answers](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fscience.howstuffworks.com%2Finnovation%2Finventions%2Finternal-combustion-engine.htm%23pt296%5F8)
+* [How Are 4-cylinder and V6 Engines Different?](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fscience.howstuffworks.com%2Finnovation%2Finventions%2Finternal-combustion-engine.htm%23pt296%5F9)
+
+## Internal Combustion
+
+The principle behind any reciprocating internal combustion engine: If you put a tiny amount of high-energy-density fuel (like gasoline) in a small, enclosed space and ignite it, an incredible amount of energy is released in the form of expanding gas.
+
+You can use that energy for interesting purposes. For example, if you can create a cycle that allows you to set off explosions like this hundreds of times per minute, and if you can harness that energy in a useful way, what you have is the core of a car engine.
+
+Advertisement
+
+Almost every car with a gasoline engine uses a **four-stroke combustion cycle** to convert gasoline into motion. The four-stroke approach is also known as the **Otto cycle**, in honor of Nikolaus Otto, who invented it in 1867\. The four strokes are illustrated in **the animation**. They are:
+
+* Intake stroke
+* Compression stroke
+* Combustion stroke
+* Exhaust stroke
+
+The piston is connected to the **crankshaft** by a **connecting rod**. As the crankshaft revolves, it has the effect of "resetting the cannon." Here's what happens as the engine goes through its cycle:
+
+* The piston starts at the top, the intake valve opens, and the piston moves down to let the engine take in a cylinder full of air and gasoline. This is the **intake stroke**. Only the tiniest drop of gasoline needs to be mixed into the air for this to work. (Part 1 of the animation)
+* Then the piston moves back up to compress this fuel/air mixture. **Compression** makes the explosion more powerful. (Part 2 of the animation)
+* When the piston reaches the top of its stroke, the [spark plug](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fauto.howstuffworks.com%2Fignition-system.htm%23pt296%5F2) emits a spark to ignite the gasoline. The gasoline charge in the cylinder **explodes**, driving the piston down. (Part 3 of the animation)
+* Once the piston hits the bottom of its stroke, the exhaust valve opens and the **exhaust** leaves the cylinder to go out the tailpipe. (Part 4 of the animation)
+
+Now the engine is ready for the next cycle, so it intakes another charge of air and gas.
+
+In an engine, the linear motion of the pistons is converted into rotational motion by the crankshaft. The rotational motion is nice because we plan to turn (rotate) the car's wheels with it anyway.
+
+Now let's look at all the parts that work together to make this happen, starting with the cylinders.
+
+Advertisement
+
+## Basic Engine Parts
+
+**Figure 2\. Inline: The cylinders are arranged in a line in a single bank.**
+
+HowStuffWorks
+
+The core of the engine is the cylinder, with the piston moving up and down inside the cylinder. Single cylinder engines are typical of most lawn mowers, but usually cars have more than one cylinder (four, six and eight cylinders are common). In a multi-cylinder engine, the cylinders usually are arranged in one of three ways: **inline**, **V** or **flat** (also known as horizontally opposed or boxer), as shown in the figures to the left.
+
+So that inline four we mentioned at the beginning is an engine with four cylinders arranged in a line. Different configurations have different advantages and disadvantages in terms of smoothness, manufacturing cost and shape characteristics. These advantages and disadvantages make them more suitable for certain vehicles.
+
+Advertisement **Figure 3\. V: The cylinders are arranged in two banks set at an angle to one another.**
+
+HowStuffWorks **Figure 4\. Flat: The cylinders are arranged in two banks on opposite sides of the engine.**
+
+HowStuffWorks
+
+Let's look at some key engine parts in more detail.
+
+### Spark plug
+
+The [spark plug](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fauto.howstuffworks.com%2Fignition-system.htm) supplies the spark that ignites the air/fuel mixture so that combustion can occur. The spark must happen at just the right moment for things to work properly.
+
+### Valves
+
+The intake and exhaust valves open at the proper time to let in air and fuel and to let out exhaust. Note that both valves are closed during compression and combustion so that the combustion chamber is sealed.
+
+### Piston
+
+A piston is a cylindrical piece of metal that moves up and down inside the cylinder.
+
+### Piston Rings
+
+Piston rings provide a sliding seal between the outer edge of the piston and the inner edge of the cylinder. The rings serve two purposes:
+
+* They prevent the fuel/air mixture and exhaust in the combustion chamber from leaking into the sump during compression and combustion.
+* They keep oil in the sump from leaking into the combustion area, where it would be burned and lost.
+
+Most cars that "burn oil" and have to have a quart added every 1,000 miles are burning it because the engine is old and the rings no longer seal things properly. Many modern vehicles use more advance materials for piston rings. That's one of the reasons why engines last longer and can go longer between [oil changes](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fauto.howstuffworks.com%2Fcar-driving-safety%2Fsafety-regulatory-devices%2Fnever-changed-oil.htm).
+
+### Connecting rod
+
+The connecting rod connects the piston to the crankshaft. It can rotate at both ends so that its angle can change as the piston moves and the crankshaft rotates.
+
+### Crankshaft
+
+The crankshaft turns the piston's up-and-down motion into circular motion just like a crank on a jack-in-the-box does.
+
+### Sump
+
+The sump surrounds the crankshaft. It contains some amount of [oil](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fauto.howstuffworks.com%2Fsynthetic-motor-oil.htm), which collects in the bottom of the sump (the oil pan).
+
+Next, we'll learn what can go wrong with engines.
+
+Advertisement
+
+## Engine Problems
+
+Car engines can have all sorts of problems, whether fuel related or battery related. Zero Creatives/Getty Images
+
+So you go out one morning and your engine will turn over but it won't start. What could be wrong? Now that you know how an engine works, you can understand the basic things that can keep an engine from running.
+
+Three fundamental things can happen: a bad [fuel](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fauto.howstuffworks.com%2Ffuel-efficiency%2Ffuel-economy%2Fdo-fuel-additives-do-anything.htm) mix, lack of [compression](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fauto.howstuffworks.com%2Ffuel-efficiency%2Ffuel-consumption%2Fquestion90.htm) or lack of [spark](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fauto.howstuffworks.com%2Fignition-system.htm). Beyond that, thousands of minor things can create problems, but these are the "big three." Based on the simple engine we have been discussing, here is a quick rundown on how these problems affect your engine:
+
+Advertisement
+
+**A bad fuel mix** can occur in several ways:
+
+* You are [out of gas](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fauto.howstuffworks.com%2Ffuel-efficiency%2Ffuel-economy%2Fis-it-bad-to-drive-car-with-nearly-empty-gas-tank.htm), so the engine is getting air but no fuel.
+* The air intake might be clogged, so there is fuel but not enough air.
+* The fuel system might be supplying too much or too little fuel to the mix, meaning that combustion does not occur properly.
+* There might be an impurity in the fuel (like water in your gas tank) that prevents the fuel from burning.
+
+**Lack of compression:** If the charge of air and fuel cannot be compressed properly, the combustion process will not work like it should. Lack of compression might occur for these reasons:
+
+* Your piston rings are worn (allowing the air/fuel mix to leak past the piston during compression).
+* The intake or exhaust valves are not sealing properly, again allowing a leak during compression.
+* There is a hole in the cylinder.
+
+The most common "hole" in a cylinder occurs where the top of the cylinder (holding the valves and spark plug and also known as **the cylinder head**) attaches to the cylinder itself. Generally, the cylinder and the cylinder head bolt together with a thin **gasket** pressed between them to ensure a good seal. If the gasket breaks down, small holes develop between the cylinder and the cylinder head, and these holes cause leaks.
+
+**Lack of spark:** The spark might be nonexistent or weak for several reasons:
+
+* If your sparkplug or the wire leading to it is worn out, the spark will be weak.
+* If the wire is cut or missing, or if the system that sends a spark down the wire is not working properly, there will be no spark.
+* If the spark occurs either too early or too late in the cycle (i.e. if the [ignition timing](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fauto.howstuffworks.com%2Fignition-system.htm) is off), the fuel will not ignite at the right time.
+
+Many other things can go wrong. For example:
+
+* If the [battery](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Felectronics.howstuffworks.com%2Feveryday-tech%2Fbattery.htm) is dead, you cannot turn over the engine to start it.
+* If the [bearings](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fscience.howstuffworks.com%2Ftransport%2Fengines-equipment%2Fbearing.htm) that allow the crankshaft to turn freely are worn out, the crankshaft cannot turn so the engine cannot run.
+* If the valves do not open and close at the right time or at all, air cannot get in and exhaust cannot get out, so the engine cannot run.
+* If you run out of oil, the piston cannot move up and down freely in the cylinder, and the engine will seize.
+
+In a properly running engine, all of these factors are working fine. Perfection is not required to make an engine run, but you'll probably notice when things are less than perfect.
+
+As you can see, an engine has a number of systems that help it do its job of converting fuel into motion. We'll look at the different subsystems used in engines in the next few sections.
+
+Advertisement
+
+## Engine Valve Train and Ignition Systems
+
+Figure 5\. The camshaft
+
+HowStuffWorks
+
+Most engine subsystems can be implemented using different technologies, and better technologies can improve the performance of the engine. Let's look at all of the different subsystems used in modern engines, beginning with the valve train.
+
+The valve train consists of the valves and a mechanism that opens and closes them. The opening and closing system is called a [camshaft](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fauto.howstuffworks.com%2Fcamshaft.htm). The camshaft has lobes on it that move the valves up and down, as shown in **Figure 5**.
+
+Advertisement
+
+Most modern engines have what are called **overhead cams**. This means that the camshaft is located above the valves, as shown in Figure 5\. The cams on the shaft activate the valves directly or through a very short linkage. Older engines used a camshaft located in the sump near the crankshaft.
+
+A [timing belt](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fauto.howstuffworks.com%2Funder-the-hood%2Fcar-part-longevity%2Ftiming-belt-last.htm) or timing chain links the crankshaft to the camshaft so that the valves are in sync with the pistons. The camshaft is geared to turn at one-half the rate of the crankshaft. Many high-performance engines have four valves per cylinder (two for intake, two for exhaust), and this arrangement requires two camshafts per bank of cylinders, hence the phrase "dual overhead cams." **Figure 6\. The ignition system**
+
+HowStuffWorks
+
+The **ignition system** (Figure 6) produces a high-voltage electrical charge and transmits it to the spark plugs via **ignition wires**. The charge first flows to a **distributor**, which you can easily find under the hood of most cars. The distributor has one wire going in the center and four, six or eight wires (depending on the number of cylinders) coming out of it. These [ignition wires](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fauto.howstuffworks.com%2Fignition-system.htm) send the charge to each spark plug. The engine is timed so that only one cylinder receives a spark from the distributor at a time. This approach provides maximum smoothness.
+
+We'll look at how your car's engine starts, cools and circulates air in the next section.
+
+Advertisement
+
+## Engine Cooling, Air-intake and Starting Systems
+
+This diagram shows details of how a cooling system and the plumbing is connected.
+
+HowStuffWorks
+
+The [cooling system](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fauto.howstuffworks.com%2Fcooling-system.htm) in most cars consists of the radiator and water pump. Water circulates through passages around the cylinders and then travels through the radiator to cool it off. In a few cars (most notably [pre-1999 Volkswagen Beetles](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fwww.edmunds.com%2Fvolkswagen%2Fnew-beetle%2Fhistory%2F)), as well as most [motorcycles](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fauto.howstuffworks.com%2Fmotorcycle.htm) and lawn mowers, the engine is air-cooled instead (You can tell an air-cooled engine by the fins adorning the outside of each cylinder to help dissipate heat.). Air-cooling makes the engine lighter but hotter, generally decreasing engine life and overall performance.
+
+So now you know how and why your engine stays cool. But why is air circulation so important? Most cars are **normally aspirated**, which means that air flows through an air filter and directly into the cylinders. High-performance and modern fuel-efficient engines are either **turbocharged** or **supercharged**, which means that air coming into the engine is first pressurized (so that more air/fuel mixture can be squeezed into each cylinder) to increase performance. The amount of pressurization is called **boost**. A [turbocharger](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fauto.howstuffworks.com%2Fturbo.htm) uses a small turbine attached to the exhaust pipe to spin a compressing turbine in the incoming air stream. A supercharger is attached directly to the engine to spin the compressor.
+
+Advertisement
+
+Since the turbocharger is reusing hot exhaust to spin the turbine and compress the air, it increases the power from smaller engines. So a fuel-sipping four-cylinder can see horsepower that you might expect a six-cylinder engine to put out while getting 10 to 30 percent better fuel economy.
+
+Increasing your engine's performance is great, but what exactly happens when you turn the key to start it? The **starting system** consists of an electric starter motor and a **starter solenoid**. When you turn the ignition key, the starter motor spins the engine a few revolutions so that the combustion process can start. It takes a powerful motor to spin a cold engine. The starter motor must overcome:
+
+* All of the internal friction caused by the piston rings
+* The compression pressure of any cylinder(s) that happens to be in the compression stroke
+* The energy needed to open and close valves with the camshaft
+* All of the other things directly attached to the engine, like the water pump, oil pump, alternator, etc.
+
+Because so much energy is needed and because a car uses a 12-volt electrical system, hundreds of amps of electricity must flow into the starter motor. The starter solenoid is essentially a large electronic switch that can handle that much current. When you turn the ignition key, it activates the solenoid to power the motor.
+
+Next, we'll look at the engine subsystems that maintain what goes in (oil and fuel) and what comes out (exhaust and emissions).
+
+Advertisement
+
+## Engine Lubrication, Fuel, Exhaust and Electrical Systems
+
+The exhaust system of your car includes the exhaust pipe and the muffler. Marin Tomas/Getty Images
+
+When it comes to day-to-day car maintenance, your first concern is probably the amount of gas in your car. How does the gas that you put in power the cylinders? The engine's **fuel system** pumps gas from the gas tank and mixes it with air so that the proper air/fuel mixture can flow into the cylinders. Fuel is delivered in modern vehicles in two common ways: port fuel injection and direct fuel injection.
+
+In a [fuel-injected](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fauto.howstuffworks.com%2Ffuel-injection.htm) engine, the right amount of fuel is injected individually into each cylinder either right above the intake valve (port fuel injection) or directly into the cylinder (direct fuel injection). Older vehicles were carbureted, where gas and air were mixed by a carburetor as the air flowed into the engine.
+
+Advertisement
+
+Oil also plays an important part. The **lubrication** system makes sure that every moving part in the engine gets oil so that it can move easily. The two main parts needing oil are the pistons (so they can slide easily in their cylinders) and any bearings that allow things like the crankshaft and [camshafts](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fauto.howstuffworks.com%2Fcamshaft.htm) to rotate freely. In most cars, oil is sucked out of the oil pan by the oil pump, run through the oil filter to remove any grit, and then squirted under high pressure onto bearings and the cylinder walls. The oil then trickles down into the sump, where it is collected again and the cycle repeats.
+
+Now that you know about some of the stuff that you put *in* your car, let's look at some of the stuff that comes out of it. The **exhaust system** includes the exhaust pipe and the [muffler](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fauto.howstuffworks.com%2Fmuffler.htm). Without a muffler, what you would hear is the sound of thousands of small explosions coming out your tailpipe. A muffler dampens the sound.
+
+The **emission control system** in modern cars consists of a [catalytic converter](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fauto.howstuffworks.com%2Fcatalytic-converter.htm), a collection of sensors and actuators, and a computer to monitor and adjust everything. For example, the catalytic converter uses a catalyst and oxygen to burn off any unused fuel and certain other chemicals in the exhaust. An [oxygen sensor](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fauto.howstuffworks.com%2Fquestion257.htm) in the exhaust stream makes sure there is enough oxygen available for the catalyst to work and adjusts things if necessary.
+
+Besides gas, what else powers your car? The electrical system consists of a **battery** and an **alternator**. The alternator is connected to the engine by a belt and generates electricity to recharge the battery. The [battery](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Felectronics.howstuffworks.com%2Feveryday-tech%2Fbattery.htm) makes 12-volt power available to everything in the car needing electricity (the ignition system, radio, headlights, [windshield wipers](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fauto.howstuffworks.com%2Fwiper.htm), [power windows](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fauto.howstuffworks.com%2Fpower-window.htm) and seats, [computers](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fauto.howstuffworks.com%2Funder-the-hood%2Ftrends-innovations%2Fcar-computer.htm), etc.) through the vehicle's wiring.
+
+Now that you know all about the main engine subsystems, let's look at ways that you can boost engine performance.
+
+Advertisement
+
+## Producing More Engine Power
+
+Adding a turbocharger to a car's engine can help increase it's overall power and performance. Monty Rakusen/Getty Images
+
+Using all of this information, you can begin to see that there are lots of different ways to make an engine perform better. Car manufacturers are constantly playing with all of the following variables to make an engine more powerful and/or more fuel efficient.
+
+**Increase displacement:** More displacement means more power because you can burn more gas during each revolution of the engine. You can increase displacement by making the cylinders bigger or by adding more cylinders. Twelve cylinders seems to be the practical limit.
+
+Advertisement
+
+**Increase the compression ratio:** Higher compression ratios produce more power, up to a point. The more you compress the air/fuel mixture, however, the more likely it is to spontaneously burst into flame (before the spark plug ignites it). [Higher-octane](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fauto.howstuffworks.com%2Ffuel-efficiency%2Ffuel-consumption%2Fquestion90.htm) gasolines prevent this sort of early combustion. That is why high-performance cars generally need high-octane gasoline — their engines are using higher compression ratios to get more power.
+
+**Stuff more into each cylinder:** If you can cram more air (and therefore fuel) into a cylinder of a given size, you can get more power from the cylinder (in the same way that you would by increasing the size of the cylinder) without increasing the fuel required for combustion. [Turbochargers](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fauto.howstuffworks.com%2Fturbo.htm) and superchargers pressurize the incoming air to effectively cram more air into a cylinder.
+
+**Cool the incoming air:** Compressing air raises its temperature. However, you would like to have the coolest air possible in the cylinder because the hotter the air is, the less it will expand when combustion takes place. Therefore, many turbocharged and supercharged cars have an **intercooler**. An intercooler is a special radiator through which the compressed air passes to cool it off before it enters the cylinder.
+
+**Let air come in more easily:** As a piston moves down in the intake stroke, air resistance can rob power from the engine. Air resistance can be lessened dramatically by putting two intake valves in each cylinder. Some newer cars are also using polished intake manifolds to eliminate air resistance there. Bigger air filters can also improve air flow.
+
+**Let exhaust exit more easily:** If air resistance makes it hard for [exhaust](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fauto.howstuffworks.com%2Fquestion172.htm) to exit a cylinder, it robs the engine of power. Air resistance can be lessened by adding a second exhaust valve to each cylinder. A car with two intake and two exhaust valves has four valves per cylinder, which improves performance. When you hear a car ad tell you the car has four cylinders and 16 valves, what the ad is saying is that the engine has four valves per cylinder.
+
+If the exhaust pipe is too small or the muffler has a lot of air resistance, this can cause back-pressure, which has the same effect. High-performance exhaust systems use headers, big tail pipes and free-flowing mufflers to eliminate back-pressure in the exhaust system. When you hear that a car has "dual exhaust," the goal is to improve the flow of exhaust by having two exhaust pipes instead of one.
+
+**Make everything lighter:** Lightweight parts help the engine perform better. Each time a piston changes direction, it uses up energy to stop the travel in one direction and start it in another. The lighter the piston, the less energy it takes. This results in better fuel efficiency as well as better performance.
+
+**Inject the fuel:** [Fuel injection](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fauto.howstuffworks.com%2Ffuel-injection.htm) allows very precise metering of fuel to each cylinder. This improves performance and fuel economy.
+
+In the next sections, we'll answer some common engine-related questions submitted by readers.
+
+Advertisement
+
+## Engine Questions and Answers
+
+Here is a set of engine-related questions from readers and their answers:
+
+* **What is the difference between a gasoline engine and a diesel engine?** In a diesel engine, there is no spark plug. Instead, diesel fuel is injected into the cylinder, and the heat and pressure of the compression stroke cause the fuel to ignite. Diesel fuel has a higher energy density than gasoline, so a diesel engine gets better mileage. See [How Diesel Engines Work](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fauto.howstuffworks.com%2Fdiesel.htm) for more information.
+* **What is the difference between a two-stroke and a four-stroke engine?** Most [chain saws](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fhome.howstuffworks.com%2Fchainsaw.htm) and boat motors use two-stroke engines. A two-stroke engine has no moving valves, and the spark plug fires each time the piston hits the top of its cycle. A hole in the lower part of the cylinder wall lets in gas and air. As the piston moves up it is compressed, the spark plug ignites combustion, and exhaust exits through another hole in the cylinder. You have to mix oil into the gas in a two-stroke engine because the holes in the cylinder wall prevent the use of rings to seal the combustion chamber. Generally, a two-stroke engine produces a lot of power for its size because there are twice as many combustion cycles occurring per rotation. However, a two-stroke engine uses more gasoline and burns lots of oil, so it is far more polluting. See [How Two-stroke Engines Work](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fscience.howstuffworks.com%2Ftransport%2Fengines-equipment%2Ftwo-stroke.htm) for more information.
+* **You mentioned steam engines in this article — are there any advantages to steam engines and other external combustion engines?** The main advantage of a steam engine is that you can use anything that burns as the fuel. For example, a steam engine can use coal, newspaper or wood for the fuel, while an internal combustion engine needs pure, high-quality liquid or gaseous fuel. See [How Steam Engines Work](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fscience.howstuffworks.com%2Ftransport%2Fengines-equipment%2Fsteam.htm) for more information.
+* **Why have eight cylinders in an engine? Why not have one big cylinder of the same displacement of the eight cylinders instead?** There are a couple of reasons why a big 4.0-liter engine has eight half-liter cylinders rather than one big 4-liter cylinder. The main reason is smoothness. A V-8 engine is much smoother because it has eight evenly spaced explosions instead of one big explosion. Another reason is starting [torque](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fauto.howstuffworks.com%2Fauto-parts%2Ftowing%2Ftowing-capacity%2Finformation%2Ffpte.htm). When you start a V-8 engine, you are only driving two cylinders (1 liter) through their compression strokes, but with one big cylinder you would have to compress 4 liters instead.
+
+Advertisement
+
+## How Are 4-cylinder and V6 Engines Different?
+
+The 2017 Fusion V6 Sport comes standard with a 2.7-liter EcoBoost engine with 380 lb.-ft. torque and 325 hp. Ford
+
+The number of cylinders that an engine contains is an important factor in the overall performance of the engine. Each cylinder contains a piston that pumps inside of it and those pistons connect to and turn the crankshaft. The more pistons there are pumping, the more combustive events are taking place during any given moment. That means that more power can be generated in less time.
+
+Four-cylinder engines commonly come in "straight" or "inline" configurations while 6-cylinder engines are usually configured in the more compact "V" shape, and thus are referred to as V6 engines. V6 engines were the engine of choice for American automakers because they're powerful and quiet, but turbocharging technologies have made four-cylinder engines more powerful and attractive to buyers.
+
+Advertisement
+
+Historically, American auto consumers turned their noses up at four-cylinder engines, believing them to be slow, weak, unbalanced and short on acceleration. However, when Japanese auto makers, such as Honda and Toyota, began installing highly efficient four-cylinder engines in their cars in the 1980s and '90s, Americans found a new appreciation for the compact engine. Japanese models, such as the Toyota Camry, began quickly outselling comparable American models
+
+Modern four-cylinder engines use lighter materials and turbocharging technology, like [Ford's EcoBoost](https://www.google.com/url?sa=E&amp;q=http%3A%2F%2Fwww.ford.com%2Fgreen%2Ffuel-efficiency%2F) engine, to eke V-6 performance from more efficient four-cylinder engines. Advanced aerodynamics and technologies, such as those used by Mazda in its [SKYACTIV designs](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fwww.mazdausa.com%2Fwhy-mazda%2Fskyactiv), put less stress on these smaller turbocharged engines, further increasing their efficiency and performance.
+
+As for the future of the V6, in recent years the disparity between four-cylinder and V6 engines has lessened considerably. But V-6 engines still have their uses, and not only in performance cars. Trucks that are used to tow trailers or haul loads need the power of a V-6 to get those jobs done. Power in those cases is more important than efficiency.
+
+Advertisement
+
+## Lots More Information
+
+### Related Articles
+
+* [How Diesel Engines Work](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fauto.howstuffworks.com%2Fdiesel.htm)
+* [How Diesel Two-stroke Engines Work](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fauto.howstuffworks.com%2Fdiesel-two-stroke.htm)
+* [How Manual Transmissions Work](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fauto.howstuffworks.com%2Ftransmission.htm)
+* [How Turbochargers Work](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fauto.howstuffworks.com%2Fturbo.htm)
+* [How Fuel Injection Systems Work](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fauto.howstuffworks.com%2Ffuel-injection.htm)
+
+### More Great Links
+
+* [Animated Engines](https://www.google.com/url?sa=E&amp;q=http%3A%2F%2Fwww.animatedengines.com%2F)
+* [Erbman's Engine Emporium](https://www.google.com/url?sa=E&amp;q=http%3A%2F%2Fwww.eaa1000.av.org%2Ftechnicl%2Fengemp%2Fengemp1.htm)
+
+### Sources
+
+* Associated Press. "Consumers Moving to 4-Cylinder Engines Amid High Gas Prices." July 10, 2007\. https://web.archive.org/web/20070823210145/http://www.foxnews.com:80/story/0,2933,288644,00.html
+* Collins, Dan. "How Do Car Engines Work?" http://www.carbibles.com/fuel\_engine\_bible.html
+* Ofria, Charles. "A Short Course on Automobile Engines." http://www.familycar.com/engine.htm
+
+Loading...
+
+Advertisement
+
+Advertisement
+
+Advertisement
+
+We're as obsessed with finding answers as you are.
+
+Send me the latest news in science, culture and tech! Get the HowStuffWorks Newsletter
+
+Success
+
+You are now subscribed.
+
+Continue
+
+Newsletter Sign Up
+
+Send me the latest news in science, culture and tech! SIGN UP [](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fwww.howstuffworks.com%2F)
+
+Learn How Everything Works!
+
+Company
+
+* [About](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fwww.howstuffworks.com%2Fabout-hsw.htm)
+* [Careers](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fsystem1.com%2Fjob-openings)
+* [Contact Us](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fwww.howstuffworks.com%2Fhsw-contact.htm)
+* [Help](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fwww.howstuffworks.com%2Ffaq.htm)
+* [Sitemap](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fwww.howstuffworks.com%2Fsitemap.htm)
+
+Information
+
+* [Terms](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fwww.howstuffworks.com%2Fterms-and-conditions.htm)
+* [Reprints](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fwww.parsintl.com%2Fpublication%2Fhowstuffworks%2F)
+* [Privacy Policy](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fsystem1.com%2Fterms%2Fprivacy-policy)
+* [For Advertisers](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fwww.howstuffworks.com%2Ffor-advertisers.htm)
+* Do Not Sell My Info
+
+Explore
+
+* [Quizzes](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fplay.howstuffworks.com%2F)
+* [Video](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fwww.howstuffworks.com%2Fvideo)
+
+[Privacy Policy](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fsystem1.com%2Fterms%2Fprivacy-policy) [Terms](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fwww.howstuffworks.com%2Fterms-and-conditions.htm)
+
+[Do Not Sell My Info](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fscience.howstuffworks.com%2Finnovation%2Finventions%2Finternal-combustion-engine.htm)
+
+Copyright © 2026 HowStuffWorks, a [System1](https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fsystem1.com%2F) Property
