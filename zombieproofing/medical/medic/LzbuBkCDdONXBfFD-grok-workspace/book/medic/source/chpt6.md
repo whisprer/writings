@@ -1,0 +1,37 @@
+Chapter 6 — Bones Have Opinions About Movement
+
+*Support the person. Decline the chair if it requires a second rescue team.*
+
+If an ankle resembles a poorly assembled deckchair, do not test whether a vigorous walk will improve its outlook. Injury care begins with support, checking for other danger and resisting the temptation to put everything back by pulling it.
+
+## Suspect a fracture without demanding proof
+
+Pain, swelling, tenderness, bruising, loss of function or an unusual shape can suggest a broken bone. A fracture can exist without obvious deformity, and being able to move does not rule it out. Treat the injury gently and obtain medical assessment. Do not repeatedly bend a limb to discover which noise it makes. 
+
+Support it in the position found with hands, folded clothing, cushions or a sling where appropriate. Cover an open wound with a sterile dressing; do not push exposed bone back inside. Control serious bleeding without pressing on protruding bone. Remove rings and watches early if you can do so easily before swelling increases. Do not force them over an injured area.
+
+For a makeshift support, pad hard edges, avoid pressure directly over the injury and secure without constricting. Immobilisation should make movement less painful, not create a new problem. Check the fingers or toes before and after support: warmth, colour, sensation and ability to move gently if safe. New numbness, coldness, discolouration or increasing pain needs urgent reassessment and help. Do not disturb a haemorrhage-control tourniquet to perform this check. Sprains still deserve care A twisted joint may be a sprain, a fracture or both. Protect it from further injury and rest it initially. A cold pack wrapped in cloth may reduce pain and swelling; do not put ice directly on skin or leave it against numb skin. Elevate if comfortable. Do not force weight-bearing when pain is marked, and seek assessment for inability to use the limb, severe swelling, deformity or persistent symptoms. Do not assume that an elastic bandage must be tight enough to alter someone's ancestry. If used, it should support without impairing circulation, and needs regular checks. A support that was comfortable an hour ago can become restrictive as swelling grows.
+
+## Dislocations are not a party trick
+
+A joint that looks displaced requires professional care. Support it in the position found and arrange assessment. Do not yank, twist or lever it into place. Blood vessels and nerves may be close to the injured structures. A video in which somebody's shoulder improved after a tug is not a reliable map of the anatomy you are currently holding.
+
+## The spine: move for a reason
+
+After a significant fall, collision, crush or neck/back injury, ask the person to stay still and support their head if needed. Do not straighten a painful neck or ask them to demonstrate movement. Call emergency help. Breathing and immediate danger take priority; move only as needed to maintain an airway, provide CPR, escape a genuine hazard or follow professional instructions. A coordinated move with enough helpers is preferable to several uncoordinated people pulling different corners. Explain the plan, nominate one person to give commands, and keep the person supported as a unit where feasible. Improvised rigid collars and long stays on a hard board can cause harm; do not manufacture one merely because the television ambulance had something similar.
+
+## Crush injury is more than a bruise
+
+A trapped limb or torso after structural collapse needs specialist rescue and urgent medical help. Continued collapse, heavy loads and sudden movement endanger rescuers as well as the trapped person.
+
+Do not crawl beneath an unstable load. Request technical rescue, control accessible bleeding and keep the person warm and reassured while help is organised. Prolonged crushing can cause serious internal and metabolic complications when pressure is released. This is not a reason to invent a universal "leave them trapped" rule; it is a reason to involve emergency and rescue professionals as early as possible. If immediate danger forces action, follow dispatcher guidance. A general first-aid chapter cannot provide a safe release timetable or fluid regimen for every situation.
+
+## Moving a patient without making a new one
+
+Before transport, ask: why move, to where, by which route, with whom, and what will continue during the move? Control bleeding first where possible, protect the person from weather, secure supplies and arrange a receiving contact. Take essential medicines and records. A stretcher that collapses halfway down a lane is an additional incident, not transport.
+
+Use suitable equipment and a trained team where available. Do not lift alone if you cannot do it safely. Clear obstacles and inspect the route in advance. Agree a stop signal. Recheck breathing, bleeding, comfort and limb circulation after every move. Keep notes with the patient rather than in a vehicle travelling in the opposite direction.
+
+> **Field rule.** Support, do not repeatedly test. Move because it improves safety or access to care, not because standing still feels insufficiently heroic.
+
+*Sources: R07, R21, R22, R29.*

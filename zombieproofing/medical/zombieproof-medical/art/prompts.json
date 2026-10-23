@@ -1,0 +1,80 @@
+{
+  "generator": "Built-in image_gen tool",
+  "style_reference": "User-supplied Zombie-Proof_-_Engines.zip, public/book/engines/art/cover.jpg, ch01.jpg and ch07.jpg",
+  "direction": "Richly textured hand-painted soft gouache storybook scenes; muted olive, rust, cream, amber and mint; reddish-brown-haired survivor in round wire-rim glasses and worn olive jacket; friendly puzzled mint zombies. No gore or procedural medical demonstrations. Narrative chapter openers.",
+  "scenes": [
+    [
+      "frontis",
+      "Portrait 3:4. A friendly mint-green cartoon zombie sleeps peacefully in a chair under a patchwork blanket beside a clean bedside table with a covered drinking cup, plain notebook, and a daisy. The survivor quietly checks the room from the doorway. Warm dawn light. No clinical procedure."
+    ],
+    [
+      "ch01",
+      "Landscape 3:2. At the entrance to a damaged rural cottage, the survivor raises a calm hand to stop an eager zombie from entering. A loose roof tile and puddle are visible; everyone remains safely outside. A second zombie has brought an absurdly oversized empty medical bag. Spring daylight."
+    ],
+    [
+      "ch02",
+      "Landscape 3:2. A calm training session at a cottage table: the survivor and two mint zombies sit beside a plain CPR practice mannequin torso, an unopened small defibrillator case, and a notebook, with no actual CPR or clinical action underway. One zombie has put a listening funnel to its own elbow. Warm window light."
+    ],
+    [
+      "ch03",
+      "Landscape 3:2. An orderly outdoor aid station. Three friendly zombies sit patiently on different benches beneath plain red, yellow and green cloth pennants without emblems or lettering; no black pennants. The survivor calmly directs one helpful zombie who holds a blank clipboard upside down. Everyone uninjured. No diagnosis indicated by colours."
+    ],
+    [
+      "ch04",
+      "Landscape 3:2. A timber table ready for a bleeding-control training class: sealed plain gauze packets, a rolled bandage, gloves and a commercial windlass tourniquet lying loose and unused. The bespectacled survivor points to the supplies, while a puzzled mint zombie offers a tiny sticking plaster to an enormous stuffed teddy bear. No wound, no actual treatment."
+    ],
+    [
+      "ch05",
+      "Landscape 3:2. Beside a sunny cottage window the survivor washes his hands with soap at a clean basin, while a friendly zombie solemnly offers a watering can full of daisies. Clean gauze packets sit well away from the sink. No wounds or invasive procedure."
+    ],
+    [
+      "ch06",
+      "Landscape 3:2. A gently comic rest stop in a wildflower meadow: a living adult hiker already wears a simple ordinary arm sling and sits comfortably while the survivor carries the hiker's backpack. A mint zombie offers an elaborately over-engineered wooden chair. No splint application, no deformed limb, no injury detail."
+    ],
+    [
+      "ch07",
+      "Landscape 3:2. A quiet washroom corner with a clean running tap, a loosely folded clean towel and a plain kitchen timer. The survivor checks a safe kettle on a high shelf, while a mint zombie wears oversized protective goggles and holds a teacup. No fire, no burn, no treatment procedure."
+    ],
+    [
+      "ch08",
+      "Landscape 3:2. A clean outdoor water station with lidded food-safe drinking-water containers, a handwashing tap, soap, a simple cooking stove well away from buildings, and a queue of friendly zombies. The survivor patiently separates a dirty muddy bucket from the clean containers. No printed labels or medical symbols."
+    ],
+    [
+      "ch09",
+      "Landscape 3:2. A cottage porch on a wet cold day. The survivor hangs socks to dry and offers a blanket to a seated chilly but cheerful mint zombie, while another zombie uses two boots as flowerpots. Warm indoor light, rain outside, clean dry bedding, affectionate humour."
+    ],
+    [
+      "ch10",
+      "Landscape 3:2. A cosy morning camp hygiene lesson: the survivor brushes his teeth at a basin; three mint zombies copy him with comically serious expressions, using toothbrushes rather than tools. A mirror, soap, covered cups and one daisy. No mouths in anatomical close-up."
+    ],
+    [
+      "ch11",
+      "Landscape 3:2. Inside a tidy intact store cupboard, the survivor and a helpful mint zombie sort plain sealed medical supplies into sturdy shallow containers. Gloves, bandages, soap and empty water bottles. A second zombie offers a ludicrously large decorative crystal as its contribution, politely declined. No theft, weapons, locks or drugs shown."
+    ],
+    [
+      "ch12",
+      "Landscape 3:2. A cool dry cottage pantry: the survivor studies a plain thermometer beside an insulated medicine carrier and original plain medicine cartons without readable print, on a shelf raised above the floor, away from sunlight. A mint zombie holds a sun parasol over a daisy instead of the carrier. No ice touching medication, no actual temperature numbers."
+    ],
+    [
+      "ch13",
+      "Landscape 3:2. At a calm cottage table, the survivor helps an older living woman organise her own closed medicine boxes and a plain personal care notebook. Her spectacles and a mobility stick rest nearby. A friendly mint zombie outside offers a giant calendar with completely blank pages. Dignified, warm, no clinical procedure."
+    ],
+    [
+      "ch14",
+      "Landscape 3:2. A tidy makeshift ward in a rural cottage. A comfortable living adult sits upright in bed with clean blankets; the survivor offers a covered cup on a tray, while a mint zombie quietly sweeps the floor with an oversized broom. Handwashing basin in background. No tubes, no actual wound care, no treatment apparatus."
+    ],
+    [
+      "ch15",
+      "Landscape 3:2. A welcoming rural cottage aid station: a parent with a child, an older wheelchair user and the survivor share a calm conversation at an accessible low table. A polite mint zombie holds a blanket folded into a comically neat square. Diverse ordinary living people, dignity and warmth, no medical procedure."
+    ],
+    [
+      "ch16",
+      "Landscape 3:2. At dusk outside the cottage, the survivor quietly sits beside a tired living adult wrapped in a blanket, both looking toward a peaceful garden. A friendly mint zombie keeps watch beside a kettle far in the background. A daisy grows between paving stones. Gentle supportive companionship, no despair imagery or injury."
+    ],
+    [
+      "ch17",
+      "Landscape 3:2. A dawn teaching table in the cottage with an open blank field notebook, neatly arranged rolled bandages, soap, gloves, an ordinary thermometer and covered drinking cup. The survivor shows two attentive mint zombies how to organise the supplies; one has brought a daisy. Hopeful warm light, no clinical procedure."
+    ]
+  ],
+  "correction": "Chapter 1 satchel emblem removed with imagegen; corrected plate is the final asset."
+}

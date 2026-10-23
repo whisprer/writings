@@ -1,0 +1,47 @@
+Chapter 14 — Nursing: The Bit Between Being Rescued and Being Better
+
+*The rescue is over. The care is not.*
+
+The dramatic bandage has been applied. The patient has been carried through the gate. Everyone congratulates themselves and goes to sleep. Unfortunately, the patient continues to require a body for the next several days.
+
+Prolonged care is repeated attention to breathing, warmth, comfort, skin, hydration, nutrition, medicines, hygiene and change. The field-care references devote serious space to nursing and documentation because these are treatments, not background scenery. 
+
+## A place where care can happen
+
+Choose shelter with safe access, adequate light, ventilation, manageable temperature, handwashing and a nearby toilet or suitable alternative. Separate clean supplies from waste. Keep a call bell or another usable signal within reach, plus glasses, communication aids and essential personal items. A patient who cannot reach the water has not been supplied with water.
+
+Arrange help before moving a person, washing them or changing bedding. Explain what will happen and preserve privacy. Keep exits clear. Avoid trailing cables, unstable chairs, open flames and loose floor coverings. The patient should not have to survive the ward furniture after surviving the roof.
+
+## Look, listen, count, write
+
+Record a baseline and repeat checks according to condition and clinical advice. Useful observations include responsiveness, breathing effort and rate, pulse if you know how to measure it, temperature, pain, skin changes, intake, urine and wound/dressing condition. Count breaths without asking the person to perform a special demonstration; record the number per minute and the time. A trend is more useful than an isolated confident adjective.
+
+Write what you observed, not a diagnosis you cannot establish. "More drowsy than at 10:00; woke to voice; breathing appears harder" is useful. "Probably just tired" can erase the reason for escalation. A worsening patient needs urgent help and reassessment of immediate threats, not a more decorative chart. Do not install a universal observation interval copied from a stable patient's notes. A changing patient may need continuous attendance, while a recovering person may have a different agreed schedule.
+
+Arrange who checks, when, and what changes require immediate action. Silence is not a completed observation.
+
+## Skin and pressure
+
+People unable to move are at risk of pressure damage, particularly over heels, hips, elbows and the tailbone. Check skin regularly and help them change position as safely tolerated, using an individual plan and suitable support surfaces. Look for persistent discolouration, unusual warmth, firmness, pain or broken skin; changes may appear differently on darker skin. Keep bedding clean, dry and reasonably smooth. Manage sweat, urine and stool promptly and gently. Do not massage damaged pressure areas or drag a person across bedding. Use helpers and appropriate equipment; seek advice about positioning when injuries restrict movement. A rigid two-hour rule for every patient is not a substitute for an individual pressure-relief plan.
+
+## Drinks and food without aspiration
+
+Offer small manageable amounts to an awake person who can swallow safely, with suitable positioning and assistance. Follow existing swallowing or feeding plans. Stop and seek advice for coughing, choking, a wet-sounding voice or difficulty managing fluids. Give nothing by mouth to someone too drowsy to protect their airway. Do not improvise feeding tubes or intravenous fluids. Provide ordinary appropriate food as tolerated when not restricted by injury or clinical advice. Include dietary needs, allergies and assistance with packaging or utensils. Monitor prolonged poor intake and weight loss where feasible. Food left outside reach is not a successful nutrition intervention.
+
+Oral care matters even when appetite is poor. Keep the mouth clean and comfortable using the person's usual safe routine. Seek advice about painful swallowing, mouth injury or persistent inability to eat or drink. An exhausted patient should not need to deliver a formal request for a sip of water.
+
+## Dressings and medicines
+
+Change dressings according to the wound, product instructions and care plan, or sooner if wet, dirty, loose or compromised. Prepare supplies first, wash hands, avoid touching wound-contact surfaces and dispose of waste safely. Observe changes rather than repeatedly uncovering a clean dressing out of curiosity. Get help for infection signs or renewed bleeding.
+
+Keep a medicine administration record with identity, medicine, dose, route, time and who gave it. Record missed or refused doses and the reason; do not quietly double the next dose. Check the current prescription and label before each administration. Separate look-alike packs and avoid interruptions during the check.
+
+## Shift changes are a treatment
+
+Hand over with the patient identifier, problem, allergies, usual needs, recent changes, treatment and outstanding tasks. Confirm who has responsibility next and when reassessment is due. Count critical stock and record important times. Never assume the next person heard a conversation in the doorway.
+
+> **Field rule.** A bed, a blanket and a dressing are equipment.
+
+Care is the continuing work that makes them useful.
+
+*Sources: R27, R28, R37. The specialist military nursing references inform the principles; invasive procedures and drug regimens are not reproduced.*

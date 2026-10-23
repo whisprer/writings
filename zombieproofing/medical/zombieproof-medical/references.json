@@ -1,0 +1,360 @@
+[
+  {
+    "id": "R01",
+    "organisation": "Resuscitation Council UK",
+    "title": "Adult basic life support Guidelines (2025)",
+    "url": "https://www.resus.org.uk/professional-library/2025-resuscitation-guidelines/adult-basic-life-support-guidelines",
+    "accessed": "2026-10-20"
+  },
+  {
+    "id": "R02",
+    "organisation": "St John Ambulance",
+    "title": "How to do CPR",
+    "url": "https://www.sja.org.uk/first-aid-advice/cpr/",
+    "accessed": "2026-10-20"
+  },
+  {
+    "id": "R03",
+    "organisation": "Resuscitation Council UK",
+    "title": "First Aid Guidelines (2025)",
+    "url": "https://www.resus.org.uk/professional-library/2025-resuscitation-guidelines/first-aid-guidelines",
+    "accessed": "2026-10-20"
+  },
+  {
+    "id": "R04",
+    "organisation": "St John Ambulance",
+    "title": "How to put someone in the recovery position",
+    "url": "https://www.sja.org.uk/first-aid-advice/recovery-position/",
+    "accessed": "2026-10-20"
+  },
+  {
+    "id": "R05",
+    "organisation": "NHS",
+    "title": "Cuts and grazes",
+    "url": "https://www.nhs.uk/conditions/cuts-and-grazes/",
+    "accessed": "2026-10-20"
+  },
+  {
+    "id": "R06",
+    "organisation": "NHS",
+    "title": "Animal and human bites",
+    "url": "https://www.nhs.uk/conditions/animal-and-human-bites/",
+    "accessed": "2026-10-20"
+  },
+  {
+    "id": "R07",
+    "organisation": "St John Ambulance",
+    "title": "Broken bones and fractures",
+    "url": "https://www.sja.org.uk/first-aid-advice/fractures-and-broken-bones/",
+    "accessed": "2026-10-20"
+  },
+  {
+    "id": "R08",
+    "organisation": "NHS",
+    "title": "Burns and scalds",
+    "url": "https://www.nhs.uk/conditions/burns-and-scalds/",
+    "accessed": "2026-10-20"
+  },
+  {
+    "id": "R09",
+    "organisation": "NHS",
+    "title": "Eye injuries",
+    "url": "https://www.nhs.uk/conditions/eye-injuries/",
+    "accessed": "2026-10-20"
+  },
+  {
+    "id": "R10",
+    "organisation": "NHS",
+    "title": "Head injury and concussion",
+    "url": "https://www.nhs.uk/conditions/head-injury-and-concussion/",
+    "accessed": "2026-10-20"
+  },
+  {
+    "id": "R11",
+    "organisation": "NHS",
+    "title": "Sepsis",
+    "url": "https://www.nhs.uk/conditions/sepsis/",
+    "accessed": "2026-10-20"
+  },
+  {
+    "id": "R12",
+    "organisation": "US Centers for Disease Control and Prevention",
+    "title": "How to make water safe in an emergency",
+    "url": "https://www.cdc.gov/water-emergency/about/index.html",
+    "accessed": "2026-10-20"
+  },
+  {
+    "id": "R13",
+    "organisation": "NHS",
+    "title": "Diarrhoea and vomiting",
+    "url": "https://www.nhs.uk/symptoms/diarrhoea-and-vomiting/",
+    "accessed": "2026-10-20"
+  },
+  {
+    "id": "R14",
+    "organisation": "NHS",
+    "title": "Dehydration",
+    "url": "https://www.nhs.uk/conditions/dehydration/",
+    "accessed": "2026-10-20"
+  },
+  {
+    "id": "R15",
+    "organisation": "NHS",
+    "title": "Carbon monoxide poisoning",
+    "url": "https://www.nhs.uk/conditions/carbon-monoxide-poisoning/",
+    "accessed": "2026-10-20"
+  },
+  {
+    "id": "R16",
+    "organisation": "NHS",
+    "title": "Hypothermia",
+    "url": "https://www.nhs.uk/conditions/hypothermia/",
+    "accessed": "2026-10-20"
+  },
+  {
+    "id": "R17",
+    "organisation": "St John Ambulance",
+    "title": "CPR on a child",
+    "url": "https://www.sja.org.uk/first-aid-advice/child-cpr/",
+    "accessed": "2026-10-20"
+  },
+  {
+    "id": "R18",
+    "organisation": "St John Ambulance",
+    "title": "CPR on a baby",
+    "url": "https://www.sja.org.uk/first-aid-advice/baby-cpr/",
+    "accessed": "2026-10-20"
+  },
+  {
+    "id": "R19",
+    "organisation": "St John Ambulance",
+    "title": "Choking",
+    "url": "https://www.sja.org.uk/first-aid-advice/choking/",
+    "accessed": "2026-10-20"
+  },
+  {
+    "id": "R20",
+    "organisation": "St John Ambulance",
+    "title": "Severe bleeding; and Shock",
+    "url": "https://www.sja.org.uk/first-aid-advice/severe-bleeding/",
+    "accessed": "2026-10-20",
+    "additional_url": "https://www.sja.org.uk/first-aid-advice/shock/"
+  },
+  {
+    "id": "R21",
+    "organisation": "St John Ambulance",
+    "title": "Sprains and strains",
+    "url": "https://www.sja.org.uk/first-aid-advice/sprains-and-strains/",
+    "accessed": "2026-10-20"
+  },
+  {
+    "id": "R22",
+    "organisation": "St John Ambulance",
+    "title": "Spinal injury",
+    "url": "https://www.sja.org.uk/first-aid-advice/spinal-injury/",
+    "accessed": "2026-10-20"
+  },
+  {
+    "id": "R23",
+    "organisation": "US Food and Drug Administration",
+    "title": "Do not be tempted to use expired medicines",
+    "url": "https://www.fda.gov/drugs/safe-disposal-medicines/dont-be-tempted-use-expired-medicines",
+    "accessed": "2026-10-20"
+  },
+  {
+    "id": "R24",
+    "organisation": "US Food and Drug Administration",
+    "title": "Expiration dating extension; Shelf-Life Extension Program",
+    "url": "https://www.fda.gov/emergency-preparedness-and-response/mcm-legal-regulatory-and-policy-framework/expiration-dating-extension",
+    "accessed": "2026-10-20"
+  },
+  {
+    "id": "R25",
+    "organisation": "US Food and Drug Administration",
+    "title": "Information regarding insulin storage and switching between products in an emergency",
+    "url": "https://www.fda.gov/drugs/emergency-preparedness-drugs/information-regarding-insulin-storage-and-switching-between-products-emergency",
+    "accessed": "2026-10-20"
+  },
+  {
+    "id": "R26",
+    "organisation": "NHS",
+    "title": "Anaphylaxis",
+    "url": "https://www.nhs.uk/conditions/anaphylaxis/",
+    "accessed": "2026-10-20"
+  },
+  {
+    "id": "R27",
+    "organisation": "Joint Trauma System",
+    "title": "Documentation in Prolonged Field Care, CPG 72 (13 November 2018)",
+    "url": "https://jts.health.mil/assets/docs/cpgs/Documentation_Prolonged_Field_Care_13_Nov_2018_ID72_v1.1.pdf",
+    "accessed": "2026-10-20"
+  },
+  {
+    "id": "R28",
+    "organisation": "Joint Trauma System",
+    "title": "Nursing Interventions, Wound Care, and Splint Management in Prolonged Casualty Care (8 July 2025); supplied earlier nursing guideline",
+    "url": "https://jts.health.mil/assets/docs/cpgs/Nursing_Interventions_PCC_08_July_2025_ID70_v1.1.pdf",
+    "accessed": "2026-10-20"
+  },
+  {
+    "id": "R29",
+    "organisation": "Joint Trauma System",
+    "title": "Clinical practice guideline catalogue and supplied All-PFC-CPGs.pdf (362 pages; assembled 2022)",
+    "url": "https://jts.health.mil/index.cfm/CPGs/cpgs",
+    "accessed": "2026-10-20"
+  },
+  {
+    "id": "R30",
+    "organisation": "Supplied training reference",
+    "title": "S.T.A.R.T: Simple Triage and Rapid Treatment (STARTtriage.pdf, five pages)",
+    "url": "",
+    "accessed": "Supplied archive reviewed 2026-10-20"
+  },
+  {
+    "id": "R31",
+    "organisation": "Supplied training presentation",
+    "title": "Mass casualty, START triage and SMART tags (101 pages; filename includes 2017, PDF metadata dates to 2013)",
+    "url": "",
+    "accessed": "Supplied archive reviewed 2026-10-20"
+  },
+  {
+    "id": "R32",
+    "organisation": "Davido B, Michelon H, Mamona C, de Truchis P, Jaffal K, Saleh-Mghir A",
+    "title": "Efficacy of Expired Antibiotics: A Real Debate in the Context of Repeated Drug Shortages. Antibiotics 2024;13:466. doi:10.3390/antibiotics13050466",
+    "url": "https://doi.org/10.3390/antibiotics13050466",
+    "accessed": "2026-10-20"
+  },
+  {
+    "id": "R33",
+    "organisation": "NHS",
+    "title": "Heat exhaustion and heatstroke",
+    "url": "https://www.nhs.uk/conditions/heat-exhaustion-heatstroke/",
+    "accessed": "2026-10-20"
+  },
+  {
+    "id": "R34",
+    "organisation": "NHS",
+    "title": "Dental abscess",
+    "url": "https://www.nhs.uk/conditions/dental-abscess/",
+    "accessed": "2026-10-20"
+  },
+  {
+    "id": "R35",
+    "organisation": "NHS",
+    "title": "Low blood sugar (hypoglycaemia)",
+    "url": "https://www.nhs.uk/conditions/low-blood-sugar-hypoglycaemia/",
+    "accessed": "2026-10-20"
+  },
+  {
+    "id": "R36",
+    "organisation": "NHS",
+    "title": "Asthma, including asthma attacks",
+    "url": "https://www.nhs.uk/conditions/asthma/",
+    "accessed": "2026-10-20"
+  },
+  {
+    "id": "R37",
+    "organisation": "NHS",
+    "title": "Pressure ulcers (pressure sores)",
+    "url": "https://www.nhs.uk/conditions/pressure-sores/",
+    "accessed": "2026-10-20"
+  },
+  {
+    "id": "R38",
+    "organisation": "St John Ambulance",
+    "title": "Seizure",
+    "url": "https://www.sja.org.uk/first-aid-advice/seizure/",
+    "accessed": "2026-10-20"
+  },
+  {
+    "id": "R39",
+    "organisation": "St John Ambulance",
+    "title": "Stroke",
+    "url": "https://www.sja.org.uk/first-aid-advice/stroke/",
+    "accessed": "2026-10-20"
+  },
+  {
+    "id": "R40",
+    "organisation": "World Health Organization, War Trauma Foundation and World Vision International",
+    "title": "Psychological first aid: Guide for field workers (2011)",
+    "url": "https://www.who.int/publications/i/item/9789241548205",
+    "accessed": "2026-10-20"
+  },
+  {
+    "id": "R41",
+    "organisation": "NHS",
+    "title": "Stomach ache",
+    "url": "https://www.nhs.uk/symptoms/stomach-ache/",
+    "accessed": "2026-10-20"
+  },
+  {
+    "id": "R42",
+    "organisation": "NHS",
+    "title": "High temperature (fever) in children",
+    "url": "https://www.nhs.uk/symptoms/fever-in-children/",
+    "accessed": "2026-10-20"
+  },
+  {
+    "id": "R43",
+    "organisation": "NHS",
+    "title": "Vaginal bleeding in pregnancy",
+    "url": "https://www.nhs.uk/pregnancy/common-symptoms/vaginal-bleeding/",
+    "accessed": "2026-10-20"
+  },
+  {
+    "id": "R46",
+    "organisation": "NHS",
+    "title": "Emergency prescriptions",
+    "url": "https://www.nhs.uk/nhs-services/prescriptions/emergency-prescriptions/",
+    "accessed": "2026-10-20"
+  },
+  {
+    "id": "R47",
+    "organisation": "NHS",
+    "title": "Paracetamol for adults",
+    "url": "https://www.nhs.uk/medicines/paracetamol-for-adults/",
+    "accessed": "2026-10-20"
+  },
+  {
+    "id": "R48",
+    "organisation": "NHS",
+    "title": "Ibuprofen for adults",
+    "url": "https://www.nhs.uk/medicines/ibuprofen-for-adults/",
+    "accessed": "2026-10-20"
+  },
+  {
+    "id": "R51",
+    "organisation": "Resuscitation Council UK",
+    "title": "Baby and child CPR public guidance, updated to Guidelines 2025",
+    "url": "https://www.resus.org.uk/baby-cpr",
+    "accessed": "2026-10-20"
+  },
+  {
+    "id": "R52",
+    "organisation": "St John Ambulance",
+    "title": "Choking baby",
+    "url": "https://www.sja.org.uk/first-aid-advice/baby-choking/",
+    "accessed": "2026-10-20"
+  },
+  {
+    "id": "R53",
+    "organisation": "St John Ambulance",
+    "title": "Hyperventilation",
+    "url": "https://www.sja.org.uk/first-aid-advice/hyperventilation/",
+    "accessed": "2026-10-20"
+  },
+  {
+    "id": "R54",
+    "organisation": "Resuscitation Council UK",
+    "title": "How to do CPR: public resource",
+    "url": "https://www.resus.org.uk/public-resource/how-do-cpr",
+    "accessed": "2026-10-20"
+  },
+  {
+    "id": "R55",
+    "organisation": "St John Ambulance",
+    "title": "Burns and scalds",
+    "url": "https://www.sja.org.uk/first-aid-advice/burns-and-scalds/",
+    "accessed": "2026-10-20"
+  }
+]

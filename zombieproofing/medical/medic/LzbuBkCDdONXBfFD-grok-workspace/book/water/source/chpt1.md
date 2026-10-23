@@ -1,0 +1,39 @@
+Chapter 1: The Page You Do Not Skip
+
+The dead may walk. A germ does not need their help, and it will not wait while you decide the water looks fine.
+
+Clear is a compliment, not a test. Water can carry bacteria, viruses, and the stubborn cysts of Giardia and Cryptosporidium, and it can carry them while sparkling like an advertisement for honesty. It can also carry things no kettle will evict: fuels, solvents, heavy metals, the antifreeze somebody put in a pipe to survive a winter, the ash and chemistry a fire left on a roof. Boiling, bleach, and a pocket filter are wonderful at some of these jobs and theatrical at others. Everything after this page — the roof arithmetic, the jokes, the zombie holding a cup upside down — assumes you have already decided to remain alive, and to remain un-poisoned, which is a slightly more specific ambition.
+
+Read this once when you are calm. Read it again when you are thirsty, which is when you will be tempted to skip it.
+
+## The rules that do not negotiate
+
+If the authorities are still speaking, listen to them. A boil-water notice, a do-not-use notice, and a "bottled water only" notice are not suggestions from a humour book. They are the people who can see the plant. This manual is what you read when the notice cannot reach you, or when you are practising on a Tuesday so the bad day is not your first day.
+
+Use water you trust for drinking, cooking, ice, brushing teeth, and anything a baby will meet. Washing the floor is a different conversation. A baby's bottle is not.
+
+Prefer water that was sealed before the trouble: bottled water, a commercial jug, a cistern you filled and treated while the world was still boring. If you do not have that, treat what you collect. Do not drink flood water. Do not drink water that smells of fuel, solvent, or a chemical plant having a feeling. Boiling, bleaching, and filtering do not make chemical contamination safe. They can concentrate some of it, which is the opposite of a favour.
+
+Never store drinking water in a container that held fuel, pesticide, solvent, or anything you would not lick off a spoon on purpose. Plastic has a memory. So does your liver.
+
+Do not use scented bleach, colour-safe bleach, splashless bleach, or a bottle that does not say it is chlorine. "Bleach" is a marketing family. Sodium hypochlorite is a chemical. If you cannot find the percent of available chlorine on the label, you do not have a dose. You have a vibe.
+
+Do not sprinkle pool shock, calcium hypochlorite granules, or any dry chlorine straight into a cup. It burns. It is mixed, if it is mixed at all, into a stock solution, away from fuel and from enthusiasm, and then the stock is measured. The chapter that says so will say so again. It is still not an invitation.
+
+Do not drink from a fire-sprinkler pipe because it is a pipe with water in it. That water may have sat for years with bacteria, metals, and antifreeze. Bleach does not remove lead, and it does not remove glycol. Chapter 5 is a warning, not a recipe.
+
+Do not plumb a boiler, a wood-stove coil, or a pressure vessel because a later chapter explains why hot water rises. A thermosiphon without a relief valve is a bomb that also does laundry. This book will describe it so you can refuse it.
+
+Do not disinfect a drilled well from a field manual. The people who do that work for a living already find it difficult, which is the EPA's polite way of saying the owner with a funnel is not the hero of that story. After a flood, assume the well is guilty until a test says otherwise.
+
+Infants, pregnant people, and anyone with a thyroid condition should not be handed iodine-treated water as a lifestyle. If you must treat water for a baby and you cannot get a sealed commercial supply, boiling and cooling is the kinder path. Formula instructions and a clinician outrank this paragraph. Iodine is a short, ugly spare, not a pantry.
+
+The procedures in this book are educational. They are copied, in spirit and often in number, from public cards: a minute of rolling boil, three minutes above the high country, unscented household bleach in the range those cards describe, a wait of half an hour. Labels change. Percents change. If this book and the bottle disagree, the bottle is right and the book is a well-meaning stranger with a damp cuff.
+
+## A sentence you can say out loud
+
+Know where it came from. Take the dirt out. Kill what boiling or a named disinfectant can kill. Admit what they cannot. Put a lid on it.
+
+The zombies in these pages are a convenience. They stand in for hurry, folklore, and the part of a person that wants a drink more than they want to be there in the morning. They are not the hazard. The hazard is the water, the container, and the decision to skip a step because the street sounds busy.
+
+If you remember one line from the whole manual, let it be the one on the barrel, written first in chalk and then properly: the dead may walk. The water still needs a boil.
