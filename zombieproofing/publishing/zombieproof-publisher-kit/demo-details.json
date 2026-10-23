@@ -1,0 +1,48 @@
+{
+  "schema_version": 1,
+  "shared": {
+    "author": "Production Proof",
+    "copyright_holder": "Demonstration only — replace before publication",
+    "copyright_year": 2026,
+    "publication_year": 2026,
+    "edition": "First edition",
+    "language": "en-GB",
+    "publisher": {
+      "name": "Sample Imprint",
+      "city": "Wales",
+      "website": "",
+      "contact": "",
+      "imprint_image": "assets/sample-device.svg",
+      "imprint_width_mm": 25
+    },
+    "isbn": {
+      "pdf": "",
+      "epub": ""
+    },
+    "cataloguing_data": "",
+    "printed_in": "",
+    "dedication": [
+      "For everyone who remembered to bring a torch."
+    ],
+    "acknowledgements": [
+      "A demonstration of the acknowledgements section. Replace this text with your own credits."
+    ],
+    "biography": [
+      "This proof demonstrates the personalised biography section. It is not a claim about a real author."
+    ],
+    "foreword_credit": {
+      "name": "Production Proof",
+      "place_and_date": "Wales · October 2026"
+    },
+    "preface_place_and_date": "Wales · October 2026",
+    "endorsements": [],
+    "other_titles": [],
+    "illustration_credit": "Illustrations prepared for this edition."
+  },
+  "books": {
+    "radio": {},
+    "computers": {},
+    "engines": {},
+    "water": {}
+  }
+}

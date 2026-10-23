@@ -1,0 +1,50 @@
+{
+  "kit_version": "1.0.0",
+  "book": "engines",
+  "author": "Claudia G. Petersen",
+  "publisher": "whispr written word",
+  "chapters": 17,
+  "illustrations": 20,
+  "files": {
+    "Zombieproof-Engines.epub": {
+      "bytes": 7100806,
+      "sha256": "6dc27ef9f0a04ef35d55a54da3740409042493040c15bd1bee8a6995da745665"
+    },
+    "Zombieproof-Engines.html": {
+      "bytes": 10563098,
+      "sha256": "6e8a66a697b9f9a6991b6cc72b9e8b820789bb56128da9c77357e3f713772d85"
+    },
+    "Zombieproof-Engines.pdf": {
+      "bytes": 7339908,
+      "sha256": "59aec659e2a1db1aed312b8b50952302166567b6b9929a197b547bf4beebe178"
+    }
+  },
+  "pages": 77,
+  "pagination_passes": 2,
+  "toc": {
+    "foreword": 11,
+    "preface": 13,
+    "ch01": 15,
+    "ch02": 18,
+    "ch03": 22,
+    "ch04": 25,
+    "ch05": 28,
+    "ch06": 32,
+    "ch07": 35,
+    "ch08": 38,
+    "ch09": 40,
+    "ch10": 44,
+    "ch11": 47,
+    "ch12": 51,
+    "ch13": 55,
+    "ch14": 58,
+    "ch15": 60,
+    "ch16": 64,
+    "ch17": 68,
+    "afterword": 73,
+    "ack": 74,
+    "author": 75,
+    "soon": 76,
+    "colophon": 77
+  }
+}

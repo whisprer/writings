@@ -1,0 +1,84 @@
+{
+  "schema_version": 1,
+  "shared": {
+    "author": "Claudia G. Petersen",
+    "copyright_holder": "C. G. Petersen",
+    "copyright_year": 2026,
+    "publication_year": 2026,
+    "edition": "First edition",
+    "language": "en-GB",
+    "publisher": {
+      "name": "whispr written word",
+      "city": "Denver, CO",
+      "website": "written-word.whispr.dev",
+      "contact": "written-word@whispr.dev",
+      "imprint_image": "assets/publisher-imprint.png",
+      "imprint_width_mm": 25
+    },
+    "isbn": {
+      "pdf": "",
+      "epub": ""
+    },
+    "cataloguing_data": "ZP000X",
+    "printed_in": "USA",
+    "dedication": ["For nine, since the only thing tougher to survive than surviving me is a zombie apocalypse"],
+    "acknowledgements": ["Eternal thanks to Petey, NotebookLM, Purple Exity, Gemini and the endless hoardes of preppers 'n off grid type peoples out there who share."],
+    "biography": ["Claudia G. Petersen is a CEO - twice, most recently a software dev, but in previous lives an EE, a Genetic Engineer, an Engineering Microbiologist, and, on occasion, an Author."],
+    "foreword_credit": {
+      "name": "Dr. Katya Steiner",
+      "place_and_date": "Manhattan, NY, 2026-08-14"
+    },
+    "preface_place_and_date": "Denver, CO, 2026-09-27",
+    "endorsements": [],
+    "other_titles": [
+      {
+        "title": "Zombie Proof: Looting",
+        "description": "Finding and recovering useful supplies after the collapse."
+      },
+      {
+        "title": "Zombie Proof: Fortifying",
+        "description": "Making shelter harder to enter and easier to defend."
+      },
+      {
+        "title": "Zombie Proof: Weapons",
+        "description": "Weapons, their limitations, and the responsibility of handling them."
+      },
+      {
+        "title": "Zombie Proof: Morale & Psychology",
+        "description": "Keeping your head and keeping people together when the world falls apart."
+      },
+      {
+        "title": "Zombie Proof: Medicine",
+        "description": "Managing injuries, medical supplies, and illness when infrastructure fails."
+      }
+    ],
+    "illustration_credit": "Illustrations prepared for this edition by Grok4.0.",
+    "afterword_place_and_date": "Manhattan, NY, 2026-10-02"
+  },
+  "books": {
+    "radio": {
+      "isbn": {
+        "pdf": "",
+        "epub": ""
+      }
+    },
+    "computers": {
+      "isbn": {
+        "pdf": "",
+        "epub": ""
+      }
+    },
+    "engines": {
+      "isbn": {
+        "pdf": "",
+        "epub": ""
+      }
+    },
+    "water": {
+      "isbn": {
+        "pdf": "",
+        "epub": ""
+      }
+    }
+  }
+}

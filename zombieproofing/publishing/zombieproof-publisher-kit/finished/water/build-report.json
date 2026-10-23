@@ -1,0 +1,50 @@
+{
+  "kit_version": "1.0.0",
+  "book": "water",
+  "author": "Claudia G. Petersen",
+  "publisher": "whispr written word",
+  "chapters": 17,
+  "illustrations": 20,
+  "files": {
+    "Zombieproof-Water.epub": {
+      "bytes": 7266592,
+      "sha256": "067a8a1c1b338e393b4cd375be50c3b6581fd3f5a309126edd0287290fe16a38"
+    },
+    "Zombieproof-Water.html": {
+      "bytes": 10777490,
+      "sha256": "f06ff5e2522a360c8ad98bf76437ee3bfa06af5115e9c663438043321b43c33f"
+    },
+    "Zombieproof-Water.pdf": {
+      "bytes": 7319279,
+      "sha256": "550e7356283a806d9e106fe5af7d78921cb1fb2467660fc131bdea148cb39525"
+    }
+  },
+  "pages": 63,
+  "pagination_passes": 2,
+  "toc": {
+    "foreword": 11,
+    "preface": 13,
+    "ch01": 16,
+    "ch02": 20,
+    "ch03": 24,
+    "ch04": 27,
+    "ch05": 29,
+    "ch06": 31,
+    "ch07": 34,
+    "ch08": 36,
+    "ch09": 38,
+    "ch10": 41,
+    "ch11": 43,
+    "ch12": 46,
+    "ch13": 48,
+    "ch14": 50,
+    "ch15": 53,
+    "ch16": 55,
+    "ch17": 57,
+    "afterword": 59,
+    "ack": 60,
+    "author": 61,
+    "soon": 62,
+    "colophon": 63
+  }
+}

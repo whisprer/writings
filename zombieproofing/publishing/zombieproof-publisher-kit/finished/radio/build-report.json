@@ -1,0 +1,71 @@
+{
+  "kit_version": "1.0.0",
+  "book": "radio",
+  "author": "Claudia G. Petersen",
+  "publisher": "whispr written word",
+  "chapters": 38,
+  "illustrations": 41,
+  "files": {
+    "Zombieproof-Radio.epub": {
+      "bytes": 12122833,
+      "sha256": "a6a49cc40af4e7897c13a444b83de80a558920913179835f218c1d91d080a1dd"
+    },
+    "Zombieproof-Radio.html": {
+      "bytes": 17274413,
+      "sha256": "bf6bbe1b24a4a42915e65623581f9323162bbaa97ecc980c8f12857d10722a08"
+    },
+    "Zombieproof-Radio.pdf": {
+      "bytes": 12917723,
+      "sha256": "0897c6a6f37b0d14faf8add67bd3a81205d93baf905df811c89cbff1e39a5f42"
+    }
+  },
+  "pages": 135,
+  "pagination_passes": 2,
+  "toc": {
+    "foreword": 13,
+    "preface": 15,
+    "ch01": 17,
+    "ch02": 20,
+    "ch03": 24,
+    "ch04": 27,
+    "ch05": 30,
+    "ch06": 34,
+    "ch07": 37,
+    "ch08": 40,
+    "ch09": 43,
+    "ch10": 46,
+    "ch11": 50,
+    "ch12": 53,
+    "ch13": 56,
+    "ch14": 60,
+    "ch15": 63,
+    "ch16": 66,
+    "ch17": 69,
+    "ch18": 73,
+    "ch19": 76,
+    "ch20": 78,
+    "ch21": 81,
+    "ch22": 85,
+    "ch23": 88,
+    "ch24": 91,
+    "ch25": 94,
+    "ch26": 97,
+    "ch27": 100,
+    "ch28": 105,
+    "ch29": 108,
+    "ch30": 110,
+    "ch31": 112,
+    "ch32": 114,
+    "ch33": 117,
+    "ch34": 119,
+    "ch35": 121,
+    "ch36": 123,
+    "ch37": 127,
+    "ch38": 129,
+    "afterword": 131,
+    "ack": 132,
+    "author": 133,
+    "soon": 134,
+    "colophon": 135
+  }
+}

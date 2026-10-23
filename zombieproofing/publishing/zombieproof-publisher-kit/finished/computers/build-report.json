@@ -1,0 +1,50 @@
+{
+  "kit_version": "1.0.0",
+  "book": "computers",
+  "author": "Claudia G. Petersen",
+  "publisher": "whispr written word",
+  "chapters": 17,
+  "illustrations": 20,
+  "files": {
+    "Zombieproof-Computers.epub": {
+      "bytes": 17409949,
+      "sha256": "5e040759abfe7c924ca4347ec96d6b9a3517c25eef43d5ca9068eb18f2528784"
+    },
+    "Zombieproof-Computers.html": {
+      "bytes": 24604032,
+      "sha256": "7afa7acb29b66ea13d7cad29e8ae520ee55c91eb4653ac33af329fbc97bc0351"
+    },
+    "Zombieproof-Computers.pdf": {
+      "bytes": 17909641,
+      "sha256": "74c1886da38a04047741a6f8a0bf97b4073e2066c2956c2031040dbf5c41b326"
+    }
+  },
+  "pages": 80,
+  "pagination_passes": 2,
+  "toc": {
+    "foreword": 11,
+    "preface": 13,
+    "ch01": 15,
+    "ch02": 18,
+    "ch03": 21,
+    "ch04": 26,
+    "ch05": 31,
+    "ch06": 36,
+    "ch07": 40,
+    "ch08": 44,
+    "ch09": 49,
+    "ch10": 53,
+    "ch11": 57,
+    "ch12": 60,
+    "ch13": 62,
+    "ch14": 66,
+    "ch15": 69,
+    "ch16": 72,
+    "ch17": 74,
+    "afterword": 76,
+    "ack": 77,
+    "author": 78,
+    "soon": 79,
+    "colophon": 80
+  }
+}
